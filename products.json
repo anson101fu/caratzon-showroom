@@ -1,182 +1,5 @@
 [
   {
-    "sku": "XTBD00001",
-    "zh": "初绽",
-    "category": "耳钉",
-    "color": "白色",
-    "material": "白金",
-    "retail": 81.0,
-    "wholesale": 40.5,
-    "image": "assets_auto/XTBD00001.webp",
-    "en": "First Bloom — Stud Earrings",
-    "ru": "Первое цветение — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTBD00001.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00002",
-    "zh": "sweet",
-    "category": "耳钉",
-    "color": "粉色",
-    "material": "白金",
-    "retail": 60.0,
-    "wholesale": 30.0,
-    "image": "assets_auto/XTBD00002.webp",
-    "en": "Sweet — Stud Earrings",
-    "ru": "Нежность — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTBD00002.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00003",
-    "zh": "心漪",
-    "category": "耳钉",
-    "color": "白色",
-    "material": "白金",
-    "retail": 81.0,
-    "wholesale": 40.5,
-    "image": "assets_auto/XTBD00003.webp",
-    "en": "Ripples of the Heart — Stud Earrings",
-    "ru": "Рябь сердца — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTBD00003.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00004",
-    "zh": "恋玫之心",
-    "category": "耳钉",
-    "color": "白色",
-    "material": "白金",
-    "retail": 558.0,
-    "wholesale": 279.0,
-    "image": "assets_auto/XTBD00004.webp",
-    "en": "Heart of Rose — Stud Earrings",
-    "ru": "Сердце розы — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTBD00004.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00005",
-    "zh": "留住真我耳環",
-    "category": "耳环",
-    "color": "",
-    "material": "",
-    "retail": 234.0,
-    "wholesale": 117.0,
-    "image": "assets_auto/XTBD00005.webp",
-    "en": "True to Myself — Earrings",
-    "ru": "Верность себе — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTBD00005.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00006",
-    "zh": "素花轻坠",
-    "category": "耳钉",
-    "color": "白色",
-    "material": "白金",
-    "retail": 112.5,
-    "wholesale": 56.25,
-    "image": "assets_auto/XTBD00006.webp",
-    "en": "Delicate Floral Drop — Stud Earrings",
-    "ru": "Нежный цветочный подвес — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTBD00006.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00007",
-    "zh": "花盈凝露项链",
-    "category": "项链",
-    "color": "",
-    "material": "",
-    "retail": 114.0,
-    "wholesale": 57.0,
-    "image": "assets_auto/XTBD00007.webp",
-    "en": "Dew-Kissed Blossoms — Necklace",
-    "ru": "Цветы в росе — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "original_image": "assets/XTBD00007.webp",
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00008",
-    "zh": "海韵耳环",
-    "category": "耳环",
-    "color": "",
-    "material": "",
-    "retail": 166.5,
-    "wholesale": 83.25,
-    "image": "assets_auto/XTBD00008.webp",
-    "en": "Ocean Melody — Earrings",
-    "ru": "Мелодия моря — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTBD00008.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00009",
-    "zh": "向云端项链",
-    "category": "项链",
-    "color": "",
-    "material": "",
-    "retail": 105.0,
-    "wholesale": 52.5,
-    "image": "assets_auto/XTBD00009.webp",
-    "en": "Above the Clouds — Necklace",
-    "ru": "К облакам — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "original_image": "assets/XTBD00009.webp",
-    "ai_fixed_focus_v4": true
-  },
-  {
-    "sku": "XTBD00010",
-    "zh": "雅鱼系列手链",
-    "category": "手链",
-    "color": "",
-    "material": "",
-    "retail": 960.0,
-    "wholesale": 480.0,
-    "image": "assets_auto/XTBD00010.webp",
-    "en": "Elegant Fish Collection — Bracelet",
-    "ru": "Коллекция «Изящная рыба» — браслет",
-    "category_en": "Bracelet",
-    "category_ru": "Браслет",
-    "translation_review": false,
-    "original_image": "assets/XTBD00010.webp",
-    "ai_fixed_focus_v4": true
-  },
-  {
     "sku": "XTEDW00002PK",
     "zh": "sweet",
     "category": "耳钉",
@@ -184,14 +7,12 @@
     "material": "白金",
     "retail": 147.0,
     "wholesale": 73.5,
-    "image": "assets_auto/XTEDW00002PK.webp",
+    "image": "assets/XTEDW00002PK.webp",
     "en": "Sweet — Stud Earrings",
     "ru": "Нежность — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTEDW00002PK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEDW00003WE",
@@ -201,14 +22,12 @@
     "material": "白金",
     "retail": 141.0,
     "wholesale": 70.5,
-    "image": "assets_auto/XTEDW00003WE.webp",
+    "image": "assets/XTEDW00003WE.webp",
     "en": "First Bloom — Stud Earrings",
     "ru": "Первое цветение — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTEDW00003WE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEDW00004WE",
@@ -218,14 +37,12 @@
     "material": "白金",
     "retail": 141.0,
     "wholesale": 70.5,
-    "image": "assets_auto/XTEDW00004WE.webp",
+    "image": "assets/XTEDW00004WE.webp",
     "en": "Ripples of the Heart — Stud Earrings",
     "ru": "Рябь сердца — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTEDW00004WE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEDW00005WE",
@@ -235,14 +52,12 @@
     "material": "白金",
     "retail": 141.0,
     "wholesale": 70.5,
-    "image": "assets_auto/XTEDW00005WE.webp",
+    "image": "assets/XTEDW00005WE.webp",
     "en": "Heart of Rose — Stud Earrings",
     "ru": "Сердце розы — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTEDW00005WE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEDW00006WE",
@@ -252,14 +67,12 @@
     "material": "白金",
     "retail": 126.0,
     "wholesale": 63.0,
-    "image": "assets_auto/XTEDW00006WE.webp",
+    "image": "assets/XTEDW00006WE.webp",
     "en": "Delicate Floral Drop — Stud Earrings",
     "ru": "Нежный цветочный подвес — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTEDW00006WE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEDW00007OT",
@@ -269,14 +82,12 @@
     "material": "白金",
     "retail": 135.0,
     "wholesale": 67.5,
-    "image": "assets_auto/XTEDW00007OT.webp",
+    "image": "assets/XTEDW00007OT.webp",
     "en": "Above the Clouds — Stud Earrings",
     "ru": "К облакам — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "original_image": "assets/XTEDW00007OT.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEHC00001WE",
@@ -286,15 +97,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/XTEHC00001WE.webp",
+    "image": "assets/XTEHC00001WE.webp",
     "en": "Frozen Geometry — Earrings",
     "ru": "Застывшая геометрия — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTEHC00001WE.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEHC00002WE",
@@ -304,14 +112,12 @@
     "material": "铜",
     "retail": 133.5,
     "wholesale": 66.75,
-    "image": "assets_auto/XTEHC00002WE.webp",
+    "image": "assets/XTEHC00002WE.webp",
     "en": "Crimson Flutter — Earrings",
     "ru": "Алое порхание — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTEHC00002WE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEHC00006BE",
@@ -336,15 +142,12 @@
     "material": "铜",
     "retail": 45.0,
     "wholesale": 22.5,
-    "image": "assets_auto/XTEHC00007GN.webp",
+    "image": "assets/XTEHC00007GN.webp",
     "en": "双洲鎏藏Auspicious Clouds & Palace Domes — Earrings",
     "ru": "双洲鎏藏Auspicious Clouds & Palace Domes — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true,
-    "original_image": "assets/XTEHC00007GN.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "XTEHC00008BE",
@@ -354,15 +157,12 @@
     "material": "铜",
     "retail": 72.0,
     "wholesale": 36.0,
-    "image": "assets_auto/XTEHC00008BE.webp",
+    "image": "assets/XTEHC00008BE.webp",
     "en": "Moon over Birch — Earrings",
     "ru": "Луна над берёзой — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTEHC00008BE.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEHG00001PL",
@@ -372,14 +172,12 @@
     "material": "金",
     "retail": 144.0,
     "wholesale": 72.0,
-    "image": "assets_auto/XTEHG00001PL.webp",
+    "image": "assets/XTEHG00001PL.webp",
     "en": "True to Myself — Earrings",
     "ru": "Верность себе — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTEHG00001PL.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEHG00002PL",
@@ -389,14 +187,12 @@
     "material": "金",
     "retail": 147.0,
     "wholesale": 73.5,
-    "image": "assets_auto/XTEHG00002PL.webp",
+    "image": "assets/XTEHG00002PL.webp",
     "en": "Ocean Melody — Earrings",
     "ru": "Мелодия моря — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTEHG00002PL.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEHG00003PL",
@@ -406,15 +202,12 @@
     "material": "金",
     "retail": 147.0,
     "wholesale": 73.5,
-    "image": "assets_auto/XTEHG00003PL.webp",
+    "image": "assets/XTEHG00003PL.webp",
     "en": "Crimson Gold Veil — Earrings",
     "ru": "Алый золотой шёлк — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTEHG00003PL.webp",
-    "ai_fixed_focus": true,
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTEHW00001BE",
@@ -424,14 +217,12 @@
     "material": "白金",
     "retail": 441.0,
     "wholesale": 220.5,
-    "image": "assets_auto/XTEHW00001BE.webp",
+    "image": "assets/XTEHW00001BE.webp",
     "en": "Elegant Fish Collection — Earrings",
     "ru": "Коллекция «Изящная рыба» — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/XTEHW00001BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTJZG00001G",
@@ -546,14 +337,12 @@
     "material": "铜",
     "retail": 147.0,
     "wholesale": 73.5,
-    "image": "assets_auto/XTSHEG00001G.webp",
+    "image": "assets/XTSHEG00001G.webp",
     "en": "True to Myself — Bangle",
     "ru": "Верность себе — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": false,
-    "original_image": "assets/XTSHEG00001G.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTSLG00001WE",
@@ -638,14 +427,12 @@
     "material": "白金",
     "retail": 177.0,
     "wholesale": 88.5,
-    "image": "assets_auto/XTSLW00006WE.webp",
+    "image": "assets/XTSLW00006WE.webp",
     "en": "Heart-Shaped — Bracelet",
     "ru": "В форме сердца — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": false,
-    "original_image": "assets/XTSLW00006WE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXLC00001WE",
@@ -655,14 +442,12 @@
     "material": "铜",
     "retail": 135.0,
     "wholesale": 67.5,
-    "image": "assets_auto/XTXLC00001WE.webp",
+    "image": "assets/XTXLC00001WE.webp",
     "en": "Reflections of Light — Necklace",
     "ru": "Отражения света — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false,
-    "original_image": "assets/XTXLC00001WE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXLC00002PL",
@@ -672,14 +457,12 @@
     "material": "铜",
     "retail": 96.0,
     "wholesale": 48.0,
-    "image": "assets_auto/XTXLC00002PL.webp",
+    "image": "assets/XTXLC00002PL.webp",
     "en": "Whirling Dream — Necklace",
     "ru": "Кружение мечты — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false,
-    "original_image": "assets/XTXLC00002PL.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXLC00003PL",
@@ -689,14 +472,12 @@
     "material": "铜",
     "retail": 84.0,
     "wholesale": 42.0,
-    "image": "assets_auto/XTXLC00003PL.webp",
+    "image": "assets/XTXLC00003PL.webp",
     "en": "Love of the Stars — Necklace",
     "ru": "Любовь звёзд — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false,
-    "original_image": "assets/XTXLC00003PL.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXLC00006BE",
@@ -736,14 +517,12 @@
     "material": "金",
     "retail": 129.0,
     "wholesale": 64.5,
-    "image": "assets_auto/XTXLG00004RD.webp",
+    "image": "assets/XTXLG00004RD.webp",
     "en": "Silhouette — Necklace",
     "ru": "Силуэт — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false,
-    "original_image": "assets/XTXLG00004RD.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXLG00005RD",
@@ -858,14 +637,12 @@
     "material": "白金",
     "retail": 147.0,
     "wholesale": 73.5,
-    "image": "assets_auto/XTXLW00005WE.webp",
+    "image": "assets/XTXLW00005WE.webp",
     "en": "Heart of Rose — Necklace",
     "ru": "Сердце розы — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false,
-    "original_image": "assets/XTXLW00005WE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXLW00007PL",
@@ -935,14 +712,12 @@
     "material": "铜",
     "retail": 85.5,
     "wholesale": 42.75,
-    "image": "assets_auto/XTXZEG00003G.webp",
+    "image": "assets/XTXZEG00003G.webp",
     "en": "Eastern Whispers — Brooch",
     "ru": "Восточный шёпот — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false,
-    "original_image": "assets/XTXZEG00003G.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXZEG00004G",
@@ -952,14 +727,12 @@
     "material": "铜",
     "retail": 88.5,
     "wholesale": 44.25,
-    "image": "assets_auto/XTXZEG00004G.webp",
+    "image": "assets/XTXZEG00004G.webp",
     "en": "Calla Lily Duet — Brooch",
     "ru": "Дуэт калл — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false,
-    "original_image": "assets/XTXZEG00004G.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXZEG00005BE",
@@ -1044,14 +817,12 @@
     "material": "铜",
     "retail": 85.5,
     "wholesale": 42.75,
-    "image": "assets_auto/XTXZR00001RG.webp",
+    "image": "assets/XTXZR00001RG.webp",
     "en": "Eastern Whispers — Brooch",
     "ru": "Восточный шёпот — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false,
-    "original_image": "assets/XTXZR00001RG.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "XTXZR00002RG",
@@ -1061,14 +832,12 @@
     "material": "铜",
     "retail": 88.5,
     "wholesale": 44.25,
-    "image": "assets_auto/XTXZR00002RG.webp",
+    "image": "assets/XTXZR00002RG.webp",
     "en": "Calla Lily Duet — Brooch",
     "ru": "Дуэт калл — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false,
-    "original_image": "assets/XTXZR00002RG.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "KGDZEG00001OT",
@@ -1153,14 +922,12 @@
     "material": "金属、彩石",
     "retail": 2064.0,
     "wholesale": 1032.0,
-    "image": "assets_auto/KGEHEG00002BE.webp",
+    "image": "assets/KGEHEG00002BE.webp",
     "en": "Beautiful Imperfection — Earrings",
     "ru": "Прекрасное несовершенство — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/KGEHEG00002BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "KGEHEG00003G",
@@ -1275,14 +1042,12 @@
     "material": "金属、彩石",
     "retail": 1200.0,
     "wholesale": 600.0,
-    "image": "assets_auto/KGEHES00003BE.webp",
+    "image": "assets/KGEHES00003BE.webp",
     "en": "Ocean Echo — Earrings",
     "ru": "Эхо океана — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false,
-    "original_image": "assets/KGEHES00003BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "KGFSEG00001OT",
@@ -1472,14 +1237,12 @@
     "material": "金属、彩石、碎钻",
     "retail": 5040.0,
     "wholesale": 2520.0,
-    "image": "assets_auto/KGXLEG00003GN.webp",
+    "image": "assets/KGXLEG00003GN.webp",
     "en": "Tea Leaf Whispers — Necklace",
     "ru": "Шёпот чайных листьев — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false,
-    "original_image": "assets/KGXLEG00003GN.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": false
   },
   {
     "sku": "KGXLEG00004G",
@@ -1999,14 +1762,12 @@
     "material": "不鏽鋼",
     "retail": 48.0,
     "wholesale": 24.0,
-    "image": "assets_auto/HXDZ00007.webp",
+    "image": "assets/HXDZ00007.webp",
     "en": "钛钢饰品高级感精致维京海盗奥丁指南针三角结男士护身符吊坠项链 — Pendant",
     "ru": "钛钢饰品高级感精致维京海盗奥丁指南针三角结男士护身符吊坠项链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00007.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00008",
@@ -2031,14 +1792,12 @@
     "material": "不鏽鋼",
     "retail": 54.0,
     "wholesale": 27.0,
-    "image": "assets_auto/HXDZ00009.webp",
+    "image": "assets/HXDZ00009.webp",
     "en": "复古钛钢项链男款嘻哈小众醒狮高级感国潮个性卫衣毛衣链 — Pendant",
     "ru": "复古钛钢项链男款嘻哈小众醒狮高级感国潮个性卫衣毛衣链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00009.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00010",
@@ -2048,14 +1807,12 @@
     "material": "不鏽鋼",
     "retail": 54.0,
     "wholesale": 27.0,
-    "image": "assets_auto/HXDZ00010.webp",
+    "image": "assets/HXDZ00010.webp",
     "en": "北欧护身符项链维京乌鸦黑鸟凯尔特乌鸦项链男士钛钢饰品货源直发 — Pendant",
     "ru": "北欧护身符项链维京乌鸦黑鸟凯尔特乌鸦项链男士钛钢饰品货源直发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00010.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00011",
@@ -2140,14 +1897,12 @@
     "material": "不鏽鋼",
     "retail": 48.0,
     "wholesale": 24.0,
-    "image": "assets_auto/HXDZ00016.webp",
+    "image": "assets/HXDZ00016.webp",
     "en": "跨境专供欧美维京太阳荷鲁斯之眼设计感 复古钛钢项饰项链饰品男 — Pendant",
     "ru": "跨境专供欧美维京太阳荷鲁斯之眼设计感 复古钛钢项饰项链饰品男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00016.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00017",
@@ -2157,14 +1912,12 @@
     "material": "不鏽鋼",
     "retail": 48.0,
     "wholesale": 24.0,
-    "image": "assets_auto/HXDZ00017.webp",
+    "image": "assets/HXDZ00017.webp",
     "en": "跨境专供维京海盗船锚吊坠项链批发外贸新款复古不锈钢项链饰配饰 — Pendant",
     "ru": "跨境专供维京海盗船锚吊坠项链批发外贸新款复古不锈钢项链饰配饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00017.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00018",
@@ -2189,14 +1942,12 @@
     "material": "不鏽鋼",
     "retail": 48.0,
     "wholesale": 24.0,
-    "image": "assets_auto/HXDZ00019.webp",
+    "image": "assets/HXDZ00019.webp",
     "en": "潮男嘻哈手握骷髅头项链个性钛钢吊坠复古项链配饰亚马逊欧美货源 — Pendant",
     "ru": "潮男嘻哈手握骷髅头项链个性钛钢吊坠复古项链配饰亚马逊欧美货源 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00019.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00020",
@@ -2206,14 +1957,12 @@
     "material": "不鏽鋼",
     "retail": 54.0,
     "wholesale": 27.0,
-    "image": "assets_auto/HXDZ00020.webp",
+    "image": "assets/HXDZ00020.webp",
     "en": "嘻哈酷炫Viking符文狼头吊坠项链复古不锈钢男式狼头项链潮配饰 — Pendant",
     "ru": "嘻哈酷炫Viking符文狼头吊坠项链复古不锈钢男式狼头项链潮配饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00020.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00021",
@@ -2253,14 +2002,12 @@
     "material": "不鏽鋼",
     "retail": 54.0,
     "wholesale": 27.0,
-    "image": "assets_auto/HXDZ00023.webp",
+    "image": "assets/HXDZ00023.webp",
     "en": "复古民族风双头金刚杵钛钢金刚橛降魔杵守护神不锈钢男项链毛衣链 — Pendant",
     "ru": "复古民族风双头金刚杵钛钢金刚橛降魔杵守护神不锈钢男项链毛衣链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00023.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00024",
@@ -2270,14 +2017,12 @@
     "material": "不鏽鋼",
     "retail": 54.0,
     "wholesale": 27.0,
-    "image": "assets_auto/HXDZ00024.webp",
+    "image": "assets/HXDZ00024.webp",
     "en": "屠龙勇士嘻哈吊坠项链男士欧美INS饰品朋克配饰外贸新款 — Pendant",
     "ru": "屠龙勇士嘻哈吊坠项链男士欧美INS饰品朋克配饰外贸新款 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00024.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00025",
@@ -2377,14 +2122,12 @@
     "material": "不鏽鋼",
     "retail": 54.0,
     "wholesale": 27.0,
-    "image": "assets_auto/HXDZ00031.webp",
+    "image": "assets/HXDZ00031.webp",
     "en": "欧美爆款跨境潮流嘻哈不锈钢英文A~Z方牌字母DIY名字吊坠项链配链 — Pendant",
     "ru": "欧美爆款跨境潮流嘻哈不锈钢英文A~Z方牌字母DIY名字吊坠项链配链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00031.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00032",
@@ -2484,14 +2227,12 @@
     "material": "不鏽鋼",
     "retail": 48.0,
     "wholesale": 24.0,
-    "image": "assets_auto/HXDZ00038.webp",
+    "image": "assets/HXDZ00038.webp",
     "en": "跨境市场新品专供钛钢不掉色饰品复古北欧维京战斧钛钢项链现货 — Pendant",
     "ru": "跨境市场新品专供钛钢不掉色饰品复古北欧维京战斧钛钢项链现货 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00038.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00039",
@@ -2696,14 +2437,12 @@
     "material": "不鏽鋼",
     "retail": 54.0,
     "wholesale": 27.0,
-    "image": "assets_auto/HXDZ00052.webp",
+    "image": "assets/HXDZ00052.webp",
     "en": "钛钢项链不掉色饰品批发吊坠释迦牟尼不锈钢百搭男士复古项链 — Pendant",
     "ru": "钛钢项链不掉色饰品批发吊坠释迦牟尼不锈钢百搭男士复古项链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00052.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00053",
@@ -2713,14 +2452,12 @@
     "material": "不鏽鋼",
     "retail": 54.0,
     "wholesale": 27.0,
-    "image": "assets_auto/HXDZ00053.webp",
+    "image": "assets/HXDZ00053.webp",
     "en": "海丰县梅陇钛钢饰品厂家男士船锚长款复古项链 跨境一件代发 — Pendant",
     "ru": "海丰县梅陇钛钢饰品厂家男士船锚长款复古项链 跨境一件代发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00053.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00054",
@@ -2730,14 +2467,12 @@
     "material": "不鏽鋼",
     "retail": 48.0,
     "wholesale": 24.0,
-    "image": "assets_auto/HXDZ00054.webp",
+    "image": "assets/HXDZ00054.webp",
     "en": "浩兴北欧维京动物双狼头符文个性男男士凯尔特不锈钢项链饰品男 — Pendant",
     "ru": "浩兴北欧维京动物双狼头符文个性男男士凯尔特不锈钢项链饰品男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZ00054.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZ00055",
@@ -2762,14 +2497,12 @@
     "material": "不锈钢",
     "retail": 36.0,
     "wholesale": 18.0,
-    "image": "assets_auto/HXDZAS00039PN.webp",
+    "image": "assets/HXDZAS00039PN.webp",
     "en": "复古维京人男士钛钢吊坠 — Pendant",
     "ru": "复古维京人男士钛钢吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true,
-    "original_image": "assets/HXDZAS00039PN.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXDZAS00065PN",
@@ -3844,14 +3577,12 @@
     "material": "不锈钢",
     "retail": 33.0,
     "wholesale": 16.5,
-    "image": "assets_auto/HXJZW00014PN.webp",
+    "image": "assets/HXJZW00014PN.webp",
     "en": "耶路撒冷十字方戒 — Ring",
     "ru": "耶路撒冷十字方戒 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true,
-    "original_image": "assets/HXJZW00014PN.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXSH00001",
@@ -3861,14 +3592,12 @@
     "material": "不鏽鋼",
     "retail": 66.0,
     "wholesale": 33.0,
-    "image": "assets_auto/HXSH00001.webp",
+    "image": "assets/HXSH00001.webp",
     "en": "跨境北欧维京海盗钛钢复古双头龙开口实心麻花编织手镯男手环 — Bangle",
     "ru": "跨境北欧维京海盗钛钢复古双头龙开口实心麻花编织手镯男手环 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true,
-    "original_image": "assets/HXSH00001.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXSHES00001OT",
@@ -3998,14 +3727,12 @@
     "material": "925银",
     "retail": 3.9,
     "wholesale": 1.95,
-    "image": "assets_auto/HXSLBL00001BE.webp",
+    "image": "assets/HXSLBL00001BE.webp",
     "en": "玻璃材质月光石蓝色蝴蝶手串 — Bracelet",
     "ru": "玻璃材质月光石蓝色蝴蝶手串 — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": true,
-    "original_image": "assets/HXSLBL00001BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXSLW00001PN",
@@ -4525,14 +4252,12 @@
     "material": "不锈钢",
     "retail": 66.0,
     "wholesale": 33.0,
-    "image": "assets_auto/HXXLAS00028PN.webp",
+    "image": "assets/HXXLAS00028PN.webp",
     "en": "J.泰国释迦摩尼佛 — Necklace",
     "ru": "J.泰国释迦摩尼佛 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00028PN.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00029PN",
@@ -4857,14 +4582,12 @@
     "material": "不锈钢",
     "retail": 75.0,
     "wholesale": 37.5,
-    "image": "assets_auto/HXXLAS00052YW.webp",
+    "image": "assets/HXXLAS00052YW.webp",
     "en": "N.文殊菩萨（生肖兔） — Necklace",
     "ru": "N.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00052YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00053YW",
@@ -4874,14 +4597,12 @@
     "material": "不锈钢",
     "retail": 75.0,
     "wholesale": 37.5,
-    "image": "assets_auto/HXXLAS00053YW.webp",
+    "image": "assets/HXXLAS00053YW.webp",
     "en": "N.大日如来（生肖羊猴） — Necklace",
     "ru": "N.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00053YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00054YW",
@@ -4891,14 +4612,12 @@
     "material": "不锈钢",
     "retail": 75.0,
     "wholesale": 37.5,
-    "image": "assets_auto/HXXLAS00054YW.webp",
+    "image": "assets/HXXLAS00054YW.webp",
     "en": "N.阿弥陀佛（生肖狗猪） — Necklace",
     "ru": "N.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00054YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00055YW",
@@ -4908,14 +4627,12 @@
     "material": "不锈钢",
     "retail": 75.0,
     "wholesale": 37.5,
-    "image": "assets_auto/HXXLAS00055YW.webp",
+    "image": "assets/HXXLAS00055YW.webp",
     "en": "N.不动明王（生肖鸡） — Necklace",
     "ru": "N.不动明王（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00055YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00056YW",
@@ -4925,14 +4642,12 @@
     "material": "不锈钢",
     "retail": 75.0,
     "wholesale": 37.5,
-    "image": "assets_auto/HXXLAS00056YW.webp",
+    "image": "assets/HXXLAS00056YW.webp",
     "en": "N.大势至菩萨（生肖马） — Necklace",
     "ru": "N.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00056YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00057YW",
@@ -4942,14 +4657,12 @@
     "material": "不锈钢",
     "retail": 75.0,
     "wholesale": 37.5,
-    "image": "assets_auto/HXXLAS00057YW.webp",
+    "image": "assets/HXXLAS00057YW.webp",
     "en": "N.普贤菩萨（生肖龙蛇） — Necklace",
     "ru": "N.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00057YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00058YW",
@@ -4959,14 +4672,12 @@
     "material": "不锈钢",
     "retail": 75.0,
     "wholesale": 37.5,
-    "image": "assets_auto/HXXLAS00058YW.webp",
+    "image": "assets/HXXLAS00058YW.webp",
     "en": "N.千手观音（生肖鼠) — Necklace",
     "ru": "N.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00058YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00059YW",
@@ -4976,14 +4687,12 @@
     "material": "不锈钢",
     "retail": 75.0,
     "wholesale": 37.5,
-    "image": "assets_auto/HXXLAS00059YW.webp",
+    "image": "assets/HXXLAS00059YW.webp",
     "en": "N.虚空藏菩萨（生肖牛虎） — Necklace",
     "ru": "N.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00059YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00060YW",
@@ -5188,14 +4897,12 @@
     "material": "不锈钢",
     "retail": 81.0,
     "wholesale": 40.5,
-    "image": "assets_auto/HXXLAS00073PN.webp",
+    "image": "assets/HXXLAS00073PN.webp",
     "en": "P.千手观音（生肖鼠） — Necklace",
     "ru": "P.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLAS00073PN.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLAS00074PN",
@@ -5370,14 +5077,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00001BE.webp",
+    "image": "assets/HXXLSS00001BE.webp",
     "en": "R.阿弥陀佛（生肖狗猪） — Necklace",
     "ru": "R.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00001BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00002BE",
@@ -5387,14 +5092,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00002BE.webp",
+    "image": "assets/HXXLSS00002BE.webp",
     "en": "R.不动尊菩萨（生肖鸡） — Necklace",
     "ru": "R.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00002BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00003BE",
@@ -5404,14 +5107,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00003BE.webp",
+    "image": "assets/HXXLSS00003BE.webp",
     "en": "R.大日如来（生肖羊猴） — Necklace",
     "ru": "R.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00003BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00004BE",
@@ -5421,14 +5122,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00004BE.webp",
+    "image": "assets/HXXLSS00004BE.webp",
     "en": "R.大势至菩萨（生肖马） — Necklace",
     "ru": "R.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00004BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00005BE",
@@ -5453,14 +5152,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00006BE.webp",
+    "image": "assets/HXXLSS00006BE.webp",
     "en": "R.文殊菩萨（生肖兔） — Necklace",
     "ru": "R.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00006BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00007BE",
@@ -5470,14 +5167,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00007BE.webp",
+    "image": "assets/HXXLSS00007BE.webp",
     "en": "R.千手观音（生肖鼠） — Necklace",
     "ru": "R.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00007BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00008BE",
@@ -5487,14 +5182,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00008BE.webp",
+    "image": "assets/HXXLSS00008BE.webp",
     "en": "R.普贤菩萨（生肖龙蛇） — Necklace",
     "ru": "R.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00008BE.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00009YW",
@@ -5504,14 +5197,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00009YW.webp",
+    "image": "assets/HXXLSS00009YW.webp",
     "en": "S.大日如来（生肖羊猴) — Necklace",
     "ru": "S.大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00009YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00010YW",
@@ -5521,14 +5212,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00010YW.webp",
+    "image": "assets/HXXLSS00010YW.webp",
     "en": "S.普贤（生肖龙蛇) — Necklace",
     "ru": "S.普贤（生肖龙蛇) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00010YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00011YW",
@@ -5538,14 +5227,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00011YW.webp",
+    "image": "assets/HXXLSS00011YW.webp",
     "en": "S.大势至菩萨（生肖马) — Necklace",
     "ru": "S.大势至菩萨（生肖马) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00011YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00012YW",
@@ -5570,14 +5257,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00013YW.webp",
+    "image": "assets/HXXLSS00013YW.webp",
     "en": "S.阿弥陀佛（生肖狗猪) — Necklace",
     "ru": "S.阿弥陀佛（生肖狗猪) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00013YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00014YW",
@@ -5587,14 +5272,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00014YW.webp",
+    "image": "assets/HXXLSS00014YW.webp",
     "en": "S.虚空藏（生肖牛虎) — Necklace",
     "ru": "S.虚空藏（生肖牛虎) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00014YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00015YW",
@@ -5604,14 +5287,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00015YW.webp",
+    "image": "assets/HXXLSS00015YW.webp",
     "en": "S.千手观音（生肖鼠) — Necklace",
     "ru": "S.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00015YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00016YW",
@@ -5621,14 +5302,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00016YW.webp",
+    "image": "assets/HXXLSS00016YW.webp",
     "en": "S.文殊菩萨（生肖兔) — Necklace",
     "ru": "S.文殊菩萨（生肖兔) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00016YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00017YW",
@@ -5683,14 +5362,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00020YW.webp",
+    "image": "assets/HXXLSS00020YW.webp",
     "en": "T.文殊菩萨（生肖兔） — Necklace",
     "ru": "T.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00020YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00021YW",
@@ -5745,14 +5422,12 @@
     "material": "不锈钢",
     "retail": 111.0,
     "wholesale": 55.5,
-    "image": "assets_auto/HXXLSS00024YW.webp",
+    "image": "assets/HXXLSS00024YW.webp",
     "en": "T.不动尊菩萨（生肖鸡） — Necklace",
     "ru": "T.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00024YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00025BK",
@@ -5762,14 +5437,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00025BK.webp",
+    "image": "assets/HXXLSS00025BK.webp",
     "en": "U.虚空藏（生肖牛虎 — Necklace",
     "ru": "U.虚空藏（生肖牛虎 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00025BK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00026BK",
@@ -5779,14 +5452,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00026BK.webp",
+    "image": "assets/HXXLSS00026BK.webp",
     "en": "U.阿弥陀佛（生肖狗猪) — Necklace",
     "ru": "U.阿弥陀佛（生肖狗猪) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00026BK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00027BK",
@@ -5796,14 +5467,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00027BK.webp",
+    "image": "assets/HXXLSS00027BK.webp",
     "en": "U.不动尊（生肖鸡) — Necklace",
     "ru": "U.不动尊（生肖鸡) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00027BK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00028BK",
@@ -5813,14 +5482,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00028BK.webp",
+    "image": "assets/HXXLSS00028BK.webp",
     "en": "U.大日如来（生肖羊猴) — Necklace",
     "ru": "U.大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00028BK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00029BK",
@@ -5830,14 +5497,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00029BK.webp",
+    "image": "assets/HXXLSS00029BK.webp",
     "en": "U.普贤（生肖龙蛇) — Necklace",
     "ru": "U.普贤（生肖龙蛇) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00029BK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00030BK",
@@ -5847,14 +5512,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00030BK.webp",
+    "image": "assets/HXXLSS00030BK.webp",
     "en": "U.千手观音（生肖鼠) — Necklace",
     "ru": "U.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00030BK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00031BK",
@@ -5864,14 +5527,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00031BK.webp",
+    "image": "assets/HXXLSS00031BK.webp",
     "en": "U.文殊菩萨（生肖兔) — Necklace",
     "ru": "U.文殊菩萨（生肖兔) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00031BK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00032BK",
@@ -5881,14 +5542,12 @@
     "material": "不锈钢",
     "retail": 120.0,
     "wholesale": 60.0,
-    "image": "assets_auto/HXXLSS00032BK.webp",
+    "image": "assets/HXXLSS00032BK.webp",
     "en": "U.大势至菩萨（生肖马) — Necklace",
     "ru": "U.大势至菩萨（生肖马) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00032BK.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00033YW",
@@ -6018,14 +5677,12 @@
     "material": "不锈钢",
     "retail": 105.0,
     "wholesale": 52.5,
-    "image": "assets_auto/HXXLSS00041YW.webp",
+    "image": "assets/HXXLSS00041YW.webp",
     "en": "W.千手观音（生肖鼠) — Necklace",
     "ru": "W.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00041YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00042YW",
@@ -6035,14 +5692,12 @@
     "material": "不锈钢",
     "retail": 105.0,
     "wholesale": 52.5,
-    "image": "assets_auto/HXXLSS00042YW.webp",
+    "image": "assets/HXXLSS00042YW.webp",
     "en": "W.普贤（生肖龙蛇) — Necklace",
     "ru": "W.普贤（生肖龙蛇) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00042YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00043YW",
@@ -6052,14 +5707,12 @@
     "material": "不锈钢",
     "retail": 105.0,
     "wholesale": 52.5,
-    "image": "assets_auto/HXXLSS00043YW.webp",
+    "image": "assets/HXXLSS00043YW.webp",
     "en": "W.大日如来（生肖羊猴) — Necklace",
     "ru": "W.大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00043YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00044YW",
@@ -6069,14 +5722,12 @@
     "material": "不锈钢",
     "retail": 105.0,
     "wholesale": 52.5,
-    "image": "assets_auto/HXXLSS00044YW.webp",
+    "image": "assets/HXXLSS00044YW.webp",
     "en": "W.不动尊（生肖鸡) — Necklace",
     "ru": "W.不动尊（生肖鸡) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00044YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00045YW",
@@ -6086,14 +5737,12 @@
     "material": "不锈钢",
     "retail": 105.0,
     "wholesale": 52.5,
-    "image": "assets_auto/HXXLSS00045YW.webp",
+    "image": "assets/HXXLSS00045YW.webp",
     "en": "W.阿弥陀佛（生肖狗) — Necklace",
     "ru": "W.阿弥陀佛（生肖狗) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00045YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00046YW",
@@ -6103,14 +5752,12 @@
     "material": "不锈钢",
     "retail": 105.0,
     "wholesale": 52.5,
-    "image": "assets_auto/HXXLSS00046YW.webp",
+    "image": "assets/HXXLSS00046YW.webp",
     "en": "W.文殊菩萨（生肖兔) — Necklace",
     "ru": "W.文殊菩萨（生肖兔) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00046YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00047YW",
@@ -6120,14 +5767,12 @@
     "material": "不锈钢",
     "retail": 105.0,
     "wholesale": 52.5,
-    "image": "assets_auto/HXXLSS00047YW.webp",
+    "image": "assets/HXXLSS00047YW.webp",
     "en": "W.大势至菩萨（生肖马) — Necklace",
     "ru": "W.大势至菩萨（生肖马) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00047YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00048YW",
@@ -6137,14 +5782,12 @@
     "material": "不锈钢",
     "retail": 105.0,
     "wholesale": 52.5,
-    "image": "assets_auto/HXXLSS00048YW.webp",
+    "image": "assets/HXXLSS00048YW.webp",
     "en": "W.虚空藏（生肖牛虎) — Necklace",
     "ru": "W.虚空藏（生肖牛虎) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00048YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00049BE",
@@ -6454,14 +6097,12 @@
     "material": "钛钢",
     "retail": 117.0,
     "wholesale": 58.5,
-    "image": "assets_auto/HXXLSS00069YW.webp",
+    "image": "assets/HXXLSS00069YW.webp",
     "en": "Z.大日如来（生肖羊猴) — Necklace",
     "ru": "Z.大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLSS00069YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLSS00070YW",
@@ -6621,14 +6262,12 @@
     "material": "不锈钢",
     "retail": 72.0,
     "wholesale": 36.0,
-    "image": "assets_auto/HXXLW00008YW.webp",
+    "image": "assets/HXXLW00008YW.webp",
     "en": "不动尊菩萨（生肖鸡） — Necklace",
     "ru": "不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true,
-    "original_image": "assets/HXXLW00008YW.webp",
-    "ai_fixed_focus_v4": true
+    "translation_review": true
   },
   {
     "sku": "HXXLW00009YW",
