@@ -103,7 +103,8 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEHC00001WE",
@@ -155,7 +156,8 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEHC00007GN",
@@ -171,7 +173,8 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEHC00008BE",
@@ -187,7 +190,8 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEHG00001PL",
@@ -203,7 +207,8 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEHG00002PL",
@@ -219,7 +224,8 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEHG00003PL",
@@ -235,7 +241,8 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEHW00001BE",
@@ -251,7 +258,8 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTJZG00001G",
@@ -267,7 +275,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTJZG00002PL",
@@ -283,7 +291,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTJZW00001PN",
@@ -299,7 +307,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "XTJZW00002PN",
@@ -315,7 +323,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "XTJZW00003PN",
@@ -331,7 +339,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "XTJZW00004PN",
@@ -347,7 +355,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "XTJZW00005PN",
@@ -363,7 +371,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "XTSHEG00001G",
@@ -379,7 +387,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTSLG00001WE",
@@ -395,7 +403,8 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTSLG00002PL",
@@ -411,7 +420,8 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTSLW00002WE",
@@ -445,7 +455,8 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTSLW00005BE",
@@ -461,7 +472,8 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTSLW00006WE",
@@ -513,7 +525,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLC00003PL",
@@ -529,7 +542,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLC00006BE",
@@ -545,7 +559,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLC00007OT",
@@ -561,7 +576,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLG00004RD",
@@ -577,7 +593,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLG00005RD",
@@ -593,7 +610,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLG00006CL",
@@ -609,7 +627,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLG00007PL",
@@ -625,7 +644,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLG00008WE",
@@ -641,7 +661,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLW00002PK",
@@ -657,7 +678,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLW00003WE",
@@ -727,7 +749,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLW00008OT",
@@ -743,7 +766,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLW00009BE",
@@ -759,7 +783,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXZEG00001G",
@@ -775,7 +800,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTXZEG00003G",
@@ -791,7 +816,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTXZEG00004G",
@@ -807,7 +832,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTXZEG00005BE",
@@ -823,7 +848,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTXZEG00009YW",
@@ -839,7 +864,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTXZEG00010G",
@@ -855,7 +880,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTXZEG00011PL",
@@ -871,7 +896,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "XTXZES00002GN",
@@ -887,7 +912,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "XTXZR00001RG",
@@ -903,7 +928,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍玫瑰金"
+    "craft": "电镀玫瑰金"
   },
   {
     "sku": "XTXZR00002RG",
@@ -919,7 +944,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍玫瑰金"
+    "craft": "电镀玫瑰金"
   },
   {
     "sku": "KGDZEG00001OT",
@@ -935,7 +960,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGDZEG00002G",
@@ -951,7 +976,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGDZEG00003G",
@@ -967,7 +992,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGDZEG00004G",
@@ -983,7 +1008,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00001G",
@@ -999,7 +1024,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00002BE",
@@ -1015,7 +1040,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00003G",
@@ -1031,7 +1056,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00004PE",
@@ -1047,7 +1072,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00005G",
@@ -1063,7 +1088,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00006GN",
@@ -1079,7 +1104,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00007G",
@@ -1095,7 +1120,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHES00001PN",
@@ -1111,7 +1136,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGEHES00002OT",
@@ -1127,7 +1152,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGEHES00003BE",
@@ -1143,7 +1168,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGFSEG00001OT",
@@ -1159,7 +1184,7 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGFSES00001PN",
@@ -1175,7 +1200,7 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZEG00001G",
@@ -1191,7 +1216,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGJZEG00002BE",
@@ -1207,7 +1232,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGJZES00001OT",
@@ -1223,7 +1248,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZES00002OT",
@@ -1239,7 +1264,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZES00003GN",
@@ -1255,7 +1280,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZES00004BE",
@@ -1271,7 +1296,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZES00005OT",
@@ -1287,7 +1312,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGSHES00001PN",
@@ -1303,7 +1328,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLEG00001G",
@@ -1319,7 +1344,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXLEG00002G",
@@ -1335,7 +1360,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXLEG00003GN",
@@ -1351,7 +1376,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXLEG00004G",
@@ -1367,7 +1392,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXLES00001OT",
@@ -1383,7 +1408,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLES00002BE",
@@ -1399,7 +1424,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLES00003GN",
@@ -1415,7 +1440,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLES00004BE",
@@ -1431,7 +1456,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLOT00001OT",
@@ -1447,7 +1472,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "KGXLR00001PE",
@@ -1463,7 +1489,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "電鍍玫瑰金"
+    "craft": "电镀玫瑰金"
   },
   {
     "sku": "KGXZEG00001PK",
@@ -1479,7 +1505,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00002BE",
@@ -1495,7 +1521,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00003G",
@@ -1511,7 +1537,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00004PE",
@@ -1527,7 +1553,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00005BE",
@@ -1543,7 +1569,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00006G",
@@ -1559,7 +1585,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZES00001PN",
@@ -1575,7 +1601,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00002GN",
@@ -1591,7 +1617,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00003PN",
@@ -1607,7 +1633,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00004WE",
@@ -1623,7 +1649,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00005PE",
@@ -1639,7 +1665,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00006OT",
@@ -1655,7 +1681,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZOT00001OT",
@@ -1671,7 +1697,8 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "KGXZR00001RG",
@@ -1687,7 +1714,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": true,
-    "craft": "電鍍玫瑰金"
+    "craft": "电镀玫瑰金"
   },
   {
     "sku": "HXCJAS00001PN",
@@ -3680,7 +3707,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZAS00002PN",
@@ -3840,7 +3867,7 @@
     "category_en": "Charm",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZG00001G",
@@ -3856,7 +3883,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍金"
+    "craft": "电镀金"
   },
   {
     "sku": "HXJZSS00001BK",
@@ -3872,7 +3899,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍黑"
+    "craft": "电镀黑"
   },
   {
     "sku": "HXJZSS00003BK",
@@ -3888,7 +3915,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍黑"
+    "craft": "电镀黑"
   },
   {
     "sku": "HXJZSS00004BK",
@@ -3904,7 +3931,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "電鍍黑"
+    "craft": "电镀黑"
   },
   {
     "sku": "HXJZW00001PN",
@@ -3920,7 +3947,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00002PN",
@@ -3936,7 +3963,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00003PN",
@@ -3952,7 +3979,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00004PN",
@@ -3968,7 +3995,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00005RD",
@@ -3984,7 +4011,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00006BE",
@@ -4000,7 +4027,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00007RD",
@@ -4016,7 +4043,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00008PN",
@@ -4032,7 +4059,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00009PN",
@@ -4048,7 +4075,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00010PN",
@@ -4064,7 +4091,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00011BK",
@@ -4080,7 +4107,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00012BK",
@@ -4096,7 +4123,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00013PN",
@@ -4112,7 +4139,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00014PN",
@@ -4128,7 +4155,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSH00001",
@@ -4163,7 +4190,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00002PN",
@@ -4179,7 +4206,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00003G",
@@ -4195,7 +4222,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00004PN",
@@ -4211,7 +4238,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00005PN",
@@ -4227,7 +4254,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00006PN",
@@ -4243,7 +4270,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00007PN",
@@ -4259,7 +4286,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00008PN",
@@ -4275,7 +4302,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   },
   {
     "sku": "HXSLBL00001BE",
@@ -4291,7 +4318,8 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXSLW00001PN",
@@ -4461,7 +4489,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLAS00002BK",
@@ -4477,7 +4506,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLAS00003BK",
@@ -6733,7 +6763,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00050BE",
@@ -6749,7 +6780,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00051BE",
@@ -6765,7 +6797,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00052BE",
@@ -6781,7 +6814,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00053BE",
@@ -6797,7 +6831,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00054BE",
@@ -6813,7 +6848,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00055BE",
@@ -6829,7 +6865,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00056BE",
@@ -6845,7 +6882,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00057BE",
@@ -6861,7 +6899,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00058BE",
@@ -6877,7 +6916,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00059BE",
@@ -6893,7 +6933,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00060BE",
@@ -6909,7 +6950,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00061BE",
@@ -6925,7 +6967,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00062BE",
@@ -6941,7 +6984,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00063BE",
@@ -6957,7 +7001,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00064BE",
@@ -6973,7 +7018,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00065YW",
@@ -6989,7 +7035,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00066YW",
@@ -7005,7 +7052,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00067YW",
@@ -7021,7 +7069,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00068YW",
@@ -7037,7 +7086,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00069YW",
@@ -7053,7 +7103,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00070YW",
@@ -7069,7 +7120,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00071YW",
@@ -7085,7 +7137,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLSS00072YW",
@@ -7101,7 +7154,8 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "镀层待核实",
+    "craft_needs_verification": true
   },
   {
     "sku": "HXXLW00001YW",
@@ -8158,6 +8212,6 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "電鍍銀"
+    "craft": "电镀银"
   }
 ]
