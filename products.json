@@ -142,9 +142,10 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true
+    "craft": "电镀玫瑰金",
+    "craft_needs_verification": true,
+    "craft_source": "user_photo_metal_frame_review",
+    "craft_inferred_from_image": true
   },
   {
     "sku": "XTEHC00006BE",
