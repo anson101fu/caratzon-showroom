@@ -13,7 +13,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_image": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEDW00003WE",
