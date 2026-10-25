@@ -55,3 +55,12 @@ body.caratzon-quickview-open{overflow:hidden!important}
 
 /* V13 finish field */
 .v10-specs{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 0}.v10-craft{grid-column:1/-1;border-top:1px solid #e8e5dd;padding-top:14px;margin-top:2px}.v10-craft .v10-spec-value{overflow-wrap:anywhere}
+
+/* Three coordinated specification columns in Quick View. */
+#v9Detail .v10-specs{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:0!important;align-items:start!important;margin:20px 0 24px!important;padding:18px 0!important;border-top:1px solid #e9e7e0!important;border-bottom:1px solid #e9e7e0!important}
+#v9Detail .v10-spec,#v9Detail .v10-spec.v10-craft{grid-column:auto!important;display:flex!important;flex-direction:column!important;gap:9px!important;margin:0!important;padding:0 16px!important;border:0!important;min-width:0!important}
+#v9Detail .v10-spec:first-child{padding-left:0!important}
+#v9Detail .v10-spec+.v10-spec{border-left:1px solid #e9e7e0!important}
+#v9Detail .v10-spec-label{font-size:10px!important;line-height:1.4!important;letter-spacing:.06em!important;white-space:normal!important}
+#v9Detail .v10-spec-value{font-size:14px!important;line-height:1.5!important;word-break:break-word!important}
+@media(max-width:540px){#v9Detail .v10-specs{grid-template-columns:repeat(2,minmax(0,1fr))!important;row-gap:18px!important}#v9Detail .v10-craft{grid-column:1/-1!important;padding:15px 0 0!important;border-left:0!important;border-top:1px solid #e9e7e0!important}#v9Detail .v10-spec:nth-child(2){padding-right:0!important}}
