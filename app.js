@@ -6,7 +6,7 @@ const t=k=>tr[lang][k]||k, rub=n=>'₽ '+Math.round(n).toLocaleString(lang==='ru
 function translate(){document.documentElement.lang=lang;document.querySelectorAll('[data-t]').forEach(e=>{let key=e.dataset.t;if(key==='hero'||key==='discover')e.innerHTML=t(key);else e.textContent=t(key)});el('search').placeholder=t('search');el('langBtn').textContent=lang==='ru'?'🇷🇺 RU / EN':'RU / 🇬🇧 EN';buildCategories();filter();paintCart();paintRate()}
 function buildCategories(){let v=el('category').value;let cats=[...new Set(products.map(p=>p.category))].sort();el('category').innerHTML='<option value="">'+t('all')+'</option>'+cats.map(c=>{let p=products.find(x=>x.category===c);return `<option value="${safe(c)}">${safe(lang==='ru'?p.category_ru:p.category_en)} · ${safe(c)}</option>`}).join('');el('category').value=v}
 function filter(){let q=el('search').value.toLowerCase().trim(),category=el('category').value,sort=el('sort').value;filtered=products.filter(p=>(!category||p.category===category)&&(!q||[p.sku,p.zh,p.en,p.ru,p.category,p.color].join(' ').toLowerCase().includes(q)));if(sort==='priceAsc')filtered.sort((a,b)=>a.retail-b.retail);if(sort==='priceDesc')filtered.sort((a,b)=>b.retail-a.retail);shown=24;render()}
-function render(){el('resultCount').textContent=filtered.length+' '+t('products');const items=filtered.slice(0,shown);el('grid').innerHTML=items.map(p=>`<article class="product"><div class="photo">${p.image?`<img loading="lazy" src="${p.image}" alt="${safe(p.zh)}">`:'<span class="no-photo">CARATZON</span>'}</div><div class="product-body"><p class="sku">SKU ${safe(p.sku)}</p><h3>${safe(lang==='ru'?p.ru:p.en)}</h3><div class="price">${p.retail>0?rub(p.retail*rate):(lang==='ru'?'Цена по запросу':'Price on request')} <small>${p.retail>0?'/ '+(lang==='ru'?'шт.':'pc'):''}</small></div><div class="wh-note">${p.wholesale>0?t('wholesale')+': '+rub(p.wholesale*rate):'&nbsp;'}</div><button class="add" data-sku="${safe(p.sku)}" ${p.retail<=0||p.wholesale<=0?'disabled':''}>+ ${lang==='ru'?'В корзину':'Add to bag'}</button></div></article>`).join('');el('more').hidden=shown>=filtered.length}
+function render(){el('resultCount').textContent=filtered.length+' '+t('products');const items=filtered.slice(0,shown);el('grid').innerHTML=items.map(p=>`<article class="product"><div class="photo">${p.image?`<button type="button" class="zoom-trigger" data-zoom="${safe(p.sku)}" aria-label="${lang==='ru'?'Увеличить фото':'Zoom product photo'}: ${safe(p.zh)}"><img loading="lazy" src="${p.image}" alt="${safe(p.zh)}"><span class="zoom-badge" aria-hidden="true">⌕</span></button>`:'<span class="no-photo">CARATZON</span>'}</div><div class="product-body"><p class="sku">SKU ${safe(p.sku)}</p><h3>${safe(lang==='ru'?p.ru:p.en)}</h3><div class="price">${p.retail>0?rub(p.retail*rate):(lang==='ru'?'Цена по запросу':'Price on request')} <small>${p.retail>0?'/ '+(lang==='ru'?'шт.':'pc'):''}</small></div><div class="wh-note">${p.wholesale>0?t('wholesale')+': '+rub(p.wholesale*rate):'&nbsp;'}</div><button class="add" data-sku="${safe(p.sku)}" ${p.retail<=0||p.wholesale<=0?'disabled':''}>+ ${lang==='ru'?'В корзину':'Add to bag'}</button></div></article>`).join('');el('more').hidden=shown>=filtered.length}
 function saveCart(){localStorage.setItem('caratzon-cart',JSON.stringify(cart));paintCart()}
 function changeQty(sku,delta){let p=products.find(x=>x.sku===sku);if(!p||p.retail<=0||p.wholesale<=0)return;cart[sku]=Math.max(0,Math.min(9999,(cart[sku]||0)+delta));if(!cart[sku])delete cart[sku];saveCart()}
 function toast(s){el('toast').textContent=s;el('toast').classList.add('show');setTimeout(()=>el('toast').classList.remove('show'),1800)}
@@ -14,6 +14,52 @@ function showCart(visible){el('overlay').classList.toggle('show',visible);el('dr
 function paintCart(){let items=products.filter(p=>cart[p.sku]>0),count=items.reduce((s,p)=>s+cart[p.sku],0),total=items.reduce((s,p)=>s+cart[p.sku]*unit(p)*rate,0);el('bagCount').textContent=count;el('cartItems').innerHTML=items.length?items.map(p=>{let qty=cart[p.sku];return `<div class="cart-entry"><div>${p.image?`<img src="${p.image}" alt="">`:'<div class="no-photo">C</div>'}</div><div><h4>${safe(lang==='ru'?p.ru:p.en)}</h4><small>SKU ${safe(p.sku)}</small><div class="qty"><button data-action="minus" data-sku="${safe(p.sku)}">−</button><span>${qty}</span><button data-action="plus" data-sku="${safe(p.sku)}">+</button></div><small>${qty>=30?t('wholesale'):t('retail')+' · '+t('left')+' '+(30-qty)}</small><br><button class="remove" data-action="remove" data-sku="${safe(p.sku)}">${t('remove')}</button></div><div class="cartprice">${rub(qty*unit(p)*rate)}<br><small>${rub(unit(p)*rate)}/pc</small></div></div>`}).join(''):'<p class="muted">'+t('empty')+'</p>';el('cartTotal').innerHTML=`<span>${t('total')}</span><strong>${rub(total)}</strong>`;el('submitBtn').disabled=!items.length}
 function paintRate(){el('rateStatus').textContent=rate?`${t('rate')}: 1 CNY ≈ ${rate.toFixed(4)} RUB · ${rateDate||'—'}${rateBackup?' · '+t('fallback'):''} · Rates by ExchangeRate-API`:''}
 async function initRate(){let cached;try{cached=JSON.parse(localStorage.getItem('caratzon-rate')||'null')}catch{}if(cached&&Number.isFinite(cached.value)&&cached.value>0){rate=cached.value;rateDate=cached.date||'';rateBackup=Date.now()-cached.saved>86400000}try{if(!cached||Date.now()-cached.saved>86400000){let c=new AbortController(),timeout=setTimeout(()=>c.abort(),6500);let response=await fetch('https://open.er-api.com/v6/latest/CNY',{signal:c.signal});clearTimeout(timeout);if(!response.ok)throw Error('rate HTTP '+response.status);let data=await response.json();if(data.result!=='success'||!(data.rates?.RUB>0))throw Error('invalid rate');rate=data.rates.RUB;rateDate=new Date(data.time_last_update_utc||Date.now()).toISOString().slice(0,10);rateBackup=false;localStorage.setItem('caratzon-rate',JSON.stringify({value:rate,date:rateDate,saved:Date.now()}))}}catch(err){console.warn('Exchange rate unavailable',err)}if(!rate){rate=0;rateBackup=true}paintRate();filter();paintCart();if(!rate){el('submitBtn').disabled=true;el('submitMsg').textContent=lang==='ru'?'Курс недоступен. Попробуйте позже.':'Rate unavailable. Please try later.'}}
-async function submitOrder(event){event.preventDefault();let chosen=products.filter(p=>cart[p.sku]>0);if(!chosen.length||rate<=0)return;let detail=chosen.map(p=>`${p.sku} | ${p.zh} | ${p.en} | qty=${cart[p.sku]} | tier=${cart[p.sku]>=30?'wholesale':'retail'} | CNY=${unit(p)} | RUB=${Math.round(unit(p)*rate)} | line RUB=${Math.round(unit(p)*rate*cart[p.sku])}`).join('\n'),total=chosen.reduce((s,p)=>s+unit(p)*cart[p.sku]*rate,0);el('orderDetails').value=detail;el('orderTotalRub').value=Math.round(total);el('exchangeRate').value=`1 CNY = ${rate} RUB (rate date ${rateDate})`;let data=new URLSearchParams(new FormData(el('checkout')));el('submitBtn').disabled=true;el('submitBtn').textContent=t('loading');el('submitMsg').textContent='';try{let res=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:data.toString()});if(!res.ok)throw Error('HTTP '+res.status);el('submitMsg').textContent=t('success');el('submitMsg').style.color='#387b49';cart={};saveCart();el('checkout').reset()}catch(err){el('submitMsg').textContent=t('fail')+' (Site must be published on Netlify.)';el('submitMsg').style.color='#ad3a30'}finally{el('submitBtn').textContent=t('submitOrder');paintCart()}}
+async function submitOrder(event){
+  event.preventDefault();
+  const chosen=products.filter(p=>cart[p.sku]>0);
+  if(!chosen.length||rate<=0)return;
+  const detail=chosen.map(p=>`${p.sku} | ${p.zh} | ${p.en} | qty=${cart[p.sku]} | tier=${cart[p.sku]>=30?'wholesale':'retail'} | CNY=${unit(p)} | RUB=${Math.round(unit(p)*rate)} | line RUB=${Math.round(unit(p)*rate*cart[p.sku])}`).join('\n');
+  const total=chosen.reduce((s,p)=>s+unit(p)*cart[p.sku]*rate,0);
+  el('orderDetails').value=detail;
+  el('orderTotalRub').value=Math.round(total);
+  el('exchangeRate').value=`1 CNY = ${rate} RUB (rate date ${rateDate})`;
+  const form=el('checkout');
+  const payload=new FormData(form);
+  payload.delete('form-name');
+  payload.delete('bot-field');
+  payload.append('_subject','Caratzon order inquiry - '+new Date().toISOString().slice(0,10));
+  payload.append('_template','table');
+  payload.append('_honey','');
+  payload.append('submitted_at',new Date().toISOString());
+  payload.append('site','https://caratzon-showroom.onrender.com/');
+  const button=el('submitBtn');
+  button.disabled=true;button.textContent=t('loading');
+  el('submitMsg').textContent='';
+  try{
+    const response=await fetch('https://formsubmit.co/ajax/anson.fu101@gmail.com',{
+      method:'POST',headers:{'Accept':'application/json'},body:payload
+    });
+    const result=await response.json();
+    if(!response.ok||result.success!==true && result.success!=='true')throw Error(result.message||'FormSubmit did not accept the order');
+    el('submitMsg').textContent=t('success');
+    el('submitMsg').style.color='#387b49';
+    cart={};saveCart();form.reset();
+  }catch(error){
+    console.error('Caratzon order submission failed:',error);
+    el('submitMsg').textContent=t('fail');
+    el('submitMsg').style.color='#ad3a30';
+  }finally{button.textContent=t('submitOrder');paintCart()}
+}
 async function init(){try{products=await (await fetch('products.json')).json();translate();await initRate()}catch(e){console.error(e);el('grid').textContent='Catalog unavailable. Open the site using a web server.'}};
-el('langBtn').onclick=()=>{lang=lang==='ru'?'en':'ru';localStorage.setItem('caratzon-lang',lang);translate()};el('search').oninput=filter;el('category').onchange=filter;el('sort').onchange=filter;el('more').onclick=()=>{shown+=24;render()};el('grid').onclick=e=>{let b=e.target.closest('button[data-sku]');if(!b)return;changeQty(b.dataset.sku,1);toast(t('added'))};el('cartItems').onclick=e=>{let b=e.target.closest('button[data-sku]');if(!b)return;let action=b.dataset.action;action==='remove'?(delete cart[b.dataset.sku],saveCart()):changeQty(b.dataset.sku,action==='plus'?1:-1)};el('cartBtn').onclick=()=>showCart(true);el('closeCart').onclick=()=>showCart(false);el('overlay').onclick=()=>showCart(false);el('checkout').onsubmit=submitOrder;init();
+el('langBtn').onclick=()=>{lang=lang==='ru'?'en':'ru';localStorage.setItem('caratzon-lang',lang);translate()};el('search').oninput=filter;el('category').onchange=filter;el('sort').onchange=filter;el('more').onclick=()=>{shown+=24;render()};el('grid').onclick=e=>{let z=e.target.closest('button[data-zoom]');if(z){openZoom(z.dataset.zoom);return}let b=e.target.closest('button[data-sku]');if(!b)return;changeQty(b.dataset.sku,1);toast(t('added'))};el('cartItems').onclick=e=>{let b=e.target.closest('button[data-sku]');if(!b)return;let action=b.dataset.action;action==='remove'?(delete cart[b.dataset.sku],saveCart()):changeQty(b.dataset.sku,action==='plus'?1:-1)};el('cartBtn').onclick=()=>showCart(true);el('closeCart').onclick=()=>showCart(false);el('overlay').onclick=()=>showCart(false);el('checkout').onsubmit=submitOrder;init();
+
+// Accessible image viewer: mouse hover zoom on cards, click for a large photograph.
+function openZoom(sku){const p=products.find(item=>item.sku===sku);if(!p||!p.image)return;
+const v=el('zoomViewer');el('zoomImage').src=p.image;el('zoomImage').alt=p.zh;el('zoomName').textContent=(lang==='ru'?p.ru:p.en)+' · '+p.sku;v.hidden=false;document.body.classList.add('zoom-open');el('zoomClose').focus();}
+function closeZoom(){el('zoomViewer').hidden=true;document.body.classList.remove('zoom-open')}
+el('zoomClose').addEventListener('click',closeZoom);
+el('zoomViewer').addEventListener('click',event=>{if(event.target===el('zoomViewer'))closeZoom()});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!el('zoomViewer').hidden)closeZoom()});
+
+// Keep the zoom centred around the cursor position on desktop.
+el('grid').addEventListener('pointermove',event=>{const b=event.target.closest('.zoom-trigger');if(!b)return;const r=b.getBoundingClientRect();const x=Math.max(0,Math.min(100,(event.clientX-r.left)*100/r.width));const y=Math.max(0,Math.min(100,(event.clientY-r.top)*100/r.height));b.querySelector('img').style.transformOrigin=x+'% '+y+'%';});
