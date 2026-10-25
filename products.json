@@ -103,8 +103,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTEHC00001WE",
@@ -120,9 +121,10 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTEHC00002WE",
@@ -156,8 +158,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTEHC00007GN",
@@ -173,8 +176,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTEHC00008BE",
@@ -190,7 +194,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -207,8 +211,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTEHG00002PL",
@@ -224,7 +229,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -241,8 +246,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTEHW00001BE",
@@ -258,7 +264,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -403,8 +409,9 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTSLG00002PL",
@@ -420,8 +427,9 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTSLW00002WE",
@@ -455,8 +463,9 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTSLW00005BE",
@@ -472,8 +481,9 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTSLW00006WE",
@@ -525,8 +535,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLC00003PL",
@@ -542,8 +553,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "玫瑰金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLC00006BE",
@@ -559,8 +571,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLC00007OT",
@@ -576,8 +589,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLG00004RD",
@@ -593,8 +607,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLG00005RD",
@@ -610,8 +625,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLG00006CL",
@@ -627,8 +643,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLG00007PL",
@@ -644,8 +661,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLG00008WE",
@@ -661,8 +679,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLW00002PK",
@@ -678,7 +697,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -749,8 +768,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXLW00008OT",
@@ -766,7 +786,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -783,8 +803,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "XTXZEG00001G",
@@ -1472,7 +1493,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -1697,8 +1718,9 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "KGXZR00001RG",
@@ -1849,11 +1871,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "浩兴钛钢饰品跨境热销骷髅头个性复古爱心眼睛嘻哈朋克项链男",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00002",
@@ -1869,11 +1892,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "original_zh": "浩兴新款钛钢尼泊尔波若法眼黄财神佛眼唐卡吊坠项链配饰新品男",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00003",
@@ -1889,11 +1913,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "外贸新北欧神话奥丁坐骑双乌鸦吊坠复古维京海盗图腾项链男女批发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00004",
@@ -1909,11 +1934,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "欧美复古风不掉色骷髅头项链 钛钢朋克嘻哈项链男 跨境饰品毛衣链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00005",
@@ -1929,11 +1955,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "跨境潮酷钛钢项链高级感不掉色男 印第安猫头鹰兔子毛衣链外贸",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00006",
@@ -1949,11 +1976,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "新款设计北欧维京图案文字吊坠 钛钢双面配饰新品不掉色项链男",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00007",
@@ -1969,11 +1997,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "钛钢饰品高级感精致维京海盗奥丁指南针三角结男士护身符吊坠项链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00008",
@@ -1989,7 +2018,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "original_zh": "国潮复古新款钛钢观音菩萨吊坠男项链挂件送男友工厂直销",
     "name_review_required": true,
     "craft_needs_verification": true,
@@ -2009,11 +2038,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "复古钛钢项链男款嘻哈小众醒狮高级感国潮个性卫衣毛衣链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00010",
@@ -2029,11 +2059,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "北欧护身符项链维京乌鸦黑鸟凯尔特乌鸦项链男士钛钢饰品货源直发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00011",
@@ -2068,11 +2099,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "欧美新款 黑金刚猩猩钛钢男士项链 万圣节骷髅头不锈钢项链批发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00013",
@@ -2088,11 +2120,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "维京托尔托斧头凯尔特狼钛钢吊坠项链男士欧美不锈钢饰品项链批发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00014",
@@ -2108,11 +2141,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "浩兴钢饰欧美斯巴达勇士双斧头不锈钢项链个性嘻哈潮流钛钢配饰",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00015",
@@ -2166,11 +2200,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "跨境专供维京海盗船锚吊坠项链批发外贸新款复古不锈钢项链饰配饰",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00018",
@@ -2186,11 +2221,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "潮男嘻哈手握骷髅头项链个性钛钢吊坠复古项链配饰亚马逊欧美货源",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00019",
@@ -2206,11 +2242,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "潮男嘻哈手握骷髅头项链个性钛钢吊坠复古项链配饰亚马逊欧美货源",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00020",
@@ -2226,11 +2263,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "嘻哈酷炫Viking符文狼头吊坠项链复古不锈钢男式狼头项链潮配饰",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00021",
@@ -2246,11 +2284,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "亚马逊北欧神话维京乌鸦项链男士复古吊坠毛衣链不锈钢饰品批发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00022",
@@ -2266,11 +2305,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "跨境电商货源批发2022年新款钛钢ins风街头潮牌嘻哈老鹰项链 男生",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00023",
@@ -2305,11 +2345,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "屠龙勇士嘻哈吊坠项链男士欧美INS饰品朋克配饰外贸新款",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00025",
@@ -2325,11 +2366,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "2023年个性潮酷男hiphop枫叶钛钢图案项链时尚街头不锈钢吊坠饰品",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00026",
@@ -2345,11 +2387,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "original_zh": "九宫吊坠钛钢饰品男女情侣款复古十二生肖时来运转护身符项链挂件",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00027",
@@ -2384,11 +2427,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "供应欧美饰品批发 个性潮流霸气男士吊坠龙项链 毛衣链项链高级感",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00029",
@@ -2404,7 +2448,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "original_zh": "新款国潮彩绘镶钻九尾狐唐卡钛钢复古吊坠项链男士个性时尚毛衣链",
     "name_review_required": true,
     "craft_needs_verification": true,
@@ -2424,11 +2468,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "欧美跨境饰品邪恶小丑笑脸项链不锈钢吊坠男士复古潮牌钛钢配饰",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00031",
@@ -2444,11 +2489,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "欧美爆款跨境潮流嘻哈不锈钢英文A~Z方牌字母DIY名字吊坠项链配链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00032",
@@ -2464,11 +2510,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "自由女神钛钢项链男款嘻哈小众男士男生痞帅卫衣长款毛衣链潮",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00033",
@@ -2484,11 +2531,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "跨境北欧凯尔特维京乌鸦钛钢吊坠欧美男士不锈钢项链嘻哈男士配饰",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00034",
@@ -2504,11 +2552,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "亚马逊货源2022虎年本命年钛钢老虎头卫衣长款男士毛衣项链批发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00035",
@@ -2524,11 +2573,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "跨境不锈钢哥特风公鸡头吊坠项链批发 外贸复古暗黑钛钢镶石饰品",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00036",
@@ -2544,11 +2594,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "钛钢不掉色吊坠项链 外贸嘻哈风街舞爱情骷髅项链男百搭高级感",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00037",
@@ -2564,11 +2615,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "热销配饰跨境专供维京海盗船锚项链饰品男 \t钛钢不掉色高级感项链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00038",
@@ -2584,11 +2636,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "跨境市场新品专供钛钢不掉色饰品复古北欧维京战斧钛钢项链现货",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00039",
@@ -2604,11 +2657,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "亚马逊新品男士钛钢复古项链北欧维京雷神海盗船锚不锈钢吊坠项饰",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00040",
@@ -2643,11 +2697,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "浩兴国潮男款钛钢舞狮项链嘻哈街头风创意不掉色吊坠项链批发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00042",
@@ -2663,11 +2718,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "2024市场新品不锈钢复古维京雷锤吊坠项链挂坠配饰钛钢饰品配饰",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00043",
@@ -2683,11 +2739,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "wish新品热销欧美创意设计复古骷髅头项链男士 不锈钢饰品批发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00044",
@@ -2703,11 +2760,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "钛钢生肖马吊坠复古欧美独角兽项链男女个性潮人小马配饰毛衣链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00045",
@@ -2742,11 +2800,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "新款霸气龙纹骷髅头子弹头钛钢项链吊坠男潮嘻哈个性男士配饰项链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00047",
@@ -2762,11 +2821,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "欧美流行首饰批发爆款大灰熊项链圆形熊爪附身符钛钢吊坠项链男",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00048",
@@ -2782,11 +2842,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "钛钢跨境欧美复古男士项链 鸟巢吊坠ins个性时尚男女配饰新品",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00049",
@@ -2802,11 +2863,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "复古项链男潮牌九节虾吊坠欧美街拍百搭个性不锈钢男士项链小众",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00050",
@@ -2822,11 +2884,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "直播货源北欧护身符歌特式海盗战斧项链 复古嘻哈钛钢毛衣链男",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00051",
@@ -2842,11 +2905,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "复古民族风海丰梅陇县小众高级项链轻奢钛钢不掉色舞狮项链男生",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00052",
@@ -2862,11 +2926,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "钛钢项链不掉色饰品批发吊坠释迦牟尼不锈钢百搭男士复古项链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00053",
@@ -2882,11 +2947,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "海丰县梅陇钛钢饰品厂家男士船锚长款复古项链 跨境一件代发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00054",
@@ -2902,11 +2968,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "浩兴北欧维京动物双狼头符文个性男男士凯尔特不锈钢项链饰品男",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZ00055",
@@ -2922,11 +2989,12 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "浩兴 欧美螃蟹钳镶石钛钢复古吊坠项链 男生个性不掉色毛衣链批发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZAS00039PN",
@@ -3010,9 +3078,10 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZG00002PN",
@@ -3062,9 +3131,10 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZG00005OT",
@@ -3080,9 +3150,10 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZW00001OT",
@@ -3098,7 +3169,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3116,9 +3187,10 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZW00003GN",
@@ -3134,9 +3206,10 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZW00004GN",
@@ -3152,7 +3225,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3170,7 +3243,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3188,7 +3261,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3206,7 +3279,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3224,7 +3297,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3293,7 +3366,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3379,7 +3452,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3414,7 +3487,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3432,9 +3505,10 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXDZW00021PN",
@@ -3467,7 +3541,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -3689,9 +3763,10 @@
     "category_en": "Charm",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXJZAS00001PN",
@@ -4318,7 +4393,7 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -4369,11 +4444,12 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "海丰梅陇浩兴欧美嘻哈潮牌个性尤达大师卡通电护身符项链毛衣链",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXL00002",
@@ -4389,7 +4465,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "original_zh": "钛钢镀金镶石吊坠本命佛挂件守护神十二生肖属相男款佛牌项链男士",
     "name_review_required": true,
     "craft_needs_verification": true,
@@ -4409,11 +4485,12 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "抖音同款厂家钛钢如来关公佛像佛牌复古不锈钢守护神吊坠项链代发",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXL00004",
@@ -4429,11 +4506,12 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "欧美外贸饰品饰品十字架盾牌男士不脱色毛衣链小众嘻哈项链 钛钢",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXL00005",
@@ -4449,11 +4527,12 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "浩兴源头厂家欧美复古潮货祈祷之手不锈钢个性小众吊坠项链男士",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXL00006",
@@ -4469,11 +4548,12 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "original_zh": "浩兴厂家钛钢饰品男士欧美hiphop嘻哈风潮牌金蟾项链长款",
     "name_review_required": true,
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00001BK",
@@ -4489,8 +4569,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00002BK",
@@ -4506,7 +4587,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -4523,7 +4604,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -4541,9 +4622,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00005BK",
@@ -4559,9 +4641,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00006BK",
@@ -4577,7 +4660,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -4595,7 +4678,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -4613,7 +4696,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -4631,7 +4714,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -4649,7 +4732,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5160,7 +5243,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5178,7 +5261,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5196,9 +5279,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "银色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00046YW",
@@ -5214,7 +5298,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5232,7 +5316,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5250,7 +5334,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5268,7 +5352,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5286,7 +5370,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5304,7 +5388,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5322,9 +5406,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00053YW",
@@ -5340,9 +5425,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00054YW",
@@ -5358,9 +5444,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00055YW",
@@ -5376,9 +5463,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00056YW",
@@ -5394,9 +5482,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00057YW",
@@ -5412,9 +5501,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00058YW",
@@ -5430,9 +5520,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00059YW",
@@ -5448,9 +5539,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLAS00060YW",
@@ -5466,7 +5558,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5484,7 +5576,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5502,7 +5594,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5520,7 +5612,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5538,7 +5630,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5556,7 +5648,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5574,7 +5666,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5881,7 +5973,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5899,7 +5991,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5917,7 +6009,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5935,7 +6027,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5953,7 +6045,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5971,7 +6063,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -5989,7 +6081,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6007,7 +6099,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6025,7 +6117,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6043,9 +6135,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00010YW",
@@ -6061,9 +6154,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00011YW",
@@ -6079,9 +6173,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00012YW",
@@ -6097,9 +6192,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00013YW",
@@ -6115,9 +6211,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00014YW",
@@ -6133,9 +6230,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00015YW",
@@ -6151,9 +6249,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00016YW",
@@ -6169,9 +6268,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00017YW",
@@ -6187,7 +6287,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6205,7 +6305,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6223,7 +6323,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6241,9 +6341,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00021YW",
@@ -6259,9 +6360,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00022YW",
@@ -6277,9 +6379,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00023YW",
@@ -6295,9 +6398,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00024YW",
@@ -6313,7 +6417,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6331,7 +6435,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6349,7 +6453,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6367,7 +6471,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6385,7 +6489,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6403,7 +6507,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6421,7 +6525,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6439,7 +6543,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6457,7 +6561,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6475,9 +6579,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00034YW",
@@ -6493,9 +6598,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00035YW",
@@ -6511,9 +6617,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00036YW",
@@ -6529,9 +6636,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00037YW",
@@ -6547,9 +6655,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00038YW",
@@ -6565,9 +6674,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00039YW",
@@ -6583,9 +6693,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00040YW",
@@ -6601,9 +6712,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00041YW",
@@ -6619,7 +6731,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6637,7 +6749,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6655,7 +6767,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6673,7 +6785,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6691,7 +6803,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6709,7 +6821,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6727,7 +6839,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6745,7 +6857,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -6763,8 +6875,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00050BE",
@@ -6780,8 +6893,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00051BE",
@@ -6797,8 +6911,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00052BE",
@@ -6814,8 +6929,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00053BE",
@@ -6831,8 +6947,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00054BE",
@@ -6848,8 +6965,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00055BE",
@@ -6865,8 +6983,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00056BE",
@@ -6882,8 +7001,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00057BE",
@@ -6899,7 +7019,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -6916,7 +7036,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -6933,7 +7053,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -6950,7 +7070,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -6967,7 +7087,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -6984,7 +7104,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -7001,8 +7121,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00064BE",
@@ -7018,8 +7139,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "银色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00065YW",
@@ -7035,8 +7157,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
-    "craft_needs_verification": true
+    "craft": "金色表面处理",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLSS00066YW",
@@ -7052,7 +7175,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -7069,7 +7192,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -7086,7 +7209,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -7103,7 +7226,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -7120,7 +7243,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -7137,7 +7260,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -7154,7 +7277,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true
   },
   {
@@ -7171,9 +7294,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00002PN",
@@ -7240,9 +7364,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00006YW",
@@ -7258,7 +7383,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -7276,7 +7401,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -7294,7 +7419,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -7312,7 +7437,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -7330,9 +7455,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00011YW",
@@ -7348,9 +7474,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00012YW",
@@ -7366,9 +7493,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00013YW",
@@ -7384,9 +7512,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00014YW",
@@ -7402,9 +7531,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00015YW",
@@ -7420,9 +7550,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00016YW",
@@ -7438,9 +7569,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00017YW",
@@ -7456,9 +7588,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00018YW",
@@ -7474,9 +7607,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00019YW",
@@ -7492,9 +7626,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00020YW",
@@ -7510,9 +7645,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00021YW",
@@ -7528,9 +7664,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00022YW",
@@ -7546,9 +7683,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00023YW",
@@ -7564,9 +7702,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00024YW",
@@ -7582,9 +7721,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00025YW",
@@ -7600,9 +7740,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00026YW",
@@ -7618,9 +7759,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00027YW",
@@ -7636,9 +7778,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00028YW",
@@ -7654,7 +7797,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -7672,9 +7815,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00030YW",
@@ -7690,9 +7834,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00031YW",
@@ -7708,7 +7853,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -7726,7 +7871,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -7744,7 +7889,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -7762,9 +7907,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00035YW",
@@ -7780,9 +7926,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00036YW",
@@ -7798,9 +7945,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00037YW",
@@ -7816,9 +7964,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00038YW",
@@ -7834,9 +7983,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00039YW",
@@ -7852,9 +8002,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00040YW",
@@ -7870,9 +8021,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00041YW",
@@ -7888,9 +8040,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00042YW",
@@ -7906,9 +8059,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00043YW",
@@ -7924,9 +8078,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00044YW",
@@ -7942,9 +8097,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00045YW",
@@ -7960,9 +8116,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00046YW",
@@ -7978,9 +8135,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00047YW",
@@ -7996,9 +8154,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00048YW",
@@ -8014,9 +8173,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00049YW",
@@ -8032,9 +8192,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00050YW",
@@ -8050,9 +8211,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00051YW",
@@ -8068,9 +8230,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00052YW",
@@ -8086,9 +8249,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00053YW",
@@ -8104,7 +8268,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -8122,9 +8286,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "金色表面处理",
     "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation"
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference"
   },
   {
     "sku": "HXXLW00055YW",
@@ -8140,7 +8305,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -8158,7 +8323,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -8176,7 +8341,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
@@ -8194,7 +8359,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "镀层待核实",
+    "craft": "",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation"
   },
