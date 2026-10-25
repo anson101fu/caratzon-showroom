@@ -29,7 +29,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEDW00004WE",
@@ -45,7 +47,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEDW00005WE",
@@ -61,7 +65,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEDW00006WE",
@@ -77,7 +83,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEDW00007OT",
@@ -125,7 +133,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTEHC00006BE",
@@ -413,7 +423,9 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTSLW00004PL",
@@ -461,7 +473,9 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLC00001WE",
@@ -477,7 +491,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLC00002PL",
@@ -653,7 +669,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLW00004WE",
@@ -669,7 +687,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLW00005WE",
@@ -685,7 +705,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "XTXLW00007PL",
@@ -7654,7 +7676,9 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00002WE",
@@ -7669,7 +7693,9 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00003WE",
@@ -7684,7 +7710,9 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00004WE",
@@ -7699,7 +7727,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00005WE",
@@ -7714,7 +7744,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00006WE",
@@ -7729,7 +7761,9 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00007WE",
@@ -7744,7 +7778,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00008WE",
@@ -7759,7 +7795,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00009WE",
@@ -7774,7 +7812,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFDZW00010WE",
@@ -7789,7 +7829,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFED00001WE",
@@ -7850,7 +7892,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFEDOT00001WE",
@@ -8396,7 +8440,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFEHW00004YW",
@@ -8426,7 +8472,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFEHW00006WE",
@@ -8441,7 +8489,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFEHW00007WE",
@@ -8456,7 +8506,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00001G",
@@ -8487,7 +8539,9 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00003WE",
@@ -8609,7 +8663,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00011WE",
@@ -8684,7 +8740,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00016WE",
@@ -8699,7 +8757,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00017GN",
@@ -8924,7 +8984,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00032G",
@@ -8955,7 +9017,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00034WE",
@@ -8985,7 +9049,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00036WE",
@@ -9015,7 +9081,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00038WE",
@@ -9045,7 +9113,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00040WE",
@@ -9075,7 +9145,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00042BK",
@@ -9120,7 +9192,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00045WE",
@@ -9150,7 +9224,9 @@
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZG00047GN",
@@ -9743,7 +9819,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZW00002GN",
@@ -9789,7 +9867,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZW00005YW",
@@ -9849,7 +9929,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZW00009RD",
@@ -9879,7 +9961,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZW00011WE",
@@ -9894,7 +9978,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZW00012WE",
@@ -9909,7 +9995,9 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFJZW00013YW",
@@ -9939,7 +10027,9 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLC00004WE",
@@ -9954,7 +10044,9 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00001WE",
@@ -9969,7 +10061,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00002WE",
@@ -10014,7 +10108,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00005WE",
@@ -10029,7 +10125,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00006WE",
@@ -10074,7 +10172,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00009GN",
@@ -10104,7 +10204,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00011WE",
@@ -10119,7 +10221,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00012WE",
@@ -10134,7 +10238,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00013WE",
@@ -10149,7 +10255,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00014BE",
@@ -10194,7 +10302,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00017WE",
@@ -10209,7 +10319,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFSLSY00018BE",
@@ -10239,7 +10351,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00002WE",
@@ -10254,7 +10368,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00003WE",
@@ -10269,7 +10385,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00004WE",
@@ -10284,7 +10402,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00005WE",
@@ -10299,7 +10419,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00006WE",
@@ -10314,7 +10436,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00007WE",
@@ -10329,7 +10453,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00009WE",
@@ -10344,7 +10470,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00010WE",
@@ -10359,7 +10487,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00011WE",
@@ -10374,7 +10504,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00012WE",
@@ -10389,7 +10521,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00013WE",
@@ -10404,7 +10538,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00014WE",
@@ -10419,7 +10555,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00015WE",
@@ -10434,7 +10572,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00016WE",
@@ -10449,7 +10589,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00017WE",
@@ -10464,7 +10606,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00018WE",
@@ -10479,7 +10623,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00019WE",
@@ -10494,7 +10640,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00020WE",
@@ -10509,7 +10657,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00021WE",
@@ -10524,7 +10674,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00022WE",
@@ -10539,7 +10691,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00023WE",
@@ -10554,7 +10708,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00024WE",
@@ -10569,7 +10725,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00025WE",
@@ -10584,7 +10742,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00026WE",
@@ -10599,7 +10759,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00027WE",
@@ -10614,7 +10776,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00028WE",
@@ -10629,7 +10793,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00029WE",
@@ -10644,7 +10810,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00030WE",
@@ -10659,7 +10827,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00031WE",
@@ -10674,7 +10844,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00032WE",
@@ -10689,7 +10861,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFWTES00033WE",
@@ -10704,7 +10878,9 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFXL00001GN",
@@ -10764,7 +10940,9 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": ""
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
   },
   {
     "sku": "QFXLOT00001PN",
