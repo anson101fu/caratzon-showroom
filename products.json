@@ -4,7 +4,7 @@
     "zh": "sweet",
     "category": "耳钉",
     "color": "粉色",
-    "material": "白金",
+    "material": "铜",
     "retail": 147.0,
     "wholesale": 73.5,
     "image": "assets/XTEDW00002PK.webp",
@@ -12,14 +12,15 @@
     "ru": "Нежность — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEDW00003WE",
     "zh": "初绽",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 141.0,
     "wholesale": 70.5,
     "image": "assets/XTEDW00003WE.webp",
@@ -27,14 +28,15 @@
     "ru": "Первое цветение — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEDW00004WE",
     "zh": "心漪",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 141.0,
     "wholesale": 70.5,
     "image": "assets/XTEDW00004WE.webp",
@@ -42,14 +44,15 @@
     "ru": "Рябь сердца — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEDW00005WE",
     "zh": "恋玫之心",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 141.0,
     "wholesale": 70.5,
     "image": "assets/XTEDW00005WE.webp",
@@ -57,14 +60,15 @@
     "ru": "Сердце розы — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEDW00006WE",
     "zh": "素花轻坠",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 126.0,
     "wholesale": 63.0,
     "image": "assets/XTEDW00006WE.webp",
@@ -72,14 +76,15 @@
     "ru": "Нежный цветочный подвес — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEDW00007OT",
     "zh": "向云端耳钉",
     "category": "耳钉",
     "color": "其它/彩色",
-    "material": "白金",
+    "material": "铜",
     "retail": 135.0,
     "wholesale": 67.5,
     "image": "assets/XTEDW00007OT.webp",
@@ -87,7 +92,8 @@
     "ru": "К облакам — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEHC00001WE",
@@ -102,7 +108,8 @@
     "ru": "Застывшая геометрия — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEHC00002WE",
@@ -117,7 +124,8 @@
     "ru": "Алое порхание — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEHC00006BE",
@@ -132,7 +140,8 @@
     "ru": "Мерцание ледяного озера — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEHC00007GN",
@@ -147,7 +156,8 @@
     "ru": "双洲鎏藏Auspicious Clouds & Palace Domes — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "XTEHC00008BE",
@@ -162,7 +172,8 @@
     "ru": "Луна над берёзой — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEHG00001PL",
@@ -177,7 +188,8 @@
     "ru": "Верность себе — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEHG00002PL",
@@ -192,7 +204,8 @@
     "ru": "Мелодия моря — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEHG00003PL",
@@ -207,14 +220,15 @@
     "ru": "Алый золотой шёлк — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTEHW00001BE",
     "zh": "雅鱼系列耳环",
     "category": "耳环",
     "color": "蓝色",
-    "material": "白金",
+    "material": "铜",
     "retail": 441.0,
     "wholesale": 220.5,
     "image": "assets/XTEHW00001BE.webp",
@@ -222,7 +236,8 @@
     "ru": "Коллекция «Изящная рыба» — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTJZG00001G",
@@ -237,7 +252,8 @@
     "ru": "Верность себе — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTJZG00002PL",
@@ -252,7 +268,8 @@
     "ru": "Мелодия моря — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTJZW00001PN",
@@ -267,7 +284,8 @@
     "ru": "Первое цветение — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "XTJZW00002PN",
@@ -282,7 +300,8 @@
     "ru": "Рябь сердца — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "XTJZW00003PN",
@@ -297,7 +316,8 @@
     "ru": "Сердце розы — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "XTJZW00004PN",
@@ -312,7 +332,8 @@
     "ru": "Звёздные лепестки — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "XTJZW00005PN",
@@ -327,7 +348,8 @@
     "ru": "Цветочные отблески — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "XTSHEG00001G",
@@ -342,7 +364,8 @@
     "ru": "Верность себе — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTSLG00001WE",
@@ -357,7 +380,8 @@
     "ru": "Подсолнух — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTSLG00002PL",
@@ -372,14 +396,15 @@
     "ru": "Алый золотой шёлк — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTSLW00002WE",
     "zh": "花簇轻环",
     "category": "手链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 132.0,
     "wholesale": 66.0,
     "image": "assets/XTSLW00002WE.webp",
@@ -387,14 +412,15 @@
     "ru": "Цветочное соцветие — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTSLW00004PL",
     "zh": "盈珠花笺手链",
     "category": "手链",
     "color": "珍珠",
-    "material": "白金",
+    "material": "铜",
     "retail": 129.0,
     "wholesale": 64.5,
     "image": "assets/XTSLW00004PL.webp",
@@ -402,14 +428,15 @@
     "ru": "Жемчужный цветок — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTSLW00005BE",
     "zh": "雅鱼系列手链",
     "category": "手链",
     "color": "蓝色",
-    "material": "白金",
+    "material": "铜",
     "retail": 381.0,
     "wholesale": 190.5,
     "image": "assets/XTSLW00005BE.webp",
@@ -417,14 +444,15 @@
     "ru": "Коллекция «Изящная рыба» — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTSLW00006WE",
     "zh": "心形手链",
     "category": "手链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 177.0,
     "wholesale": 88.5,
     "image": "assets/XTSLW00006WE.webp",
@@ -432,7 +460,8 @@
     "ru": "В форме сердца — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLC00001WE",
@@ -447,7 +476,8 @@
     "ru": "Отражения света — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLC00002PL",
@@ -462,7 +492,8 @@
     "ru": "Кружение мечты — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLC00003PL",
@@ -477,7 +508,8 @@
     "ru": "Любовь звёзд — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLC00006BE",
@@ -492,7 +524,8 @@
     "ru": "Луна над берёзой — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLC00007OT",
@@ -507,7 +540,8 @@
     "ru": "Изящная гармония — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLG00004RD",
@@ -522,7 +556,8 @@
     "ru": "Силуэт — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLG00005RD",
@@ -537,7 +572,8 @@
     "ru": "Силуэт — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLG00006CL",
@@ -552,7 +588,8 @@
     "ru": "Панда-оригами — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLG00007PL",
@@ -567,7 +604,8 @@
     "ru": "Алый золотой шёлк — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLG00008WE",
@@ -582,14 +620,15 @@
     "ru": "Золотая тыква и бамбук — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLW00002PK",
     "zh": "sweet",
     "category": "项链",
     "color": "粉色",
-    "material": "白金",
+    "material": "铜",
     "retail": 165.0,
     "wholesale": 82.5,
     "image": "assets/XTXLW00002PK.webp",
@@ -597,14 +636,15 @@
     "ru": "Нежность — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLW00003WE",
     "zh": "初绽",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 147.0,
     "wholesale": 73.5,
     "image": "assets/XTXLW00003WE.webp",
@@ -612,14 +652,15 @@
     "ru": "Первое цветение — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLW00004WE",
     "zh": "心漪",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 147.0,
     "wholesale": 73.5,
     "image": "assets/XTXLW00004WE.webp",
@@ -627,14 +668,15 @@
     "ru": "Рябь сердца — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLW00005WE",
     "zh": "恋玫之心项链",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 147.0,
     "wholesale": 73.5,
     "image": "assets/XTXLW00005WE.webp",
@@ -642,14 +684,15 @@
     "ru": "Сердце розы — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLW00007PL",
     "zh": "花盈凝露项链",
     "category": "项链",
     "color": "珍珠",
-    "material": "白金",
+    "material": "铜",
     "retail": 129.0,
     "wholesale": 64.5,
     "image": "assets/XTXLW00007PL.webp",
@@ -657,14 +700,15 @@
     "ru": "Цветы в росе — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLW00008OT",
     "zh": "向云端项链",
     "category": "项链",
     "color": "其它/彩色",
-    "material": "白金",
+    "material": "铜",
     "retail": 132.0,
     "wholesale": 66.0,
     "image": "assets/XTXLW00008OT.webp",
@@ -672,14 +716,15 @@
     "ru": "К облакам — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXLW00009BE",
     "zh": "雅鱼系列项链",
     "category": "项链",
     "color": "蓝色",
-    "material": "白金",
+    "material": "铜",
     "retail": 381.0,
     "wholesale": 190.5,
     "image": "assets/XTXLW00009BE.webp",
@@ -687,7 +732,8 @@
     "ru": "Коллекция «Изящная рыба» — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "XTXZEG00001G",
@@ -702,7 +748,8 @@
     "ru": "Навстречу волнам — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTXZEG00003G",
@@ -717,7 +764,8 @@
     "ru": "Восточный шёпот — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTXZEG00004G",
@@ -732,7 +780,8 @@
     "ru": "Дуэт калл — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTXZEG00005BE",
@@ -747,7 +796,8 @@
     "ru": "Бамбук и облака — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTXZEG00009YW",
@@ -762,7 +812,8 @@
     "ru": "Огни города — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTXZEG00010G",
@@ -777,7 +828,8 @@
     "ru": "Взгляд Бастет — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTXZEG00011PL",
@@ -792,7 +844,8 @@
     "ru": "Океан — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "XTXZES00002GN",
@@ -807,7 +860,8 @@
     "ru": "Коллекция «Цветочная фея» — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "XTXZR00001RG",
@@ -822,7 +876,8 @@
     "ru": "Восточный шёпот — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍玫瑰金"
   },
   {
     "sku": "XTXZR00002RG",
@@ -837,7 +892,8 @@
     "ru": "Дуэт калл — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍玫瑰金"
   },
   {
     "sku": "KGDZEG00001OT",
@@ -852,7 +908,8 @@
     "ru": "Вневременная элегантность — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGDZEG00002G",
@@ -867,7 +924,8 @@
     "ru": "Золотое мастерство Шаньвэя · Три самоцвета — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGDZEG00003G",
@@ -882,7 +940,8 @@
     "ru": "Золотое мастерство Шаньвэя · Три самоцвета — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGDZEG00004G",
@@ -897,7 +956,8 @@
     "ru": "Золотое мастерство Шаньвэя · Три самоцвета — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGEHEG00001G",
@@ -912,7 +972,8 @@
     "ru": "Золотое пение птиц — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGEHEG00002BE",
@@ -927,7 +988,8 @@
     "ru": "Прекрасное несовершенство — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGEHEG00003G",
@@ -942,7 +1004,8 @@
     "ru": "Золотая изумрудная грация — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGEHEG00004PE",
@@ -957,7 +1020,8 @@
     "ru": "Аметист на счастье — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGEHEG00005G",
@@ -972,7 +1036,8 @@
     "ru": "Рыба в воде — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGEHEG00006GN",
@@ -987,7 +1052,8 @@
     "ru": "Шёпот чайных листьев — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGEHEG00007G",
@@ -1002,7 +1068,8 @@
     "ru": "Утренний свет — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGEHES00001PN",
@@ -1017,7 +1084,8 @@
     "ru": "Прилив · Застывшее мгновение — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGEHES00002OT",
@@ -1032,7 +1100,8 @@
     "ru": "Резной карп · Врата дракона — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGEHES00003BE",
@@ -1047,7 +1116,8 @@
     "ru": "Эхо океана — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGFSEG00001OT",
@@ -1062,7 +1132,8 @@
     "ru": "Полёт Куньпэна — украшение для волос",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGFSES00001PN",
@@ -1077,7 +1148,8 @@
     "ru": "Прилив · Застывшее мгновение — украшение для волос",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGJZEG00001G",
@@ -1092,7 +1164,8 @@
     "ru": "Золотое пение птиц — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGJZEG00002BE",
@@ -1107,7 +1180,8 @@
     "ru": "Прекрасное несовершенство — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGJZES00001OT",
@@ -1122,7 +1196,8 @@
     "ru": "Инволюция — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGJZES00002OT",
@@ -1137,7 +1212,8 @@
     "ru": "Резной карп · Врата дракона — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGJZES00003GN",
@@ -1152,7 +1228,8 @@
     "ru": "Вьющаяся лоза — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGJZES00004BE",
@@ -1167,7 +1244,8 @@
     "ru": "Эхо океана — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGJZES00005OT",
@@ -1182,7 +1260,8 @@
     "ru": "Фарфоровые грёзы — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGSHES00001PN",
@@ -1197,7 +1276,8 @@
     "ru": "Цзоуу · Книга гор и морей — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXLEG00001G",
@@ -1212,7 +1292,8 @@
     "ru": "Золотое пение птиц — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXLEG00002G",
@@ -1227,7 +1308,8 @@
     "ru": "Пять стихий архитектуры — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXLEG00003GN",
@@ -1242,7 +1324,8 @@
     "ru": "Шёпот чайных листьев — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXLEG00004G",
@@ -1257,7 +1340,8 @@
     "ru": "Утренний свет — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXLES00001OT",
@@ -1272,7 +1356,8 @@
     "ru": "Резной карп · Врата дракона — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXLES00002BE",
@@ -1287,7 +1372,8 @@
     "ru": "Песня океана — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXLES00003GN",
@@ -1302,7 +1388,8 @@
     "ru": "Вьющаяся лоза — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXLES00004BE",
@@ -1317,7 +1404,8 @@
     "ru": "Эхо океана — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXLOT00001OT",
@@ -1332,7 +1420,8 @@
     "ru": "Чешуя дракона — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "KGXLR00001PE",
@@ -1347,7 +1436,8 @@
     "ru": "Аметист на счастье — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍玫瑰金"
   },
   {
     "sku": "KGXZEG00001PK",
@@ -1362,7 +1452,8 @@
     "ru": "Хрустальные цветы на золоте — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXZEG00002BE",
@@ -1377,7 +1468,8 @@
     "ru": "Прекрасное несовершенство — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXZEG00003G",
@@ -1392,7 +1484,8 @@
     "ru": "Лунное сияние урожая — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXZEG00004PE",
@@ -1407,7 +1500,8 @@
     "ru": "Аметист на счастье — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXZEG00005BE",
@@ -1422,7 +1516,8 @@
     "ru": "Львиный танец Чаошаня · Голубая жемчужина — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXZEG00006G",
@@ -1437,7 +1532,8 @@
     "ru": "Очарование пельменя — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍金"
   },
   {
     "sku": "KGXZES00001PN",
@@ -1452,7 +1548,8 @@
     "ru": "Прилив · Застывшее мгновение — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXZES00002GN",
@@ -1467,7 +1564,8 @@
     "ru": "Вьющаяся лоза — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXZES00003PN",
@@ -1482,7 +1580,8 @@
     "ru": "Цзоуу · Книга гор и морей — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXZES00004WE",
@@ -1497,7 +1596,8 @@
     "ru": "Бабочки и орхидеи — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXZES00005PE",
@@ -1512,7 +1612,8 @@
     "ru": "花海 — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXZES00006OT",
@@ -1527,7 +1628,8 @@
     "ru": "Фарфоровые грёзы — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": "電鍍銀"
   },
   {
     "sku": "KGXZOT00001OT",
@@ -1542,7 +1644,8 @@
     "ru": "Чешуя дракона — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": false
+    "translation_review": false,
+    "craft": ""
   },
   {
     "sku": "KGXZR00001RG",
@@ -1557,7 +1660,8 @@
     "ru": "珠映红湾 — брошь",
     "category_en": "Brooch",
     "category_ru": "Брошь",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍玫瑰金"
   },
   {
     "sku": "HXCJAS00001PN",
@@ -1572,7 +1676,8 @@
     "ru": "I.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXCJW00001PN",
@@ -1587,7 +1692,8 @@
     "ru": "复古雕花不锈钢勺子 — столовые приборы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXCJW00002PN",
@@ -1602,7 +1708,8 @@
     "ru": "不锈钢骷髅头勺子 — столовые приборы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXCJW00003PN",
@@ -1617,7 +1724,8 @@
     "ru": "亚马逊欧美复古骷髅头刀子 — столовые приборы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXCJW00004PN",
@@ -1632,7 +1740,8 @@
     "ru": "复古雕花茶刀 — столовые приборы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXCJW00005PN",
@@ -1647,7 +1756,8 @@
     "ru": "复古不锈钢骷髅头叉子 — столовые приборы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXCJW00006PN",
@@ -1662,7 +1772,8 @@
     "ru": "复古雕玫瑰花不锈钢叉子 — столовые приборы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00001",
@@ -1677,7 +1788,8 @@
     "ru": "浩兴钛钢饰品跨境热销骷髅头个性复古爱心眼睛嘻哈朋克项链男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00002",
@@ -1692,7 +1804,8 @@
     "ru": "浩兴新款钛钢尼泊尔波若法眼黄财神佛眼唐卡吊坠项链配饰新品男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00003",
@@ -1707,7 +1820,8 @@
     "ru": "外贸新北欧神话奥丁坐骑双乌鸦吊坠复古维京海盗图腾项链男女批发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00004",
@@ -1722,7 +1836,8 @@
     "ru": "欧美复古风不掉色骷髅头项链 钛钢朋克嘻哈项链男 跨境饰品毛衣链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00005",
@@ -1737,7 +1852,8 @@
     "ru": "跨境潮酷钛钢项链高级感不掉色男 印第安猫头鹰兔子毛衣链外贸 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00006",
@@ -1752,7 +1868,8 @@
     "ru": "新款设计北欧维京图案文字吊坠 钛钢双面配饰新品不掉色项链男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00007",
@@ -1767,7 +1884,8 @@
     "ru": "钛钢饰品高级感精致维京海盗奥丁指南针三角结男士护身符吊坠项链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00008",
@@ -1782,7 +1900,8 @@
     "ru": "国潮复古新款钛钢观音菩萨吊坠男项链挂件送男友工厂直销 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00009",
@@ -1797,7 +1916,8 @@
     "ru": "复古钛钢项链男款嘻哈小众醒狮高级感国潮个性卫衣毛衣链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00010",
@@ -1812,7 +1932,8 @@
     "ru": "北欧护身符项链维京乌鸦黑鸟凯尔特乌鸦项链男士钛钢饰品货源直发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00011",
@@ -1827,7 +1948,8 @@
     "ru": "跨境新款项链酷酷的女钛钢项链不锈钢古装美女吊坠新款不掉色项链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00012",
@@ -1842,7 +1964,8 @@
     "ru": "欧美新款 黑金刚猩猩钛钢男士项链 万圣节骷髅头不锈钢项链批发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00013",
@@ -1857,7 +1980,8 @@
     "ru": "维京托尔托斧头凯尔特狼钛钢吊坠项链男士欧美不锈钢饰品项链批发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00014",
@@ -1872,7 +1996,8 @@
     "ru": "浩兴钢饰欧美斯巴达勇士双斧头不锈钢项链个性嘻哈潮流钛钢配饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00015",
@@ -1887,7 +2012,8 @@
     "ru": "街头嘻哈钛钢飞机项链蹦迪趣味吊坠百搭颈链hiphop个性男生毛衣链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00016",
@@ -1902,7 +2028,8 @@
     "ru": "跨境专供欧美维京太阳荷鲁斯之眼设计感 复古钛钢项饰项链饰品男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00017",
@@ -1917,7 +2044,8 @@
     "ru": "跨境专供维京海盗船锚吊坠项链批发外贸新款复古不锈钢项链饰配饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00018",
@@ -1932,7 +2060,8 @@
     "ru": "潮男嘻哈手握骷髅头项链个性钛钢吊坠复古项链配饰亚马逊欧美货源 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00019",
@@ -1947,7 +2076,8 @@
     "ru": "潮男嘻哈手握骷髅头项链个性钛钢吊坠复古项链配饰亚马逊欧美货源 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00020",
@@ -1962,7 +2092,8 @@
     "ru": "嘻哈酷炫Viking符文狼头吊坠项链复古不锈钢男式狼头项链潮配饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00021",
@@ -1977,7 +2108,8 @@
     "ru": "亚马逊北欧神话维京乌鸦项链男士复古吊坠毛衣链不锈钢饰品批发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00022",
@@ -1992,7 +2124,8 @@
     "ru": "跨境电商货源批发2022年新款钛钢ins风街头潮牌嘻哈老鹰项链 男生 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00023",
@@ -2007,7 +2140,8 @@
     "ru": "复古民族风双头金刚杵钛钢金刚橛降魔杵守护神不锈钢男项链毛衣链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00024",
@@ -2022,7 +2156,8 @@
     "ru": "屠龙勇士嘻哈吊坠项链男士欧美INS饰品朋克配饰外贸新款 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00025",
@@ -2037,7 +2172,8 @@
     "ru": "2023年个性潮酷男hiphop枫叶钛钢图案项链时尚街头不锈钢吊坠饰品 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00026",
@@ -2052,7 +2188,8 @@
     "ru": "九宫吊坠钛钢饰品男女情侣款复古十二生肖时来运转护身符项链挂件 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00027",
@@ -2067,7 +2204,8 @@
     "ru": "狼牙项链同款钛钢不锈钢复古霸气嘻哈个性配饰吊坠项链男潮港风 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00028",
@@ -2082,7 +2220,8 @@
     "ru": "供应欧美饰品批发 个性潮流霸气男士吊坠龙项链 毛衣链项链高级感 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00029",
@@ -2097,7 +2236,8 @@
     "ru": "新款国潮彩绘镶钻九尾狐唐卡钛钢复古吊坠项链男士个性时尚毛衣链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00030",
@@ -2112,7 +2252,8 @@
     "ru": "欧美跨境饰品邪恶小丑笑脸项链不锈钢吊坠男士复古潮牌钛钢配饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00031",
@@ -2127,7 +2268,8 @@
     "ru": "欧美爆款跨境潮流嘻哈不锈钢英文A~Z方牌字母DIY名字吊坠项链配链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00032",
@@ -2142,7 +2284,8 @@
     "ru": "自由女神钛钢项链男款嘻哈小众男士男生痞帅卫衣长款毛衣链潮 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00033",
@@ -2157,7 +2300,8 @@
     "ru": "跨境北欧凯尔特维京乌鸦钛钢吊坠欧美男士不锈钢项链嘻哈男士配饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00034",
@@ -2172,7 +2316,8 @@
     "ru": "亚马逊货源2022虎年本命年钛钢老虎头卫衣长款男士毛衣项链批发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00035",
@@ -2187,7 +2332,8 @@
     "ru": "跨境不锈钢哥特风公鸡头吊坠项链批发 外贸复古暗黑钛钢镶石饰品 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00036",
@@ -2202,7 +2348,8 @@
     "ru": "钛钢不掉色吊坠项链 外贸嘻哈风街舞爱情骷髅项链男百搭高级感 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00037",
@@ -2217,7 +2364,8 @@
     "ru": "热销配饰跨境专供维京海盗船锚项链饰品男 \t钛钢不掉色高级感项链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00038",
@@ -2232,7 +2380,8 @@
     "ru": "跨境市场新品专供钛钢不掉色饰品复古北欧维京战斧钛钢项链现货 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00039",
@@ -2247,7 +2396,8 @@
     "ru": "亚马逊新品男士钛钢复古项链北欧维京雷神海盗船锚不锈钢吊坠项饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00040",
@@ -2262,7 +2412,8 @@
     "ru": "海丰梅陇工厂饰品批发不锈钢火箭创意个性男士钛钢项链亚马逊货源 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00041",
@@ -2277,7 +2428,8 @@
     "ru": "浩兴国潮男款钛钢舞狮项链嘻哈街头风创意不掉色吊坠项链批发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00042",
@@ -2292,7 +2444,8 @@
     "ru": "2024市场新品不锈钢复古维京雷锤吊坠项链挂坠配饰钛钢饰品配饰 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00043",
@@ -2307,7 +2460,8 @@
     "ru": "wish新品热销欧美创意设计复古骷髅头项链男士 不锈钢饰品批发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00044",
@@ -2322,7 +2476,8 @@
     "ru": "钛钢生肖马吊坠复古欧美独角兽项链男女个性潮人小马配饰毛衣链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00045",
@@ -2337,7 +2492,8 @@
     "ru": "跨境 热销欧美镂空骷髅头 钛钢 男士哥特式朋克吊坠不锈钢项链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00046",
@@ -2352,7 +2508,8 @@
     "ru": "新款霸气龙纹骷髅头子弹头钛钢项链吊坠男潮嘻哈个性男士配饰项链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00047",
@@ -2367,7 +2524,8 @@
     "ru": "欧美流行首饰批发爆款大灰熊项链圆形熊爪附身符钛钢吊坠项链男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00048",
@@ -2382,7 +2540,8 @@
     "ru": "钛钢跨境欧美复古男士项链 鸟巢吊坠ins个性时尚男女配饰新品 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00049",
@@ -2397,7 +2556,8 @@
     "ru": "复古项链男潮牌九节虾吊坠欧美街拍百搭个性不锈钢男士项链小众 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00050",
@@ -2412,7 +2572,8 @@
     "ru": "直播货源北欧护身符歌特式海盗战斧项链 复古嘻哈钛钢毛衣链男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00051",
@@ -2427,7 +2588,8 @@
     "ru": "复古民族风海丰梅陇县小众高级项链轻奢钛钢不掉色舞狮项链男生 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00052",
@@ -2442,7 +2604,8 @@
     "ru": "钛钢项链不掉色饰品批发吊坠释迦牟尼不锈钢百搭男士复古项链 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00053",
@@ -2457,7 +2620,8 @@
     "ru": "海丰县梅陇钛钢饰品厂家男士船锚长款复古项链 跨境一件代发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00054",
@@ -2472,7 +2636,8 @@
     "ru": "浩兴北欧维京动物双狼头符文个性男男士凯尔特不锈钢项链饰品男 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZ00055",
@@ -2487,7 +2652,8 @@
     "ru": "浩兴 欧美螃蟹钳镶石钛钢复古吊坠项链 男生个性不掉色毛衣链批发 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZAS00039PN",
@@ -2502,7 +2668,8 @@
     "ru": "复古维京人男士钛钢吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZAS00065PN",
@@ -2517,7 +2684,8 @@
     "ru": "复古人像椭圆形吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZAS00066PN",
@@ -2532,7 +2700,8 @@
     "ru": "生命树圆形吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZAS00083PN",
@@ -2547,7 +2716,8 @@
     "ru": "凯尔特维京乌鸦吊牌 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZG00001BK",
@@ -2562,7 +2732,8 @@
     "ru": "骷髅腰束口吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZG00002PN",
@@ -2577,7 +2748,8 @@
     "ru": "十字架朋克嘻哈吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZG00003PN",
@@ -2592,7 +2764,8 @@
     "ru": "跨欧洲希腊神话美女吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZG00004GN",
@@ -2607,7 +2780,8 @@
     "ru": "复古印第双羽毛松石吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZG00005OT",
@@ -2622,7 +2796,8 @@
     "ru": "大鹏鸟十字架金刚乌盒吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00001OT",
@@ -2637,7 +2812,8 @@
     "ru": "猫咪吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00002GN",
@@ -2652,7 +2828,8 @@
     "ru": "复古男士狮子吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00003GN",
@@ -2667,7 +2844,8 @@
     "ru": "复古嘻哈男士吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00004GN",
@@ -2682,7 +2860,8 @@
     "ru": "牛气冲天嘻哈潮酷吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00005GN",
@@ -2697,7 +2876,8 @@
     "ru": "欧美男士高级感生肖吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00006GN",
@@ -2712,7 +2892,8 @@
     "ru": "复古绿松石眼睛老虎吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00007GN",
@@ -2727,7 +2908,8 @@
     "ru": "复古西伯利亚狼吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00008GN",
@@ -2742,7 +2924,8 @@
     "ru": "复古颜色眼睛镶嵌猪吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00009PN",
@@ -2757,7 +2940,8 @@
     "ru": "复古骷髅头项圈比特犬吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00010PN",
@@ -2772,7 +2956,8 @@
     "ru": "复古做旧六翼天使吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00011PN",
@@ -2787,7 +2972,8 @@
     "ru": "骷髅造型金属吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00012RD",
@@ -2802,7 +2988,8 @@
     "ru": "复古红滴胶工装马丁靴吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00013PN",
@@ -2817,7 +3004,8 @@
     "ru": "处女座星座军牌吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00014PN",
@@ -2832,7 +3020,8 @@
     "ru": "复古国风武财神吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00015PN",
@@ -2847,7 +3036,8 @@
     "ru": "雷神之锤维京符文吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00016PN",
@@ -2862,7 +3052,8 @@
     "ru": "六芒星骷髅十字架吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00017BE",
@@ -2877,7 +3068,8 @@
     "ru": "复古做旧银鹰爪蓝水晶球吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00018PN",
@@ -2892,7 +3084,8 @@
     "ru": "复古凤凰小梳子吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00019YW",
@@ -2907,7 +3100,8 @@
     "ru": "复古做旧风格吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00020BE",
@@ -2922,7 +3116,8 @@
     "ru": "双层叠加羽毛立体吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00021PN",
@@ -2937,7 +3132,8 @@
     "ru": "复古哥特风十字架吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00022BE",
@@ -2952,7 +3148,8 @@
     "ru": "绿松石展翅雄鹰复古吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00023PN",
@@ -2967,7 +3164,8 @@
     "ru": "高桥吾郎骨形十字架吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00024PN",
@@ -2982,7 +3180,8 @@
     "ru": "印第安疗愈之手 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00025PN",
@@ -2997,7 +3196,8 @@
     "ru": "复古拳击手套吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00026PN",
@@ -3012,7 +3212,8 @@
     "ru": "骷髅摇滚礼手势吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00027PN",
@@ -3027,7 +3228,8 @@
     "ru": "荷鲁斯之眼太阳复古吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00028PN",
@@ -3042,7 +3244,8 @@
     "ru": "高桥吾郎复古羽毛吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00029PN",
@@ -3057,7 +3260,8 @@
     "ru": "镂空狼头立体浮雕吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00030PN",
@@ -3072,7 +3276,8 @@
     "ru": "六芒星十二星座圆牌吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00031PN",
@@ -3087,7 +3292,8 @@
     "ru": "圣若瑟抱耶稣吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00032PN",
@@ -3102,7 +3308,8 @@
     "ru": "圆形浮雕吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00033PN",
@@ -3117,7 +3324,8 @@
     "ru": "巴风特倒镂空吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXDZW00034PN",
@@ -3132,7 +3340,8 @@
     "ru": "国风瑞兽貔貅吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXGJG00001OT",
@@ -3147,7 +3356,8 @@
     "ru": "国风醒狮挂件 — подвесной аксессуар",
     "category_en": "Charm",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXJZAS00001PN",
@@ -3162,7 +3372,8 @@
     "ru": "1 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZAS00002PN",
@@ -3177,7 +3388,8 @@
     "ru": "贤者大主教钛钢吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00005PN",
@@ -3192,7 +3404,8 @@
     "ru": "复古三角符文吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00006PN",
@@ -3207,7 +3420,8 @@
     "ru": "复古圣母吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00007PN",
@@ -3222,7 +3436,8 @@
     "ru": "雷神之锤奥丁指南针吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00008PN",
@@ -3237,7 +3452,8 @@
     "ru": "埃及风hiphop生命十字架吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00009PN",
@@ -3252,7 +3468,8 @@
     "ru": "船锚雷神之锤吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00010PN",
@@ -3267,7 +3484,8 @@
     "ru": "复古十字架耶稣吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00011PN",
@@ -3282,7 +3500,8 @@
     "ru": "个性朋克复古吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00012PN",
@@ -3297,7 +3516,8 @@
     "ru": "海盗王双斧头吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZC00004RD",
@@ -3312,7 +3532,8 @@
     "ru": "绿色港狮平安挂件 — подвесной аксессуар",
     "category_en": "Charm",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZG00001G",
@@ -3327,7 +3548,8 @@
     "ru": "中古风西洋复古雕狮子戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍金"
   },
   {
     "sku": "HXJZSS00001BK",
@@ -3342,7 +3564,8 @@
     "ru": "盘龙戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍黑"
   },
   {
     "sku": "HXJZSS00003BK",
@@ -3357,7 +3580,8 @@
     "ru": "醒狮戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍黑"
   },
   {
     "sku": "HXJZSS00004BK",
@@ -3372,7 +3596,8 @@
     "ru": "醒狮松石吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍黑"
   },
   {
     "sku": "HXJZW00001PN",
@@ -3387,7 +3612,8 @@
     "ru": "高级感复古重工眼睛戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00002PN",
@@ -3402,7 +3628,8 @@
     "ru": "钛钢金雕狮子戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00003PN",
@@ -3417,7 +3644,8 @@
     "ru": "美式复古LOVE戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00004PN",
@@ -3432,7 +3660,8 @@
     "ru": "魔兽世界原创戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00005RD",
@@ -3447,7 +3676,8 @@
     "ru": "跨境热卖眼睛个性复古戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00006BE",
@@ -3462,7 +3692,8 @@
     "ru": "欧美复古蓝松石八芒星戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00007RD",
@@ -3477,7 +3708,8 @@
     "ru": "复古哥特宽版红钻十字架戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00008PN",
@@ -3492,7 +3724,8 @@
     "ru": "浮雕十字架宽版戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00009PN",
@@ -3507,7 +3740,8 @@
     "ru": "复古做旧风格鹰徽戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00010PN",
@@ -3522,7 +3756,8 @@
     "ru": "复古双色鹰翼星芒戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00011BK",
@@ -3537,7 +3772,8 @@
     "ru": "船锚主题复古做旧戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00012BK",
@@ -3552,7 +3788,8 @@
     "ru": "凯尔特同心结宽版复古戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00013PN",
@@ -3567,7 +3804,8 @@
     "ru": "藏传六字真言戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXJZW00014PN",
@@ -3582,7 +3820,8 @@
     "ru": "耶路撒冷十字方戒 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSH00001",
@@ -3597,7 +3836,8 @@
     "ru": "跨境北欧维京海盗钛钢复古双头龙开口实心麻花编织手镯男手环 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXSHES00001OT",
@@ -3612,7 +3852,8 @@
     "ru": "九宫八卦手镯 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSHES00002PN",
@@ -3627,7 +3868,8 @@
     "ru": "重工紧箍咒金刚手镯 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSHES00003G",
@@ -3642,7 +3884,8 @@
     "ru": "复古北欧乌鸦手镯 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSHES00004PN",
@@ -3657,7 +3900,8 @@
     "ru": "大话西游金箍棒手镯 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSHES00005PN",
@@ -3672,7 +3916,8 @@
     "ru": "镂空麻花编织开口手镯 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSHES00006PN",
@@ -3687,7 +3932,8 @@
     "ru": "双如意祥云开口安全链手镯 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSHES00007PN",
@@ -3702,7 +3948,8 @@
     "ru": "古巴链开口亮面手镯 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSHES00008PN",
@@ -3717,7 +3964,8 @@
     "ru": "粗款镂空古巴链开口手镯 — жёсткий браслет",
     "category_en": "Bangle",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "HXSLBL00001BE",
@@ -3732,7 +3980,8 @@
     "ru": "玻璃材质月光石蓝色蝴蝶手串 — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXSLW00001PN",
@@ -3747,7 +3996,8 @@
     "ru": "复古民族风霸气男士手链 — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXSLW00002PN",
@@ -3762,7 +4012,8 @@
     "ru": "男士复古夸张手链 — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXL00001",
@@ -3777,7 +4028,8 @@
     "ru": "海丰梅陇浩兴欧美嘻哈潮牌个性尤达大师卡通电护身符项链毛衣链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXL00002",
@@ -3792,7 +4044,8 @@
     "ru": "钛钢镀金镶石吊坠本命佛挂件守护神十二生肖属相男款佛牌项链男士 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXL00003",
@@ -3807,7 +4060,8 @@
     "ru": "抖音同款厂家钛钢如来关公佛像佛牌复古不锈钢守护神吊坠项链代发 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXL00004",
@@ -3822,7 +4076,8 @@
     "ru": "欧美外贸饰品饰品十字架盾牌男士不脱色毛衣链小众嘻哈项链 钛钢 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXL00005",
@@ -3837,7 +4092,8 @@
     "ru": "浩兴源头厂家欧美复古潮货祈祷之手不锈钢个性小众吊坠项链男士 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXL00006",
@@ -3852,7 +4108,8 @@
     "ru": "浩兴厂家钛钢饰品男士欧美hiphop嘻哈风潮牌金蟾项链长款 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00001BK",
@@ -3867,7 +4124,8 @@
     "ru": "H.关公 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00002BK",
@@ -3882,7 +4140,8 @@
     "ru": "H.观音 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00003BK",
@@ -3897,7 +4156,8 @@
     "ru": "H.黄财神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00004BK",
@@ -3912,7 +4172,8 @@
     "ru": "H.莲花大师 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00005BK",
@@ -3927,7 +4188,8 @@
     "ru": "H.六字真言 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00006BK",
@@ -3942,7 +4204,8 @@
     "ru": "H.玛哈嘎拉 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00007BK",
@@ -3957,7 +4220,8 @@
     "ru": "H.弥勒佛 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00008BK",
@@ -3972,7 +4236,8 @@
     "ru": "H.貔貅 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00009BK",
@@ -3987,7 +4252,8 @@
     "ru": "H.湿婆神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00010BK",
@@ -4002,7 +4268,8 @@
     "ru": "H.泰国释迦摩尼佛 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00011PN",
@@ -4017,7 +4284,8 @@
     "ru": "I.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00012PN",
@@ -4032,7 +4300,8 @@
     "ru": "I.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00013PN",
@@ -4047,7 +4316,8 @@
     "ru": "I.大日如来 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00014PN",
@@ -4062,7 +4332,8 @@
     "ru": "I.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00016PN",
@@ -4077,7 +4348,8 @@
     "ru": "I.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00017PN",
@@ -4092,7 +4364,8 @@
     "ru": "I.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00018PN",
@@ -4107,7 +4380,8 @@
     "ru": "I.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00019PN",
@@ -4122,7 +4396,8 @@
     "ru": "J.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00020PN",
@@ -4137,7 +4412,8 @@
     "ru": "J.不动明王（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00021PN",
@@ -4152,7 +4428,8 @@
     "ru": "J.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00022PN",
@@ -4167,7 +4444,8 @@
     "ru": "J.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00023PN",
@@ -4182,7 +4460,8 @@
     "ru": "J.地藏王菩萨 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00024PN",
@@ -4197,7 +4476,8 @@
     "ru": "J.关公 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00025PN",
@@ -4212,7 +4492,8 @@
     "ru": "J.观音菩萨 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00026PN",
@@ -4227,7 +4508,8 @@
     "ru": "J.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00027PN",
@@ -4242,7 +4524,8 @@
     "ru": "J.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00028PN",
@@ -4257,7 +4540,8 @@
     "ru": "J.泰国释迦摩尼佛 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00029PN",
@@ -4272,7 +4556,8 @@
     "ru": "J.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00030PN",
@@ -4287,7 +4572,8 @@
     "ru": "J.象神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00031PN",
@@ -4302,7 +4588,8 @@
     "ru": "J.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00032PN",
@@ -4317,7 +4604,8 @@
     "ru": "J.印度湿婆神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00034PN",
@@ -4332,7 +4620,8 @@
     "ru": "M.大日如来 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00035PN",
@@ -4347,7 +4636,8 @@
     "ru": "M.观音菩萨 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00036PN",
@@ -4362,7 +4652,8 @@
     "ru": "M.黄财神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00037PN",
@@ -4377,7 +4668,8 @@
     "ru": "M.多杰修登 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00038PN",
@@ -4392,7 +4684,8 @@
     "ru": "M.象神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00039PN",
@@ -4407,7 +4700,8 @@
     "ru": "M.貔貅 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00040PN",
@@ -4422,7 +4716,8 @@
     "ru": "M.玛哈嘎拉 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00041PN",
@@ -4437,7 +4732,8 @@
     "ru": "M.六字真言 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00043YW",
@@ -4452,7 +4748,8 @@
     "ru": "L.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00044YW",
@@ -4467,7 +4764,8 @@
     "ru": "L.虚空藏菩萨 （生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00045YW",
@@ -4482,7 +4780,8 @@
     "ru": "L.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00046YW",
@@ -4497,7 +4796,8 @@
     "ru": "L.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00047YW",
@@ -4512,7 +4812,8 @@
     "ru": "L.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00048YW",
@@ -4527,7 +4828,8 @@
     "ru": "L.观音菩萨 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00049YW",
@@ -4542,7 +4844,8 @@
     "ru": "L.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00050YW",
@@ -4557,7 +4860,8 @@
     "ru": "L.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00051YW",
@@ -4572,7 +4876,8 @@
     "ru": "L.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00052YW",
@@ -4587,7 +4892,8 @@
     "ru": "N.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00053YW",
@@ -4602,7 +4908,8 @@
     "ru": "N.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00054YW",
@@ -4617,7 +4924,8 @@
     "ru": "N.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00055YW",
@@ -4632,7 +4940,8 @@
     "ru": "N.不动明王（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00056YW",
@@ -4647,7 +4956,8 @@
     "ru": "N.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00057YW",
@@ -4662,7 +4972,8 @@
     "ru": "N.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00058YW",
@@ -4677,7 +4988,8 @@
     "ru": "N.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00059YW",
@@ -4692,7 +5004,8 @@
     "ru": "N.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00060YW",
@@ -4707,7 +5020,8 @@
     "ru": "O.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00061YW",
@@ -4722,7 +5036,8 @@
     "ru": "O.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00062YW",
@@ -4737,7 +5052,8 @@
     "ru": "O.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00063YW",
@@ -4752,7 +5068,8 @@
     "ru": "O.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00064YW",
@@ -4767,7 +5084,8 @@
     "ru": "O.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00065YW",
@@ -4782,7 +5100,8 @@
     "ru": "O.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00066YW",
@@ -4797,7 +5116,8 @@
     "ru": "O.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00067PN",
@@ -4812,7 +5132,8 @@
     "ru": "O.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00068PN",
@@ -4827,7 +5148,8 @@
     "ru": "P.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00069PN",
@@ -4842,7 +5164,8 @@
     "ru": "P.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00070PN",
@@ -4857,7 +5180,8 @@
     "ru": "P.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00071PN",
@@ -4872,7 +5196,8 @@
     "ru": "P.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00072PN",
@@ -4887,7 +5212,8 @@
     "ru": "P.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00073PN",
@@ -4902,7 +5228,8 @@
     "ru": "P.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00074PN",
@@ -4917,7 +5244,8 @@
     "ru": "P.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00075PN",
@@ -4932,7 +5260,8 @@
     "ru": "P.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00076PN",
@@ -4947,7 +5276,8 @@
     "ru": "Q.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00077PN",
@@ -4962,7 +5292,8 @@
     "ru": "Q.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00078PN",
@@ -4977,7 +5308,8 @@
     "ru": "Q.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00079PN",
@@ -4992,7 +5324,8 @@
     "ru": "Q.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00080PN",
@@ -5007,7 +5340,8 @@
     "ru": "Q.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00081PN",
@@ -5022,7 +5356,8 @@
     "ru": "Q.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00082PN",
@@ -5037,7 +5372,8 @@
     "ru": "Q.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLAS00083PN",
@@ -5052,7 +5388,8 @@
     "ru": "Q.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLS00001YW",
@@ -5067,7 +5404,8 @@
     "ru": "A阿弥陀佛（生肖狗猪) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00001BE",
@@ -5082,7 +5420,8 @@
     "ru": "R.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00002BE",
@@ -5097,7 +5436,8 @@
     "ru": "R.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00003BE",
@@ -5112,7 +5452,8 @@
     "ru": "R.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00004BE",
@@ -5127,7 +5468,8 @@
     "ru": "R.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00005BE",
@@ -5142,7 +5484,8 @@
     "ru": "R.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00006BE",
@@ -5157,7 +5500,8 @@
     "ru": "R.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00007BE",
@@ -5172,7 +5516,8 @@
     "ru": "R.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00008BE",
@@ -5187,7 +5532,8 @@
     "ru": "R.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00009YW",
@@ -5202,7 +5548,8 @@
     "ru": "S.大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00010YW",
@@ -5217,7 +5564,8 @@
     "ru": "S.普贤（生肖龙蛇) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00011YW",
@@ -5232,7 +5580,8 @@
     "ru": "S.大势至菩萨（生肖马) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00012YW",
@@ -5247,7 +5596,8 @@
     "ru": "S.不动尊（生肖鸡) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00013YW",
@@ -5262,7 +5612,8 @@
     "ru": "S.阿弥陀佛（生肖狗猪) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00014YW",
@@ -5277,7 +5628,8 @@
     "ru": "S.虚空藏（生肖牛虎) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00015YW",
@@ -5292,7 +5644,8 @@
     "ru": "S.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00016YW",
@@ -5307,7 +5660,8 @@
     "ru": "S.文殊菩萨（生肖兔) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00017YW",
@@ -5322,7 +5676,8 @@
     "ru": "T.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00018YW",
@@ -5337,7 +5692,8 @@
     "ru": "T.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00019YW",
@@ -5352,7 +5708,8 @@
     "ru": "T.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00020YW",
@@ -5367,7 +5724,8 @@
     "ru": "T.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00021YW",
@@ -5382,7 +5740,8 @@
     "ru": "T.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00022YW",
@@ -5397,7 +5756,8 @@
     "ru": "T.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00023YW",
@@ -5412,7 +5772,8 @@
     "ru": "T.普贤菩萨(生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00024YW",
@@ -5427,7 +5788,8 @@
     "ru": "T.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00025BK",
@@ -5442,7 +5804,8 @@
     "ru": "U.虚空藏（生肖牛虎 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00026BK",
@@ -5457,7 +5820,8 @@
     "ru": "U.阿弥陀佛（生肖狗猪) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00027BK",
@@ -5472,7 +5836,8 @@
     "ru": "U.不动尊（生肖鸡) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00028BK",
@@ -5487,7 +5852,8 @@
     "ru": "U.大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00029BK",
@@ -5502,7 +5868,8 @@
     "ru": "U.普贤（生肖龙蛇) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00030BK",
@@ -5517,7 +5884,8 @@
     "ru": "U.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00031BK",
@@ -5532,7 +5900,8 @@
     "ru": "U.文殊菩萨（生肖兔) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00032BK",
@@ -5547,7 +5916,8 @@
     "ru": "U.大势至菩萨（生肖马) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00033YW",
@@ -5562,7 +5932,8 @@
     "ru": "V.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00034YW",
@@ -5577,7 +5948,8 @@
     "ru": "V.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00035YW",
@@ -5592,7 +5964,8 @@
     "ru": "V.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00036YW",
@@ -5607,7 +5980,8 @@
     "ru": "V.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00037YW",
@@ -5622,7 +5996,8 @@
     "ru": "V.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00038YW",
@@ -5637,7 +6012,8 @@
     "ru": "V.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00039YW",
@@ -5652,7 +6028,8 @@
     "ru": "V.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00040YW",
@@ -5667,7 +6044,8 @@
     "ru": "V.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00041YW",
@@ -5682,7 +6060,8 @@
     "ru": "W.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00042YW",
@@ -5697,7 +6076,8 @@
     "ru": "W.普贤（生肖龙蛇) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00043YW",
@@ -5712,7 +6092,8 @@
     "ru": "W.大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00044YW",
@@ -5727,7 +6108,8 @@
     "ru": "W.不动尊（生肖鸡) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00045YW",
@@ -5742,7 +6124,8 @@
     "ru": "W.阿弥陀佛（生肖狗) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00046YW",
@@ -5757,7 +6140,8 @@
     "ru": "W.文殊菩萨（生肖兔) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00047YW",
@@ -5772,7 +6156,8 @@
     "ru": "W.大势至菩萨（生肖马) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00048YW",
@@ -5787,7 +6172,8 @@
     "ru": "W.虚空藏（生肖牛虎) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00049BE",
@@ -5802,7 +6188,8 @@
     "ru": "X.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00050BE",
@@ -5817,7 +6204,8 @@
     "ru": "X.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00051BE",
@@ -5832,7 +6220,8 @@
     "ru": "X.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00052BE",
@@ -5847,7 +6236,8 @@
     "ru": "X.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00053BE",
@@ -5862,7 +6252,8 @@
     "ru": "X.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00054BE",
@@ -5877,7 +6268,8 @@
     "ru": "X.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00055BE",
@@ -5892,7 +6284,8 @@
     "ru": "X.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00056BE",
@@ -5907,7 +6300,8 @@
     "ru": "X.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00057BE",
@@ -5922,7 +6316,8 @@
     "ru": "Y.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00058BE",
@@ -5937,7 +6332,8 @@
     "ru": "Y.不动尊菩萨 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00059BE",
@@ -5952,7 +6348,8 @@
     "ru": "Y.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00060BE",
@@ -5967,7 +6364,8 @@
     "ru": "Y.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00061BE",
@@ -5982,7 +6380,8 @@
     "ru": "Y.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00062BE",
@@ -5997,7 +6396,8 @@
     "ru": "Y.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00063BE",
@@ -6012,7 +6412,8 @@
     "ru": "Y.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00064BE",
@@ -6027,7 +6428,8 @@
     "ru": "Y.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00065YW",
@@ -6042,7 +6444,8 @@
     "ru": "Z.大势至菩萨（生肖马) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00066YW",
@@ -6057,7 +6460,8 @@
     "ru": "Y.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00067YW",
@@ -6072,7 +6476,8 @@
     "ru": "Z.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00068YW",
@@ -6087,7 +6492,8 @@
     "ru": "Z.不动尊菩萨（生肖鸡) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00069YW",
@@ -6102,7 +6508,8 @@
     "ru": "Z.大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00070YW",
@@ -6117,7 +6524,8 @@
     "ru": "Z.普贤（生肖龙蛇) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00071YW",
@@ -6132,7 +6540,8 @@
     "ru": "Z.文殊菩萨（生肖兔) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLSS00072YW",
@@ -6147,7 +6556,8 @@
     "ru": "Z.虚空藏（生肖牛虎) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00001YW",
@@ -6162,7 +6572,8 @@
     "ru": "打火机项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00002PN",
@@ -6177,7 +6588,8 @@
     "ru": "金色三角形项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00003PN",
@@ -6192,7 +6604,8 @@
     "ru": "金属大气圆珠银色项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00004PN",
@@ -6207,7 +6620,8 @@
     "ru": "金属大气金色圆珠项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00005YW",
@@ -6222,7 +6636,8 @@
     "ru": "A虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00006YW",
@@ -6237,7 +6652,8 @@
     "ru": "A.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00007YW",
@@ -6252,7 +6668,8 @@
     "ru": "普贤菩萨（生肖龙蛇) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00008YW",
@@ -6267,7 +6684,8 @@
     "ru": "不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00009YW",
@@ -6282,7 +6700,8 @@
     "ru": "大日如来（生肖羊猴) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00010YW",
@@ -6297,7 +6716,8 @@
     "ru": "千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00011YW",
@@ -6312,7 +6732,8 @@
     "ru": "大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00012YW",
@@ -6327,7 +6748,8 @@
     "ru": "B.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00013YW",
@@ -6342,7 +6764,8 @@
     "ru": "B.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00014YW",
@@ -6357,7 +6780,8 @@
     "ru": "B.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00015YW",
@@ -6372,7 +6796,8 @@
     "ru": "B.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00016YW",
@@ -6387,7 +6812,8 @@
     "ru": "B.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00017YW",
@@ -6402,7 +6828,8 @@
     "ru": "B.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00018YW",
@@ -6417,7 +6844,8 @@
     "ru": "B.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00019YW",
@@ -6432,7 +6860,8 @@
     "ru": "B.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00020YW",
@@ -6447,7 +6876,8 @@
     "ru": "C.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00021YW",
@@ -6462,7 +6892,8 @@
     "ru": "C.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00022YW",
@@ -6477,7 +6908,8 @@
     "ru": "C.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00023YW",
@@ -6492,7 +6924,8 @@
     "ru": "C.普贤菩萨（生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00024YW",
@@ -6507,7 +6940,8 @@
     "ru": "C.千手观音（生肖鼠) — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00025YW",
@@ -6522,7 +6956,8 @@
     "ru": "C.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00026YW",
@@ -6537,7 +6972,8 @@
     "ru": "C.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00027YW",
@@ -6552,7 +6988,8 @@
     "ru": "C.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00028YW",
@@ -6567,7 +7004,8 @@
     "ru": "D.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00029YW",
@@ -6582,7 +7020,8 @@
     "ru": "D.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00030YW",
@@ -6597,7 +7036,8 @@
     "ru": "D.普贤菩萨(生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00031YW",
@@ -6612,7 +7052,8 @@
     "ru": "D.黄财神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00032YW",
@@ -6627,7 +7068,8 @@
     "ru": "D.观音菩萨 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00033YW",
@@ -6642,7 +7084,8 @@
     "ru": "D.大势至菩萨（生肖马） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00034YW",
@@ -6657,7 +7100,8 @@
     "ru": "D.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00035YW",
@@ -6672,7 +7116,8 @@
     "ru": "D.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00036YW",
@@ -6687,7 +7132,8 @@
     "ru": "E.象神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00037YW",
@@ -6702,7 +7148,8 @@
     "ru": "E.地藏王菩萨 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00038YW",
@@ -6717,7 +7164,8 @@
     "ru": "E.度母 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00039YW",
@@ -6732,7 +7180,8 @@
     "ru": "E.多杰修登 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00040YW",
@@ -6747,7 +7196,8 @@
     "ru": "E.关公 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00041YW",
@@ -6762,7 +7212,8 @@
     "ru": "E.观音菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00042YW",
@@ -6777,7 +7228,8 @@
     "ru": "E.黄财神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00043YW",
@@ -6792,7 +7244,8 @@
     "ru": "E.莲花大师 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00044YW",
@@ -6807,7 +7260,8 @@
     "ru": "E.玛哈嘎啦 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00045YW",
@@ -6822,7 +7276,8 @@
     "ru": "F.虚空藏菩萨（生肖牛虎） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00046YW",
@@ -6837,7 +7292,8 @@
     "ru": "F.千手观音（生肖鼠） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00047YW",
@@ -6852,7 +7308,8 @@
     "ru": "F.大势至菩萨（生肖马 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00048YW",
@@ -6867,7 +7324,8 @@
     "ru": "F.不动尊菩萨（生肖鸡） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00049YW",
@@ -6882,7 +7340,8 @@
     "ru": "F.文殊菩萨（生肖兔） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00050YW",
@@ -6897,7 +7356,8 @@
     "ru": "F.阿弥陀佛（生肖狗猪） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00051YW",
@@ -6912,7 +7372,8 @@
     "ru": "F.大日如来（生肖羊猴） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00052YW",
@@ -6927,7 +7388,8 @@
     "ru": "F.普贤菩萨(生肖龙蛇） — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00053YW",
@@ -6942,7 +7404,8 @@
     "ru": "G.大日如来 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00054YW",
@@ -6957,7 +7420,8 @@
     "ru": "G.关公 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00055YW",
@@ -6972,7 +7436,8 @@
     "ru": "G.观音 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00056YW",
@@ -6987,7 +7452,8 @@
     "ru": "G.象神 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00057BK",
@@ -7002,7 +7468,8 @@
     "ru": "H.度母 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "HXXLW00058BK",
@@ -7017,7 +7484,8 @@
     "ru": "H.多杰修登 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "JSJZW00249PN",
@@ -7032,7 +7500,8 @@
     "ru": "夸张宽版银色戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": "電鍍銀"
   },
   {
     "sku": "QFDZOT00001GN",
@@ -7046,7 +7515,8 @@
     "ru": "宫廷风祖母绿吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZOT00002BE",
@@ -7060,7 +7530,8 @@
     "ru": "复古宫廷风蓝钻吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZOT00003YW",
@@ -7074,77 +7545,83 @@
     "ru": "黄钻鹅蛋形吊坠 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00001WE",
     "zh": "優雅白金吊墜項鍊",
     "category": "吊坠",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 114.0,
     "wholesale": 57.0,
     "en": "優雅白金吊墜項鍊 — Pendant",
     "ru": "優雅白金吊墜項鍊 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00002WE",
     "zh": "現代白金吊墜項鍊",
     "category": "吊坠",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 81.0,
     "wholesale": 40.5,
     "en": "現代白金吊墜項鍊 — Pendant",
     "ru": "現代白金吊墜項鍊 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00003WE",
     "zh": "經典白金蝴蝶結吊墜",
     "category": "吊坠",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 120.0,
     "wholesale": 60.0,
     "en": "經典白金蝴蝶結吊墜 — Pendant",
     "ru": "經典白金蝴蝶結吊墜 — подвеска",
     "category_en": "Pendant",
     "category_ru": "Подвеска",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00004WE",
     "zh": "優雅白金心形項鍊",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 84.0,
     "wholesale": 42.0,
     "en": "優雅白金心形項鍊 — Necklace",
     "ru": "優雅白金心形項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00005WE",
     "zh": "現代白金星星項鍊",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 90.0,
     "wholesale": 45.0,
     "en": "現代白金星星項鍊 — Necklace",
     "ru": "現代白金星星項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00006WE",
@@ -7158,63 +7635,68 @@
     "ru": "經典白金月亮戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00007WE",
     "zh": "優雅白金蝴蝶項鍊",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 108.0,
     "wholesale": 54.0,
     "en": "優雅白金蝴蝶項鍊 — Necklace",
     "ru": "優雅白金蝴蝶項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00008WE",
     "zh": "現代白金花朵項鍊",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 102.0,
     "wholesale": 51.0,
     "en": "現代白金花朵項鍊 — Necklace",
     "ru": "現代白金花朵項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00009WE",
     "zh": "復古白金蝴蝶耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 72.0,
     "wholesale": 36.0,
     "en": "復古白金蝴蝶耳釘 — Stud Earrings",
     "ru": "復古白金蝴蝶耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFDZW00010WE",
     "zh": "優雅白金鏈條項鍊",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 93.0,
     "wholesale": 46.5,
     "en": "優雅白金鏈條項鍊 — Necklace",
     "ru": "優雅白金鏈條項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFED00001WE",
@@ -7228,7 +7710,8 @@
     "ru": "菱形六芒星耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFED00002PN",
@@ -7242,7 +7725,8 @@
     "ru": "复古彩色油画耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFED00003WE",
@@ -7256,7 +7740,8 @@
     "ru": "复古重工红色耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEDC00002WE",
@@ -7270,7 +7755,8 @@
     "ru": "圆形芒星耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEDOT00001WE",
@@ -7284,7 +7770,8 @@
     "ru": "银色鸢尾满钻耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEDOT00002WE",
@@ -7298,7 +7785,8 @@
     "ru": "金色鸢尾满钻耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEDOT00003RD",
@@ -7312,7 +7800,8 @@
     "ru": "欧美拉丝工艺长方形鸽血红耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEH00001PL",
@@ -7326,7 +7815,8 @@
     "ru": "宫廷风人像耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEH00002WE",
@@ -7340,7 +7830,8 @@
     "ru": "中古浮雕花朵耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEH00003PN",
@@ -7354,7 +7845,8 @@
     "ru": "金麻花圆圈耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEH00004PN",
@@ -7368,7 +7860,8 @@
     "ru": "小香风菱格纹耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEH00005WE",
@@ -7382,7 +7875,8 @@
     "ru": "法式复古水滴耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00001RD",
@@ -7396,7 +7890,8 @@
     "ru": "復古巴洛克紅寶石耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00002WE",
@@ -7410,7 +7905,8 @@
     "ru": "現代簡約白水晶耳釘 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00003WE",
@@ -7424,7 +7920,8 @@
     "ru": "經典白色珍珠耳墜 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00004WE",
@@ -7438,7 +7935,8 @@
     "ru": "經典白水晶圈形耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00005WE",
@@ -7452,7 +7950,8 @@
     "ru": "經典白鋯石流蘇耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00006WE",
@@ -7466,7 +7965,8 @@
     "ru": "極簡現代白條耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00007WE",
@@ -7480,7 +7980,8 @@
     "ru": "極簡白點耳釘 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00008WE",
@@ -7494,7 +7995,8 @@
     "ru": "華麗白水晶吊燈耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00009WE",
@@ -7508,7 +8010,8 @@
     "ru": "經典白珍珠耳釘 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00010WE",
@@ -7522,7 +8025,8 @@
     "ru": "極簡現代白鍊條耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00011WE",
@@ -7536,7 +8040,8 @@
     "ru": "極簡白圈耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00012WE",
@@ -7550,7 +8055,8 @@
     "ru": "經典白水晶花形耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00013WE",
@@ -7564,7 +8070,8 @@
     "ru": "現代藝術白抽象耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00014WE",
@@ -7578,7 +8085,8 @@
     "ru": "現代白色波浪耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00015WE",
@@ -7592,7 +8100,8 @@
     "ru": "經典白水晶淚滴耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00016GN",
@@ -7606,7 +8115,8 @@
     "ru": "復古綠琺瑯樹葉耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHG00017WE",
@@ -7620,7 +8130,8 @@
     "ru": "經典白水晶方形耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHOT00001PN",
@@ -7634,7 +8145,8 @@
     "ru": "C形欧美跨境耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHOT00002PN",
@@ -7648,7 +8160,8 @@
     "ru": "欧美夸张宽圆圈耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHOT00003WE",
@@ -7662,7 +8175,8 @@
     "ru": "水滴圆圈耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHOT00004WE",
@@ -7676,7 +8190,8 @@
     "ru": "法式银色高级钉子耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHOT00005WE",
@@ -7690,7 +8205,8 @@
     "ru": "法式玫瑰金高级钉子耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHOT00006WE",
@@ -7704,7 +8220,8 @@
     "ru": "金色水滴圆圈耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHOT00007PN",
@@ -7718,7 +8235,8 @@
     "ru": "复古经典大圆圈耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHOT00008PN",
@@ -7732,21 +8250,23 @@
     "ru": "金色C形素圈耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHW00001YW",
     "zh": "復古黃金雛菊耳環",
     "category": "耳环",
     "color": "黄色",
-    "material": "白金",
+    "material": "铜",
     "retail": 75.0,
     "wholesale": 37.5,
     "en": "復古黃金雛菊耳環 — Earrings",
     "ru": "復古黃金雛菊耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHW00002YW",
@@ -7760,21 +8280,23 @@
     "ru": "現代白金圈形耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHW00003WE",
     "zh": "經典白金水晶耳環",
     "category": "耳环",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 33.0,
     "wholesale": 16.5,
     "en": "經典白金水晶耳環 — Earrings",
     "ru": "經典白金水晶耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHW00004YW",
@@ -7788,49 +8310,53 @@
     "ru": "極簡現代白金幾何耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHW00005WE",
     "zh": "現代白金不對稱耳環",
     "category": "耳环",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 36.0,
     "wholesale": 18.0,
     "en": "現代白金不對稱耳環 — Earrings",
     "ru": "現代白金不對稱耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHW00006WE",
     "zh": "經典白金圓形耳環",
     "category": "耳环",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 39.0,
     "wholesale": 19.5,
     "en": "經典白金圓形耳環 — Earrings",
     "ru": "經典白金圓形耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFEHW00007WE",
     "zh": "經典白金橢圓耳環",
     "category": "耳环",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 39.0,
     "wholesale": 19.5,
     "en": "經典白金橢圓耳環 — Earrings",
     "ru": "經典白金橢圓耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00001G",
@@ -7844,7 +8370,8 @@
     "ru": "經典白金花朵戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00002WE",
@@ -7858,7 +8385,8 @@
     "ru": "經典金花戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00003WE",
@@ -7872,7 +8400,8 @@
     "ru": "復古經典金花絲項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00004WE",
@@ -7886,7 +8415,8 @@
     "ru": "復古金雕紋項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00005PE",
@@ -7900,7 +8430,8 @@
     "ru": "復古紫水晶項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00006GN",
@@ -7914,7 +8445,8 @@
     "ru": "復古埃及綠聖甲蟲耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00007PN",
@@ -7928,7 +8460,8 @@
     "ru": "復古綠孔雀石耳釘 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00008G",
@@ -7942,7 +8475,8 @@
     "ru": "極簡金細圈項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00009WE",
@@ -7956,7 +8490,8 @@
     "ru": "極簡金疊戴項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00010WE",
@@ -7970,7 +8505,8 @@
     "ru": "極簡金中指項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00011WE",
@@ -7984,7 +8520,8 @@
     "ru": "極簡金尾項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00012BE",
@@ -7998,7 +8535,8 @@
     "ru": "復古拜占庭藍寶石耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00013BE",
@@ -8012,7 +8550,8 @@
     "ru": "復古青金石耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00014WE",
@@ -8026,35 +8565,38 @@
     "ru": "自然度假金貝殼耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00015WE",
     "zh": "自然金樹葉耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 45.0,
     "wholesale": 22.5,
     "en": "自然金樹葉耳釘 — Stud Earrings",
     "ru": "自然金樹葉耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00016WE",
     "zh": "復古優雅金花邊耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 45.0,
     "wholesale": 22.5,
     "en": "復古優雅金花邊耳釘 — Stud Earrings",
     "ru": "復古優雅金花邊耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00017GN",
@@ -8068,21 +8610,23 @@
     "ru": "經典綠玉耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00018PK",
     "zh": "經典綠瑪瑙耳環",
     "category": "耳环",
     "color": "粉色",
-    "material": "白金",
+    "material": "铜",
     "retail": 33.0,
     "wholesale": 16.5,
     "en": "經典綠瑪瑙耳環 — Earrings",
     "ru": "經典綠瑪瑙耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00019PK",
@@ -8096,7 +8640,8 @@
     "ru": "復古巴洛克粉珊瑚耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00020PK",
@@ -8110,7 +8655,8 @@
     "ru": "復古粉紅水晶耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00021GN",
@@ -8124,7 +8670,8 @@
     "ru": "復古巴洛克綠寶石耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00022GN",
@@ -8138,7 +8685,8 @@
     "ru": "復古橄欖石耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00023WE",
@@ -8152,7 +8700,8 @@
     "ru": "復古優雅金珍珠耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00024WE",
@@ -8166,7 +8715,8 @@
     "ru": "復古優雅金水晶耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00025GN",
@@ -8180,7 +8730,8 @@
     "ru": "復古巴洛克綠縞瑪瑙耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00026GN",
@@ -8194,7 +8745,8 @@
     "ru": "復古綠碧璽耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00027RD",
@@ -8208,7 +8760,8 @@
     "ru": "復古巴洛克紅石榴石耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00028OT",
@@ -8222,7 +8775,8 @@
     "ru": "復古中式金琺瑯耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00029OT",
@@ -8236,7 +8790,8 @@
     "ru": "復古巴洛克金多彩耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00030WE",
@@ -8250,21 +8805,23 @@
     "ru": "復古優雅金花絲耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00031WE",
     "zh": "復古優雅金扭紋耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 39.0,
     "wholesale": 19.5,
     "en": "復古優雅金扭紋耳釘 — Stud Earrings",
     "ru": "復古優雅金扭紋耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00032G",
@@ -8278,21 +8835,23 @@
     "ru": "復古優雅金編織耳釘 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00033WE",
     "zh": "復古優雅金繩紋耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 39.0,
     "wholesale": 19.5,
     "en": "復古優雅金繩紋耳釘 — Stud Earrings",
     "ru": "復古優雅金繩紋耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00034WE",
@@ -8306,21 +8865,23 @@
     "ru": "復古優雅金寬版耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00035WE",
     "zh": "復古優雅金印章耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 66.0,
     "wholesale": 33.0,
     "en": "復古優雅金印章耳釘 — Stud Earrings",
     "ru": "復古優雅金印章耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00036WE",
@@ -8334,21 +8895,23 @@
     "ru": "優雅自然金花耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00037WE",
     "zh": "復古優雅金小巧耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 33.0,
     "wholesale": 16.5,
     "en": "復古優雅金小巧耳釘 — Stud Earrings",
     "ru": "復古優雅金小巧耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00038WE",
@@ -8362,21 +8925,23 @@
     "ru": "復古優雅金圓頂耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00039WE",
     "zh": "復古優雅金墊形耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 54.0,
     "wholesale": 27.0,
     "en": "復古優雅金墊形耳釘 — Stud Earrings",
     "ru": "復古優雅金墊形耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00040WE",
@@ -8390,21 +8955,23 @@
     "ru": "復古優雅金珠邊耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00041WE",
     "zh": "復古優雅金錘紋耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 54.0,
     "wholesale": 27.0,
     "en": "復古優雅金錘紋耳釘 — Stud Earrings",
     "ru": "復古優雅金錘紋耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00042BK",
@@ -8418,7 +8985,8 @@
     "ru": "復古巴洛克黑瑪瑙耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00043WE",
@@ -8432,21 +9000,23 @@
     "ru": "復古優雅金心形耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00044WE",
     "zh": "復古優雅金星形耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 42.0,
     "wholesale": 21.0,
     "en": "復古優雅金星形耳釘 — Stud Earrings",
     "ru": "復古優雅金星形耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00045WE",
@@ -8460,21 +9030,23 @@
     "ru": "復古優雅金月亮耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00046WE",
     "zh": "復古優雅金太陽耳釘",
     "category": "耳钉",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 45.0,
     "wholesale": 22.5,
     "en": "復古優雅金太陽耳釘 — Stud Earrings",
     "ru": "復古優雅金太陽耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00047GN",
@@ -8488,21 +9060,23 @@
     "ru": "優雅自然金蝴蝶耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00048RD",
     "zh": "復古優雅金皇冠耳釘",
     "category": "耳钉",
     "color": "红色",
-    "material": "白金",
+    "material": "铜",
     "retail": 60.0,
     "wholesale": 30.0,
     "en": "復古優雅金皇冠耳釘 — Stud Earrings",
     "ru": "復古優雅金皇冠耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00049BK",
@@ -8516,7 +9090,8 @@
     "ru": "復古優雅金鑰匙耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00050WE",
@@ -8530,7 +9105,8 @@
     "ru": "復古優雅金無限耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00051WE",
@@ -8544,7 +9120,8 @@
     "ru": "復古優雅金天使翼耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00052WE",
@@ -8558,7 +9135,8 @@
     "ru": "復古優雅金羽毛耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00053WE",
@@ -8572,7 +9150,8 @@
     "ru": "復古優雅金蛇形耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00054WE",
@@ -8586,7 +9165,8 @@
     "ru": "復古優雅金龍紋耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00055WE",
@@ -8600,7 +9180,8 @@
     "ru": "復古自然金樹紋耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00056WE",
@@ -8614,7 +9195,8 @@
     "ru": "復古優雅金藤蔓耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00057WE",
@@ -8628,7 +9210,8 @@
     "ru": "優雅經典金單鑽耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00058WE",
@@ -8642,7 +9225,8 @@
     "ru": "復古優雅金花簇耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00059WE",
@@ -8656,7 +9240,8 @@
     "ru": "復古拜占庭金十字耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00060PN",
@@ -8670,7 +9255,8 @@
     "ru": "復古優雅金教堂耳釘 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00061PN",
@@ -8684,7 +9270,8 @@
     "ru": "復古優雅玫瑰金花絲戒指 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00062RD",
@@ -8698,7 +9285,8 @@
     "ru": "華麗自然紅珊瑚耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00063PN",
@@ -8712,7 +9300,8 @@
     "ru": "復古優雅金卷草耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00064WE",
@@ -8726,7 +9315,8 @@
     "ru": "復古巴洛克金浮雕耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00065WE",
@@ -8740,7 +9330,8 @@
     "ru": "復古優雅金珠邊er环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00066WE",
@@ -8754,7 +9345,8 @@
     "ru": "復古優雅金槽鑲耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00067WE",
@@ -8768,7 +9360,8 @@
     "ru": "現代經典金雙色耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00068WE",
@@ -8782,7 +9375,8 @@
     "ru": "復古優雅金裝飾藝術耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00069WE",
@@ -8796,7 +9390,8 @@
     "ru": "現代白金優雅耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00070WE",
@@ -8810,7 +9405,8 @@
     "ru": "現代白金簡約耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00071WE",
@@ -8824,7 +9420,8 @@
     "ru": "復古優雅金花紋耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00072WE",
@@ -8838,7 +9435,8 @@
     "ru": "復古優雅金花邊耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00073WE",
@@ -8852,7 +9450,8 @@
     "ru": "現代極簡金耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00074WE",
@@ -8866,7 +9465,8 @@
     "ru": "經典金優雅耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00075G",
@@ -8880,7 +9480,8 @@
     "ru": "經典金簡約耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00076WE",
@@ -8894,7 +9495,8 @@
     "ru": "經典金優雅項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00077WE",
@@ -8908,7 +9510,8 @@
     "ru": "復古金華麗耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZG00078PN",
@@ -8922,7 +9525,8 @@
     "ru": "復古金大氣耳釘 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZOT00001G",
@@ -8936,7 +9540,8 @@
     "ru": "十字架柳钉设计戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZOT00002PN",
@@ -8950,7 +9555,8 @@
     "ru": "银色双孔戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZOT00003G",
@@ -8964,7 +9570,8 @@
     "ru": "金色双孔戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZR00001WE",
@@ -8978,7 +9585,8 @@
     "ru": "華麗現代玫瑰金幾何耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZR00002WE",
@@ -8992,7 +9600,8 @@
     "ru": "經典玫瑰金素圈耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZR00003OT",
@@ -9006,21 +9615,23 @@
     "ru": "現代極簡玫瑰金開口耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00001WE",
     "zh": "經典白金花朵耳环",
     "category": "耳环",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 78.0,
     "wholesale": 39.0,
     "en": "經典白金花朵耳环 — Earrings",
     "ru": "經典白金花朵耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00002GN",
@@ -9034,7 +9645,8 @@
     "ru": "優雅白金綠寶石戒指 — кольцо",
     "category_en": "Ring",
     "category_ru": "Кольцо",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00003PN",
@@ -9048,147 +9660,158 @@
     "ru": "現代個性化白金名字項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00004WE",
     "zh": "現代白金素圈項鍊",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 51.0,
     "wholesale": 25.5,
     "en": "現代白金素圈項鍊 — Necklace",
     "ru": "現代白金素圈項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00005YW",
     "zh": "復古巴洛克黃水晶項鍊",
     "category": "项链",
     "color": "黄色",
-    "material": "白金",
+    "material": "铜",
     "retail": 69.0,
     "wholesale": 34.5,
     "en": "復古巴洛克黃水晶項鍊 — Necklace",
     "ru": "復古巴洛克黃水晶項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00006YW",
     "zh": "經典優雅黃金黃玉耳钉",
     "category": "耳钉",
     "color": "黄色",
-    "material": "白金",
+    "material": "铜",
     "retail": 54.0,
     "wholesale": 27.0,
     "en": "經典優雅黃金黃玉耳钉 — Stud Earrings",
     "ru": "經典優雅黃金黃玉耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00007PK",
     "zh": "經典粉水晶耳钉",
     "category": "耳钉",
     "color": "粉色",
-    "material": "白金",
+    "material": "铜",
     "retail": 54.0,
     "wholesale": 27.0,
     "en": "經典粉水晶耳钉 — Stud Earrings",
     "ru": "經典粉水晶耳钉 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00008WE",
     "zh": "經典白金鑽石耳环",
     "category": "耳环",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 34.5,
     "wholesale": 17.25,
     "en": "經典白金鑽石耳环 — Earrings",
     "ru": "經典白金鑽石耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00009RD",
     "zh": "華麗現代紅水晶耳釘",
     "category": "耳钉",
     "color": "红色",
-    "material": "白金",
+    "material": "铜",
     "retail": 63.0,
     "wholesale": 31.5,
     "en": "華麗現代紅水晶耳釘 — Stud Earrings",
     "ru": "華麗現代紅水晶耳釘 — серьги-гвоздики",
     "category_en": "Stud Earrings",
     "category_ru": "Серьги-гвоздики",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00010WE",
     "zh": "現代自然白金樹葉耳環",
     "category": "耳环",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 36.0,
     "wholesale": 18.0,
     "en": "現代自然白金樹葉耳環 — Earrings",
     "ru": "現代自然白金樹葉耳環 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00011WE",
     "zh": "現代白金精緻项链",
     "category": "项链",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 42.0,
     "wholesale": 21.0,
     "en": "現代白金精緻项链 — Necklace",
     "ru": "現代白金精緻项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00012WE",
     "zh": "現代白金經典耳环",
     "category": "耳环",
     "color": "白色",
-    "material": "白金",
+    "material": "铜",
     "retail": 36.0,
     "wholesale": 18.0,
     "en": "現代白金經典耳环 — Earrings",
     "ru": "現代白金經典耳环 — серьги",
     "category_en": "Earrings",
     "category_ru": "Серьги",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFJZW00013YW",
     "zh": "復古白金黃寶項鍊",
     "category": "项链",
     "color": "黄色",
-    "material": "白金",
+    "material": "铜",
     "retail": 63.0,
     "wholesale": 31.5,
     "en": "復古白金黃寶項鍊 — Necklace",
     "ru": "復古白金黃寶項鍊 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLC00003WE",
@@ -9202,7 +9825,8 @@
     "ru": "圆形芒星手链 — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLC00004WE",
@@ -9216,7 +9840,8 @@
     "ru": "欧美风时尚海神手链 — браслет",
     "category_en": "Bracelet",
     "category_ru": "Браслет",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00001WE",
@@ -9230,7 +9855,8 @@
     "ru": "银材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00002WE",
@@ -9244,7 +9870,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00003WE",
@@ -9258,7 +9885,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00004WE",
@@ -9272,7 +9900,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00005WE",
@@ -9286,7 +9915,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00006WE",
@@ -9300,7 +9930,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00007WE",
@@ -9314,7 +9945,8 @@
     "ru": "银材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00008WE",
@@ -9328,7 +9960,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00009GN",
@@ -9342,7 +9975,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00010WE",
@@ -9356,7 +9990,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00011WE",
@@ -9370,7 +10005,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00012WE",
@@ -9384,7 +10020,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00013WE",
@@ -9398,7 +10035,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00014BE",
@@ -9412,7 +10050,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00015BE",
@@ -9426,7 +10065,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00016WE",
@@ -9440,7 +10080,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00017WE",
@@ -9454,7 +10095,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFSLSY00018BE",
@@ -9468,7 +10110,8 @@
     "ru": "銅材质手表 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00001WE",
@@ -9482,7 +10125,8 @@
     "ru": "铜艺腕表 NW401 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00002WE",
@@ -9496,7 +10140,8 @@
     "ru": "铜艺腕表 NW402 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00003WE",
@@ -9510,7 +10155,8 @@
     "ru": "铜艺腕表 NW403 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00004WE",
@@ -9524,7 +10170,8 @@
     "ru": "铜艺腕表 NW404 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00005WE",
@@ -9538,7 +10185,8 @@
     "ru": "铜艺腕表 NW405 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00006WE",
@@ -9552,7 +10200,8 @@
     "ru": "铜艺腕表 NW406 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00007WE",
@@ -9566,7 +10215,8 @@
     "ru": "铜艺腕表 NW407 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00009WE",
@@ -9580,7 +10230,8 @@
     "ru": "铜艺腕表 NW409 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00010WE",
@@ -9594,7 +10245,8 @@
     "ru": "铜艺腕表 NW401 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00011WE",
@@ -9608,7 +10260,8 @@
     "ru": "铜艺腕表 NW402 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00012WE",
@@ -9622,7 +10275,8 @@
     "ru": "铜艺腕表 NW403 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00013WE",
@@ -9636,7 +10290,8 @@
     "ru": "铜艺腕表 NW404 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00014WE",
@@ -9650,7 +10305,8 @@
     "ru": "铜艺腕表 NW405 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00015WE",
@@ -9664,7 +10320,8 @@
     "ru": "铜艺腕表 NW406 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00016WE",
@@ -9678,7 +10335,8 @@
     "ru": "铜艺腕表 NW407 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00017WE",
@@ -9692,7 +10350,8 @@
     "ru": "男士铜艺腕表 NW701 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00018WE",
@@ -9706,7 +10365,8 @@
     "ru": "铜艺腕表 NW702 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00019WE",
@@ -9720,7 +10380,8 @@
     "ru": "男士铜艺腕表 NW703 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00020WE",
@@ -9734,7 +10395,8 @@
     "ru": "铜艺腕表 NW704 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00021WE",
@@ -9748,7 +10410,8 @@
     "ru": "男士铜艺腕表 NW705 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00022WE",
@@ -9762,7 +10425,8 @@
     "ru": "铜艺腕表 NW706 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00023WE",
@@ -9776,7 +10440,8 @@
     "ru": "铜艺腕表 NW901 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00024WE",
@@ -9790,7 +10455,8 @@
     "ru": "铜艺腕表 NW902 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00025WE",
@@ -9804,7 +10470,8 @@
     "ru": "铜艺腕表 NW903 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00026WE",
@@ -9818,7 +10485,8 @@
     "ru": "铜艺腕表 22×24毫米 NW904 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00027WE",
@@ -9832,7 +10500,8 @@
     "ru": "铜艺腕表 NW905 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00028WE",
@@ -9846,7 +10515,8 @@
     "ru": "铜艺腕表 NW906 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00029WE",
@@ -9860,7 +10530,8 @@
     "ru": "铜艺腕表 22×24毫米 NW907 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00030WE",
@@ -9874,7 +10545,8 @@
     "ru": "铜艺腕表 NW908 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00031WE",
@@ -9888,7 +10560,8 @@
     "ru": "铜艺腕表 NW909 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00032WE",
@@ -9902,7 +10575,8 @@
     "ru": "铜艺腕表 NW910 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFWTES00033WE",
@@ -9916,7 +10590,8 @@
     "ru": "铜艺腕表 22×24毫米 NW911 — часы",
     "category_en": "Jewelry",
     "category_ru": "Украшение",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXL00001GN",
@@ -9930,7 +10605,8 @@
     "ru": "奢华祖母绿方块项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXL00002RD",
@@ -9944,7 +10620,8 @@
     "ru": "奢华红钻方块项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXL00003WE",
@@ -9958,7 +10635,8 @@
     "ru": "香水瓶钻石项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLC00002WE",
@@ -9972,7 +10650,8 @@
     "ru": "满钻柳钉设计粗项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00001PN",
@@ -9986,7 +10665,8 @@
     "ru": "复古白色花朵耳环 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00002WE",
@@ -10000,7 +10680,8 @@
     "ru": "法式金色鸢尾花项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00003WE",
@@ -10014,7 +10695,8 @@
     "ru": "法式银色鸢尾花项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00004WE",
@@ -10028,7 +10710,8 @@
     "ru": "幸福之门项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00005PN",
@@ -10042,7 +10725,8 @@
     "ru": "拉丝菊花项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00006PN",
@@ -10056,7 +10740,8 @@
     "ru": "拉丝大花项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00007RD",
@@ -10070,7 +10755,8 @@
     "ru": "长方形鸽血红项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00008WE",
@@ -10084,7 +10770,8 @@
     "ru": "海神波塞冬项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   },
   {
     "sku": "QFXLOT00009WE",
@@ -10098,6 +10785,7 @@
     "ru": "欧美风满钻网球项链 — ожерелье",
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
-    "translation_review": true
+    "translation_review": true,
+    "craft": ""
   }
 ]
