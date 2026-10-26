@@ -1,1229 +1,5 @@
 [
   {
-    "sku": "XTEDW00002PK",
-    "zh": "sweet",
-    "category": "耳钉",
-    "color": "粉色",
-    "material": "铜",
-    "retail": 147.0,
-    "wholesale": 73.5,
-    "image": "assets/XTEDW00002PK.webp",
-    "en": "Sweet — Stud Earrings",
-    "ru": "Нежность — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_image": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTEDW00002PK.webp",
-      "assets_detail/XTEDW00002PK_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEDW00003WE",
-    "zh": "初绽",
-    "category": "耳钉",
-    "color": "白色",
-    "material": "铜",
-    "retail": 141.0,
-    "wholesale": 70.5,
-    "image": "assets/XTEDW00003WE.webp",
-    "en": "First Bloom — Stud Earrings",
-    "ru": "Первое цветение — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTEDW00003WE.webp",
-      "assets_detail/XTEDW00003WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEDW00004WE",
-    "zh": "心漪",
-    "category": "耳钉",
-    "color": "白色",
-    "material": "铜",
-    "retail": 141.0,
-    "wholesale": 70.5,
-    "image": "assets/XTEDW00004WE.webp",
-    "en": "Ripples of the Heart — Stud Earrings",
-    "ru": "Рябь сердца — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTEDW00004WE.webp",
-      "assets_detail/XTEDW00004WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEDW00005WE",
-    "zh": "恋玫之心",
-    "category": "耳钉",
-    "color": "白色",
-    "material": "铜",
-    "retail": 141.0,
-    "wholesale": 70.5,
-    "image": "assets/XTEDW00005WE.webp",
-    "en": "Heart of Rose — Stud Earrings",
-    "ru": "Сердце розы — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTEDW00005WE.webp",
-      "assets_detail/XTEDW00005WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEDW00006WE",
-    "zh": "素花轻坠",
-    "category": "耳钉",
-    "color": "白色",
-    "material": "铜",
-    "retail": 126.0,
-    "wholesale": 63.0,
-    "image": "assets/XTEDW00006WE.webp",
-    "en": "Delicate Floral Drop — Stud Earrings",
-    "ru": "Нежный цветочный подвес — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTEDW00006WE.webp",
-      "assets_detail/XTEDW00006WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEDW00007OT",
-    "zh": "向云端耳钉",
-    "category": "耳钉",
-    "color": "其它/彩色",
-    "material": "铜",
-    "retail": 135.0,
-    "wholesale": 67.5,
-    "image": "assets/XTEDW00007OT.webp",
-    "en": "Above the Clouds — Stud Earrings",
-    "ru": "К облакам — серьги-гвоздики",
-    "category_en": "Stud Earrings",
-    "category_ru": "Серьги-гвоздики",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTEDW00007OT.webp",
-      "assets_detail/XTEDW00007OT_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHC00001WE",
-    "zh": "冻结几何",
-    "category": "耳环",
-    "color": "白色",
-    "material": "不锈钢",
-    "retail": 111.0,
-    "wholesale": 55.5,
-    "image": "assets/XTEHC00001WE.webp",
-    "en": "Frozen Geometry — Earrings",
-    "ru": "Застывшая геометрия — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_review_status": "pending_supplier_confirmation",
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTEHC00001WE.webp",
-      "assets_detail/XTEHC00001WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHC00002WE",
-    "zh": "绯色翩振",
-    "category": "耳环",
-    "color": "白色",
-    "material": "铜",
-    "retail": 133.5,
-    "wholesale": 66.75,
-    "image": "assets/XTEHC00002WE.webp",
-    "en": "Crimson Flutter — Earrings",
-    "ru": "Алое порхание — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "craft": "电镀玫瑰金",
-    "craft_needs_verification": true,
-    "craft_source": "user_photo_metal_frame_review",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTEHC00002WE.webp",
-      "assets_detail/XTEHC00002WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHC00006BE",
-    "zh": "冰湖碎光",
-    "category": "耳环",
-    "color": "蓝色",
-    "material": "铜",
-    "retail": 114.0,
-    "wholesale": 57.0,
-    "image": "assets/XTEHC00006BE.webp",
-    "en": "Shimmering Ice Lake — Earrings",
-    "ru": "Мерцание ледяного озера — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTEHC00006BE.webp",
-      "assets_detail/XTEHC00006BE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHC00007GN",
-    "zh": "双洲鎏藏Auspicious Clouds & Palace Domes",
-    "category": "耳环",
-    "color": "绿色",
-    "material": "铜",
-    "retail": 45.0,
-    "wholesale": 22.5,
-    "image": "assets/XTEHC00007GN.webp",
-    "en": "双洲鎏藏Auspicious Clouds & Palace Domes — Earrings",
-    "ru": "双洲鎏藏Auspicious Clouds & Palace Domes — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": true,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTEHC00007GN.webp",
-      "assets_detail/XTEHC00007GN_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHC00008BE",
-    "zh": "白桦栖月",
-    "category": "耳环",
-    "color": "蓝色",
-    "material": "铜",
-    "retail": 72.0,
-    "wholesale": 36.0,
-    "image": "assets/XTEHC00008BE.webp",
-    "en": "Moon over Birch — Earrings",
-    "ru": "Луна над берёзой — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "craft": "电镀",
-    "craft_needs_verification": true,
-    "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/XTEHC00008BE.webp",
-      "assets_detail/XTEHC00008BE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHG00001PL",
-    "zh": "留住真我耳環",
-    "category": "耳环",
-    "color": "珍珠",
-    "material": "金",
-    "retail": 144.0,
-    "wholesale": 72.0,
-    "image": "assets/XTEHG00001PL.webp",
-    "en": "True to Myself — Earrings",
-    "ru": "Верность себе — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTEHG00001PL.webp",
-      "assets_detail/XTEHG00001PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHG00002PL",
-    "zh": "海韵耳环",
-    "category": "耳环",
-    "color": "珍珠",
-    "material": "金",
-    "retail": 147.0,
-    "wholesale": 73.5,
-    "image": "assets/XTEHG00002PL.webp",
-    "en": "Ocean Melody — Earrings",
-    "ru": "Мелодия моря — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "craft": "电镀",
-    "craft_needs_verification": true,
-    "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/XTEHG00002PL.webp",
-      "assets_detail/XTEHG00002PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHG00003PL",
-    "zh": "丹韵金绡耳环",
-    "category": "耳环",
-    "color": "珍珠",
-    "material": "金",
-    "retail": 147.0,
-    "wholesale": 73.5,
-    "image": "assets/XTEHG00003PL.webp",
-    "en": "Crimson Gold Veil — Earrings",
-    "ru": "Алый золотой шёлк — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTEHG00003PL.webp",
-      "assets_detail/XTEHG00003PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTEHW00001BE",
-    "zh": "雅鱼系列耳环",
-    "category": "耳环",
-    "color": "蓝色",
-    "material": "铜",
-    "retail": 441.0,
-    "wholesale": 220.5,
-    "image": "assets/XTEHW00001BE.webp",
-    "en": "Elegant Fish Collection — Earrings",
-    "ru": "Коллекция «Изящная рыба» — серьги",
-    "category_en": "Earrings",
-    "category_ru": "Серьги",
-    "translation_review": false,
-    "craft": "电镀",
-    "craft_needs_verification": true,
-    "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/XTEHW00001BE.webp",
-      "assets_detail/XTEHW00001BE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTJZG00001G",
-    "zh": "留住真我戒指",
-    "category": "戒指",
-    "color": "金色",
-    "material": "铜",
-    "retail": 156.0,
-    "wholesale": 78.0,
-    "image": "assets/XTJZG00001G.webp",
-    "en": "True to Myself — Ring",
-    "ru": "Верность себе — кольцо",
-    "category_en": "Ring",
-    "category_ru": "Кольцо",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTJZG00001G.webp",
-      "assets_detail/XTJZG00001G_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTJZG00002PL",
-    "zh": "海韵戒指",
-    "category": "戒指",
-    "color": "珍珠",
-    "material": "铜",
-    "retail": 126.0,
-    "wholesale": 63.0,
-    "image": "assets/XTJZG00002PL.webp",
-    "en": "Ocean Melody — Ring",
-    "ru": "Мелодия моря — кольцо",
-    "category_en": "Ring",
-    "category_ru": "Кольцо",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTJZG00002PL.webp",
-      "assets_detail/XTJZG00002PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTJZW00001PN",
-    "zh": "初绽",
-    "category": "戒指",
-    "color": "素银",
-    "material": "铜",
-    "retail": 126.0,
-    "wholesale": 63.0,
-    "image": "assets/XTJZW00001PN.webp",
-    "en": "First Bloom — Ring",
-    "ru": "Первое цветение — кольцо",
-    "category_en": "Ring",
-    "category_ru": "Кольцо",
-    "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/XTJZW00001PN.webp",
-      "assets_detail/XTJZW00001PN_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTJZW00002PN",
-    "zh": "心漪",
-    "category": "戒指",
-    "color": "素银",
-    "material": "铜",
-    "retail": 126.0,
-    "wholesale": 63.0,
-    "image": "assets/XTJZW00002PN.webp",
-    "en": "Ripples of the Heart — Ring",
-    "ru": "Рябь сердца — кольцо",
-    "category_en": "Ring",
-    "category_ru": "Кольцо",
-    "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/XTJZW00002PN.webp",
-      "assets_detail/XTJZW00002PN_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTJZW00003PN",
-    "zh": "恋玫之心戒指",
-    "category": "戒指",
-    "color": "素银",
-    "material": "铜",
-    "retail": 126.0,
-    "wholesale": 63.0,
-    "image": "assets/XTJZW00003PN.webp",
-    "en": "Heart of Rose — Ring",
-    "ru": "Сердце розы — кольцо",
-    "category_en": "Ring",
-    "category_ru": "Кольцо",
-    "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/XTJZW00003PN.webp",
-      "assets_detail/XTJZW00003PN_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTJZW00004PN",
-    "zh": "星瓣",
-    "category": "戒指",
-    "color": "素银",
-    "material": "铜",
-    "retail": 126.0,
-    "wholesale": 63.0,
-    "image": "assets/XTJZW00004PN.webp",
-    "en": "Star Petals — Ring",
-    "ru": "Звёздные лепестки — кольцо",
-    "category_en": "Ring",
-    "category_ru": "Кольцо",
-    "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/XTJZW00004PN.webp",
-      "assets_detail/XTJZW00004PN_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTJZW00005PN",
-    "zh": "花影琉光戒指",
-    "category": "戒指",
-    "color": "素银",
-    "material": "铜",
-    "retail": 126.0,
-    "wholesale": 63.0,
-    "image": "assets/XTJZW00005PN.webp",
-    "en": "Floral Reflections — Ring",
-    "ru": "Цветочные отблески — кольцо",
-    "category_en": "Ring",
-    "category_ru": "Кольцо",
-    "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/XTJZW00005PN.webp",
-      "assets_detail/XTJZW00005PN_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTSHEG00001G",
-    "zh": "留住真我手镯",
-    "category": "手镯",
-    "color": "金色",
-    "material": "铜",
-    "retail": 147.0,
-    "wholesale": 73.5,
-    "image": "assets/XTSHEG00001G.webp",
-    "en": "True to Myself — Bangle",
-    "ru": "Верность себе — жёсткий браслет",
-    "category_en": "Bangle",
-    "category_ru": "Браслет",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTSHEG00001G.webp",
-      "assets_detail/XTSHEG00001G_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTSLG00001WE",
-    "zh": "太阳花手链",
-    "category": "手链",
-    "color": "白色",
-    "material": "金",
-    "retail": 118.5,
-    "wholesale": 59.25,
-    "image": "assets/XTSLG00001WE.webp",
-    "en": "Sunflower — Bracelet",
-    "ru": "Подсолнух — браслет",
-    "category_en": "Bracelet",
-    "category_ru": "Браслет",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTSLG00001WE.webp",
-      "assets_detail/XTSLG00001WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTSLG00002PL",
-    "zh": "丹韵金绡手链",
-    "category": "手链",
-    "color": "珍珠",
-    "material": "金",
-    "retail": 219.0,
-    "wholesale": 109.5,
-    "image": "assets/XTSLG00002PL.webp",
-    "en": "Crimson Gold Veil — Bracelet",
-    "ru": "Алый золотой шёлк — браслет",
-    "category_en": "Bracelet",
-    "category_ru": "Браслет",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTSLG00002PL.webp",
-      "assets_detail/XTSLG00002PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTSLW00002WE",
-    "zh": "花簇轻环",
-    "category": "手链",
-    "color": "白色",
-    "material": "铜",
-    "retail": 132.0,
-    "wholesale": 66.0,
-    "image": "assets/XTSLW00002WE.webp",
-    "en": "Floral Cluster — Bracelet",
-    "ru": "Цветочное соцветие — браслет",
-    "category_en": "Bracelet",
-    "category_ru": "Браслет",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTSLW00002WE.webp",
-      "assets_detail/XTSLW00002WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTSLW00004PL",
-    "zh": "盈珠花笺手链",
-    "category": "手链",
-    "color": "珍珠",
-    "material": "铜",
-    "retail": 129.0,
-    "wholesale": 64.5,
-    "image": "assets/XTSLW00004PL.webp",
-    "en": "Pearl Blossom — Bracelet",
-    "ru": "Жемчужный цветок — браслет",
-    "category_en": "Bracelet",
-    "category_ru": "Браслет",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTSLW00004PL.webp",
-      "assets_detail/XTSLW00004PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTSLW00005BE",
-    "zh": "雅鱼系列手链",
-    "category": "手链",
-    "color": "蓝色",
-    "material": "铜",
-    "retail": 381.0,
-    "wholesale": 190.5,
-    "image": "assets/XTSLW00005BE.webp",
-    "en": "Elegant Fish Collection — Bracelet",
-    "ru": "Коллекция «Изящная рыба» — браслет",
-    "category_en": "Bracelet",
-    "category_ru": "Браслет",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTSLW00005BE.webp",
-      "assets_detail/XTSLW00005BE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTSLW00006WE",
-    "zh": "心形手链",
-    "category": "手链",
-    "color": "白色",
-    "material": "铜",
-    "retail": 177.0,
-    "wholesale": 88.5,
-    "image": "assets/XTSLW00006WE.webp",
-    "en": "Heart-Shaped — Bracelet",
-    "ru": "В форме сердца — браслет",
-    "category_en": "Bracelet",
-    "category_ru": "Браслет",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTSLW00006WE.webp",
-      "assets_detail/XTSLW00006WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLC00001WE",
-    "zh": "光之折影",
-    "category": "项链",
-    "color": "白色",
-    "material": "铜",
-    "retail": 135.0,
-    "wholesale": 67.5,
-    "image": "assets/XTXLC00001WE.webp",
-    "en": "Reflections of Light — Necklace",
-    "ru": "Отражения света — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTXLC00001WE.webp",
-      "assets_detail/XTXLC00001WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLC00002PL",
-    "zh": "幻趣旋梦",
-    "category": "项链",
-    "color": "珍珠",
-    "material": "铜",
-    "retail": 96.0,
-    "wholesale": 48.0,
-    "image": "assets/XTXLC00002PL.webp",
-    "en": "Whirling Dream — Necklace",
-    "ru": "Кружение мечты — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLC00002PL.webp",
-      "assets_detail/XTXLC00002PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLC00003PL",
-    "zh": "星辰之爱",
-    "category": "项链",
-    "color": "珍珠",
-    "material": "铜",
-    "retail": 84.0,
-    "wholesale": 42.0,
-    "image": "assets/XTXLC00003PL.webp",
-    "en": "Love of the Stars — Necklace",
-    "ru": "Любовь звёзд — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀玫瑰金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLC00003PL.webp",
-      "assets_detail/XTXLC00003PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLC00006BE",
-    "zh": "白桦栖月",
-    "category": "项链",
-    "color": "蓝色",
-    "material": "铜",
-    "retail": 57.0,
-    "wholesale": 28.5,
-    "image": "assets/XTXLC00006BE.webp",
-    "en": "Moon over Birch — Necklace",
-    "ru": "Луна над берёзой — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLC00006BE.webp",
-      "assets_detail/XTXLC00006BE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLC00007OT",
-    "zh": "融雅",
-    "category": "项链",
-    "color": "其它/彩色",
-    "material": "铜",
-    "retail": 78.0,
-    "wholesale": 39.0,
-    "image": "assets/XTXLC00007OT.webp",
-    "en": "Elegant Harmony — Necklace",
-    "ru": "Изящная гармония — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLC00007OT.webp",
-      "assets_detail/XTXLC00007OT_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLG00004RD",
-    "zh": "形影项链",
-    "category": "项链",
-    "color": "红色",
-    "material": "金",
-    "retail": 129.0,
-    "wholesale": 64.5,
-    "image": "assets/XTXLG00004RD.webp",
-    "en": "Silhouette — Necklace",
-    "ru": "Силуэт — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLG00004RD.webp",
-      "assets_detail/XTXLG00004RD_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLG00005RD",
-    "zh": "形影项链",
-    "category": "项链",
-    "color": "红色",
-    "material": "金",
-    "retail": 126.0,
-    "wholesale": 63.0,
-    "image": "assets/XTXLG00005RD.webp",
-    "en": "Silhouette — Necklace",
-    "ru": "Силуэт — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLG00005RD.webp",
-      "assets_detail/XTXLG00005RD_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLG00006CL",
-    "zh": "折纸熊猫项链",
-    "category": "项链",
-    "color": "透明",
-    "material": "金",
-    "retail": 156.0,
-    "wholesale": 78.0,
-    "image": "assets/XTXLG00006CL.webp",
-    "en": "Origami Panda — Necklace",
-    "ru": "Панда-оригами — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLG00006CL.webp",
-      "assets_detail/XTXLG00006CL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLG00007PL",
-    "zh": "丹韵金绡项链",
-    "category": "项链",
-    "color": "珍珠",
-    "material": "金",
-    "retail": 288.0,
-    "wholesale": 144.0,
-    "image": "assets/XTXLG00007PL.webp",
-    "en": "Crimson Gold Veil — Necklace",
-    "ru": "Алый золотой шёлк — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLG00007PL.webp",
-      "assets_detail/XTXLG00007PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLG00008WE",
-    "zh": "金葫竹语项链",
-    "category": "项链",
-    "color": "白色",
-    "material": "金",
-    "retail": 375.0,
-    "wholesale": 187.5,
-    "image": "assets/XTXLG00008WE.webp",
-    "en": "Golden Gourd and Bamboo — Necklace",
-    "ru": "Золотая тыква и бамбук — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀金",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLG00008WE.webp",
-      "assets_detail/XTXLG00008WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLW00002PK",
-    "zh": "sweet",
-    "category": "项链",
-    "color": "粉色",
-    "material": "铜",
-    "retail": 165.0,
-    "wholesale": 82.5,
-    "image": "assets/XTXLW00002PK.webp",
-    "en": "Sweet — Necklace",
-    "ru": "Нежность — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀",
-    "craft_needs_verification": true,
-    "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/XTXLW00002PK.webp",
-      "assets_detail/XTXLW00002PK_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLW00003WE",
-    "zh": "初绽",
-    "category": "项链",
-    "color": "白色",
-    "material": "铜",
-    "retail": 147.0,
-    "wholesale": 73.5,
-    "image": "assets/XTXLW00003WE.webp",
-    "en": "First Bloom — Necklace",
-    "ru": "Первое цветение — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTXLW00003WE.webp",
-      "assets_detail/XTXLW00003WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLW00004WE",
-    "zh": "心漪",
-    "category": "项链",
-    "color": "白色",
-    "material": "铜",
-    "retail": 147.0,
-    "wholesale": 73.5,
-    "image": "assets/XTXLW00004WE.webp",
-    "en": "Ripples of the Heart — Necklace",
-    "ru": "Рябь сердца — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTXLW00004WE.webp",
-      "assets_detail/XTXLW00004WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLW00005WE",
-    "zh": "恋玫之心项链",
-    "category": "项链",
-    "color": "白色",
-    "material": "铜",
-    "retail": 147.0,
-    "wholesale": 73.5,
-    "image": "assets/XTXLW00005WE.webp",
-    "en": "Heart of Rose — Necklace",
-    "ru": "Сердце розы — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "craft_needs_verification": true,
-    "images": [
-      "assets/XTXLW00005WE.webp",
-      "assets_detail/XTXLW00005WE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLW00007PL",
-    "zh": "花盈凝露项链",
-    "category": "项链",
-    "color": "珍珠",
-    "material": "铜",
-    "retail": 129.0,
-    "wholesale": 64.5,
-    "image": "assets/XTXLW00007PL.webp",
-    "en": "Dew-Kissed Blossoms — Necklace",
-    "ru": "Цветы в росе — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLW00007PL.webp",
-      "assets_detail/XTXLW00007PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLW00008OT",
-    "zh": "向云端项链",
-    "category": "项链",
-    "color": "其它/彩色",
-    "material": "铜",
-    "retail": 132.0,
-    "wholesale": 66.0,
-    "image": "assets/XTXLW00008OT.webp",
-    "en": "Above the Clouds — Necklace",
-    "ru": "К облакам — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀",
-    "craft_needs_verification": true,
-    "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/XTXLW00008OT.webp",
-      "assets_detail/XTXLW00008OT_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXLW00009BE",
-    "zh": "雅鱼系列项链",
-    "category": "项链",
-    "color": "蓝色",
-    "material": "铜",
-    "retail": 381.0,
-    "wholesale": 190.5,
-    "image": "assets/XTXLW00009BE.webp",
-    "en": "Elegant Fish Collection — Necklace",
-    "ru": "Коллекция «Изящная рыба» — ожерелье",
-    "category_en": "Necklace",
-    "category_ru": "Ожерелье",
-    "translation_review": false,
-    "craft": "电镀银",
-    "craft_needs_verification": true,
-    "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/XTXLW00009BE.webp",
-      "assets_detail/XTXLW00009BE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZEG00001G",
-    "zh": "乘风破浪",
-    "category": "胸针",
-    "color": "金色",
-    "material": "铜",
-    "retail": 62.4,
-    "wholesale": 41.6,
-    "image": "assets/XTXZEG00001G.webp",
-    "en": "Ride the Waves — Brooch",
-    "ru": "Навстречу волнам — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTXZEG00001G.webp",
-      "assets_detail/XTXZEG00001G_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZEG00003G",
-    "zh": "东方私语",
-    "category": "胸针",
-    "color": "金色",
-    "material": "铜",
-    "retail": 85.5,
-    "wholesale": 42.75,
-    "image": "assets/XTXZEG00003G.webp",
-    "en": "Eastern Whispers — Brooch",
-    "ru": "Восточный шёпот — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTXZEG00003G.webp",
-      "assets_detail/XTXZEG00003G_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZEG00004G",
-    "zh": "马蹄莲二重奏",
-    "category": "胸针",
-    "color": "金色",
-    "material": "铜",
-    "retail": 88.5,
-    "wholesale": 44.25,
-    "image": "assets/XTXZEG00004G.webp",
-    "en": "Calla Lily Duet — Brooch",
-    "ru": "Дуэт калл — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTXZEG00004G.webp",
-      "assets_detail/XTXZEG00004G_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZEG00005BE",
-    "zh": "竹云雅韵",
-    "category": "胸针",
-    "color": "蓝色",
-    "material": "铜",
-    "retail": 186.0,
-    "wholesale": 93.0,
-    "image": "assets/XTXZEG00005BE.webp",
-    "en": "Bamboo and Clouds — Brooch",
-    "ru": "Бамбук и облака — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTXZEG00005BE.webp",
-      "assets_detail/XTXZEG00005BE_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZEG00009YW",
-    "zh": "城市之光",
-    "category": "胸针",
-    "color": "黄色",
-    "material": "铜",
-    "retail": 159.0,
-    "wholesale": 79.5,
-    "image": "assets/XTXZEG00009YW.webp",
-    "en": "City Lights — Brooch",
-    "ru": "Огни города — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTXZEG00009YW.webp",
-      "assets_detail/XTXZEG00009YW_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZEG00010G",
-    "zh": "贝斯特的眸光",
-    "category": "胸针",
-    "color": "金色",
-    "material": "铜",
-    "retail": 147.0,
-    "wholesale": 73.5,
-    "image": "assets/XTXZEG00010G.webp",
-    "en": "Bastet’s Gaze — Brooch",
-    "ru": "Взгляд Бастет — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTXZEG00010G.webp",
-      "assets_detail/XTXZEG00010G_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZEG00011PL",
-    "zh": "海洋胸针",
-    "category": "胸针",
-    "color": "珍珠",
-    "material": "铜",
-    "retail": 138.0,
-    "wholesale": 69.0,
-    "image": "assets/XTXZEG00011PL.webp",
-    "en": "Ocean — Brooch",
-    "ru": "Океан — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/XTXZEG00011PL.webp",
-      "assets_detail/XTXZEG00011PL_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZES00002GN",
-    "zh": "花仙系列胸针",
-    "category": "胸针",
-    "color": "绿色",
-    "material": "铜",
-    "retail": 195.0,
-    "wholesale": 97.5,
-    "image": "assets/XTXZES00002GN.webp",
-    "en": "Flower Fairy Collection — Brooch",
-    "ru": "Коллекция «Цветочная фея» — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/XTXZES00002GN.webp",
-      "assets_detail/XTXZES00002GN_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZR00001RG",
-    "zh": "东方私语",
-    "category": "胸针",
-    "color": "玫瑰金",
-    "material": "铜",
-    "retail": 85.5,
-    "wholesale": 42.75,
-    "image": "assets/XTXZR00001RG.webp",
-    "en": "Eastern Whispers — Brooch",
-    "ru": "Восточный шёпот — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀玫瑰金",
-    "images": [
-      "assets/XTXZR00001RG.webp",
-      "assets_detail/XTXZR00001RG_detail.webp"
-    ]
-  },
-  {
-    "sku": "XTXZR00002RG",
-    "zh": "马蹄莲二重奏",
-    "category": "胸针",
-    "color": "玫瑰金",
-    "material": "铜",
-    "retail": 88.5,
-    "wholesale": 44.25,
-    "image": "assets/XTXZR00002RG.webp",
-    "en": "Calla Lily Duet — Brooch",
-    "ru": "Дуэт калл — брошь",
-    "category_en": "Brooch",
-    "category_ru": "Брошь",
-    "translation_review": false,
-    "craft": "电镀玫瑰金",
-    "images": [
-      "assets/XTXZR00002RG.webp",
-      "assets_detail/XTXZR00002RG_detail.webp"
-    ]
-  },
-  {
     "sku": "KGDZEG00001OT",
     "zh": "古韵新⻛",
     "category": "吊坠",
@@ -1237,11 +13,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGDZEG00001OT.webp",
-      "assets_detail/KGDZEG00001OT_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGDZEG00002G",
@@ -1257,11 +29,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGDZEG00002G.webp",
-      "assets_detail/KGDZEG00002G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGDZEG00003G",
@@ -1277,11 +45,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGDZEG00003G.webp",
-      "assets_detail/KGDZEG00003G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGDZEG00004G",
@@ -1297,11 +61,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGDZEG00004G.webp",
-      "assets_detail/KGDZEG00004G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00001G",
@@ -1317,11 +77,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGEHEG00001G.webp",
-      "assets_detail/KGEHEG00001G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00002BE",
@@ -1337,11 +93,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGEHEG00002BE.webp",
-      "assets_detail/KGEHEG00002BE_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00003G",
@@ -1357,11 +109,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGEHEG00003G.webp",
-      "assets_detail/KGEHEG00003G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00004PE",
@@ -1377,11 +125,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGEHEG00004PE.webp",
-      "assets_detail/KGEHEG00004PE_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00005G",
@@ -1397,11 +141,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGEHEG00005G.webp",
-      "assets_detail/KGEHEG00005G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00006GN",
@@ -1417,11 +157,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGEHEG00006GN.webp",
-      "assets_detail/KGEHEG00006GN_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHEG00007G",
@@ -1437,11 +173,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGEHEG00007G.webp",
-      "assets_detail/KGEHEG00007G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGEHES00001PN",
@@ -1457,11 +189,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGEHES00001PN.webp",
-      "assets_detail/KGEHES00001PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGEHES00002OT",
@@ -1477,11 +205,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGEHES00002OT.webp",
-      "assets_detail/KGEHES00002OT_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGEHES00003BE",
@@ -1497,11 +221,7 @@
     "category_en": "Earrings",
     "category_ru": "Серьги",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGEHES00003BE.webp",
-      "assets_detail/KGEHES00003BE_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGFSEG00001OT",
@@ -1517,11 +237,7 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGFSEG00001OT.webp",
-      "assets_detail/KGFSEG00001OT_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGFSES00001PN",
@@ -1537,11 +253,7 @@
     "category_en": "Jewelry",
     "category_ru": "Украшение",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGFSES00001PN.webp",
-      "assets_detail/KGFSES00001PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZEG00001G",
@@ -1557,11 +269,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGJZEG00001G.webp",
-      "assets_detail/KGJZEG00001G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGJZEG00002BE",
@@ -1577,11 +285,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGJZEG00002BE.webp",
-      "assets_detail/KGJZEG00002BE_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGJZES00001OT",
@@ -1597,11 +301,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGJZES00001OT.webp",
-      "assets_detail/KGJZES00001OT_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZES00002OT",
@@ -1617,11 +317,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGJZES00002OT.webp",
-      "assets_detail/KGJZES00002OT_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZES00003GN",
@@ -1637,11 +333,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGJZES00003GN.webp",
-      "assets_detail/KGJZES00003GN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZES00004BE",
@@ -1657,11 +349,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGJZES00004BE.webp",
-      "assets_detail/KGJZES00004BE_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGJZES00005OT",
@@ -1677,11 +365,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGJZES00005OT.webp",
-      "assets_detail/KGJZES00005OT_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGSHES00001PN",
@@ -1697,11 +381,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGSHES00001PN.webp",
-      "assets_detail/KGSHES00001PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLEG00001G",
@@ -1717,11 +397,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXLEG00001G.webp",
-      "assets_detail/KGXLEG00001G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXLEG00002G",
@@ -1737,11 +413,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXLEG00002G.webp",
-      "assets_detail/KGXLEG00002G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXLEG00003GN",
@@ -1757,11 +429,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXLEG00003GN.webp",
-      "assets_detail/KGXLEG00003GN_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXLEG00004G",
@@ -1777,11 +445,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXLEG00004G.webp",
-      "assets_detail/KGXLEG00004G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXLES00001OT",
@@ -1797,11 +461,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXLES00001OT.webp",
-      "assets_detail/KGXLES00001OT_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLES00002BE",
@@ -1817,11 +477,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXLES00002BE.webp",
-      "assets_detail/KGXLES00002BE_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLES00003GN",
@@ -1837,11 +493,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXLES00003GN.webp",
-      "assets_detail/KGXLES00003GN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLES00004BE",
@@ -1857,11 +509,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXLES00004BE.webp",
-      "assets_detail/KGXLES00004BE_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXLOT00001OT",
@@ -1880,11 +528,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/KGXLOT00001OT.webp",
-      "assets_detail/KGXLOT00001OT_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "KGXLR00001PE",
@@ -1900,11 +544,7 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀玫瑰金",
-    "images": [
-      "assets/KGXLR00001PE.webp",
-      "assets_detail/KGXLR00001PE_detail.webp"
-    ]
+    "craft": "电镀玫瑰金"
   },
   {
     "sku": "KGXZEG00001PK",
@@ -1920,11 +560,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXZEG00001PK.webp",
-      "assets_detail/KGXZEG00001PK_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00002BE",
@@ -1940,11 +576,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXZEG00002BE.webp",
-      "assets_detail/KGXZEG00002BE_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00003G",
@@ -1960,11 +592,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXZEG00003G.webp",
-      "assets_detail/KGXZEG00003G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00004PE",
@@ -1980,11 +608,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXZEG00004PE.webp",
-      "assets_detail/KGXZEG00004PE_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00005BE",
@@ -2000,11 +624,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXZEG00005BE.webp",
-      "assets_detail/KGXZEG00005BE_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZEG00006G",
@@ -2020,11 +640,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀金",
-    "images": [
-      "assets/KGXZEG00006G.webp",
-      "assets_detail/KGXZEG00006G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "KGXZES00001PN",
@@ -2040,11 +656,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXZES00001PN.webp",
-      "assets_detail/KGXZES00001PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00002GN",
@@ -2060,11 +672,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXZES00002GN.webp",
-      "assets_detail/KGXZES00002GN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00003PN",
@@ -2080,11 +688,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXZES00003PN.webp",
-      "assets_detail/KGXZES00003PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00004WE",
@@ -2100,11 +704,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXZES00004WE.webp",
-      "assets_detail/KGXZES00004WE_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00005PE",
@@ -2120,11 +720,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXZES00005PE.webp",
-      "assets_detail/KGXZES00005PE_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZES00006OT",
@@ -2140,11 +736,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": false,
-    "craft": "电镀银",
-    "images": [
-      "assets/KGXZES00006OT.webp",
-      "assets_detail/KGXZES00006OT_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "KGXZOT00001OT",
@@ -2163,11 +755,7 @@
     "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/KGXZOT00001OT.webp",
-      "assets_detail/KGXZOT00001OT_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "KGXZR00001RG",
@@ -2183,11 +771,7 @@
     "category_en": "Brooch",
     "category_ru": "Брошь",
     "translation_review": true,
-    "craft": "电镀玫瑰金",
-    "images": [
-      "assets/KGXZR00001RG.webp",
-      "assets_detail/KGXZR00001RG_detail.webp"
-    ]
+    "craft": "电镀玫瑰金"
   },
   {
     "sku": "HXCJAS00001PN",
@@ -2204,11 +788,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXCJAS00001PN.webp",
-      "assets_detail/HXCJAS00001PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXCJW00001PN",
@@ -2225,11 +805,7 @@
     "category_ru": "Украшение",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXCJW00001PN.webp",
-      "assets_detail/HXCJW00001PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXCJW00002PN",
@@ -2246,11 +822,7 @@
     "category_ru": "Украшение",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXCJW00002PN.webp",
-      "assets_detail/HXCJW00002PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXCJW00003PN",
@@ -2267,11 +839,7 @@
     "category_ru": "Украшение",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXCJW00003PN.webp",
-      "assets_detail/HXCJW00003PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXCJW00004PN",
@@ -2288,11 +856,7 @@
     "category_ru": "Украшение",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXCJW00004PN.webp",
-      "assets_detail/HXCJW00004PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXCJW00005PN",
@@ -2309,11 +873,7 @@
     "category_ru": "Украшение",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXCJW00005PN.webp",
-      "assets_detail/HXCJW00005PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXCJW00006PN",
@@ -2330,11 +890,7 @@
     "category_ru": "Украшение",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXCJW00006PN.webp",
-      "assets_detail/HXCJW00006PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZ00001",
@@ -2356,11 +912,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00001.webp",
-      "assets_detail/HXDZ00001_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00002",
@@ -2382,11 +934,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00002.webp",
-      "assets_detail/HXDZ00002_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00003",
@@ -2408,11 +956,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00003.webp",
-      "assets_detail/HXDZ00003_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00004",
@@ -2434,11 +978,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00004.webp",
-      "assets_detail/HXDZ00004_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00005",
@@ -2460,11 +1000,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00005.webp",
-      "assets_detail/HXDZ00005_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00006",
@@ -2486,11 +1022,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00006.webp",
-      "assets_detail/HXDZ00006_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00007",
@@ -2512,11 +1044,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00007.webp",
-      "assets_detail/HXDZ00007_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00008",
@@ -2538,11 +1066,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZ00008.webp",
-      "assets_detail/HXDZ00008_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZ00009",
@@ -2564,11 +1088,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00009.webp",
-      "assets_detail/HXDZ00009_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00010",
@@ -2590,11 +1110,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00010.webp",
-      "assets_detail/HXDZ00010_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00011",
@@ -2613,11 +1129,7 @@
     "craft": "电镀银",
     "craft_inferred_from_color": true,
     "original_zh": "跨境新款项链酷酷的女钛钢项链不锈钢古装美女吊坠新款不掉色项链",
-    "name_review_required": true,
-    "images": [
-      "assets/HXDZ00011.webp",
-      "assets_detail/HXDZ00011_detail.webp"
-    ]
+    "name_review_required": true
   },
   {
     "sku": "HXDZ00012",
@@ -2639,11 +1151,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00012.webp",
-      "assets_detail/HXDZ00012_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00013",
@@ -2665,11 +1173,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00013.webp",
-      "assets_detail/HXDZ00013_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00014",
@@ -2691,11 +1195,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00014.webp",
-      "assets_detail/HXDZ00014_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00015",
@@ -2714,11 +1214,7 @@
     "craft": "电镀银",
     "craft_inferred_from_color": true,
     "original_zh": "街头嘻哈钛钢飞机项链蹦迪趣味吊坠百搭颈链hiphop个性男生毛衣链",
-    "name_review_required": true,
-    "images": [
-      "assets/HXDZ00015.webp",
-      "assets_detail/HXDZ00015_detail.webp"
-    ]
+    "name_review_required": true
   },
   {
     "sku": "HXDZ00016",
@@ -2737,11 +1233,7 @@
     "craft": "电镀银",
     "craft_inferred_from_color": true,
     "original_zh": "跨境专供欧美维京太阳荷鲁斯之眼设计感 复古钛钢项饰项链饰品男",
-    "name_review_required": true,
-    "images": [
-      "assets/HXDZ00016.webp",
-      "assets_detail/HXDZ00016_detail.webp"
-    ]
+    "name_review_required": true
   },
   {
     "sku": "HXDZ00017",
@@ -2763,11 +1255,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00017.webp",
-      "assets_detail/HXDZ00017_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00018",
@@ -2789,11 +1277,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00018.webp",
-      "assets_detail/HXDZ00018_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00019",
@@ -2815,11 +1299,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00019.webp",
-      "assets_detail/HXDZ00019_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00020",
@@ -2841,11 +1321,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00020.webp",
-      "assets_detail/HXDZ00020_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00021",
@@ -2867,11 +1343,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00021.webp",
-      "assets_detail/HXDZ00021_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00022",
@@ -2893,11 +1365,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00022.webp",
-      "assets_detail/HXDZ00022_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00023",
@@ -2916,11 +1384,7 @@
     "craft": "电镀银",
     "craft_inferred_from_color": true,
     "original_zh": "复古民族风双头金刚杵钛钢金刚橛降魔杵守护神不锈钢男项链毛衣链",
-    "name_review_required": true,
-    "images": [
-      "assets/HXDZ00023.webp",
-      "assets_detail/HXDZ00023_detail.webp"
-    ]
+    "name_review_required": true
   },
   {
     "sku": "HXDZ00024",
@@ -2942,11 +1406,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00024.webp",
-      "assets_detail/HXDZ00024_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00025",
@@ -2968,11 +1428,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00025.webp",
-      "assets_detail/HXDZ00025_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00026",
@@ -2994,11 +1450,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00026.webp",
-      "assets_detail/HXDZ00026_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00027",
@@ -3017,11 +1469,7 @@
     "craft": "电镀银",
     "craft_inferred_from_color": true,
     "original_zh": "狼牙项链同款钛钢不锈钢复古霸气嘻哈个性配饰吊坠项链男潮港风",
-    "name_review_required": true,
-    "images": [
-      "assets/HXDZ00027.webp",
-      "assets_detail/HXDZ00027_detail.webp"
-    ]
+    "name_review_required": true
   },
   {
     "sku": "HXDZ00028",
@@ -3043,11 +1491,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00028.webp",
-      "assets_detail/HXDZ00028_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00029",
@@ -3069,11 +1513,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZ00029.webp",
-      "assets_detail/HXDZ00029_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZ00030",
@@ -3095,11 +1535,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00030.webp",
-      "assets_detail/HXDZ00030_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00031",
@@ -3121,11 +1557,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00031.webp",
-      "assets_detail/HXDZ00031_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00032",
@@ -3147,11 +1579,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00032.webp",
-      "assets_detail/HXDZ00032_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00033",
@@ -3173,11 +1601,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00033.webp",
-      "assets_detail/HXDZ00033_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00034",
@@ -3199,11 +1623,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00034.webp",
-      "assets_detail/HXDZ00034_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00035",
@@ -3225,11 +1645,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00035.webp",
-      "assets_detail/HXDZ00035_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00036",
@@ -3251,11 +1667,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00036.webp",
-      "assets_detail/HXDZ00036_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00037",
@@ -3277,11 +1689,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00037.webp",
-      "assets_detail/HXDZ00037_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00038",
@@ -3303,11 +1711,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00038.webp",
-      "assets_detail/HXDZ00038_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00039",
@@ -3329,11 +1733,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00039.webp",
-      "assets_detail/HXDZ00039_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00040",
@@ -3352,11 +1752,7 @@
     "craft": "电镀银",
     "craft_inferred_from_color": true,
     "original_zh": "海丰梅陇工厂饰品批发不锈钢火箭创意个性男士钛钢项链亚马逊货源",
-    "name_review_required": true,
-    "images": [
-      "assets/HXDZ00040.webp",
-      "assets_detail/HXDZ00040_detail.webp"
-    ]
+    "name_review_required": true
   },
   {
     "sku": "HXDZ00041",
@@ -3378,11 +1774,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00041.webp",
-      "assets_detail/HXDZ00041_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00042",
@@ -3404,11 +1796,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00042.webp",
-      "assets_detail/HXDZ00042_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00043",
@@ -3430,11 +1818,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00043.webp",
-      "assets_detail/HXDZ00043_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00044",
@@ -3456,11 +1840,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00044.webp",
-      "assets_detail/HXDZ00044_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00045",
@@ -3479,11 +1859,7 @@
     "craft": "电镀银",
     "craft_inferred_from_color": true,
     "original_zh": "跨境 热销欧美镂空骷髅头 钛钢 男士哥特式朋克吊坠不锈钢项链",
-    "name_review_required": true,
-    "images": [
-      "assets/HXDZ00045.webp",
-      "assets_detail/HXDZ00045_detail.webp"
-    ]
+    "name_review_required": true
   },
   {
     "sku": "HXDZ00046",
@@ -3505,11 +1881,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00046.webp",
-      "assets_detail/HXDZ00046_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00047",
@@ -3531,11 +1903,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00047.webp",
-      "assets_detail/HXDZ00047_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00048",
@@ -3557,11 +1925,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00048.webp",
-      "assets_detail/HXDZ00048_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00049",
@@ -3583,11 +1947,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00049.webp",
-      "assets_detail/HXDZ00049_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00050",
@@ -3609,11 +1969,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00050.webp",
-      "assets_detail/HXDZ00050_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00051",
@@ -3635,11 +1991,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00051.webp",
-      "assets_detail/HXDZ00051_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00052",
@@ -3661,11 +2013,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00052.webp",
-      "assets_detail/HXDZ00052_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00053",
@@ -3687,11 +2035,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00053.webp",
-      "assets_detail/HXDZ00053_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00054",
@@ -3713,11 +2057,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00054.webp",
-      "assets_detail/HXDZ00054_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZ00055",
@@ -3739,11 +2079,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZ00055.webp",
-      "assets_detail/HXDZ00055_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZAS00039PN",
@@ -3760,11 +2096,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZAS00039PN.webp",
-      "assets_detail/HXDZAS00039PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZAS00065PN",
@@ -3781,11 +2113,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZAS00065PN.webp",
-      "assets_detail/HXDZAS00065PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZAS00066PN",
@@ -3802,11 +2130,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZAS00066PN.webp",
-      "assets_detail/HXDZAS00066PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZAS00083PN",
@@ -3823,11 +2147,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZAS00083PN.webp",
-      "assets_detail/HXDZAS00083PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZG00001BK",
@@ -3847,11 +2167,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZG00001BK.webp",
-      "assets_detail/HXDZG00001BK_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZG00002PN",
@@ -3868,11 +2184,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZG00002PN.webp",
-      "assets_detail/HXDZG00002PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZG00003PN",
@@ -3889,11 +2201,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZG00003PN.webp",
-      "assets_detail/HXDZG00003PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZG00004GN",
@@ -3913,11 +2221,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZG00004GN.webp",
-      "assets_detail/HXDZG00004GN_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZG00005OT",
@@ -3937,11 +2241,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZG00005OT.webp",
-      "assets_detail/HXDZG00005OT_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZW00001OT",
@@ -3961,11 +2261,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00001OT.webp",
-      "assets_detail/HXDZW00001OT_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00002GN",
@@ -3985,11 +2281,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZW00002GN.webp",
-      "assets_detail/HXDZW00002GN_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZW00003GN",
@@ -4009,11 +2301,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZW00003GN.webp",
-      "assets_detail/HXDZW00003GN_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZW00004GN",
@@ -4033,11 +2321,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00004GN.webp",
-      "assets_detail/HXDZW00004GN_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00005GN",
@@ -4057,11 +2341,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00005GN.webp",
-      "assets_detail/HXDZW00005GN_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00006GN",
@@ -4081,11 +2361,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00006GN.webp",
-      "assets_detail/HXDZW00006GN_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00007GN",
@@ -4105,11 +2381,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00007GN.webp",
-      "assets_detail/HXDZW00007GN_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00008GN",
@@ -4129,11 +2401,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00008GN.webp",
-      "assets_detail/HXDZW00008GN_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00009PN",
@@ -4150,11 +2418,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00009PN.webp",
-      "assets_detail/HXDZW00009PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00010PN",
@@ -4171,11 +2435,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00010PN.webp",
-      "assets_detail/HXDZW00010PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00011PN",
@@ -4192,11 +2452,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00011PN.webp",
-      "assets_detail/HXDZW00011PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00012RD",
@@ -4216,11 +2472,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00012RD.webp",
-      "assets_detail/HXDZW00012RD_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00013PN",
@@ -4237,11 +2489,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00013PN.webp",
-      "assets_detail/HXDZW00013PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00014PN",
@@ -4258,11 +2506,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00014PN.webp",
-      "assets_detail/HXDZW00014PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00015PN",
@@ -4279,11 +2523,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00015PN.webp",
-      "assets_detail/HXDZW00015PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00016PN",
@@ -4300,11 +2540,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00016PN.webp",
-      "assets_detail/HXDZW00016PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00017BE",
@@ -4324,11 +2560,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00017BE.webp",
-      "assets_detail/HXDZW00017BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00018PN",
@@ -4345,11 +2577,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00018PN.webp",
-      "assets_detail/HXDZW00018PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00019YW",
@@ -4369,11 +2597,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00019YW.webp",
-      "assets_detail/HXDZW00019YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00020BE",
@@ -4393,11 +2617,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXDZW00020BE.webp",
-      "assets_detail/HXDZW00020BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXDZW00021PN",
@@ -4414,11 +2634,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00021PN.webp",
-      "assets_detail/HXDZW00021PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00022BE",
@@ -4438,11 +2654,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXDZW00022BE.webp",
-      "assets_detail/HXDZW00022BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXDZW00023PN",
@@ -4459,11 +2671,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00023PN.webp",
-      "assets_detail/HXDZW00023PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00024PN",
@@ -4480,11 +2688,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00024PN.webp",
-      "assets_detail/HXDZW00024PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00025PN",
@@ -4501,11 +2705,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00025PN.webp",
-      "assets_detail/HXDZW00025PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00026PN",
@@ -4522,11 +2722,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00026PN.webp",
-      "assets_detail/HXDZW00026PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00027PN",
@@ -4543,11 +2739,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00027PN.webp",
-      "assets_detail/HXDZW00027PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00028PN",
@@ -4564,11 +2756,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00028PN.webp",
-      "assets_detail/HXDZW00028PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00029PN",
@@ -4585,11 +2773,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00029PN.webp",
-      "assets_detail/HXDZW00029PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00030PN",
@@ -4606,11 +2790,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00030PN.webp",
-      "assets_detail/HXDZW00030PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00031PN",
@@ -4627,11 +2807,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00031PN.webp",
-      "assets_detail/HXDZW00031PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00032PN",
@@ -4648,11 +2824,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00032PN.webp",
-      "assets_detail/HXDZW00032PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00033PN",
@@ -4669,11 +2841,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00033PN.webp",
-      "assets_detail/HXDZW00033PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXDZW00034PN",
@@ -4690,11 +2858,7 @@
     "category_ru": "Подвеска",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXDZW00034PN.webp",
-      "assets_detail/HXDZW00034PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXGJG00001OT",
@@ -4714,11 +2878,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXGJG00001OT.webp",
-      "assets_detail/HXGJG00001OT_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXJZAS00001PN",
@@ -4734,11 +2894,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZAS00001PN.webp",
-      "assets_detail/HXJZAS00001PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZAS00002PN",
@@ -4754,11 +2910,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00002PN.webp",
-      "assets_detail/HXJZAS00002PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00005PN",
@@ -4774,11 +2926,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00005PN.webp",
-      "assets_detail/HXJZAS00005PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00006PN",
@@ -4794,11 +2942,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00006PN.webp",
-      "assets_detail/HXJZAS00006PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00007PN",
@@ -4814,11 +2958,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00007PN.webp",
-      "assets_detail/HXJZAS00007PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00008PN",
@@ -4834,11 +2974,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00008PN.webp",
-      "assets_detail/HXJZAS00008PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00009PN",
@@ -4854,11 +2990,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00009PN.webp",
-      "assets_detail/HXJZAS00009PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00010PN",
@@ -4874,11 +3006,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00010PN.webp",
-      "assets_detail/HXJZAS00010PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00011PN",
@@ -4894,11 +3022,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00011PN.webp",
-      "assets_detail/HXJZAS00011PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZAS00012PN",
@@ -4914,11 +3038,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "做旧银",
-    "images": [
-      "assets/HXJZAS00012PN.webp",
-      "assets_detail/HXJZAS00012PN_detail.webp"
-    ]
+    "craft": "做旧银"
   },
   {
     "sku": "HXJZC00004RD",
@@ -4934,11 +3054,7 @@
     "category_en": "Charm",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZC00004RD.webp",
-      "assets_detail/HXJZC00004RD_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZG00001G",
@@ -4954,11 +3070,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀金",
-    "images": [
-      "assets/HXJZG00001G.webp",
-      "assets_detail/HXJZG00001G_detail.webp"
-    ]
+    "craft": "电镀金"
   },
   {
     "sku": "HXJZSS00001BK",
@@ -4974,11 +3086,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀黑",
-    "images": [
-      "assets/HXJZSS00001BK.webp",
-      "assets_detail/HXJZSS00001BK_detail.webp"
-    ]
+    "craft": "电镀黑"
   },
   {
     "sku": "HXJZSS00003BK",
@@ -4994,11 +3102,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀黑",
-    "images": [
-      "assets/HXJZSS00003BK.webp",
-      "assets_detail/HXJZSS00003BK_detail.webp"
-    ]
+    "craft": "电镀黑"
   },
   {
     "sku": "HXJZSS00004BK",
@@ -5014,11 +3118,7 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀黑",
-    "images": [
-      "assets/HXJZSS00004BK.webp",
-      "assets_detail/HXJZSS00004BK_detail.webp"
-    ]
+    "craft": "电镀黑"
   },
   {
     "sku": "HXJZW00001PN",
@@ -5034,11 +3134,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00001PN.webp",
-      "assets_detail/HXJZW00001PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00002PN",
@@ -5054,11 +3150,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00002PN.webp",
-      "assets_detail/HXJZW00002PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00003PN",
@@ -5074,11 +3166,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00003PN.webp",
-      "assets_detail/HXJZW00003PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00004PN",
@@ -5094,11 +3182,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00004PN.webp",
-      "assets_detail/HXJZW00004PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00005RD",
@@ -5114,11 +3198,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00005RD.webp",
-      "assets_detail/HXJZW00005RD_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00006BE",
@@ -5134,11 +3214,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00006BE.webp",
-      "assets_detail/HXJZW00006BE_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00007RD",
@@ -5154,11 +3230,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00007RD.webp",
-      "assets_detail/HXJZW00007RD_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00008PN",
@@ -5174,11 +3246,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00008PN.webp",
-      "assets_detail/HXJZW00008PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00009PN",
@@ -5194,11 +3262,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00009PN.webp",
-      "assets_detail/HXJZW00009PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00010PN",
@@ -5214,11 +3278,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00010PN.webp",
-      "assets_detail/HXJZW00010PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00011BK",
@@ -5234,11 +3294,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00011BK.webp",
-      "assets_detail/HXJZW00011BK_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00012BK",
@@ -5254,11 +3310,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00012BK.webp",
-      "assets_detail/HXJZW00012BK_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00013PN",
@@ -5274,11 +3326,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00013PN.webp",
-      "assets_detail/HXJZW00013PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXJZW00014PN",
@@ -5294,11 +3342,7 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXJZW00014PN.webp",
-      "assets_detail/HXJZW00014PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSH00001",
@@ -5317,11 +3361,7 @@
     "craft": "电镀银",
     "craft_inferred_from_color": true,
     "original_zh": "跨境北欧维京海盗钛钢复古双头龙开口实心麻花编织手镯男手环",
-    "name_review_required": true,
-    "images": [
-      "assets/HXSH00001.webp",
-      "assets_detail/HXSH00001_detail.webp"
-    ]
+    "name_review_required": true
   },
   {
     "sku": "HXSHES00001OT",
@@ -5337,11 +3377,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXSHES00001OT.webp",
-      "assets_detail/HXSHES00001OT_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00002PN",
@@ -5357,11 +3393,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXSHES00002PN.webp",
-      "assets_detail/HXSHES00002PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00003G",
@@ -5377,11 +3409,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXSHES00003G.webp",
-      "assets_detail/HXSHES00003G_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00004PN",
@@ -5397,11 +3425,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXSHES00004PN.webp",
-      "assets_detail/HXSHES00004PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00005PN",
@@ -5417,11 +3441,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXSHES00005PN.webp",
-      "assets_detail/HXSHES00005PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00006PN",
@@ -5437,11 +3457,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXSHES00006PN.webp",
-      "assets_detail/HXSHES00006PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00007PN",
@@ -5457,11 +3473,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXSHES00007PN.webp",
-      "assets_detail/HXSHES00007PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSHES00008PN",
@@ -5477,11 +3489,7 @@
     "category_en": "Bangle",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/HXSHES00008PN.webp",
-      "assets_detail/HXSHES00008PN_detail.webp"
-    ]
+    "craft": "电镀银"
   },
   {
     "sku": "HXSLBL00001BE",
@@ -5500,11 +3508,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXSLBL00001BE.webp",
-      "assets_detail/HXSLBL00001BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXSLW00001PN",
@@ -5521,11 +3525,7 @@
     "category_ru": "Браслет",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXSLW00001PN.webp",
-      "assets_detail/HXSLW00001PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXSLW00002PN",
@@ -5542,11 +3542,7 @@
     "category_ru": "Браслет",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXSLW00002PN.webp",
-      "assets_detail/HXSLW00002PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXL00001",
@@ -5568,11 +3564,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXL00001.webp",
-      "assets_detail/HXXL00001_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXL00002",
@@ -5594,11 +3586,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXL00002.webp",
-      "assets_detail/HXXL00002_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXL00003",
@@ -5620,11 +3608,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXL00003.webp",
-      "assets_detail/HXXL00003_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXL00004",
@@ -5646,11 +3630,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXL00004.webp",
-      "assets_detail/HXXL00004_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXL00005",
@@ -5672,11 +3652,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXL00005.webp",
-      "assets_detail/HXXL00005_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXL00006",
@@ -5698,11 +3674,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXL00006.webp",
-      "assets_detail/HXXL00006_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00001BK",
@@ -5721,11 +3693,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00001BK.webp",
-      "assets_detail/HXXLAS00001BK_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00002BK",
@@ -5744,11 +3712,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00002BK.webp",
-      "assets_detail/HXXLAS00002BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00003BK",
@@ -5768,11 +3732,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00003BK.webp",
-      "assets_detail/HXXLAS00003BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00004BK",
@@ -5792,11 +3752,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00004BK.webp",
-      "assets_detail/HXXLAS00004BK_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00005BK",
@@ -5816,11 +3772,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00005BK.webp",
-      "assets_detail/HXXLAS00005BK_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00006BK",
@@ -5840,11 +3792,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00006BK.webp",
-      "assets_detail/HXXLAS00006BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00007BK",
@@ -5864,11 +3812,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00007BK.webp",
-      "assets_detail/HXXLAS00007BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00008BK",
@@ -5888,11 +3832,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00008BK.webp",
-      "assets_detail/HXXLAS00008BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00009BK",
@@ -5912,11 +3852,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00009BK.webp",
-      "assets_detail/HXXLAS00009BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00010BK",
@@ -5936,11 +3872,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00010BK.webp",
-      "assets_detail/HXXLAS00010BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00011PN",
@@ -5957,11 +3889,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00011PN.webp",
-      "assets_detail/HXXLAS00011PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00012PN",
@@ -5978,11 +3906,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00012PN.webp",
-      "assets_detail/HXXLAS00012PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00013PN",
@@ -5999,11 +3923,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00013PN.webp",
-      "assets_detail/HXXLAS00013PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00014PN",
@@ -6020,11 +3940,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00014PN.webp",
-      "assets_detail/HXXLAS00014PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00016PN",
@@ -6041,11 +3957,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00016PN.webp",
-      "assets_detail/HXXLAS00016PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00017PN",
@@ -6062,11 +3974,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00017PN.webp",
-      "assets_detail/HXXLAS00017PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00018PN",
@@ -6083,11 +3991,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00018PN.webp",
-      "assets_detail/HXXLAS00018PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00019PN",
@@ -6104,11 +4008,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00019PN.webp",
-      "assets_detail/HXXLAS00019PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00020PN",
@@ -6125,11 +4025,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00020PN.webp",
-      "assets_detail/HXXLAS00020PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00021PN",
@@ -6146,11 +4042,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00021PN.webp",
-      "assets_detail/HXXLAS00021PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00022PN",
@@ -6167,11 +4059,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00022PN.webp",
-      "assets_detail/HXXLAS00022PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00023PN",
@@ -6188,11 +4076,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00023PN.webp",
-      "assets_detail/HXXLAS00023PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00024PN",
@@ -6209,11 +4093,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00024PN.webp",
-      "assets_detail/HXXLAS00024PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00025PN",
@@ -6230,11 +4110,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00025PN.webp",
-      "assets_detail/HXXLAS00025PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00026PN",
@@ -6251,11 +4127,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00026PN.webp",
-      "assets_detail/HXXLAS00026PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00027PN",
@@ -6272,11 +4144,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00027PN.webp",
-      "assets_detail/HXXLAS00027PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00028PN",
@@ -6293,11 +4161,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00028PN.webp",
-      "assets_detail/HXXLAS00028PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00029PN",
@@ -6314,11 +4178,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00029PN.webp",
-      "assets_detail/HXXLAS00029PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00030PN",
@@ -6335,11 +4195,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00030PN.webp",
-      "assets_detail/HXXLAS00030PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00031PN",
@@ -6356,11 +4212,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00031PN.webp",
-      "assets_detail/HXXLAS00031PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00032PN",
@@ -6377,11 +4229,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00032PN.webp",
-      "assets_detail/HXXLAS00032PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00034PN",
@@ -6398,11 +4246,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00034PN.webp",
-      "assets_detail/HXXLAS00034PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00035PN",
@@ -6419,11 +4263,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00035PN.webp",
-      "assets_detail/HXXLAS00035PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00036PN",
@@ -6440,11 +4280,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00036PN.webp",
-      "assets_detail/HXXLAS00036PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00037PN",
@@ -6461,11 +4297,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00037PN.webp",
-      "assets_detail/HXXLAS00037PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00038PN",
@@ -6482,11 +4314,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00038PN.webp",
-      "assets_detail/HXXLAS00038PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00039PN",
@@ -6503,11 +4331,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00039PN.webp",
-      "assets_detail/HXXLAS00039PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00040PN",
@@ -6524,11 +4348,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00040PN.webp",
-      "assets_detail/HXXLAS00040PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00041PN",
@@ -6545,11 +4365,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00041PN.webp",
-      "assets_detail/HXXLAS00041PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00043YW",
@@ -6569,11 +4385,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00043YW.webp",
-      "assets_detail/HXXLAS00043YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00044YW",
@@ -6593,11 +4405,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00044YW.webp",
-      "assets_detail/HXXLAS00044YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00045YW",
@@ -6617,11 +4425,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00045YW.webp",
-      "assets_detail/HXXLAS00045YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00046YW",
@@ -6641,11 +4445,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00046YW.webp",
-      "assets_detail/HXXLAS00046YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00047YW",
@@ -6665,11 +4465,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00047YW.webp",
-      "assets_detail/HXXLAS00047YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00048YW",
@@ -6689,11 +4485,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00048YW.webp",
-      "assets_detail/HXXLAS00048YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00049YW",
@@ -6713,11 +4505,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00049YW.webp",
-      "assets_detail/HXXLAS00049YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00050YW",
@@ -6737,11 +4525,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00050YW.webp",
-      "assets_detail/HXXLAS00050YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00051YW",
@@ -6761,11 +4545,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00051YW.webp",
-      "assets_detail/HXXLAS00051YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00052YW",
@@ -6785,11 +4565,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00052YW.webp",
-      "assets_detail/HXXLAS00052YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00053YW",
@@ -6809,11 +4585,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00053YW.webp",
-      "assets_detail/HXXLAS00053YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00054YW",
@@ -6833,11 +4605,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00054YW.webp",
-      "assets_detail/HXXLAS00054YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00055YW",
@@ -6857,11 +4625,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00055YW.webp",
-      "assets_detail/HXXLAS00055YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00056YW",
@@ -6881,11 +4645,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00056YW.webp",
-      "assets_detail/HXXLAS00056YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00057YW",
@@ -6905,11 +4665,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00057YW.webp",
-      "assets_detail/HXXLAS00057YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00058YW",
@@ -6929,11 +4685,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00058YW.webp",
-      "assets_detail/HXXLAS00058YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00059YW",
@@ -6953,11 +4705,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLAS00059YW.webp",
-      "assets_detail/HXXLAS00059YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLAS00060YW",
@@ -6977,11 +4725,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00060YW.webp",
-      "assets_detail/HXXLAS00060YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00061YW",
@@ -7001,11 +4745,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00061YW.webp",
-      "assets_detail/HXXLAS00061YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00062YW",
@@ -7025,11 +4765,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00062YW.webp",
-      "assets_detail/HXXLAS00062YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00063YW",
@@ -7049,11 +4785,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00063YW.webp",
-      "assets_detail/HXXLAS00063YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00064YW",
@@ -7073,11 +4805,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00064YW.webp",
-      "assets_detail/HXXLAS00064YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00065YW",
@@ -7097,11 +4825,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00065YW.webp",
-      "assets_detail/HXXLAS00065YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00066YW",
@@ -7121,11 +4845,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLAS00066YW.webp",
-      "assets_detail/HXXLAS00066YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLAS00067PN",
@@ -7142,11 +4862,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00067PN.webp",
-      "assets_detail/HXXLAS00067PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00068PN",
@@ -7163,11 +4879,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00068PN.webp",
-      "assets_detail/HXXLAS00068PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00069PN",
@@ -7184,11 +4896,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00069PN.webp",
-      "assets_detail/HXXLAS00069PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00070PN",
@@ -7205,11 +4913,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00070PN.webp",
-      "assets_detail/HXXLAS00070PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00071PN",
@@ -7226,11 +4930,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00071PN.webp",
-      "assets_detail/HXXLAS00071PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00072PN",
@@ -7247,11 +4947,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00072PN.webp",
-      "assets_detail/HXXLAS00072PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00073PN",
@@ -7268,11 +4964,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00073PN.webp",
-      "assets_detail/HXXLAS00073PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00074PN",
@@ -7289,11 +4981,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00074PN.webp",
-      "assets_detail/HXXLAS00074PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00075PN",
@@ -7310,11 +4998,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00075PN.webp",
-      "assets_detail/HXXLAS00075PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00076PN",
@@ -7331,11 +5015,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00076PN.webp",
-      "assets_detail/HXXLAS00076PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00077PN",
@@ -7352,11 +5032,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00077PN.webp",
-      "assets_detail/HXXLAS00077PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00078PN",
@@ -7373,11 +5049,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00078PN.webp",
-      "assets_detail/HXXLAS00078PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00079PN",
@@ -7394,11 +5066,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00079PN.webp",
-      "assets_detail/HXXLAS00079PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00080PN",
@@ -7415,11 +5083,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00080PN.webp",
-      "assets_detail/HXXLAS00080PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00081PN",
@@ -7436,11 +5100,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00081PN.webp",
-      "assets_detail/HXXLAS00081PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00082PN",
@@ -7457,11 +5117,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00082PN.webp",
-      "assets_detail/HXXLAS00082PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLAS00083PN",
@@ -7478,11 +5134,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLAS00083PN.webp",
-      "assets_detail/HXXLAS00083PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLS00001YW",
@@ -7502,11 +5154,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLS00001YW.webp",
-      "assets_detail/HXXLS00001YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00001BE",
@@ -7526,11 +5174,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00001BE.webp",
-      "assets_detail/HXXLSS00001BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00002BE",
@@ -7550,11 +5194,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00002BE.webp",
-      "assets_detail/HXXLSS00002BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00003BE",
@@ -7574,11 +5214,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00003BE.webp",
-      "assets_detail/HXXLSS00003BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00004BE",
@@ -7598,11 +5234,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00004BE.webp",
-      "assets_detail/HXXLSS00004BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00005BE",
@@ -7622,11 +5254,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00005BE.webp",
-      "assets_detail/HXXLSS00005BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00006BE",
@@ -7646,11 +5274,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00006BE.webp",
-      "assets_detail/HXXLSS00006BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00007BE",
@@ -7670,11 +5294,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00007BE.webp",
-      "assets_detail/HXXLSS00007BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00008BE",
@@ -7694,11 +5314,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00008BE.webp",
-      "assets_detail/HXXLSS00008BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00009YW",
@@ -7718,11 +5334,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00009YW.webp",
-      "assets_detail/HXXLSS00009YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00010YW",
@@ -7742,11 +5354,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00010YW.webp",
-      "assets_detail/HXXLSS00010YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00011YW",
@@ -7766,11 +5374,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00011YW.webp",
-      "assets_detail/HXXLSS00011YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00012YW",
@@ -7790,11 +5394,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00012YW.webp",
-      "assets_detail/HXXLSS00012YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00013YW",
@@ -7814,11 +5414,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00013YW.webp",
-      "assets_detail/HXXLSS00013YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00014YW",
@@ -7838,11 +5434,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00014YW.webp",
-      "assets_detail/HXXLSS00014YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00015YW",
@@ -7862,11 +5454,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00015YW.webp",
-      "assets_detail/HXXLSS00015YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00016YW",
@@ -7886,11 +5474,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00016YW.webp",
-      "assets_detail/HXXLSS00016YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00017YW",
@@ -7910,11 +5494,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00017YW.webp",
-      "assets_detail/HXXLSS00017YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00018YW",
@@ -7934,11 +5514,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00018YW.webp",
-      "assets_detail/HXXLSS00018YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00019YW",
@@ -7958,11 +5534,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00019YW.webp",
-      "assets_detail/HXXLSS00019YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00020YW",
@@ -7982,11 +5554,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00020YW.webp",
-      "assets_detail/HXXLSS00020YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00021YW",
@@ -8006,11 +5574,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00021YW.webp",
-      "assets_detail/HXXLSS00021YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00022YW",
@@ -8030,11 +5594,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00022YW.webp",
-      "assets_detail/HXXLSS00022YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00023YW",
@@ -8054,11 +5614,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00023YW.webp",
-      "assets_detail/HXXLSS00023YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00024YW",
@@ -8078,11 +5634,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00024YW.webp",
-      "assets_detail/HXXLSS00024YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00025BK",
@@ -8102,11 +5654,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00025BK.webp",
-      "assets_detail/HXXLSS00025BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00026BK",
@@ -8126,11 +5674,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00026BK.webp",
-      "assets_detail/HXXLSS00026BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00027BK",
@@ -8150,11 +5694,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00027BK.webp",
-      "assets_detail/HXXLSS00027BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00028BK",
@@ -8174,11 +5714,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00028BK.webp",
-      "assets_detail/HXXLSS00028BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00029BK",
@@ -8198,11 +5734,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00029BK.webp",
-      "assets_detail/HXXLSS00029BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00030BK",
@@ -8222,11 +5754,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00030BK.webp",
-      "assets_detail/HXXLSS00030BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00031BK",
@@ -8246,11 +5774,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00031BK.webp",
-      "assets_detail/HXXLSS00031BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00032BK",
@@ -8270,11 +5794,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00032BK.webp",
-      "assets_detail/HXXLSS00032BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00033YW",
@@ -8294,11 +5814,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00033YW.webp",
-      "assets_detail/HXXLSS00033YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00034YW",
@@ -8318,11 +5834,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00034YW.webp",
-      "assets_detail/HXXLSS00034YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00035YW",
@@ -8342,11 +5854,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00035YW.webp",
-      "assets_detail/HXXLSS00035YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00036YW",
@@ -8366,11 +5874,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00036YW.webp",
-      "assets_detail/HXXLSS00036YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00037YW",
@@ -8390,11 +5894,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00037YW.webp",
-      "assets_detail/HXXLSS00037YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00038YW",
@@ -8414,11 +5914,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00038YW.webp",
-      "assets_detail/HXXLSS00038YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00039YW",
@@ -8438,11 +5934,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00039YW.webp",
-      "assets_detail/HXXLSS00039YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00040YW",
@@ -8462,11 +5954,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00040YW.webp",
-      "assets_detail/HXXLSS00040YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00041YW",
@@ -8486,11 +5974,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00041YW.webp",
-      "assets_detail/HXXLSS00041YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00042YW",
@@ -8510,11 +5994,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00042YW.webp",
-      "assets_detail/HXXLSS00042YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00043YW",
@@ -8534,11 +6014,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00043YW.webp",
-      "assets_detail/HXXLSS00043YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00044YW",
@@ -8558,11 +6034,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00044YW.webp",
-      "assets_detail/HXXLSS00044YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00045YW",
@@ -8582,11 +6054,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00045YW.webp",
-      "assets_detail/HXXLSS00045YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00046YW",
@@ -8606,11 +6074,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00046YW.webp",
-      "assets_detail/HXXLSS00046YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00047YW",
@@ -8630,11 +6094,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00047YW.webp",
-      "assets_detail/HXXLSS00047YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00048YW",
@@ -8654,11 +6114,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00048YW.webp",
-      "assets_detail/HXXLSS00048YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00049BE",
@@ -8677,11 +6133,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00049BE.webp",
-      "assets_detail/HXXLSS00049BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00050BE",
@@ -8700,11 +6152,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00050BE.webp",
-      "assets_detail/HXXLSS00050BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00051BE",
@@ -8723,11 +6171,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00051BE.webp",
-      "assets_detail/HXXLSS00051BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00052BE",
@@ -8746,11 +6190,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00052BE.webp",
-      "assets_detail/HXXLSS00052BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00053BE",
@@ -8769,11 +6209,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00053BE.webp",
-      "assets_detail/HXXLSS00053BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00054BE",
@@ -8792,11 +6228,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00054BE.webp",
-      "assets_detail/HXXLSS00054BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00055BE",
@@ -8815,11 +6247,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00055BE.webp",
-      "assets_detail/HXXLSS00055BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00056BE",
@@ -8838,11 +6266,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00056BE.webp",
-      "assets_detail/HXXLSS00056BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00057BE",
@@ -8861,11 +6285,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00057BE.webp",
-      "assets_detail/HXXLSS00057BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00058BE",
@@ -8884,11 +6304,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00058BE.webp",
-      "assets_detail/HXXLSS00058BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00059BE",
@@ -8907,11 +6323,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00059BE.webp",
-      "assets_detail/HXXLSS00059BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00060BE",
@@ -8930,11 +6342,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00060BE.webp",
-      "assets_detail/HXXLSS00060BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00061BE",
@@ -8953,11 +6361,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00061BE.webp",
-      "assets_detail/HXXLSS00061BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00062BE",
@@ -8976,11 +6380,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00062BE.webp",
-      "assets_detail/HXXLSS00062BE_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00063BE",
@@ -8999,11 +6399,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00063BE.webp",
-      "assets_detail/HXXLSS00063BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00064BE",
@@ -9022,11 +6418,7 @@
     "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00064BE.webp",
-      "assets_detail/HXXLSS00064BE_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00065YW",
@@ -9045,11 +6437,7 @@
     "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLSS00065YW.webp",
-      "assets_detail/HXXLSS00065YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLSS00066YW",
@@ -9068,11 +6456,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00066YW.webp",
-      "assets_detail/HXXLSS00066YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00067YW",
@@ -9091,11 +6475,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00067YW.webp",
-      "assets_detail/HXXLSS00067YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00068YW",
@@ -9114,11 +6494,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00068YW.webp",
-      "assets_detail/HXXLSS00068YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00069YW",
@@ -9137,11 +6513,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00069YW.webp",
-      "assets_detail/HXXLSS00069YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00070YW",
@@ -9160,11 +6532,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00070YW.webp",
-      "assets_detail/HXXLSS00070YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00071YW",
@@ -9183,11 +6551,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00071YW.webp",
-      "assets_detail/HXXLSS00071YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLSS00072YW",
@@ -9206,11 +6570,7 @@
     "craft": "电镀",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLSS00072YW.webp",
-      "assets_detail/HXXLSS00072YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00001YW",
@@ -9230,11 +6590,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00001YW.webp",
-      "assets_detail/HXXLW00001YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00002PN",
@@ -9251,11 +6607,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLW00002PN.webp",
-      "assets_detail/HXXLW00002PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLW00003PN",
@@ -9272,11 +6624,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLW00003PN.webp",
-      "assets_detail/HXXLW00003PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLW00004PN",
@@ -9293,11 +6641,7 @@
     "category_ru": "Ожерелье",
     "translation_review": true,
     "craft": "电镀银",
-    "craft_inferred_from_color": true,
-    "images": [
-      "assets/HXXLW00004PN.webp",
-      "assets_detail/HXXLW00004PN_detail.webp"
-    ]
+    "craft_inferred_from_color": true
   },
   {
     "sku": "HXXLW00005YW",
@@ -9317,11 +6661,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00005YW.webp",
-      "assets_detail/HXXLW00005YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00006YW",
@@ -9341,11 +6681,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00006YW.webp",
-      "assets_detail/HXXLW00006YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00007YW",
@@ -9365,11 +6701,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00007YW.webp",
-      "assets_detail/HXXLW00007YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00008YW",
@@ -9389,11 +6721,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00008YW.webp",
-      "assets_detail/HXXLW00008YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00009YW",
@@ -9413,11 +6741,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00009YW.webp",
-      "assets_detail/HXXLW00009YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00010YW",
@@ -9437,11 +6761,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00010YW.webp",
-      "assets_detail/HXXLW00010YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00011YW",
@@ -9461,11 +6781,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00011YW.webp",
-      "assets_detail/HXXLW00011YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00012YW",
@@ -9485,11 +6801,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00012YW.webp",
-      "assets_detail/HXXLW00012YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00013YW",
@@ -9509,11 +6821,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00013YW.webp",
-      "assets_detail/HXXLW00013YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00014YW",
@@ -9533,11 +6841,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00014YW.webp",
-      "assets_detail/HXXLW00014YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00015YW",
@@ -9557,11 +6861,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00015YW.webp",
-      "assets_detail/HXXLW00015YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00016YW",
@@ -9581,11 +6881,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00016YW.webp",
-      "assets_detail/HXXLW00016YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00017YW",
@@ -9605,11 +6901,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00017YW.webp",
-      "assets_detail/HXXLW00017YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00018YW",
@@ -9629,11 +6921,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00018YW.webp",
-      "assets_detail/HXXLW00018YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00019YW",
@@ -9653,11 +6941,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00019YW.webp",
-      "assets_detail/HXXLW00019YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00020YW",
@@ -9677,11 +6961,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00020YW.webp",
-      "assets_detail/HXXLW00020YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00021YW",
@@ -9701,11 +6981,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00021YW.webp",
-      "assets_detail/HXXLW00021YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00022YW",
@@ -9725,11 +7001,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00022YW.webp",
-      "assets_detail/HXXLW00022YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00023YW",
@@ -9749,11 +7021,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00023YW.webp",
-      "assets_detail/HXXLW00023YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00024YW",
@@ -9773,11 +7041,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00024YW.webp",
-      "assets_detail/HXXLW00024YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00025YW",
@@ -9797,11 +7061,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00025YW.webp",
-      "assets_detail/HXXLW00025YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00026YW",
@@ -9821,11 +7081,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00026YW.webp",
-      "assets_detail/HXXLW00026YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00027YW",
@@ -9845,11 +7101,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00027YW.webp",
-      "assets_detail/HXXLW00027YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00028YW",
@@ -9869,11 +7121,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00028YW.webp",
-      "assets_detail/HXXLW00028YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00029YW",
@@ -9893,11 +7141,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00029YW.webp",
-      "assets_detail/HXXLW00029YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00030YW",
@@ -9917,11 +7161,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00030YW.webp",
-      "assets_detail/HXXLW00030YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00031YW",
@@ -9941,11 +7181,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00031YW.webp",
-      "assets_detail/HXXLW00031YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00032YW",
@@ -9965,11 +7201,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00032YW.webp",
-      "assets_detail/HXXLW00032YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00033YW",
@@ -9989,11 +7221,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00033YW.webp",
-      "assets_detail/HXXLW00033YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00034YW",
@@ -10013,11 +7241,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00034YW.webp",
-      "assets_detail/HXXLW00034YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00035YW",
@@ -10037,11 +7261,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00035YW.webp",
-      "assets_detail/HXXLW00035YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00036YW",
@@ -10061,11 +7281,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00036YW.webp",
-      "assets_detail/HXXLW00036YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00037YW",
@@ -10085,11 +7301,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00037YW.webp",
-      "assets_detail/HXXLW00037YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00038YW",
@@ -10109,11 +7321,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00038YW.webp",
-      "assets_detail/HXXLW00038YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00039YW",
@@ -10133,11 +7341,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00039YW.webp",
-      "assets_detail/HXXLW00039YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00040YW",
@@ -10157,11 +7361,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00040YW.webp",
-      "assets_detail/HXXLW00040YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00041YW",
@@ -10181,11 +7381,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00041YW.webp",
-      "assets_detail/HXXLW00041YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00042YW",
@@ -10205,11 +7401,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00042YW.webp",
-      "assets_detail/HXXLW00042YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00043YW",
@@ -10229,11 +7421,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00043YW.webp",
-      "assets_detail/HXXLW00043YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00044YW",
@@ -10253,11 +7441,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00044YW.webp",
-      "assets_detail/HXXLW00044YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00045YW",
@@ -10277,11 +7461,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00045YW.webp",
-      "assets_detail/HXXLW00045YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00046YW",
@@ -10301,11 +7481,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00046YW.webp",
-      "assets_detail/HXXLW00046YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00047YW",
@@ -10325,11 +7501,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00047YW.webp",
-      "assets_detail/HXXLW00047YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00048YW",
@@ -10349,11 +7521,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00048YW.webp",
-      "assets_detail/HXXLW00048YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00049YW",
@@ -10373,11 +7541,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00049YW.webp",
-      "assets_detail/HXXLW00049YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00050YW",
@@ -10397,11 +7561,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00050YW.webp",
-      "assets_detail/HXXLW00050YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00051YW",
@@ -10421,11 +7581,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00051YW.webp",
-      "assets_detail/HXXLW00051YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00052YW",
@@ -10445,11 +7601,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00052YW.webp",
-      "assets_detail/HXXLW00052YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00053YW",
@@ -10469,11 +7621,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00053YW.webp",
-      "assets_detail/HXXLW00053YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00054YW",
@@ -10493,11 +7641,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_source": "image_color_inference",
-    "craft_inferred_from_image": true,
-    "images": [
-      "assets/HXXLW00054YW.webp",
-      "assets_detail/HXXLW00054YW_detail.webp"
-    ]
+    "craft_inferred_from_image": true
   },
   {
     "sku": "HXXLW00055YW",
@@ -10517,11 +7661,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00055YW.webp",
-      "assets_detail/HXXLW00055YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00056YW",
@@ -10541,11 +7681,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00056YW.webp",
-      "assets_detail/HXXLW00056YW_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00057BK",
@@ -10565,11 +7701,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00057BK.webp",
-      "assets_detail/HXXLW00057BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "HXXLW00058BK",
@@ -10589,11 +7721,7 @@
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true,
-    "images": [
-      "assets/HXXLW00058BK.webp",
-      "assets_detail/HXXLW00058BK_detail.webp"
-    ]
+    "craft_type_unidentified": true
   },
   {
     "sku": "JSJZW00249PN",
@@ -10609,10 +7737,6 @@
     "category_en": "Ring",
     "category_ru": "Кольцо",
     "translation_review": true,
-    "craft": "电镀银",
-    "images": [
-      "assets/JSJZW00249PN.webp",
-      "assets_detail/JSJZW00249PN_detail.webp"
-    ]
+    "craft": "电镀银"
   }
 ]
