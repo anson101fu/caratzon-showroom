@@ -1,5 +1,1015 @@
 [
   {
+    "sku": "XTEDW00002PK",
+    "zh": "sweet",
+    "category": "耳钉",
+    "color": "粉色",
+    "material": "铜",
+    "retail": 147.0,
+    "wholesale": 73.5,
+    "image": "assets/XTEDW00002PK.webp",
+    "en": "Sweet — Stud Earrings",
+    "ru": "Нежность — серьги-гвоздики",
+    "category_en": "Stud Earrings",
+    "category_ru": "Серьги-гвоздики",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_image": true,
+    "craft_needs_verification": true,
+    "images": [
+      "assets/XTEDW00002PK.webp",
+      "assets_v24_ai/XTEDW00002PK_model.webp",
+      "assets_v24_ai/XTEDW00002PK_detail.webp"
+    ]
+  },
+  {
+    "sku": "XTEDW00003WE",
+    "zh": "初绽",
+    "category": "耳钉",
+    "color": "白色",
+    "material": "铜",
+    "retail": 141.0,
+    "wholesale": 70.5,
+    "image": "assets/XTEDW00003WE.webp",
+    "en": "First Bloom — Stud Earrings",
+    "ru": "Первое цветение — серьги-гвоздики",
+    "category_en": "Stud Earrings",
+    "category_ru": "Серьги-гвоздики",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTEDW00004WE",
+    "zh": "心漪",
+    "category": "耳钉",
+    "color": "白色",
+    "material": "铜",
+    "retail": 141.0,
+    "wholesale": 70.5,
+    "image": "assets/XTEDW00004WE.webp",
+    "en": "Ripples of the Heart — Stud Earrings",
+    "ru": "Рябь сердца — серьги-гвоздики",
+    "category_en": "Stud Earrings",
+    "category_ru": "Серьги-гвоздики",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTEDW00005WE",
+    "zh": "恋玫之心",
+    "category": "耳钉",
+    "color": "白色",
+    "material": "铜",
+    "retail": 141.0,
+    "wholesale": 70.5,
+    "image": "assets/XTEDW00005WE.webp",
+    "en": "Heart of Rose — Stud Earrings",
+    "ru": "Сердце розы — серьги-гвоздики",
+    "category_en": "Stud Earrings",
+    "category_ru": "Серьги-гвоздики",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTEDW00006WE",
+    "zh": "素花轻坠",
+    "category": "耳钉",
+    "color": "白色",
+    "material": "铜",
+    "retail": 126.0,
+    "wholesale": 63.0,
+    "image": "assets/XTEDW00006WE.webp",
+    "en": "Delicate Floral Drop — Stud Earrings",
+    "ru": "Нежный цветочный подвес — серьги-гвоздики",
+    "category_en": "Stud Earrings",
+    "category_ru": "Серьги-гвоздики",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTEDW00007OT",
+    "zh": "向云端耳钉",
+    "category": "耳钉",
+    "color": "其它/彩色",
+    "material": "铜",
+    "retail": 135.0,
+    "wholesale": 67.5,
+    "image": "assets/XTEDW00007OT.webp",
+    "en": "Above the Clouds — Stud Earrings",
+    "ru": "К облакам — серьги-гвоздики",
+    "category_en": "Stud Earrings",
+    "category_ru": "Серьги-гвоздики",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTEHC00001WE",
+    "zh": "冻结几何",
+    "category": "耳环",
+    "color": "白色",
+    "material": "铜",
+    "retail": 111.0,
+    "wholesale": 55.5,
+    "image": "assets/XTEHC00001WE.webp",
+    "en": "Frozen Geometry — Earrings",
+    "ru": "Застывшая геометрия — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_review_status": "pending_supplier_confirmation",
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTEHC00002WE",
+    "zh": "绯色翩振",
+    "category": "耳环",
+    "color": "白色",
+    "material": "铜",
+    "retail": 133.5,
+    "wholesale": 66.75,
+    "image": "assets/XTEHC00002WE.webp",
+    "en": "Crimson Flutter — Earrings",
+    "ru": "Алое порхание — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": false,
+    "craft": "电镀玫瑰金",
+    "craft_needs_verification": true,
+    "craft_source": "user_photo_metal_frame_review",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTEHC00006BE",
+    "zh": "冰湖碎光",
+    "category": "耳环",
+    "color": "蓝色",
+    "material": "铜",
+    "retail": 114.0,
+    "wholesale": 57.0,
+    "image": "assets/XTEHC00006BE.webp",
+    "en": "Shimmering Ice Lake — Earrings",
+    "ru": "Мерцание ледяного озера — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTEHC00007GN",
+    "zh": "双洲鎏藏Auspicious Clouds & Palace Domes",
+    "category": "耳环",
+    "color": "绿色",
+    "material": "铜",
+    "retail": 45.0,
+    "wholesale": 22.5,
+    "image": "assets/XTEHC00007GN.webp",
+    "en": "双洲鎏藏Auspicious Clouds & Palace Domes — Earrings",
+    "ru": "双洲鎏藏Auspicious Clouds & Palace Domes — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": true,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTEHC00008BE",
+    "zh": "白桦栖月",
+    "category": "耳环",
+    "color": "蓝色",
+    "material": "铜",
+    "retail": 72.0,
+    "wholesale": 36.0,
+    "image": "assets/XTEHC00008BE.webp",
+    "en": "Moon over Birch — Earrings",
+    "ru": "Луна над берёзой — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_inferred_from_image": true,
+    "craft_visual_classification_only": true
+  },
+  {
+    "sku": "XTEHG00001PL",
+    "zh": "留住真我耳環",
+    "category": "耳环",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 144.0,
+    "wholesale": 72.0,
+    "image": "assets/XTEHG00001PL.webp",
+    "en": "True to Myself — Earrings",
+    "ru": "Верность себе — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTEHG00002PL",
+    "zh": "海韵耳环",
+    "category": "耳环",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 147.0,
+    "wholesale": 73.5,
+    "image": "assets/XTEHG00002PL.webp",
+    "en": "Ocean Melody — Earrings",
+    "ru": "Мелодия моря — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_inferred_from_image": true,
+    "craft_visual_classification_only": true
+  },
+  {
+    "sku": "XTEHG00003PL",
+    "zh": "丹韵金绡耳环",
+    "category": "耳环",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 147.0,
+    "wholesale": 73.5,
+    "image": "assets/XTEHG00003PL.webp",
+    "en": "Crimson Gold Veil — Earrings",
+    "ru": "Алый золотой шёлк — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTEHW00001BE",
+    "zh": "雅鱼系列耳环",
+    "category": "耳环",
+    "color": "蓝色",
+    "material": "铜",
+    "retail": 441.0,
+    "wholesale": 220.5,
+    "image": "assets/XTEHW00001BE.webp",
+    "en": "Elegant Fish Collection — Earrings",
+    "ru": "Коллекция «Изящная рыба» — серьги",
+    "category_en": "Earrings",
+    "category_ru": "Серьги",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_inferred_from_image": true,
+    "craft_visual_classification_only": true
+  },
+  {
+    "sku": "XTJZG00001G",
+    "zh": "留住真我戒指",
+    "category": "戒指",
+    "color": "金色",
+    "material": "铜",
+    "retail": 156.0,
+    "wholesale": 78.0,
+    "image": "assets/XTJZG00001G.webp",
+    "en": "True to Myself — Ring",
+    "ru": "Верность себе — кольцо",
+    "category_en": "Ring",
+    "category_ru": "Кольцо",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTJZG00002PL",
+    "zh": "海韵戒指",
+    "category": "戒指",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 126.0,
+    "wholesale": 63.0,
+    "image": "assets/XTJZG00002PL.webp",
+    "en": "Ocean Melody — Ring",
+    "ru": "Мелодия моря — кольцо",
+    "category_en": "Ring",
+    "category_ru": "Кольцо",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTJZW00001PN",
+    "zh": "初绽",
+    "category": "戒指",
+    "color": "素银",
+    "material": "铜",
+    "retail": 126.0,
+    "wholesale": 63.0,
+    "image": "assets/XTJZW00001PN.webp",
+    "en": "First Bloom — Ring",
+    "ru": "Первое цветение — кольцо",
+    "category_en": "Ring",
+    "category_ru": "Кольцо",
+    "translation_review": false,
+    "craft": "电镀银"
+  },
+  {
+    "sku": "XTJZW00002PN",
+    "zh": "心漪",
+    "category": "戒指",
+    "color": "素银",
+    "material": "铜",
+    "retail": 126.0,
+    "wholesale": 63.0,
+    "image": "assets/XTJZW00002PN.webp",
+    "en": "Ripples of the Heart — Ring",
+    "ru": "Рябь сердца — кольцо",
+    "category_en": "Ring",
+    "category_ru": "Кольцо",
+    "translation_review": false,
+    "craft": "电镀银"
+  },
+  {
+    "sku": "XTJZW00003PN",
+    "zh": "恋玫之心戒指",
+    "category": "戒指",
+    "color": "素银",
+    "material": "铜",
+    "retail": 126.0,
+    "wholesale": 63.0,
+    "image": "assets/XTJZW00003PN.webp",
+    "en": "Heart of Rose — Ring",
+    "ru": "Сердце розы — кольцо",
+    "category_en": "Ring",
+    "category_ru": "Кольцо",
+    "translation_review": false,
+    "craft": "电镀银"
+  },
+  {
+    "sku": "XTJZW00004PN",
+    "zh": "星瓣",
+    "category": "戒指",
+    "color": "素银",
+    "material": "铜",
+    "retail": 126.0,
+    "wholesale": 63.0,
+    "image": "assets/XTJZW00004PN.webp",
+    "en": "Star Petals — Ring",
+    "ru": "Звёздные лепестки — кольцо",
+    "category_en": "Ring",
+    "category_ru": "Кольцо",
+    "translation_review": false,
+    "craft": "电镀银"
+  },
+  {
+    "sku": "XTJZW00005PN",
+    "zh": "花影琉光戒指",
+    "category": "戒指",
+    "color": "素银",
+    "material": "铜",
+    "retail": 126.0,
+    "wholesale": 63.0,
+    "image": "assets/XTJZW00005PN.webp",
+    "en": "Floral Reflections — Ring",
+    "ru": "Цветочные отблески — кольцо",
+    "category_en": "Ring",
+    "category_ru": "Кольцо",
+    "translation_review": false,
+    "craft": "电镀银"
+  },
+  {
+    "sku": "XTSHEG00001G",
+    "zh": "留住真我手镯",
+    "category": "手镯",
+    "color": "金色",
+    "material": "铜",
+    "retail": 147.0,
+    "wholesale": 73.5,
+    "image": "assets/XTSHEG00001G.webp",
+    "en": "True to Myself — Bangle",
+    "ru": "Верность себе — жёсткий браслет",
+    "category_en": "Bangle",
+    "category_ru": "Браслет",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTSLG00001WE",
+    "zh": "太阳花手链",
+    "category": "手链",
+    "color": "白色",
+    "material": "铜",
+    "retail": 118.5,
+    "wholesale": 59.25,
+    "image": "assets/XTSLG00001WE.webp",
+    "en": "Sunflower — Bracelet",
+    "ru": "Подсолнух — браслет",
+    "category_en": "Bracelet",
+    "category_ru": "Браслет",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTSLG00002PL",
+    "zh": "丹韵金绡手链",
+    "category": "手链",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 219.0,
+    "wholesale": 109.5,
+    "image": "assets/XTSLG00002PL.webp",
+    "en": "Crimson Gold Veil — Bracelet",
+    "ru": "Алый золотой шёлк — браслет",
+    "category_en": "Bracelet",
+    "category_ru": "Браслет",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTSLW00002WE",
+    "zh": "花簇轻环",
+    "category": "手链",
+    "color": "白色",
+    "material": "铜",
+    "retail": 132.0,
+    "wholesale": 66.0,
+    "image": "assets/XTSLW00002WE.webp",
+    "en": "Floral Cluster — Bracelet",
+    "ru": "Цветочное соцветие — браслет",
+    "category_en": "Bracelet",
+    "category_ru": "Браслет",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTSLW00004PL",
+    "zh": "盈珠花笺手链",
+    "category": "手链",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 129.0,
+    "wholesale": 64.5,
+    "image": "assets/XTSLW00004PL.webp",
+    "en": "Pearl Blossom — Bracelet",
+    "ru": "Жемчужный цветок — браслет",
+    "category_en": "Bracelet",
+    "category_ru": "Браслет",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTSLW00005BE",
+    "zh": "雅鱼系列手链",
+    "category": "手链",
+    "color": "蓝色",
+    "material": "铜",
+    "retail": 381.0,
+    "wholesale": 190.5,
+    "image": "assets/XTSLW00005BE.webp",
+    "en": "Elegant Fish Collection — Bracelet",
+    "ru": "Коллекция «Изящная рыба» — браслет",
+    "category_en": "Bracelet",
+    "category_ru": "Браслет",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTSLW00006WE",
+    "zh": "心形手链",
+    "category": "手链",
+    "color": "白色",
+    "material": "铜",
+    "retail": 177.0,
+    "wholesale": 88.5,
+    "image": "assets/XTSLW00006WE.webp",
+    "en": "Heart-Shaped — Bracelet",
+    "ru": "В форме сердца — браслет",
+    "category_en": "Bracelet",
+    "category_ru": "Браслет",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTXLC00001WE",
+    "zh": "光之折影",
+    "category": "项链",
+    "color": "白色",
+    "material": "铜",
+    "retail": 135.0,
+    "wholesale": 67.5,
+    "image": "assets/XTXLC00001WE.webp",
+    "en": "Reflections of Light — Necklace",
+    "ru": "Отражения света — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTXLC00002PL",
+    "zh": "幻趣旋梦",
+    "category": "项链",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 96.0,
+    "wholesale": 48.0,
+    "image": "assets/XTXLC00002PL.webp",
+    "en": "Whirling Dream — Necklace",
+    "ru": "Кружение мечты — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLC00003PL",
+    "zh": "星辰之爱",
+    "category": "项链",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 84.0,
+    "wholesale": 42.0,
+    "image": "assets/XTXLC00003PL.webp",
+    "en": "Love of the Stars — Necklace",
+    "ru": "Любовь звёзд — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀玫瑰金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLC00006BE",
+    "zh": "白桦栖月",
+    "category": "项链",
+    "color": "蓝色",
+    "material": "铜",
+    "retail": 57.0,
+    "wholesale": 28.5,
+    "image": "assets/XTXLC00006BE.webp",
+    "en": "Moon over Birch — Necklace",
+    "ru": "Луна над берёзой — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLC00007OT",
+    "zh": "融雅",
+    "category": "项链",
+    "color": "其它/彩色",
+    "material": "铜",
+    "retail": 78.0,
+    "wholesale": 39.0,
+    "image": "assets/XTXLC00007OT.webp",
+    "en": "Elegant Harmony — Necklace",
+    "ru": "Изящная гармония — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLG00004RD",
+    "zh": "形影项链",
+    "category": "项链",
+    "color": "红色",
+    "material": "铜",
+    "retail": 129.0,
+    "wholesale": 64.5,
+    "image": "assets/XTXLG00004RD.webp",
+    "en": "Silhouette — Necklace",
+    "ru": "Силуэт — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true,
+    "images": [
+      "assets/XTXLG00004RD.webp",
+      "assets_v24_ai/XTXLG00004RD_model.webp",
+      "assets_v24_ai/XTXLG00004RD_detail.webp"
+    ]
+  },
+  {
+    "sku": "XTXLG00005RD",
+    "zh": "形影项链",
+    "category": "项链",
+    "color": "红色",
+    "material": "铜",
+    "retail": 126.0,
+    "wholesale": 63.0,
+    "image": "assets/XTXLG00005RD.webp",
+    "en": "Silhouette — Necklace",
+    "ru": "Силуэт — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLG00006CL",
+    "zh": "折纸熊猫项链",
+    "category": "项链",
+    "color": "透明",
+    "material": "铜",
+    "retail": 156.0,
+    "wholesale": 78.0,
+    "image": "assets/XTXLG00006CL.webp",
+    "en": "Origami Panda — Necklace",
+    "ru": "Панда-оригами — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLG00007PL",
+    "zh": "丹韵金绡项链",
+    "category": "项链",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 288.0,
+    "wholesale": 144.0,
+    "image": "assets/XTXLG00007PL.webp",
+    "en": "Crimson Gold Veil — Necklace",
+    "ru": "Алый золотой шёлк — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLG00008WE",
+    "zh": "金葫竹语项链",
+    "category": "项链",
+    "color": "白色",
+    "material": "铜",
+    "retail": 375.0,
+    "wholesale": 187.5,
+    "image": "assets/XTXLG00008WE.webp",
+    "en": "Golden Gourd and Bamboo — Necklace",
+    "ru": "Золотая тыква и бамбук — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀金",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLW00002PK",
+    "zh": "sweet",
+    "category": "项链",
+    "color": "粉色",
+    "material": "铜",
+    "retail": 165.0,
+    "wholesale": 82.5,
+    "image": "assets/XTXLW00002PK.webp",
+    "en": "Sweet — Necklace",
+    "ru": "Нежность — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_inferred_from_image": true,
+    "craft_visual_classification_only": true
+  },
+  {
+    "sku": "XTXLW00003WE",
+    "zh": "初绽",
+    "category": "项链",
+    "color": "白色",
+    "material": "铜",
+    "retail": 147.0,
+    "wholesale": 73.5,
+    "image": "assets/XTXLW00003WE.webp",
+    "en": "First Bloom — Necklace",
+    "ru": "Первое цветение — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTXLW00004WE",
+    "zh": "心漪",
+    "category": "项链",
+    "color": "白色",
+    "material": "铜",
+    "retail": 147.0,
+    "wholesale": 73.5,
+    "image": "assets/XTXLW00004WE.webp",
+    "en": "Ripples of the Heart — Necklace",
+    "ru": "Рябь сердца — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTXLW00005WE",
+    "zh": "恋玫之心项链",
+    "category": "项链",
+    "color": "白色",
+    "material": "铜",
+    "retail": 147.0,
+    "wholesale": 73.5,
+    "image": "assets/XTXLW00005WE.webp",
+    "en": "Heart of Rose — Necklace",
+    "ru": "Сердце розы — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_inferred_from_color": true,
+    "craft_needs_verification": true
+  },
+  {
+    "sku": "XTXLW00007PL",
+    "zh": "花盈凝露项链",
+    "category": "项链",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 129.0,
+    "wholesale": 64.5,
+    "image": "assets/XTXLW00007PL.webp",
+    "en": "Dew-Kissed Blossoms — Necklace",
+    "ru": "Цветы в росе — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXLW00008OT",
+    "zh": "向云端项链",
+    "category": "项链",
+    "color": "其它/彩色",
+    "material": "铜",
+    "retail": 132.0,
+    "wholesale": 66.0,
+    "image": "assets/XTXLW00008OT.webp",
+    "en": "Above the Clouds — Necklace",
+    "ru": "К облакам — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_inferred_from_image": true,
+    "craft_visual_classification_only": true
+  },
+  {
+    "sku": "XTXLW00009BE",
+    "zh": "雅鱼系列项链",
+    "category": "项链",
+    "color": "蓝色",
+    "material": "铜",
+    "retail": 381.0,
+    "wholesale": 190.5,
+    "image": "assets/XTXLW00009BE.webp",
+    "en": "Elegant Fish Collection — Necklace",
+    "ru": "Коллекция «Изящная рыба» — ожерелье",
+    "category_en": "Necklace",
+    "category_ru": "Ожерелье",
+    "translation_review": false,
+    "craft": "电镀银",
+    "craft_needs_verification": true,
+    "craft_source": "image_color_inference",
+    "craft_inferred_from_image": true
+  },
+  {
+    "sku": "XTXZEG00001G",
+    "zh": "乘风破浪",
+    "category": "胸针",
+    "color": "金色",
+    "material": "铜",
+    "retail": 62.4,
+    "wholesale": 41.6,
+    "image": "assets/XTXZEG00001G.webp",
+    "en": "Ride the Waves — Brooch",
+    "ru": "Навстречу волнам — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTXZEG00003G",
+    "zh": "东方私语",
+    "category": "胸针",
+    "color": "金色",
+    "material": "铜",
+    "retail": 85.5,
+    "wholesale": 42.75,
+    "image": "assets/XTXZEG00003G.webp",
+    "en": "Eastern Whispers — Brooch",
+    "ru": "Восточный шёпот — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTXZEG00004G",
+    "zh": "马蹄莲二重奏",
+    "category": "胸针",
+    "color": "金色",
+    "material": "铜",
+    "retail": 88.5,
+    "wholesale": 44.25,
+    "image": "assets/XTXZEG00004G.webp",
+    "en": "Calla Lily Duet — Brooch",
+    "ru": "Дуэт калл — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTXZEG00005BE",
+    "zh": "竹云雅韵",
+    "category": "胸针",
+    "color": "蓝色",
+    "material": "铜",
+    "retail": 186.0,
+    "wholesale": 93.0,
+    "image": "assets/XTXZEG00005BE.webp",
+    "en": "Bamboo and Clouds — Brooch",
+    "ru": "Бамбук и облака — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTXZEG00009YW",
+    "zh": "城市之光",
+    "category": "胸针",
+    "color": "黄色",
+    "material": "铜",
+    "retail": 159.0,
+    "wholesale": 79.5,
+    "image": "assets/XTXZEG00009YW.webp",
+    "en": "City Lights — Brooch",
+    "ru": "Огни города — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTXZEG00010G",
+    "zh": "贝斯特的眸光",
+    "category": "胸针",
+    "color": "金色",
+    "material": "铜",
+    "retail": 147.0,
+    "wholesale": 73.5,
+    "image": "assets/XTXZEG00010G.webp",
+    "en": "Bastet’s Gaze — Brooch",
+    "ru": "Взгляд Бастет — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTXZEG00011PL",
+    "zh": "海洋胸针",
+    "category": "胸针",
+    "color": "珍珠",
+    "material": "铜",
+    "retail": 138.0,
+    "wholesale": 69.0,
+    "image": "assets/XTXZEG00011PL.webp",
+    "en": "Ocean — Brooch",
+    "ru": "Океан — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀金"
+  },
+  {
+    "sku": "XTXZES00002GN",
+    "zh": "花仙系列胸针",
+    "category": "胸针",
+    "color": "绿色",
+    "material": "铜",
+    "retail": 195.0,
+    "wholesale": 97.5,
+    "image": "assets/XTXZES00002GN.webp",
+    "en": "Flower Fairy Collection — Brooch",
+    "ru": "Коллекция «Цветочная фея» — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀银"
+  },
+  {
+    "sku": "XTXZR00001RG",
+    "zh": "东方私语",
+    "category": "胸针",
+    "color": "玫瑰金",
+    "material": "铜",
+    "retail": 85.5,
+    "wholesale": 42.75,
+    "image": "assets/XTXZR00001RG.webp",
+    "en": "Eastern Whispers — Brooch",
+    "ru": "Восточный шёпот — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀玫瑰金"
+  },
+  {
+    "sku": "XTXZR00002RG",
+    "zh": "马蹄莲二重奏",
+    "category": "胸针",
+    "color": "玫瑰金",
+    "material": "铜",
+    "retail": 88.5,
+    "wholesale": 44.25,
+    "image": "assets/XTXZR00002RG.webp",
+    "en": "Calla Lily Duet — Brooch",
+    "ru": "Дуэт калл — брошь",
+    "category_en": "Brooch",
+    "category_ru": "Брошь",
+    "translation_review": false,
+    "craft": "电镀玫瑰金"
+  },
+  {
     "sku": "KGDZEG00001OT",
     "zh": "古韵新⻛",
     "category": "吊坠",
@@ -525,10 +1535,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": false,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "KGXLR00001PE",
@@ -2257,11 +3267,11 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXDZW00002GN",
@@ -2357,11 +3367,11 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXDZW00007GN",
@@ -2377,11 +3387,11 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXDZW00008GN",
@@ -2397,11 +3407,11 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXDZW00009PN",
@@ -2468,11 +3478,11 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXDZW00013PN",
@@ -2593,11 +3603,11 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXDZW00020BE",
@@ -2650,11 +3660,11 @@
     "category_en": "Pendant",
     "category_ru": "Подвеска",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXDZW00023PN",
@@ -3505,10 +4515,10 @@
     "category_en": "Bracelet",
     "category_ru": "Браслет",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXSLW00001PN",
@@ -3580,13 +4590,13 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "original_zh": "钛钢镀金镶石吊坠本命佛挂件守护神十二生肖属相男款佛牌项链男士",
     "name_review_required": true,
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXL00003",
@@ -3709,10 +4719,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00003BK",
@@ -3728,11 +4738,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00004BK",
@@ -3788,11 +4798,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00007BK",
@@ -3828,11 +4838,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00009BK",
@@ -3848,11 +4858,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00010BK",
@@ -3868,11 +4878,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00011PN",
@@ -4481,11 +5491,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00049YW",
@@ -4521,11 +5531,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00051YW",
@@ -4541,11 +5551,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00052YW",
@@ -4721,11 +5731,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00061YW",
@@ -4741,11 +5751,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00062YW",
@@ -4761,11 +5771,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00063YW",
@@ -4781,11 +5791,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00064YW",
@@ -4801,11 +5811,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00065YW",
@@ -4821,11 +5831,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00066YW",
@@ -4841,11 +5851,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLAS00067PN",
@@ -5150,11 +6160,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00001BE",
@@ -5170,11 +6180,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00002BE",
@@ -5190,11 +6200,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00003BE",
@@ -5230,11 +6240,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00005BE",
@@ -5250,11 +6260,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00006BE",
@@ -5270,11 +6280,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00007BE",
@@ -5290,11 +6300,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00008BE",
@@ -5490,11 +6500,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00018YW",
@@ -5510,11 +6520,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00019YW",
@@ -5530,11 +6540,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00020YW",
@@ -5630,11 +6640,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00025BK",
@@ -5650,11 +6660,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00026BK",
@@ -5670,11 +6680,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00027BK",
@@ -5690,11 +6700,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00028BK",
@@ -5710,11 +6720,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00029BK",
@@ -5730,11 +6740,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00030BK",
@@ -5750,11 +6760,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00031BK",
@@ -5770,11 +6780,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00032BK",
@@ -5790,11 +6800,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00033YW",
@@ -5970,11 +6980,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00042YW",
@@ -5990,11 +7000,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00043YW",
@@ -6010,11 +7020,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00044YW",
@@ -6030,11 +7040,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00045YW",
@@ -6050,11 +7060,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00046YW",
@@ -6070,11 +7080,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00047YW",
@@ -6090,11 +7100,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00048YW",
@@ -6110,11 +7120,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00049BE",
@@ -6282,10 +7292,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00058BE",
@@ -6301,10 +7311,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00059BE",
@@ -6320,10 +7330,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00060BE",
@@ -6339,10 +7349,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00061BE",
@@ -6358,10 +7368,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00062BE",
@@ -6377,10 +7387,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00063BE",
@@ -6453,10 +7463,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00067YW",
@@ -6472,10 +7482,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00068YW",
@@ -6491,10 +7501,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00069YW",
@@ -6510,10 +7520,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00070YW",
@@ -6529,10 +7539,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00071YW",
@@ -6548,10 +7558,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLSS00072YW",
@@ -6567,10 +7577,10 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00001YW",
@@ -6677,11 +7687,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00007YW",
@@ -6697,11 +7707,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00008YW",
@@ -6717,11 +7727,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00009YW",
@@ -6737,11 +7747,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00010YW",
@@ -7117,11 +8127,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00029YW",
@@ -7177,11 +8187,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00032YW",
@@ -7197,11 +8207,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00033YW",
@@ -7217,11 +8227,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00034YW",
@@ -7617,11 +8627,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00054YW",
@@ -7657,11 +8667,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00056YW",
@@ -7677,11 +8687,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀金",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00057BK",
@@ -7697,11 +8707,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "HXXLW00058BK",
@@ -7717,11 +8727,11 @@
     "category_en": "Necklace",
     "category_ru": "Ожерелье",
     "translation_review": true,
-    "craft": "电镀",
+    "craft": "电镀银",
     "craft_needs_verification": true,
     "craft_review_status": "pending_supplier_confirmation",
     "craft_inferred_from_image": true,
-    "craft_type_unidentified": true
+    "craft_visual_classification_only": true
   },
   {
     "sku": "JSJZW00249PN",
