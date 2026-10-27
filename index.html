@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="store-v5.css?v=1"/>
   <link rel="stylesheet" href="how-to-order-v7.css?v=1"/>
   <link rel="stylesheet" href="checkout-luxury-v8.css?v=1"/>
+  <link rel="stylesheet" href="hero-carousel-v11.css?v=1"/>
 </head>
 <body>
 <header class="header">
@@ -29,7 +30,23 @@
   <section class="hero">
     <div class="hero-content"><p class="eyebrow" data-t="eyebrow">ПРЕДСТАВЛЯЕМ CARATZON.COM</p><h1 data-t="hero">Украшения,<br><i>созданные вдохновлять.</i></h1><p data-t="subtitle">Откройте коллекцию CARATZON. Выберите украшения и оформите заказ онлайн.</p><a class="cta" href="#collection" data-t="explore">Смотреть коллекцию <span>↗</span></a></div>
     <div class="hero-gallery" id="heroGallery" aria-label="Featured jewelry products"><div class="hero-slide is-active" aria-hidden="false"><img src="hero_white/KGDZEG00001OT.webp" alt="Jewelry product SKU KGDZEG00001OT" fetchpriority=high></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00001G.webp" alt="Jewelry product SKU XTXZEG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHG00003PL.webp" alt="Jewelry product SKU XTEHG00003PL" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZES00002GN.webp" alt="Jewelry product SKU XTXZES00002GN" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/KGDZEG00002G.webp" alt="Jewelry product SKU KGDZEG00002G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHC00001WE.webp" alt="Jewelry product SKU XTEHC00001WE" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXLG00004RD.webp" alt="Jewelry product SKU XTXLG00004RD" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00004G.webp" alt="Jewelry product SKU XTXZEG00004G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZG00001G.webp" alt="Jewelry product SKU XTJZG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZW00005PN.webp" alt="Jewelry product SKU XTJZW00005PN" loading=lazy></div><div class="hero-slide-dots" aria-hidden="true"><span class="active"></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span></div></div>
-    <div class="hero-caption">caratzon.com / SHOWROOM 2026</div>
+    <div class="campaign-carousel" id="campaignCarousel" aria-label="CARATZON fashion jewelry campaign" aria-roledescription="carousel">
+  <div class="campaign-slide is-current" aria-hidden="false"><img src="caratzon-campaign-model.jpg" alt="CARATZON fashion model wearing floral jewelry" fetchpriority="high"></div>
+  <div class="campaign-slide" aria-hidden="true"><img src="assets_xt_excel/XTXLC00001WE_model.webp" alt="Model wearing CARATZON necklace" loading="lazy"></div>
+  <div class="campaign-slide" aria-hidden="true"><img src="assets_xt_excel/XTEDW00002PK_model.webp" alt="Model wearing CARATZON earrings" loading="lazy"></div>
+  <div class="campaign-slide" aria-hidden="true"><img src="assets_xt_excel/XTSLG00001WE_model.webp" alt="Model wearing CARATZON bracelet" loading="lazy"></div>
+  <div class="campaign-controls">
+    <button type="button" id="campaignPrev" class="campaign-arrow" aria-label="Previous campaign photo">←</button>
+    <div class="campaign-indicators" aria-label="Choose campaign photo">
+      <button type="button" class="is-current" aria-label="Photo 1" aria-current="true"></button>
+      <button type="button" aria-label="Photo 2"></button>
+      <button type="button" aria-label="Photo 3"></button>
+      <button type="button" aria-label="Photo 4"></button>
+    </div>
+    <button type="button" id="campaignNext" class="campaign-arrow" aria-label="Next campaign photo">→</button>
+  </div>
+</div>
+<div class="hero-caption">caratzon.com / SHOWROOM 2026</div>
   </section>
 
   <!-- Fashion A V4: clickable editorial category cards -->
@@ -81,4 +98,4 @@
 <div id="hoverZoom" class="hover-zoom" hidden><div class="hover-zoom-head">caratzon.com · zoom</div><div id="hoverZoomInner" class="hover-zoom-inner"></div></div>
 <div id="zoomViewer" class="zoom-viewer" role="dialog" aria-modal="true" aria-label="Product image preview" hidden><button id="zoomClose" class="zoom-close" aria-label="Close photo">×</button><img id="zoomImage" src="" alt=""><p id="zoomName"></p></div>
 <div id="v9Detail" class="v9-modal" role="dialog" aria-modal="true" aria-label="Product details" hidden><div class="v9-card"><button id="v9Close" class="v9-close" aria-label="Close">×</button><div id="v9DetailBody"></div></div></div><div id="toast" class="toast" role="status"></div><script src="v23.js" defer></script><script src="config.js" defer></script><script src="app.js?v=11zh" defer></script><script src="v9.js?v=11zh" defer></script><script src="store-v5.js?v=1" defer></script><script src="fashion-a-v4.js" defer></script><script src="how-to-order-v7.js?v=1" defer></script><script src="checkout-luxury-v8.js?v=1" defer></script>
-</body></html>
+<script src="hero-carousel-v11.js?v=1" defer></script></body></html>
