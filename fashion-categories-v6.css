@@ -1,0 +1,19 @@
+/* CARATZON V6 — editorial category cards, clean text panels */
+.fashion-categories{padding:90px clamp(22px,6vw,105px) 105px;background:#fcf9f6;max-width:1800px}
+.fashion-categories-head{margin-bottom:32px;align-items:flex-end}
+.fashion-categories-kicker{font-size:11px;letter-spacing:.3em;margin-bottom:14px}
+.fashion-categories h2{font-family:'Italiana',Georgia,serif;font-size:clamp(38px,4.3vw,72px);font-weight:400;letter-spacing:-.025em}
+.fashion-categories-all{padding:0 0 8px;line-height:1.4;font-weight:500;text-decoration:none;transition:color .2s}
+.fashion-categories-all:hover{color:#3d2b25}
+.fashion-category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.fashion-category{display:flex;flex-direction:column;position:relative;overflow:hidden;height:auto;min-height:0;background:#fff;border:1px solid #eee5de;box-shadow:0 3px 20px rgba(57,35,24,.035);transition:transform .28s ease,box-shadow .28s ease}
+.fashion-category img{display:block;width:100%;height:auto;aspect-ratio:3.25/1;object-fit:cover;object-position:center center;filter:none;transition:transform .55s ease}
+.fashion-category::after{display:none}
+.fashion-category-label{display:flex;align-items:center;justify-content:space-between;gap:18px;position:static;padding:19px 25px 21px;color:#362923;text-shadow:none;background:#fff;min-height:91px}
+.fashion-category strong{font:400 clamp(24px,2.2vw,35px)/1.15 'Italiana',Georgia,serif;margin:0;color:#352b27}
+.fashion-category small{font-size:10px;letter-spacing:.16em;white-space:nowrap;color:#81665b;font-weight:600}
+.fashion-category:hover{transform:translateY(-4px);box-shadow:0 16px 35px rgba(57,35,24,.12)}
+.fashion-category:hover img{transform:scale(1.035)}
+.fashion-category:focus-visible{outline:3px solid #ae8b77;outline-offset:3px}
+@media(max-width:700px){.fashion-categories{padding:64px 18px 75px}.fashion-categories-head{gap:15px;align-items:flex-start;flex-direction:column;margin-bottom:24px}.fashion-category-grid{grid-template-columns:1fr;gap:19px}.fashion-category img{aspect-ratio:3.1/1}.fashion-category-label{min-height:75px;padding:16px 19px}.fashion-category strong{font-size:28px}.fashion-category small{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.fashion-category,.fashion-category img{transition:none}.fashion-category:hover{transform:none}}
