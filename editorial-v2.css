@@ -30,3 +30,63 @@ body{background:#fbf8f5}
 @media(max-width:950px){.hero{height:auto;min-height:0;grid-template-columns:1fr 1fr}.hero-content{padding:80px 25px 80px 40px}.hero h1{font-size:clamp(42px,5.9vw,76px)}.hero-gallery{min-height:565px}.intro{padding:70px 35px}}
 @media(max-width:650px){.hero{display:flex;flex-direction:column;min-height:0;height:auto}.hero-content{padding:62px 25px 50px}.hero h1{font-size:clamp(48px,11vw,75px)}.hero-content>p:not(.eyebrow){font-size:14px}.hero-gallery{height:490px!important;min-height:490px!important;width:100%!important}.hero-gallery .hero-slide{width:124px!important;height:150px!important;bottom:7%!important}.hero-gallery:after{font-size:8px}.hero-slide-dots{bottom:3%!important}.intro{padding:65px 25px;gap:20px}.catalog{padding-top:60px}.photo{height:195px}.product h3{font-size:16px}}
 @media(prefers-reduced-motion:reduce){.hero-gallery .hero-slide{transition:none!important}}
+
+/* V2.1 FIX — override original Showroom's high-priority hero repair rules.
+   Only affects presentation; product/order JS and catalog data remain untouched. */
+@media (min-width: 951px) {
+  .hero {
+    display:grid!important;
+    grid-template-columns:minmax(0, 49%) minmax(0, 51%)!important;
+    align-items:stretch!important;
+    column-gap:0!important;
+    padding:0!important;
+    min-height:640px!important;
+    height:clamp(640px, 75vh, 800px)!important;
+    background:#f1e8e1!important;
+  }
+  .hero .hero-content {
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:flex-start!important;
+    justify-content:center!important;
+    width:100%!important;
+    max-width:none!important;
+    padding:65px clamp(38px,5.7vw,105px)!important;
+    margin:0!important;
+  }
+  .hero .hero-content h1 {
+    font-family:'Italiana',Georgia,serif!important;
+    font-weight:400!important;
+    font-size:clamp(52px,5.3vw,88px)!important;
+    line-height:1.07!important;
+    letter-spacing:-.035em!important;
+    overflow-wrap:normal!important;
+  }
+  .hero .hero-gallery {
+    position:relative!important;
+    inset:auto!important;
+    width:100%!important;
+    min-width:0!important;
+    max-width:none!important;
+    height:100%!important;
+    min-height:640px!important;
+    padding:0!important;
+    margin:0!important;
+    justify-self:stretch!important;
+    align-self:stretch!important;
+    border-radius:0!important;
+    background:#c9b1a0 url('assets_xt_excel/XTEDW00002PK_model.webp') center 33%/cover no-repeat!important;
+  }
+}
+@media (min-width:701px) and (max-width:950px) {
+  .hero{display:grid!important;grid-template-columns:50% 50%!important;column-gap:0!important;align-items:stretch!important;padding:0!important;min-height:570px!important;height:630px!important;background:#f1e8e1!important}
+  .hero .hero-content{width:100%!important;max-width:none!important;padding:55px 35px!important;margin:0!important;display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:flex-start!important}
+  .hero .hero-content h1{font-size:clamp(37px,5vw,57px)!important;font-family:'Italiana',Georgia,serif!important;line-height:1.07!important}
+  .hero .hero-gallery{position:relative!important;inset:auto!important;width:100%!important;max-width:none!important;min-height:0!important;height:100%!important;margin:0!important;align-self:stretch!important;background:#c9b1a0 url('assets_xt_excel/XTEDW00002PK_model.webp') center/cover no-repeat!important}
+}
+@media (max-width:700px) {
+  .hero{display:flex!important;flex-direction:column!important;min-height:0!important;height:auto!important;padding:0!important;background:#f1e8e1!important}
+  .hero .hero-content{padding:55px 26px 40px!important;margin:0!important;width:100%!important}
+  .hero .hero-content h1{font-size:clamp(43px,10vw,65px)!important;line-height:1.08!important;font-family:'Italiana',Georgia,serif!important;overflow-wrap:normal!important}
+  .hero .hero-gallery{position:relative!important;inset:auto!important;width:100%!important;max-width:none!important;height:clamp(460px,120vw,680px)!important;min-height:460px!important;margin:0!important;background:#c9b1a0 url('assets_xt_excel/XTEDW00002PK_model.webp') center center/cover no-repeat!important}
+}
