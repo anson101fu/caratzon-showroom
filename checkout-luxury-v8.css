@@ -44,3 +44,13 @@
 #drawer.store-empty .cart-items>.muted:before{content:'◇';position:absolute;top:0;left:50%;transform:translateX(-50%);font:400 54px/1 Georgia,serif;color:#b89e8b}
 @media(max-width:600px){#drawer .drawer-head{padding:24px 23px!important}#drawer .drawer-head h2{font-size:40px!important}#drawer .cart-items{padding:18px 23px!important}#drawer .cart-entry{grid-template-columns:72px minmax(0,1fr) auto!important;gap:12px!important}#drawer .cart-entry img{width:72px!important;height:88px!important}#drawer .drawer-bottom{padding:22px 23px 30px!important;max-height:68dvh!important}}
 @media(prefers-reduced-motion:reduce){#drawer .close{transition:none}}
+
+/* V8.1 repair: explicit empty-state markup instead of relying on app.js fetch succeeding */
+#drawer.store-empty #cartItems {display:flex!important;align-items:center!important;justify-content:center!important;min-height:0!important;flex:1 1 auto!important}
+#drawer #cartItems .v81-empty {width:100%;max-width:350px;margin:auto;text-align:center;padding:36px 18px;color:#463833}
+#drawer #cartItems .v81-empty-symbol {font:400 52px/1.1 Georgia,serif;color:#b29a8b;margin-bottom:20px}
+#drawer #cartItems .v81-empty-title{font:400 31px/1.2 Georgia,serif;margin:0 0 12px;color:#372c29}
+#drawer #cartItems .v81-empty-text{font:400 13px/1.8 'DM Sans',sans-serif;color:#827269;margin:0 auto 27px}
+#drawer #cartItems .v81-shop {display:inline-flex;justify-content:center;align-items:center;min-height:47px;min-width:205px;padding:11px 24px;background:#392b27;color:#fff!important;font:500 11px/1.4 'DM Sans',sans-serif;letter-spacing:.11em;text-decoration:none;text-transform:uppercase}
+#drawer #cartItems .v81-shop:hover{background:#6a5147}
+#drawer.store-empty #cartItems > .muted {display:none!important}
