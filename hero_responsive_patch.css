@@ -1,0 +1,60 @@
+/* CARATZON responsive homepage hero repair — desktop / large monitor / mobile.
+   Fixes the old hero-content horizontal padding growing with 100vw and squeezing text. */
+@media (min-width: 701px) {
+  .hero {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    align-items: center !important;
+    column-gap: clamp(20px, 3vw, 56px) !important;
+    min-height: clamp(440px, 37vw, 570px) !important;
+    padding: 28px max(32px, calc((100vw - 1380px) / 2 + 38px)) !important;
+    overflow: hidden !important;
+  }
+  .hero .hero-content {
+    width: 100% !important;
+    max-width: 680px !important;
+    min-width: 0 !important;
+    padding: 24px 0 !important;
+    margin: 0 !important;
+    justify-self: stretch !important;
+  }
+  .hero .hero-content > p:not(.eyebrow) {
+    width: 100% !important;
+    max-width: 480px !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+    line-height: 1.85 !important;
+  }
+  .hero .hero-content h1 {
+    white-space: normal !important;
+    font-size: clamp(36px, 3.9vw, 62px) !important;
+    line-height: 1.18 !important;
+    overflow-wrap: anywhere !important;
+  }
+  .hero .hero-gallery {
+    position: relative !important;
+    inset: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    min-width: 0 !important;
+    height: clamp(370px, 33vw, 505px) !important;
+    margin: 0 !important;
+    justify-self: center !important;
+  }
+  .hero .hero-caption { right: max(32px, calc((100vw - 1380px) / 2 + 38px)) !important; }
+}
+@media (min-width: 701px) and (max-width: 950px) {
+  .hero { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr) !important; padding-inline: 28px !important; }
+  .hero .hero-content h1 { font-size: clamp(31px, 4.4vw, 46px) !important; }
+  .hero .hero-gallery { height: 380px !important; }
+}
+@media (max-width: 700px) {
+  .hero { display: flex !important; flex-direction: column !important; align-items: stretch !important; min-height: 0 !important; padding: 0 !important; }
+  .hero .hero-content { width: 100% !important; min-width: 0 !important; padding: 38px 24px 20px !important; margin: 0 !important; }
+  .hero .hero-content h1 { white-space: normal !important; font-size: clamp(33px, 8vw, 43px) !important; overflow-wrap: anywhere !important; }
+  .hero .hero-content > p:not(.eyebrow) { width: auto !important; max-width: 480px !important; overflow-wrap: break-word !important; }
+  .hero .hero-gallery { position: relative !important; inset: auto !important; width: calc(100% - 40px) !important; height: min(70vw, 320px) !important; min-height: 245px !important; margin: 4px 20px 42px !important; }
+}
