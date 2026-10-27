@@ -1,0 +1,74 @@
+
+/* CARATZON V10 — premium horizontal split categories.
+   Designed for V9 original model photographs.  No giant white photo gutters. */
+.fashion-category-grid{
+ display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+ gap:20px 24px!important;
+}
+.fashion-category{
+ position:relative!important;display:block!important;isolation:isolate;
+ width:100%!important;height:254px!important;min-height:0!important;
+ overflow:hidden!important;background:#e9dfd5!important;
+ border:0!important;box-shadow:none!important;text-decoration:none;
+ transition:transform .28s ease,box-shadow .28s ease!important;
+}
+.fashion-category:nth-child(2){background:#eee4da!important}
+.fashion-category:nth-child(3){background:#e6d9ce!important}
+.fashion-category:nth-child(4){background:#e8ded6!important}
+.fashion-category img{
+ position:absolute!important;right:0!important;top:0!important;
+ width:59%!important;height:100%!important;max-height:none!important;
+ padding:0!important;margin:0!important;
+ object-fit:cover!important;object-position:center 45%!important;
+ background:transparent!important;display:block!important;
+ filter:none!important;border:0!important;
+ transform:none!important;transition:transform .55s ease!important;
+}
+.fashion-category[data-category-type="earrings"] img{object-position:center 40%!important}
+.fashion-category[data-category-type="necklaces"] img{object-position:center 53%!important}
+.fashion-category[data-category-type="rings"] img{object-position:center 54%!important}
+.fashion-category[data-category-type="bracelets"] img{object-position:center 49%!important}
+.fashion-category::before{
+ content:"";position:absolute;z-index:1;inset:0;
+ background:linear-gradient(90deg,#ede3d9 0%,#ede3d9 37%,rgba(237,227,217,.94) 40%,rgba(237,227,217,0) 65%);
+ pointer-events:none;
+}
+.fashion-category:nth-child(2)::before{background:linear-gradient(90deg,#eee5db 0%,#eee5db 38%,rgba(238,229,219,.93) 41%,transparent 65%)}
+.fashion-category:nth-child(3)::before{background:linear-gradient(90deg,#e8dcd0 0%,#e8dcd0 38%,rgba(232,220,208,.93) 41%,transparent 65%)}
+.fashion-category:nth-child(4)::before{background:linear-gradient(90deg,#ede3d9 0%,#ede3d9 38%,rgba(237,227,217,.93) 41%,transparent 65%)}
+.fashion-category::after{display:none!important}
+.fashion-category-label{
+ position:absolute!important;left:0!important;top:0!important;bottom:0!important;
+ z-index:2!important;width:53%!important;min-height:0!important;
+ padding:34px clamp(18px,3vw,40px)!important;
+ display:flex!important;flex-direction:column!important;align-items:flex-start!important;
+ justify-content:center!important;gap:20px!important;
+ background:transparent!important;color:#392c28!important;text-shadow:none!important;
+}
+.fashion-category-label strong{
+ margin:0!important;line-height:1.04!important;
+ font-family:'Italiana',Georgia,serif!important;
+ font-size:clamp(30px,3.1vw,47px)!important;
+ font-weight:400!important;color:#392c28!important;
+}
+.fashion-category-label small{
+ color:#806558!important;font-size:10px!important;font-weight:600!important;
+ letter-spacing:.18em!important;white-space:normal!important;
+ border-bottom:1px solid #a98d7b;padding-bottom:8px;
+}
+.fashion-category:hover{transform:translateY(-3px)!important;box-shadow:0 12px 26px rgba(60,42,31,.13)!important}
+.fashion-category:hover img{transform:scale(1.035)!important}
+@media(min-width:761px) and (max-width:1050px){
+ .fashion-category{height:220px!important}
+ .fashion-category-label{padding:24px!important}
+}
+@media(max-width:760px){
+ .fashion-category-grid{grid-template-columns:1fr!important;gap:14px!important}
+ .fashion-category{height:205px!important}
+ .fashion-category-label{padding:25px!important;width:56%!important;gap:14px!important}
+ .fashion-category-label strong{font-size:34px!important}
+ .fashion-category img{width:61%!important}
+}
+@media(prefers-reduced-motion:reduce){
+ .fashion-category,.fashion-category img{transition:none!important}
+}
