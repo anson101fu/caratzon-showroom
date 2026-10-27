@@ -1,0 +1,18 @@
+/* V7 — editorial online store buying guide; hide outdated inquiry explanation, preserve its JS hooks */
+#how.intro,#v23How.v23-how{display:none!important}
+.store-how{background:#f2ece7;padding:clamp(65px,7vw,116px) max(25px,calc((100vw - 1350px)/2));color:#352c29}
+.store-how-top{display:grid;grid-template-columns:1.25fr 1fr;gap:55px;align-items:end;margin-bottom:42px}
+.store-how-kicker{font-size:10px;letter-spacing:.32em;color:#9c7566;margin:0 0 22px;font-weight:600}
+.store-how h2{font:400 clamp(43px,5vw,75px)/1.05 'Italiana',Georgia,serif;letter-spacing:-.025em;margin:0}
+.store-how-top>p{margin:0 0 3px;font-size:15px;line-height:1.9;color:#796b64;max-width:435px}
+.store-how-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.store-how-steps article{background:#fffaf7;border:1px solid #e8ddd6;min-height:255px;padding:28px 23px;display:flex;flex-direction:column;align-items:start}
+.store-how-steps article>span{font:400 29px 'Italiana',Georgia,serif;color:#a98776;padding-bottom:19px;border-bottom:1px solid #cdb8ae;min-width:48px}
+.store-how-steps h3{font:400 23px/1.2 'Italiana',Georgia,serif;margin:25px 0 11px;color:#372b28}
+.store-how-steps p{color:#7a6d65;font-size:13px;line-height:1.7;margin:0}
+.store-how-bottom{border-top:1px solid #d9cdc6;margin-top:35px;padding-top:25px;display:flex;gap:34px;align-items:center;justify-content:space-between}
+.store-how-bottom p{font-size:12px;line-height:1.8;color:#7a6960;margin:0;max-width:760px}
+.store-how-link{white-space:nowrap;background:#382c29;color:white;text-decoration:none;padding:17px 26px;font-size:11px;letter-spacing:.1em}
+.store-how-link:hover{background:#75564c;color:white}
+@media(max-width:950px){.store-how-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.store-how-top{gap:25px}}
+@media(max-width:600px){.store-how{padding:60px 20px}.store-how-top{grid-template-columns:1fr;gap:16px;margin-bottom:25px}.store-how h2{font-size:49px}.store-how-steps{gap:10px}.store-how-steps article{padding:21px 16px;min-height:245px}.store-how-steps h3{font-size:21px}.store-how-bottom{align-items:stretch;flex-direction:column}.store-how-link{text-align:center}.store-how-steps p{font-size:12px}}
