@@ -18,3 +18,13 @@
 .hero .hero-gallery::after{display:none!important}
 @media(max-width:650px){.hero .campaign-controls{bottom:16px;right:14px;gap:9px}.hero .campaign-arrow{width:34px;height:34px}.hero .campaign-carousel::after{bottom:23px;left:15px;font-size:8px;max-width:48%}}
 @media(prefers-reduced-motion:reduce){.hero .campaign-carousel .campaign-slide{transition:none}}
+
+/* V11.2: remove the framed/padded image effect on every carousel slide. */
+.hero .hero-gallery{padding:0!important;border:0!important;outline:0!important;overflow:hidden!important;box-sizing:border-box!important}
+.hero .hero-gallery .campaign-carousel{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;overflow:hidden!important}
+.hero .hero-gallery .campaign-carousel .campaign-slide{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;margin:0!important;padding:0!important;overflow:hidden!important}
+.hero .hero-gallery .campaign-carousel .campaign-slide img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-width:100%!important;min-height:100%!important;max-width:none!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;object-fit:cover!important;object-position:center 42%!important;display:block!important;transform:none!important;mix-blend-mode:normal!important}
+.hero .hero-gallery .campaign-carousel .campaign-slide:nth-child(2) img{object-position:center 43%!important}
+.hero .hero-gallery .campaign-carousel .campaign-slide:nth-child(3) img{object-position:center 41%!important}
+.hero .hero-gallery .campaign-carousel .campaign-slide:nth-child(4) img{object-position:center 46%!important}
+@media(min-width:701px){.hero .hero-gallery{width:100%!important;height:100%!important;max-width:none!important;min-height:0!important;justify-self:stretch!important;align-self:stretch!important;margin:0!important}}
