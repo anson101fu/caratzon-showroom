@@ -1,0 +1,49 @@
+/* CARATZON A / Fashion Campaign V3 — final visual override, loaded last.
+ * Existing catalogue, filters, inquiry and RU/EN/ZH logic remain unchanged.
+ */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap');
+:root{--ink:#302623;--olive:#302623;--gold:#957263;--line:#e7dcd4;--cream:#f4ebe3;--soft:#806e67}
+html{scroll-behavior:smooth}
+body{background:#fcf9f6;color:var(--ink)}
+.header{height:74px!important;background:rgba(252,249,246,.97)!important;border-bottom:1px solid #e9e1d9!important}
+.header-inner{max-width:1600px!important;padding-inline:clamp(18px,5.5vw,86px)!important}
+.brand{font-weight:500!important;letter-spacing:.22em!important}
+/* In contrast to old showroom repair rules, make this a full-bleed two-panel campaign. */
+@media(min-width:701px){
+ .hero{display:grid!important;grid-template-columns:minmax(0,46%) minmax(0,54%)!important;gap:0!important;column-gap:0!important;align-items:stretch!important;min-height:660px!important;height:min(780px,calc(100svh - 74px))!important;max-height:none!important;padding:0!important;background:#efe6de!important;overflow:hidden!important}
+ .hero .hero-content{width:100%!important;max-width:none!important;min-width:0!important;justify-self:stretch!important;align-self:stretch!important;margin:0!important;padding:55px clamp(26px,4.5vw,76px) 70px clamp(36px,6.5vw,106px)!important;display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:flex-start!important;background:linear-gradient(110deg,#f5eee7 0%,#efe4da 100%)!important}
+ .hero .hero-content h1{font-family:'Playfair Display',Georgia,serif!important;font-size:clamp(43px,4.1vw,78px)!important;line-height:1.12!important;letter-spacing:-.055em!important;white-space:normal!important;overflow-wrap:normal!important;margin:0 0 26px!important}
+ .hero .hero-gallery{position:relative!important;inset:auto!important;width:100%!important;max-width:none!important;height:100%!important;min-height:0!important;margin:0!important;justify-self:stretch!important;align-self:stretch!important;background:#c9a994 url('caratzon-campaign-model.jpg') 52% 38% / cover no-repeat!important;box-shadow:none!important;border-radius:0!important}
+}
+.hero .eyebrow{font-size:10px!important;letter-spacing:.30em!important;color:#936e5e!important;margin-bottom:27px!important}
+.hero h1 i{font-weight:400!important;color:#946b5b!important}
+.hero-content>p:not(.eyebrow){font-size:15px!important;line-height:1.9!important;max-width:405px!important;color:#675850!important}
+.hero .cta{background:#302623!important;padding:18px 26px!important;min-height:54px!important;margin-top:26px!important;letter-spacing:.13em!important;color:#fff!important}
+.hero .cta:hover{background:#5c4339!important}
+.hero-gallery:after{content:'CARATZON  /  CAMPAIGN 2026'!important;left:30px!important;right:auto!important;bottom:30px!important;color:#fff!important;letter-spacing:.2em!important;text-shadow:0 1px 8px #33241d!important;pointer-events:none!important}
+/* Remove inset product tile and small pagination, but preserve original slides in DOM for older JS. */
+.hero-gallery .hero-slide,.hero-gallery .hero-slide.is-active,.hero-gallery .hero-slide-dots{display:none!important}
+.hero-caption{display:none!important}
+.intro{max-width:1440px!important;padding-top:94px!important;padding-bottom:94px!important}
+.intro h2,.section-heading h2{font-family:'Playfair Display',Georgia,serif!important;font-weight:400!important}
+.catalog{background:#faf6f2!important}
+.product-grid{gap:20px!important}
+.product{box-shadow:none!important;border:1px solid #eee5de!important}
+@media(min-width:1000px){.product-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@media(max-width:950px) and (min-width:701px){
+ .hero{min-height:570px!important;height:670px!important;grid-template-columns:minmax(0,49%) minmax(0,51%)!important}
+ .hero .hero-content{padding:45px 30px!important}
+ .hero .hero-content h1{font-size:clamp(34px,4.6vw,53px)!important}
+}
+@media(max-width:700px){
+ .header{height:68px!important}
+ .hero{display:flex!important;flex-direction:column!important;height:auto!important;min-height:0!important;padding:0!important;background:#f4ebe4!important}
+ .hero .hero-content{order:2!important;width:100%!important;min-width:0!important;max-width:none!important;padding:44px 24px 58px!important;margin:0!important;background:#f4ebe4!important}
+ .hero .hero-gallery{order:1!important;position:relative!important;inset:auto!important;display:block!important;width:100%!important;max-width:none!important;height:clamp(380px,105vw,560px)!important;min-height:0!important;margin:0!important;background:#c9a994 url('caratzon-campaign-model.jpg') 52% 35% / cover no-repeat!important}
+ .hero .hero-content h1{font-family:'Playfair Display',Georgia,serif!important;font-size:clamp(38px,10vw,58px)!important;line-height:1.13!important;letter-spacing:-.04em!important;overflow-wrap:normal!important;margin-bottom:18px!important}
+ .hero .eyebrow{margin-bottom:18px!important}
+ .hero-gallery:after{font-size:9px!important;left:20px!important;bottom:19px!important}
+ .intro{padding:65px 24px!important}
+ .product-grid{gap:10px!important}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
