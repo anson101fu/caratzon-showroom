@@ -72,3 +72,12 @@
 @media(prefers-reduced-motion:reduce){
  .fashion-category,.fashion-category img{transition:none!important}
 }
+
+/* V10.1 — ring focal point centered in the right photography panel. */
+.fashion-category[data-category-type="rings"] img{
+  right:-42px!important;
+  object-position:50% 54%!important;
+}
+@media(max-width:760px){
+  .fashion-category[data-category-type="rings"] img{right:-26px!important;}
+}
