@@ -1,0 +1,32 @@
+/* CARATZON Fashion Editorial V2 — load after fashion-d.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap');
+:root{--ink:#352b28;--olive:#352b28;--gold:#9a7867;--cream:#f5eee7;--soft:#816f69;--line:#e8ded7}
+body{background:#fbf8f5}
+.header{height:82px;background:#fbf8f5;border-color:#eae0d8}
+.header-inner{max-width:1660px}
+.brand{font-size:23px;letter-spacing:.22em}
+.hero{min-height:710px;height:min(790px,83vh);background:#eadfd5;display:grid;grid-template-columns:48% 52%;overflow:hidden;position:relative}
+.hero-content{width:auto;max-width:none;padding:clamp(65px,8vw,138px) clamp(24px,4.2vw,75px) 90px clamp(35px,7vw,118px);display:flex;align-items:flex-start;flex-direction:column;justify-content:center;z-index:2}
+.hero .eyebrow{font-size:10px;letter-spacing:.32em;margin-bottom:27px}
+.hero h1{font-family:'Italiana',Georgia,serif;font-size:clamp(54px,5.9vw,102px);line-height:1;letter-spacing:-.038em;margin:0 0 28px;color:#352b28;white-space:normal}
+.hero h1 i{color:#926e60;font-style:italic}
+.hero-content>p:not(.eyebrow){max-width:445px;font-size:15px;color:#766b65;line-height:1.95}
+.hero .cta{margin-top:36px;background:#342a27;color:#fff;letter-spacing:.18em;padding:20px 26px;font-size:11px;border-radius:0}
+.hero-gallery{position:relative!important;right:auto!important;top:auto!important;bottom:auto!important;width:100%!important;height:100%!important;margin:0!important;background:#c9b1a0 url('assets_xt_excel/XTEDW00002PK_model.webp') center 33%/cover no-repeat!important;overflow:hidden;box-shadow:none!important;border-radius:0!important}
+.hero-gallery:after{content:'CARATZON  /  EDITORIAL 2026';position:absolute;left:5%;bottom:26px;z-index:3;font-size:10px;letter-spacing:.23em;color:#fff;text-shadow:0 2px 12px #49352b}
+.hero-gallery .hero-slide{inset:auto 5% 6% auto!important;width:clamp(138px,19%,210px)!important;height:clamp(158px,26%,260px)!important;padding:16px!important;background:rgba(255,255,255,.96)!important;box-shadow:0 15px 50px #35272035!important;z-index:2}
+.hero-gallery .hero-slide img{object-fit:contain!important}
+.hero-slide-dots{left:auto!important;right:9%!important;bottom:3%!important;width:150px}
+.hero-caption{display:none}
+.intro{max-width:1490px;padding:100px 55px;gap:75px}
+.intro h2,.section-heading h2{font-family:'Italiana',Georgia,serif;font-size:clamp(42px,4.5vw,70px);line-height:1.1}
+.catalog{background:#faf7f3;padding-top:90px}
+.product{border:none;background:#fff}
+.photo{height:315px;background:#f7f3f0}
+.product-grid{gap:20px}
+.product h3{font-family:'Italiana',Georgia,serif;font-size:20px}
+.add{border-color:#d8cbc3}
+.add:hover,.checkout-btn:hover{background:#58433e}
+@media(max-width:950px){.hero{height:auto;min-height:0;grid-template-columns:1fr 1fr}.hero-content{padding:80px 25px 80px 40px}.hero h1{font-size:clamp(42px,5.9vw,76px)}.hero-gallery{min-height:565px}.intro{padding:70px 35px}}
+@media(max-width:650px){.hero{display:flex;flex-direction:column;min-height:0;height:auto}.hero-content{padding:62px 25px 50px}.hero h1{font-size:clamp(48px,11vw,75px)}.hero-content>p:not(.eyebrow){font-size:14px}.hero-gallery{height:490px!important;min-height:490px!important;width:100%!important}.hero-gallery .hero-slide{width:124px!important;height:150px!important;bottom:7%!important}.hero-gallery:after{font-size:8px}.hero-slide-dots{bottom:3%!important}.intro{padding:65px 25px;gap:20px}.catalog{padding-top:60px}.photo{height:195px}.product h3{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.hero-gallery .hero-slide{transition:none!important}}
