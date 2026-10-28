@@ -1,6 +1,6 @@
-/* Safe to publish: Supabase project URL and publishable/anon key only.
-   NEVER put a service_role, secret key or database password here. */
+/* CARATZON V13 member sign-in — browser-safe public configuration.
+   Do not add database passwords, secret keys, or service_role keys. */
 window.CARATZON_AUTH_CONFIG = {
-  url: "PASTE_YOUR_SUPABASE_PROJECT_URL",
-  publishableKey: "PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY"
+  url: "https://ozsqrkdtzfekshujajqc.supabase.co",
+  publishableKey: "sb_publishable__5cTmpO0dmbpEXjtsx4hYQ_nZPzhokU"
 };
