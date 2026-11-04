@@ -73,13 +73,41 @@
       .header .nav a { padding-inline: .5rem; }
       #storeHow { scroll-margin-top: 130px; }
     }
+
+    [data-about-lang] { display: none; }
+    html:lang(ru) [data-about-lang="ru"],
+    html:lang(en) [data-about-lang="en"],
+    html:lang(zh) [data-about-lang="zh"] { display: revert; }
+    #about-showroom {
+      scroll-margin-top: 100px;
+      background: #f4eee8;
+      color: #342921;
+      padding: clamp(3rem, 7vw, 7rem) clamp(1rem, 5vw, 5rem);
+    }
+    .showroom-about-inner { max-width: 72rem; margin-inline: auto; }
+    .showroom-about-intro { max-width: 50rem; margin-bottom: 2rem; }
+    #showroom-about-title { font-size: clamp(2rem, 6vw, 4.5rem); line-height: 1.1; margin: .45em 0 .35em; }
+    .showroom-about-intro p:last-child, .showroom-about-card p { line-height: 1.7; margin: 0; }
+    .showroom-about-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+    .showroom-about-card { padding: clamp(1rem, 2.5vw, 2rem); background: #fffaf6; border: 1px solid #e6d9ce; }
+    .showroom-about-card h3 { font-size: 1.2rem; line-height: 1.3; margin: 0 0 .65rem; }
+    .showroom-about-links { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.25rem; margin-top: 1.6rem; }
+    .showroom-about-links > a { display: inline-flex; align-items: center; min-height: 44px; text-underline-offset: .2em; }
+    .showroom-about-links > a:first-child { background: #342921; color: #fffaf6; padding: .5rem 1rem; text-decoration: none; }
+    @media (max-width: 800px) {
+      .showroom-about-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 650px) {
+      #about-showroom { scroll-margin-top: 130px; }
+      .header-inner > .nav { gap: clamp(4px, 2vw, 12px); }
+    }
   </style>
 </head>
 <body>
 <header class="header">
   <div class="header-inner">
     <a href="#" class="brand" aria-label="caratzon.com home">CARATZON.COM<small>ONLINE BOUTIQUE</small></a>
-    <nav class="nav"><a href="#collection" data-t="collection">Коллекция</a><a href="#storeHow" data-t="how">Как заказать</a></nav>
+    <nav class="nav"><a href="#collection" data-t="collection">Коллекция</a><a href="#about-showroom"><span data-about-lang="zh">关于我们</span><span data-about-lang="en">About Us</span><span data-about-lang="ru">О нас</span></a><a href="#storeHow" data-t="how">Как заказать</a></nav>
     <div class="actions"><button id="langBtn" class="language" aria-label="Switch language: Russian English Simplified Chinese">RU / EN</button><button type="button" id="memberBtn" class="member-header" aria-label="Account">Войти</button><button id="cartBtn" class="bag" aria-label="Cart"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 8h16l-1.3 12H5.3L4 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span id="bagCount">0</span></button></div>
   </div>
 </header>
@@ -137,6 +165,34 @@
   <p class="v23-order-note" id="v23OrderNote"></p>
 </section>
   <section id="collection" class="catalog"><div class="section-heading"><div><p class="eyebrow" data-t="catalogKicker">ИЗБРАННАЯ КОЛЛЕКЦИЯ</p><h2 data-t="shop">Каталог изделий</h2></div><span id="resultCount" class="muted"></span></div><div class="toolbar"><label class="searchbox"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="search" data-placeholder="search" placeholder="Поиск по названию или SKU"/></label><select id="category" aria-label="Category"></select><select id="sort" aria-label="Sort"><option value="default" data-t="featured">По умолчанию</option><option value="priceAsc" data-t="priceLow">Цена: по возрастанию</option><option value="priceDesc" data-t="priceHigh">Цена: по убыванию</option></select></div><section class="v9-tools" aria-label="Advanced filters"><div class="v9-tools-row"><label><span data-v9="material">Material</span><select id="v9Material"><option value="">All</option></select></label><label><span data-v9="color">Color</span><select id="v9Color"><option value="">All</option></select></label><label><span data-v9="priceMax">Maximum price (RUB)</span><input id="v9Max" type="number" min="0" step="1" placeholder="₽"></label><label class="v9-check"><input id="v9Photos" type="checkbox"><span data-v9="photoOnly">With photos</span></label><label class="v9-check"><input id="v9Favorites" type="checkbox"><span data-v9="favoritesOnly">Favorites only ♡</span></label><button type="button" id="v9Reset" data-v9="reset">Clear filters</button></div></section><div id="grid" class="product-grid"></div><div class="center"><button id="more" class="more" data-t="more">Показать ещё</button></div></section>
+  <section id="about-showroom" aria-labelledby="showroom-about-title">
+    <div class="showroom-about-inner">
+      <div class="showroom-about-intro">
+        <p class="eyebrow"><span data-about-lang="zh">关于我们</span><span data-about-lang="en">About Us</span><span data-about-lang="ru">О нас</span></p>
+        <h2 id="showroom-about-title">Caratzon Showroom</h2>
+        <p data-about-lang="zh">Caratzon Showroom 是 Caratzon.com 的线上首饰展厅。无论你是在挑选日常佩戴的首饰、为特别的日子准备礼物，还是为店铺挑选款式，都可以从这里开始浏览。</p><p data-about-lang="en">Caratzon Showroom is the online jewelry showroom of Caratzon.com. It’s a place to explore our collections, whether you’re looking for a piece to wear every day, choosing a gift, or selecting jewelry for your store.</p><p data-about-lang="ru">Caratzon Showroom — онлайн-шоурум украшений Caratzon.com. Здесь можно подобрать украшение на каждый день, найти подарок к особому случаю или выбрать модели для ассортимента вашего магазина.</p>
+      </div>
+      <div class="showroom-about-grid">
+        <article class="showroom-about-card">
+          <h3><span data-about-lang="zh">探索首饰系列</span><span data-about-lang="en">Explore the collections</span><span data-about-lang="ru">Познакомьтесь с коллекциями</span></h3>
+          <p data-about-lang="zh">你可以按类别浏览耳环、项链、戒指和手链，在商品页面查看图片、产品编号（SKU）、价格及已列出的规格。如果想了解尺寸、材质、佩戴细节或供货情况，可以直接在商品页面提交咨询。附上产品编号和所需数量，方便我们跟进。</p><p data-about-lang="en">Browse earrings, necklaces, rings, and bracelets. Product pages bring together photos, the product code (SKU), pricing, and available specifications. If you’d like to know more about a piece’s size, materials, fit, or availability, send us an enquiry from its product page. Include the SKU and the quantity you need so we can follow up.</p><p data-about-lang="ru">В шоуруме представлены серьги, колье, кольца и браслеты. На странице изделия можно посмотреть фотографии, артикул (SKU), цену и доступные характеристики. Если нужно уточнить размеры, материалы, особенности посадки или наличие, отправьте запрос со страницы изделия. Укажите артикул и нужное количество, чтобы мы могли точнее ответить на ваш вопрос.</p>
+        </article>
+        <article class="showroom-about-card">
+          <h3><span data-about-lang="zh">零售、批发与订购</span><span data-about-lang="en">Retail, wholesale, and ordering</span><span data-about-lang="ru">Розничные и оптовые заказы</span></h3>
+          <p data-about-lang="zh">选定款式后，你可以将商品加入购物袋并提交订单，也可以先联系我们。批发价格按同一 SKU 的订购数量计算。收到订单后，我们会与你确认库存、配送安排、最终金额和付款方式。浏览时有疑问，也可以通过在线客服联系我们。</p><p data-about-lang="en">Once you’ve chosen your pieces, add them to your bag and submit an order. You can also contact us first if you have questions. Wholesale pricing is based on the quantity ordered per SKU. After receiving your order, we’ll confirm availability, shipping arrangements, the final total, and payment options. You can also reach us through Live Chat while you browse.</p><p data-about-lang="ru">Добавьте выбранные изделия в корзину и отправьте заказ. Если хотите сначала уточнить детали, напишите нам. Оптовая цена зависит от количества изделий с одним артикулом. Получив заказ, мы подтвердим наличие, условия доставки, итоговую сумму и способы оплаты. Задать вопрос также можно в онлайн-чате.</p>
+        </article>
+        <article class="showroom-about-card">
+          <h3><span data-about-lang="zh">了解 Caratzon.com</span><span data-about-lang="en">More about Caratzon.com</span><span data-about-lang="ru">Подробнее о Caratzon.com</span></h3>
+          <p data-about-lang="zh">如果你正在为品牌物色新系列，或希望了解设计授权和生产合作，可以前往 Caratzon.com 主站查看珠宝采购、设计授权及生产服务。</p><p data-about-lang="en">If you’re sourcing a collection for your brand, interested in licensing a design, or looking to bring a design into production, the main Caratzon.com website explains the services available.</p><p data-about-lang="ru">Если вы подбираете коллекцию для своего бренда, хотите получить лицензию на дизайн или запустить изделие в производство, подробнее об этих услугах можно узнать на основном сайте Caratzon.com.</p>
+        </article>
+      </div>
+      <div class="showroom-about-links">
+        <a href="#collection"><span data-about-lang="zh">浏览系列</span><span data-about-lang="en">Explore the Collection</span><span data-about-lang="ru">Смотреть коллекцию</span></a>
+        <a href="#storeHow"><span data-about-lang="zh">如何订购</span><span data-about-lang="en">How to Order</span><span data-about-lang="ru">Как заказать</span></a>
+        <a href="https://caratzon.com/"><span data-about-lang="zh">前往 Caratzon.com 主站</span><span data-about-lang="en">Visit Caratzon.com</span><span data-about-lang="ru">Перейти на Caratzon.com</span></a>
+      </div>
+    </div>
+  </section>
 </main>
 <footer><div class="footerbrand">CARATZON.COM</div><p data-t="footer">Интернет-магазин украшений · RU / EN / 中文</p><small data-t="disclaimer">Цены в RUB ориентировочные. Заказ оформляется без списания средств. Оплата ожидает подключения.</small><p id="rateStatus" class="rate"></p></footer>
 <div class="overlay" id="overlay"></div>
@@ -167,7 +223,7 @@
  </div></div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
 <script src="auth-config.js?v=1" defer></script>
-<script src="product-enquiries.js?v=12" defer></script>
+<script src="product-enquiries.js?v=11" defer></script>
 <script src="member-v13.js?v=2" defer></script><script>
   document.querySelector('.nav a[href="#storeHow"]').addEventListener('click', event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
