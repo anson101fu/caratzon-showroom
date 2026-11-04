@@ -188,3 +188,52 @@
     width: min(24rem, calc(100% - var(--cz-chat-right) - .65rem));
   }
 }
+
+#cz-enquiry-dialog.cz-enquiry-manager {
+  width: min(47rem, calc(100% - 1.5rem));
+  padding: 0;
+  background: #fbf7f2;
+  border-color: #e2d5c9;
+  border-radius: 1rem;
+  box-shadow: 0 1.25rem 4rem #251a2540;
+}
+#cz-enquiry-dialog.cz-enquiry-manager > header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: .85rem 1.2rem;
+  background: #392c24;
+  color: #fffdfa;
+}
+#cz-enquiry-dialog.cz-enquiry-manager h2 { font-size: clamp(1.1rem, 4vw, 1.45rem); color: inherit; }
+.cz-enquiry-manager > header button { border-radius: .55rem; }
+.cz-enquiry-manager > div { padding: .9rem 1.15rem 1.15rem; }
+.cz-enquiry-manager > p { margin: 0 1.15rem 1rem; }
+.cz-enquiry-manager p:empty { display: none; }
+.cz-enquiry-manager .cz-manager-export,
+.cz-enquiry-manager .cz-manager-presence { border-radius: .55rem; margin: .2rem .4rem .65rem 0; }
+.cz-enquiry-manager .cz-manager-export { background: #392c24; color: #fffdfa; border-color: #392c24; }
+.cz-manager-list { display: grid; gap: .45rem; }
+#cz-enquiry-dialog .cz-manager-list .cz-enquiry-thread {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr) auto;
+  align-items: center;
+  width: 100%;
+  min-height: 3.6rem;
+  margin: 0;
+  gap: .75rem;
+  padding: .65rem .8rem;
+  border: 1px solid #e6dcd2;
+  border-radius: .65rem;
+  background: #fffdfa;
+}
+#cz-enquiry-dialog .cz-manager-list .cz-enquiry-thread:hover,
+#cz-enquiry-dialog .cz-manager-list .cz-enquiry-thread:focus-visible { border-color: #9e8068; background: #f6eee5; }
+.cz-manager-badge { width: fit-content; border-radius: .4rem; padding: .22rem .4rem; background: #f1e8dd; color: #574338; font-size: .72rem; }
+.cz-manager-badge[data-chat="true"] { background: #e6eee6; color: #315a42; }
+.cz-manager-info { display: grid; gap: .25rem; min-width: 0; }
+.cz-manager-info small { color: #695d54; font-size: .75rem; overflow-wrap: anywhere; }
+@media (max-width: 480px) {
+  #cz-enquiry-dialog .cz-manager-list .cz-enquiry-thread { grid-template-columns: minmax(0, 1fr) auto; gap: .35rem; }
+  .cz-manager-badge { grid-column: 1 / -1; }
+}

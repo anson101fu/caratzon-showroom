@@ -59,6 +59,7 @@ window.initProductEnquiries = (client, openLogin) => {
   const show = (label, floating = false) => {
     if (dialog.open && dialog.classList.contains('cz-chat-floating') !== floating) dialog.close();
     dialog.classList.toggle('cz-chat-floating', floating);
+    dialog.classList.remove('cz-enquiry-manager');
     const ticket = ++view;
     title.textContent = label;
     close.textContent = floating ? '×' : tr(5);
@@ -396,7 +397,7 @@ window.initProductEnquiries = (client, openLogin) => {
     }, 25000);
   };
 
-  function mountStaffChat(ticket, thread, agentOnly, back) {
+  function mountStaffChat(ticket, thread, agentOnly, back, canClose) {
     const details = node('p', '');
     const messages = node('div', '');
     messages.className = 'cz-live-transcript';
@@ -459,7 +460,8 @@ window.initProductEnquiries = (client, openLogin) => {
         const submit = button(tr(4));
         submit.type = 'submit';
         form.append(label, submit);
-        controls.append(form, end);
+        controls.append(form);
+        if (canClose) controls.append(end);
         await sync();
         let pending;
         form.onsubmit = async event => {
@@ -485,11 +487,11 @@ window.initProductEnquiries = (client, openLogin) => {
     sync().catch(() => fail(ticket));
   }
 
-  async function openThread(thread, back, agentOnly = false) {
+  async function openThread(thread, back, agentOnly = false, canClose = agentOnly) {
     const ticket = show(thread.product_name + ' · ' + thread.sku);
     const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
     body.append(button(tr(11), back), node('p', '#' + thread.id));
-    if (thread.source === 'live_chat') return mountStaffChat(ticket, thread, agentOnly, back);
+    if (thread.source === 'live_chat') return mountStaffChat(ticket, thread, agentOnly, back, canClose);
     if (thread.contact_method) {
       body.append(node('p', gt(4) + ' · ' + contactLabel(thread.contact_method) + ' · ' + thread.contact_value));
     }
@@ -600,6 +602,13 @@ window.initProductEnquiries = (client, openLogin) => {
     pollWhile(ticket, refresh, 5);
   }
 
+  async function agentRole() {
+    const {data, error} = await client.rpc('cz_is_chat_agent');
+    if (error && !['PGRST202', '42883'].includes(error.code)) throw error;
+    if (error) return null;
+    return data === true;
+  }
+
   async function openList(product) {
     if (!client) {
       fail(show(tr(0)));
@@ -623,7 +632,8 @@ window.initProductEnquiries = (client, openLogin) => {
         return;
       }
       const admin = !product && await checked(client.rpc('cz_is_enquiry_admin'));
-      if (!product && !admin && await checked(client.rpc('cz_is_chat_agent'))) {
+      const agent = product ? false : await agentRole();
+      if (!product && !admin && agent) {
         if (current(ticket)) await openAgentQueue(ticket);
         return;
       }
@@ -632,6 +642,7 @@ window.initProductEnquiries = (client, openLogin) => {
       if (!current(ticket)) return;
       const back = () => openList(product);
       if (admin) {
+        dialog.classList.add('cz-enquiry-manager');
         title.textContent = tr(2);
         const download = button(tr(8), async () => {
           download.disabled = true;
@@ -645,6 +656,7 @@ window.initProductEnquiries = (client, openLogin) => {
             download.disabled = false;
           }
         });
+        download.classList.add('cz-manager-export');
         body.append(download);
       }
       if (product) {
@@ -655,6 +667,7 @@ window.initProductEnquiries = (client, openLogin) => {
         }));
       }
       const list = node('div', '');
+      if (admin) list.className = 'cz-manager-list';
       body.append(list);
       const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
       const renderList = rows => {
@@ -664,8 +677,23 @@ window.initProductEnquiries = (client, openLogin) => {
         for (const row of matching) {
           const label = [row.source === 'live_chat' ? ct(0) : '', row.product_name, row.sku,
             date.format(new Date(row.created_at)), admin ? row.contact_value || row.email : ''].filter(Boolean).join(' · ');
-          const entry = button(label, () => openThread(row, back));
+          const entry = button(admin ? '' : label, () => openThread(row, back, false, agent !== null && admin));
           entry.classList.add('cz-enquiry-thread');
+          if (admin) {
+            const isChat = row.source === 'live_chat';
+            const generalChat = isChat && row.sku === 'LIVE-CHAT';
+            const badge = node('span', isChat ? ct(0) : tr(0));
+            badge.className = 'cz-manager-badge';
+            badge.dataset.chat = String(isChat);
+            const info = node('span', '');
+            info.className = 'cz-manager-info';
+            info.append(node('strong', generalChat ? ct(0) : row.product_name || row.sku),
+              node('small', [generalChat ? '' : row.sku, date.format(new Date(row.created_at)),
+                row.contact_value || row.email].filter(Boolean).join(' · ')));
+            const arrow = node('span', '›');
+            arrow.setAttribute('aria-hidden', 'true');
+            entry.append(badge, info, arrow);
+          }
           list.append(entry);
         }
         return matching;
@@ -682,6 +710,7 @@ window.initProductEnquiries = (client, openLogin) => {
         });
         const arrivals = node('p', '');
         arrivals.setAttribute('role', 'status');
+        presenceButton.classList.add('cz-manager-presence');
         body.insertBefore(presenceButton, list);
         body.insertBefore(arrivals, list);
         const seen = new Set(threads.filter(row => row.source === 'live_chat').map(row => row.id));
