@@ -462,7 +462,7 @@ window.initProductEnquiries = (client, openLogin) => {
       if (!current(ticket)) return;
       for (const message of messages) {
         const item = node('article', '');
-        item.append(node('strong', tr(message.sender === 'staff' ? 10 : 9) + ' · ' + date.format(new Date(message.created_at))), node('p', message.body));
+        item.append(node('strong', (message.sender === 'staff' ? staffName(message) || tr(10) : tr(9)) + ' · ' + date.format(new Date(message.created_at))), node('p', message.body));
         body.append(item);
       }
       if (!thread.contact_method) compose(ticket, thread, null, back);
@@ -508,10 +508,22 @@ window.initProductEnquiries = (client, openLogin) => {
     }
     const detail = [['查詢編號', '時間 (UTC)', '發送者', '訊息'], ...history.map(row =>
       [row.enquiry_id, row.created_at, row.sender === 'system' ? '自動回覆' : row.sender === 'staff' ? staffName(row) || '客服' : '客戶', row.body])];
+    const byId = new Map(threads.map(row => [row.id, row]));
+    const latestCustomerMessage = new Map();
+    const replies = [['查詢編號', '回覆時間 (UTC)', '員工', '來源', 'SKU', '產品', '客人上一則訊息', '員工回覆原文']];
+    for (const row of history) {
+      if (row.sender === 'customer') latestCustomerMessage.set(row.enquiry_id, row.body);
+      if (row.sender !== 'staff') continue;
+      const enquiry = byId.get(row.enquiry_id);
+      replies.push([row.enquiry_id, row.created_at, staffName(row) || '客服（未記名）',
+        enquiry.source === 'live_chat' ? 'Live Chat' : '產品查詢',
+        enquiry.sku === 'LIVE-CHAT' ? '' : enquiry.sku, enquiry.product_name,
+        latestCustomerMessage.get(row.enquiry_id) || '', row.body]);
+    }
     const xlsx = window.XLSX;
     const workbook = xlsx.utils.book_new();
     for (const [name, rows, widths] of [['查詢總表', overview, [38,29,32,14,32,19,27,48,48,29,10,14,14,14]],
-      ['完整對話', detail, [38,29,12,70]]]) {
+      ['完整對話', detail, [38,29,18,70]], ['員工回覆紀錄', replies, [38,29,22,16,19,26,52,62]]]) {
       const sheet = xlsx.utils.aoa_to_sheet(rows);
       sheet['!cols'] = widths.map(wch => ({wch}));
       sheet['!autofilter'] = {ref: sheet['!ref']};
