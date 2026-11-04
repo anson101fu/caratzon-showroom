@@ -214,6 +214,12 @@ window.initProductEnquiries = (client, openLogin) => {
     en: ['Live Chat','Staff online','Staff are offline','Go online','Go offline','Take chat','Auto-reply','Save contact','Contact saved','New chats'],
     zh: ['在线客服','客服在线','客服暂时离线','开始接待','停止接待','接手对话','自动回复','保存联系方式','联系方式已保存','新对话']
   };
+  const roleCopy = {
+    en: ['Live Chat queue','End chat','This chat has ended.','Start a new chat','No active chats'],
+    zh: ['客服接待','结束对话','本次对话已结束。','开始新对话','暂无待接待对话'],
+    ru: ['Очередь чатов','Завершить чат','Чат завершён.','Начать новый чат','Нет активных чатов']
+  };
+  const rt = i => (roleCopy[document.documentElement.lang] || roleCopy.en)[i];
   const staffName = row => row.staff_display_name ? 'staff-' + row.staff_display_name : '';
   const ct = i => (chatCopy[document.documentElement.lang] || chatCopy.en)[i];
   const languageOf = (message, fallback) => {
@@ -301,7 +307,12 @@ window.initProductEnquiries = (client, openLogin) => {
     const save = button(ct(7));
     save.type = 'submit';
     contactForm.append(methodLabel, contactLabelNode, save);
-    body.append(presence, messages, form, contactForm);
+    const newChat = button(rt(3), () => {
+      try { sessionStorage.removeItem(key); } catch { /* Storage unavailable. */ }
+      openChat(product);
+    });
+    newChat.hidden = true;
+    body.append(presence, messages, form, contactForm, newChat);
     let hasContact = false;
     let version;
     let syncing = false;
@@ -317,7 +328,10 @@ window.initProductEnquiries = (client, openLogin) => {
         const state = await checked(client.rpc('cz_chat_guest_read', access));
         if (!current(ticket)) return;
         hasContact ||= state.has_contact;
-        contactForm.hidden = hasContact || online;
+        form.hidden = !!state.closed;
+        newChat.hidden = !state.closed;
+        if (state.closed) status.textContent = rt(2);
+        contactForm.hidden = !!state.closed || hasContact || online;
         const latest = state.messages.at(-1)?.id;
         if (latest === version) return;
         version = latest;
@@ -382,7 +396,7 @@ window.initProductEnquiries = (client, openLogin) => {
     }, 25000);
   };
 
-  function mountStaffChat(ticket, thread) {
+  function mountStaffChat(ticket, thread, agentOnly, back) {
     const details = node('p', '');
     const messages = node('div', '');
     messages.className = 'cz-live-transcript';
@@ -390,8 +404,20 @@ window.initProductEnquiries = (client, openLogin) => {
     const controls = node('div', '');
     body.append(details, messages, controls);
     let version;
+    let claimed = false;
     const sync = async () => {
-      const [rows, log] = await Promise.all([
+      if (agentOnly && !claimed) return;
+      let agentLog;
+      if (agentOnly) {
+        const result = await client.rpc('cz_chat_agent_read', {tid:thread.id});
+        if (result.error?.code === '42501') {
+          if (current(ticket)) back();
+          return;
+        }
+        if (result.error) throw result.error;
+        agentLog = result.data;
+      }
+      const [rows, log] = agentOnly ? [[thread], agentLog] : await Promise.all([
         readAll('cz_enquiries', threadFields, ['id', thread.id]),
         readAll('cz_enquiry_messages', messageFields, ['enquiry_id', thread.id], 'created_at')
       ]);
@@ -413,7 +439,16 @@ window.initProductEnquiries = (client, openLogin) => {
       try {
         await checked(client.rpc('cz_chat_staff', {tid:thread.id}));
         if (!current(ticket)) return;
+        claimed = true;
         controls.replaceChildren();
+        const end = button(rt(1), async () => {
+          end.disabled = true;
+          try {
+            await checked(client.rpc('cz_chat_close', {tid:thread.id}));
+            if (current(ticket)) back();
+          } catch { fail(ticket); }
+          finally { end.disabled = false; }
+        });
         const form = node('form', '');
         const label = node('label', tr(12));
         const reply = node('textarea', '');
@@ -424,7 +459,8 @@ window.initProductEnquiries = (client, openLogin) => {
         const submit = button(tr(4));
         submit.type = 'submit';
         form.append(label, submit);
-        controls.append(form);
+        controls.append(form, end);
+        await sync();
         let pending;
         form.onsubmit = async event => {
           event.preventDefault();
@@ -449,11 +485,11 @@ window.initProductEnquiries = (client, openLogin) => {
     sync().catch(() => fail(ticket));
   }
 
-  async function openThread(thread, back) {
+  async function openThread(thread, back, agentOnly = false) {
     const ticket = show(thread.product_name + ' · ' + thread.sku);
     const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
     body.append(button(tr(11), back), node('p', '#' + thread.id));
-    if (thread.source === 'live_chat') return mountStaffChat(ticket, thread);
+    if (thread.source === 'live_chat') return mountStaffChat(ticket, thread, agentOnly, back);
     if (thread.contact_method) {
       body.append(node('p', gt(4) + ' · ' + contactLabel(thread.contact_method) + ' · ' + thread.contact_value));
     }
@@ -532,6 +568,38 @@ window.initProductEnquiries = (client, openLogin) => {
     xlsx.writeFile(workbook, 'Caratzon-Product-Enquiries.xlsx', {compression:true});
   }
 
+  async function openAgentQueue(ticket) {
+    title.textContent = rt(0);
+    const presenceButton = button(ct(staffOnline ? 4 : 3), async () => {
+      presenceButton.disabled = true;
+      try {
+        await setStaffOnline(!staffOnline);
+        presenceButton.textContent = ct(staffOnline ? 4 : 3);
+      } catch { fail(ticket); }
+      finally { presenceButton.disabled = false; }
+    });
+    const list = node('div', '');
+    body.append(presenceButton, list);
+    let snapshot;
+    const refresh = async () => {
+      const rows = await checked(client.rpc('cz_chat_agent_queue'));
+      const next = JSON.stringify(rows);
+      if (!current(ticket) || snapshot === next) return;
+      snapshot = next;
+      list.replaceChildren();
+      if (!rows.length) list.append(node('p', rt(4)));
+      for (const row of rows) {
+        const entry = button([row.product_name, row.sku === 'LIVE-CHAT' ? '' : row.sku,
+          new Date(row.created_at).toLocaleString()].filter(Boolean).join(' · '),
+          () => openThread({...row, source:'live_chat'}, () => openList(), true));
+        entry.classList.add('cz-enquiry-thread');
+        list.append(entry);
+      }
+    };
+    await refresh();
+    pollWhile(ticket, refresh, 5);
+  }
+
   async function openList(product) {
     if (!client) {
       fail(show(tr(0)));
@@ -555,6 +623,10 @@ window.initProductEnquiries = (client, openLogin) => {
         return;
       }
       const admin = !product && await checked(client.rpc('cz_is_enquiry_admin'));
+      if (!product && !admin && await checked(client.rpc('cz_is_chat_agent'))) {
+        if (current(ticket)) await openAgentQueue(ticket);
+        return;
+      }
       const filter = admin ? null : ['customer_id', user.id];
       const threads = (await readAll('cz_enquiries', threadFields, filter, 'created_at')).reverse();
       if (!current(ticket)) return;
