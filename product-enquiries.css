@@ -237,3 +237,9 @@
   #cz-enquiry-dialog .cz-manager-list .cz-enquiry-thread { grid-template-columns: minmax(0, 1fr) auto; gap: .35rem; }
   .cz-manager-badge { grid-column: 1 / -1; }
 }
+
+.cz-manager-filter { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem; margin:0 0 .75rem; font-size:.85rem; }
+.cz-manager-filter select { min-height:2.4rem; padding:.35rem .65rem; border:1px solid #d6c7ba; border-radius:.55rem; background:#fffdfa; color:#392c24; }
+.cz-manager-row { display:grid; grid-template-columns:minmax(0, 1fr) auto; align-items:center; gap:.45rem; }
+.cz-manager-delete { border-radius:.55rem; border-color:#e5d2cb; color:#8b3428; margin:0; padding:.5rem .65rem; }
+.cz-manager-delete:hover, .cz-manager-delete:focus-visible { background:#f8e9e5; border-color:#ad6c60; }

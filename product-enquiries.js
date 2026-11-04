@@ -326,7 +326,18 @@ window.initProductEnquiries = (client, openLogin) => {
         presence.textContent = ct(online ? 1 : 2);
         presence.dataset.online = String(online);
         if (!session.started) return;
-        const state = await checked(client.rpc('cz_chat_guest_read', access));
+        const result = await client.rpc('cz_chat_guest_read', access);
+        if (result.error?.code === '42501') {
+          if (current(ticket)) {
+            form.hidden = contactForm.hidden = true;
+            messages.replaceChildren();
+            newChat.hidden = false;
+            status.textContent = rt(2);
+          }
+          return;
+        }
+        if (result.error) throw result.error;
+        const state = result.data;
         if (!current(ticket)) return;
         hasContact ||= state.has_contact;
         form.hidden = !!state.closed;
@@ -609,6 +620,14 @@ window.initProductEnquiries = (client, openLogin) => {
     return data === true;
   }
 
+  const managerCopy = {
+    en: ['Enquiry type','All enquiries','Product enquiries','Delete','Permanently delete this enquiry and its messages?','Enquiry deleted.'],
+    zh: ['咨询类型','全部咨询','商品咨询','删除','永久删除这条咨询及其全部消息？','已删除咨询。'],
+    ru: ['Тип запроса','Все запросы','Запросы о товарах','Удалить','Навсегда удалить этот запрос и все его сообщения?','Запрос удалён.']
+  };
+  const mt = i => (managerCopy[document.documentElement.lang] || managerCopy.en)[i];
+  let managerFilter = 'all';
+
   async function openList(product) {
     if (!client) {
       fail(show(tr(0)));
@@ -638,7 +657,8 @@ window.initProductEnquiries = (client, openLogin) => {
         return;
       }
       const filter = admin ? null : ['customer_id', user.id];
-      const threads = (await readAll('cz_enquiries', threadFields, filter, 'created_at')).reverse();
+      let threads = (await readAll('cz_enquiries', threadFields, filter, 'created_at')).reverse();
+      const removed = new Set();
       if (!current(ticket)) return;
       const back = () => openList(product);
       if (admin) {
@@ -671,7 +691,9 @@ window.initProductEnquiries = (client, openLogin) => {
       body.append(list);
       const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
       const renderList = rows => {
-        const matching = product ? rows.filter(row => row.sku === product.sku) : rows;
+        const matching = rows.filter(row => !removed.has(row.id)
+          && (!product || row.sku === product.sku)
+          && (!admin || managerFilter === 'all' || (managerFilter === 'live_chat') === (row.source === 'live_chat')));
         list.replaceChildren();
         if (!matching.length && !product) list.append(node('p', tr(6)));
         for (const row of matching) {
@@ -694,7 +716,29 @@ window.initProductEnquiries = (client, openLogin) => {
             arrow.setAttribute('aria-hidden', 'true');
             entry.append(badge, info, arrow);
           }
-          list.append(entry);
+          if (!admin) {
+            list.append(entry);
+            continue;
+          }
+          const wrapper = node('div', '');
+          wrapper.className = 'cz-manager-row';
+          const remove = button(mt(3), async () => {
+            if (remove.disabled || !window.confirm(mt(4))) return;
+            remove.disabled = true;
+            try {
+              await checked(client.rpc('cz_admin_delete_enquiry', {tid:row.id}));
+              removed.add(row.id);
+              if (current(ticket)) {
+                renderList(threads);
+                status.textContent = mt(5);
+              }
+            } catch { fail(ticket); }
+            finally { remove.disabled = false; }
+          });
+          remove.classList.add('cz-manager-delete');
+          remove.setAttribute('aria-label', mt(3) + ' · ' + (row.product_name || row.id));
+          wrapper.append(entry, remove);
+          list.append(wrapper);
         }
         return matching;
       };
@@ -713,6 +757,21 @@ window.initProductEnquiries = (client, openLogin) => {
         presenceButton.classList.add('cz-manager-presence');
         body.insertBefore(presenceButton, list);
         body.insertBefore(arrivals, list);
+        const filterLabel = node('label', mt(0));
+        filterLabel.className = 'cz-manager-filter';
+        const category = node('select', '');
+        for (const [key, label] of [['all', mt(1)], ['live_chat', ct(0)], ['product', mt(2)]]) {
+          const option = node('option', label);
+          option.value = key;
+          category.append(option);
+        }
+        category.value = managerFilter;
+        category.onchange = () => {
+          managerFilter = category.value;
+          renderList(threads);
+        };
+        filterLabel.append(category);
+        body.insertBefore(filterLabel, list);
         const seen = new Set(threads.filter(row => row.source === 'live_chat').map(row => row.id));
         let newCount = 0;
         let snapshot = JSON.stringify(threads);
@@ -728,7 +787,8 @@ window.initProductEnquiries = (client, openLogin) => {
           const next = JSON.stringify(rows);
           if (next !== snapshot) {
             snapshot = next;
-            renderList(rows);
+            threads = rows;
+            renderList(threads);
           }
         }, 5);
       }
