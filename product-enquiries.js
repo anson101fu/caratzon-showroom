@@ -11,7 +11,7 @@ window.initProductEnquiries = (client, openLogin) => {
     zh: ['联系方式', '联系资料', '咨询已提交，我们会通过你填写的方式联系你。', '电话', '请通过以下联系方式跟进', '请选择联系方式', '请输入有效的电话号码，建议加上国家区号。', '请输入有效的电子邮箱。']
   };
   const gt = i => (guestCopy[document.documentElement.lang] || guestCopy.ru)[i];
-  const contactLabel = method => ({email:'Email', wechat:'WeChat ID', whatsapp:'WhatsApp', phone:gt(3), telegram:'Telegram'})[method];
+  const contactLabel = method => ({email:'Email', wechat:'WeChat ID', whatsapp:'WhatsApp', phone:gt(3)})[method];
   const node = (tag, value) => {
     const element = document.createElement(tag);
     element.textContent = value;
@@ -129,7 +129,7 @@ window.initProductEnquiries = (client, openLogin) => {
     prompt.value = '';
     prompt.disabled = prompt.selected = true;
     method.append(prompt);
-    for (const key of ['email', 'wechat', 'whatsapp', 'phone', 'telegram']) {
+    for (const key of ['email', 'wechat', 'whatsapp', 'phone']) {
       const option = node('option', contactLabel(key));
       option.value = key;
       method.append(option);
@@ -139,7 +139,6 @@ window.initProductEnquiries = (client, openLogin) => {
     contact.maxLength = 180;
     method.onchange = () => {
       contact.type = method.value === 'email' ? 'email' : ['phone', 'whatsapp'].includes(method.value) ? 'tel' : 'text';
-      contact.placeholder = method.value === 'telegram' ? '@username / https://t.me/username' : '';
       contact.setCustomValidity('');
     };
     contact.oninput = () => contact.setCustomValidity('');
