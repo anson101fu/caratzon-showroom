@@ -416,7 +416,7 @@ window.initProductEnquiries = (client, openLogin) => {
     const controls = node('div', '');
     body.append(details, messages, controls);
     let version;
-    let claimed = false;
+    let claimed = thread.archived === true;
     const sync = async () => {
       if (agentOnly && !claimed) return;
       let agentLog;
@@ -493,8 +493,10 @@ window.initProductEnquiries = (client, openLogin) => {
       } catch { fail(ticket); }
       finally { take.disabled = false; }
     });
-    controls.append(take);
-    pollWhile(ticket, sync);
+    if (!thread.archived) {
+      controls.append(take);
+      pollWhile(ticket, sync);
+    }
     sync().catch(() => fail(ticket));
   }
 
@@ -581,6 +583,34 @@ window.initProductEnquiries = (client, openLogin) => {
     xlsx.writeFile(workbook, 'Caratzon-Product-Enquiries.xlsx', {compression:true});
   }
 
+  const agentHistoryCopy = {
+    en: ['My chat history', 'Back to active chats', 'No past chats'],
+    zh: ['我的聊天记录', '返回进行中的聊天', '暂无历史聊天'],
+    ru: ['Моя история чатов', 'Назад к активным чатам', 'Прошлых чатов нет']
+  };
+  const ht = i => (agentHistoryCopy[document.documentElement.lang] || agentHistoryCopy.en)[i];
+
+  function agentChatButton(row, back, archived = false) {
+    const label = [row.product_name, row.sku === 'LIVE-CHAT' ? '' : row.sku,
+      new Date(row.created_at).toLocaleString()].filter(Boolean).join(' · ');
+    const entry = button(label, () => openThread({...row, source:'live_chat', archived}, back, true));
+    entry.classList.add('cz-enquiry-thread');
+    return entry;
+  }
+
+  async function openAgentHistory() {
+    const ticket = show(ht(0));
+    body.append(button(ht(1), () => openList()));
+    try {
+      const rows = await checked(client.rpc('cz_chat_agent_history'));
+      if (!current(ticket)) return;
+      const list = node('div', '');
+      body.append(list);
+      if (!rows.length) list.append(node('p', ht(2)));
+      for (const row of rows) list.append(agentChatButton(row, openAgentHistory, true));
+    } catch { fail(ticket); }
+  }
+
   async function openAgentQueue(ticket) {
     title.textContent = rt(0);
     const presenceButton = button(ct(staffOnline ? 4 : 3), async () => {
@@ -592,7 +622,7 @@ window.initProductEnquiries = (client, openLogin) => {
       finally { presenceButton.disabled = false; }
     });
     const list = node('div', '');
-    body.append(presenceButton, list);
+    body.append(presenceButton, button(ht(0), openAgentHistory), list);
     let snapshot;
     const refresh = async () => {
       const rows = await checked(client.rpc('cz_chat_agent_queue'));
@@ -601,13 +631,7 @@ window.initProductEnquiries = (client, openLogin) => {
       snapshot = next;
       list.replaceChildren();
       if (!rows.length) list.append(node('p', rt(4)));
-      for (const row of rows) {
-        const entry = button([row.product_name, row.sku === 'LIVE-CHAT' ? '' : row.sku,
-          new Date(row.created_at).toLocaleString()].filter(Boolean).join(' · '),
-          () => openThread({...row, source:'live_chat'}, () => openList(), true));
-        entry.classList.add('cz-enquiry-thread');
-        list.append(entry);
-      }
+      for (const row of rows) list.append(agentChatButton(row, () => openList()));
     };
     await refresh();
     pollWhile(ticket, refresh, 5);
