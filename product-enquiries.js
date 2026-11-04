@@ -623,23 +623,28 @@ window.initProductEnquiries = (client, openLogin) => {
         row.source === 'live_chat' ? 'Live Chat' : '產品查詢', row.chat_language || '']);
     }
     const byId = new Map(threads.map(row => [row.id, row]));
-    const detail = [['查詢編號', '時間 (UTC)', '發送者', '訊息'], ...history.map(row =>
-      [row.enquiry_id, row.created_at, row.sender === 'system' ? '自動回覆' : row.sender === 'staff' ? staffName(row) || '客服' : customerName(byId.get(row.enquiry_id)) || '客戶', row.body])];
+    const detail = [['查詢編號', '時間 (UTC)', '發送者', '訊息', '客戶聯絡資料', '誰回覆誰']];
     const latestCustomerMessage = new Map();
-    const replies = [['查詢編號', '回覆時間 (UTC)', '員工', '來源', 'SKU', '產品', '客人上一則訊息', '員工回覆原文', '客戶聯絡資料']];
+    const replies = [['查詢編號', '回覆時間 (UTC)', '員工', '來源', 'SKU', '產品', '客人上一則訊息', '員工回覆原文', '客戶聯絡資料', '誰回覆誰']];
     for (const row of history) {
+      const enquiry = byId.get(row.enquiry_id);
+      const contact = customerName(enquiry);
+      const customer = contact || '客戶（未留聯絡資料）';
+      const staff = staffName(row) || '客服（未記名）';
+      const sender = row.sender === 'system' ? '自動回覆' : row.sender === 'staff' ? staff : customer;
+      const replyDirection = row.sender === 'staff' ? staff + ' 回覆 ' + customer : '';
+      detail.push([row.enquiry_id, row.created_at, sender, row.body, contact, replyDirection]);
       if (row.sender === 'customer') latestCustomerMessage.set(row.enquiry_id, row.body);
       if (row.sender !== 'staff') continue;
-      const enquiry = byId.get(row.enquiry_id);
-      replies.push([row.enquiry_id, row.created_at, staffName(row) || '客服（未記名）',
+      replies.push([row.enquiry_id, row.created_at, staff,
         enquiry.source === 'live_chat' ? 'Live Chat' : '產品查詢',
         enquiry.sku === 'LIVE-CHAT' ? '' : enquiry.sku, enquiry.product_name,
-        latestCustomerMessage.get(row.enquiry_id) || '', row.body, customerName(enquiry)]);
+        latestCustomerMessage.get(row.enquiry_id) || '', row.body, contact, replyDirection]);
     }
     const xlsx = window.XLSX;
     const workbook = xlsx.utils.book_new();
     for (const [name, rows, widths] of [['查詢總表', overview, [38,29,32,14,32,19,27,48,48,29,10,14,14,14]],
-      ['完整對話', detail, [38,29,36,70]], ['員工回覆紀錄', replies, [38,29,22,16,19,26,52,62,36]]]) {
+      ['完整對話', detail, [38,29,36,70,36,56]], ['員工回覆紀錄', replies, [38,29,22,16,19,26,52,62,36,56]]]) {
       const sheet = xlsx.utils.aoa_to_sheet(rows);
       sheet['!cols'] = widths.map(wch => ({wch}));
       sheet['!autofilter'] = {ref: sheet['!ref']};
