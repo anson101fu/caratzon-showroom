@@ -20,6 +20,24 @@
 <link rel="stylesheet" href="store-language-v12.css?v=1"/>
   <link rel="stylesheet" href="member-v13.css?v=1"/>
   <link rel="stylesheet" href="product-enquiries.css?v=4">
+  <style>
+    /* Keep the catalogue image and its letterboxing on one white surface. */
+    #grid.product-grid .product > .photo {
+      position: relative;
+      width: 100%;
+      background: #fff;
+    }
+    #grid.product-grid .product > .photo > .zoom-trigger {
+      position: absolute;
+      inset: 0;
+      background: #fff;
+    }
+    #grid.product-grid .product > .photo > .zoom-trigger > img {
+      display: block;
+      background: #fff;
+      object-fit: contain;
+    }
+  </style>
 </head>
 <body>
 <header class="header">
