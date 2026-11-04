@@ -49,13 +49,26 @@ window.initProductEnquiries = (client, openLogin) => {
   client?.auth.onAuthStateChange(event => {
     if (event === 'SIGNED_OUT' && dialog.open) dialog.close();
   });
-  const show = label => {
+  dialog.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && dialog.classList.contains('cz-chat-floating')) {
+      event.preventDefault();
+      event.stopPropagation();
+      dialog.close();
+    }
+  });
+  const show = (label, floating = false) => {
+    if (dialog.open && dialog.classList.contains('cz-chat-floating') !== floating) dialog.close();
+    dialog.classList.toggle('cz-chat-floating', floating);
     const ticket = ++view;
     title.textContent = label;
-    close.textContent = tr(5);
+    close.textContent = floating ? '×' : tr(5);
+    close.setAttribute('aria-label', tr(5));
     body.replaceChildren();
     status.textContent = '';
-    if (!dialog.open) dialog.showModal();
+    if (!dialog.open) {
+      if (floating) dialog.show();
+      else dialog.showModal();
+    }
     return ticket;
   };
   const current = ticket => ticket === view && dialog.open;
@@ -227,7 +240,7 @@ window.initProductEnquiries = (client, openLogin) => {
   };
 
   async function openChat(product = activeProduct()) {
-    const ticket = show(product ? ct(0) + ' · ' + product.name + ' · ' + product.sku : ct(0));
+    const ticket = show(product ? ct(0) + ' · ' + product.name + ' · ' + product.sku : ct(0), true);
     if (!client) return fail(ticket);
     const key = 'cz-chat:' + (product?.sku || 'general');
     let session;
@@ -237,15 +250,23 @@ window.initProductEnquiries = (client, openLogin) => {
     session ||= {tid:crypto.randomUUID(), token:crypto.randomUUID(), language:siteLanguage, started:false};
     const access = {tid:session.tid, token:session.token};
     const presence = node('p', '…');
+    presence.className = 'cz-chat-presence';
     const messages = node('div', '');
     messages.className = 'cz-live-transcript';
     messages.setAttribute('role', 'log');
+    messages.append(node('p', ({
+      ru:'Здравствуйте! Чем можем помочь?',
+      en:'Hello! How can we help you today?',
+      zh:'您好！有什么可以帮您？'
+    })[document.documentElement.lang] || 'Hello! How can we help you today?'));
     const form = node('form', '');
+    form.className = 'cz-chat-compose';
     const label = node('label', tr(12));
     const input = node('textarea', '');
     input.required = true;
     input.maxLength = 2000;
-    input.rows = 3;
+    input.rows = 2;
+    input.placeholder = tr(12);
     label.append(input);
     const send = button(tr(4));
     send.type = 'submit';
@@ -253,6 +274,7 @@ window.initProductEnquiries = (client, openLogin) => {
 
     const contactForm = node('form', '');
     contactForm.hidden = true;
+    contactForm.className = 'cz-chat-contact';
     const methodLabel = node('label', gt(0));
     const method = node('select', '');
     method.required = true;
@@ -289,6 +311,7 @@ window.initProductEnquiries = (client, openLogin) => {
         const online = await checked(client.rpc('cz_chat_online'));
         if (!current(ticket)) return;
         presence.textContent = ct(online ? 1 : 2);
+        presence.dataset.online = String(online);
         if (!session.started) return;
         const state = await checked(client.rpc('cz_chat_guest_read', access));
         if (!current(ticket)) return;
@@ -299,6 +322,7 @@ window.initProductEnquiries = (client, openLogin) => {
         version = latest;
         messages.replaceChildren(...state.messages.map(row => {
           const item = node('article', '');
+          item.dataset.sender = row.sender;
           item.append(node('strong', row.sender === 'system' ? ct(6) : tr(row.sender === 'staff' ? 10 : 9)), node('p', row.body));
           return item;
         }));
@@ -604,7 +628,10 @@ window.initProductEnquiries = (client, openLogin) => {
   const detailBody = document.getElementById('v9DetailBody');
   const inbox = button(tr(1), () => openList());
   document.querySelector('footer').append(inbox);
-  const launcher = button(ct(0), () => openChat());
+  const launcher = button(ct(0), () => {
+    if (dialog.open && dialog.classList.contains('cz-chat-floating')) return dialog.close();
+    return openChat();
+  });
   launcher.id = 'cz-live-chat';
   document.body.append(launcher);
   client?.auth.onAuthStateChange(event => {
