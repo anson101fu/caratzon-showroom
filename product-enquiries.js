@@ -96,7 +96,7 @@ window.initProductEnquiries = (client, openLogin) => {
   };
 
   const threadFields = 'id,created_at,email,sku,product_name,contact_method,contact_value,source,chat_language';
-  const messageFields = 'id,enquiry_id,created_at,sender,body';
+  const messageFields = 'id,enquiry_id,created_at,sender,body,staff_display_name';
 
   const compose = (ticket, thread, product, back) => {
     const form = node('form', '');
@@ -214,6 +214,7 @@ window.initProductEnquiries = (client, openLogin) => {
     en: ['Live Chat','Staff online','Staff are offline','Go online','Go offline','Take chat','Auto-reply','Save contact','Contact saved','New chats'],
     zh: ['在线客服','客服在线','客服暂时离线','开始接待','停止接待','接手对话','自动回复','保存联系方式','联系方式已保存','新对话']
   };
+  const staffName = row => row.staff_display_name ? 'staff-' + row.staff_display_name : '';
   const ct = i => (chatCopy[document.documentElement.lang] || chatCopy.en)[i];
   const languageOf = (message, fallback) => {
     if (/\p{Script=Han}/u.test(message)) {
@@ -323,7 +324,7 @@ window.initProductEnquiries = (client, openLogin) => {
         messages.replaceChildren(...state.messages.map(row => {
           const item = node('article', '');
           item.dataset.sender = row.sender;
-          item.append(node('strong', row.sender === 'system' ? ct(6) : tr(row.sender === 'staff' ? 10 : 9)), node('p', row.body));
+          item.append(node('strong', row.sender === 'system' ? ct(6) : row.sender === 'staff' ? staffName(row) || tr(10) : tr(9)), node('p', row.body));
           return item;
         }));
         messages.scrollTop = messages.scrollHeight;
@@ -402,7 +403,7 @@ window.initProductEnquiries = (client, openLogin) => {
       version = latest;
       messages.replaceChildren(...log.map(entry => {
         const item = node('article', '');
-        item.append(node('strong', entry.sender === 'system' ? ct(6) : tr(entry.sender === 'staff' ? 10 : 9)), node('p', entry.body));
+        item.append(node('strong', entry.sender === 'system' ? ct(6) : entry.sender === 'staff' ? staffName(entry) || tr(10) : tr(9)), node('p', entry.body));
         return item;
       }));
       messages.scrollTop = messages.scrollHeight;
@@ -506,7 +507,7 @@ window.initProductEnquiries = (client, openLogin) => {
         row.source === 'live_chat' ? 'Live Chat' : '產品查詢', row.chat_language || '']);
     }
     const detail = [['查詢編號', '時間 (UTC)', '發送者', '訊息'], ...history.map(row =>
-      [row.enquiry_id, row.created_at, row.sender === 'system' ? '自動回覆' : row.sender === 'staff' ? '客服' : '客戶', row.body])];
+      [row.enquiry_id, row.created_at, row.sender === 'system' ? '自動回覆' : row.sender === 'staff' ? staffName(row) || '客服' : '客戶', row.body])];
     const xlsx = window.XLSX;
     const workbook = xlsx.utils.book_new();
     for (const [name, rows, widths] of [['查詢總表', overview, [38,29,32,14,32,19,27,48,48,29,10,14,14,14]],
