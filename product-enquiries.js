@@ -467,9 +467,20 @@ window.initProductEnquiries = (client, openLogin) => {
     staffOnline = online;
     clearInterval(heartbeat);
     if (online) heartbeat = setInterval(() => {
-      if (!document.hidden) client.rpc('cz_chat_set_presence', {online:true}).catch(() => {});
+      client.rpc('cz_chat_set_presence', {online:true}).catch(() => {});
     }, 25000);
   };
+
+  const handoffCopy = {
+    en: ['Another staff member is handling this chat.', 'Take this chat again before replying.', 'Go online before taking a chat.'],
+    zh: ['其他客服正在处理此对话。', '请重新接手此对话后再回复。', '请先上线，再接手对话。'],
+    ru: ['Этот чат ведёт другой сотрудник.', 'Примите этот чат снова, прежде чем отвечать.', 'Выйдите онлайн, чтобы принять чат.']
+  };
+  function handoffError(ticket, error) {
+    const message = {CZ001:0, CZ002:1, CZ003:2}[error?.code];
+    if (message === undefined) return fail(ticket);
+    if (current(ticket)) status.textContent = (handoffCopy[document.documentElement.lang] || handoffCopy.en)[message];
+  }
 
   function mountStaffChat(ticket, thread, agentOnly, back, canClose) {
     const details = node('p', '');
@@ -516,6 +527,7 @@ window.initProductEnquiries = (client, openLogin) => {
       try {
         await checked(client.rpc('cz_chat_staff', {tid:thread.id}));
         if (!current(ticket)) return;
+        status.textContent = '';
         claimed = true;
         controls.replaceChildren();
         const end = button(rt(1), async () => {
@@ -552,10 +564,10 @@ window.initProductEnquiries = (client, openLogin) => {
             pending = null;
             if (current(ticket)) status.textContent = '';
             await sync();
-          } catch { fail(ticket); }
+          } catch (error) { handoffError(ticket, error); }
           finally { submit.disabled = reply.readOnly = false; }
         };
-      } catch { fail(ticket); }
+      } catch (error) { handoffError(ticket, error); }
       finally { take.disabled = false; }
     });
     if (!thread.archived) {
