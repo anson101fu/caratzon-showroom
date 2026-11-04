@@ -5,6 +5,13 @@ window.initProductEnquiries = (client, openLogin) => {
     zh: ['咨询此商品', '我的咨询', '咨询管理', '新建咨询', '发送', '关闭', '暂无咨询', '操作失败，请重试。', '导出 Excel', '客户', '客服', '返回', '请输入消息', '登录后即可咨询。']
   };
   const tr = i => (copy[document.documentElement.lang] || copy.ru)[i];
+  const guestCopy = {
+    ru: ['Способ связи', 'Контакт', 'Запрос отправлен. Мы свяжемся с вами указанным способом.', 'Телефон', 'Связаться по указанному контакту', 'Выберите способ связи', 'Укажите действительный номер с кодом страны.', 'Укажите действительный email.'],
+    en: ['Contact method', 'Contact details', 'Enquiry sent. We’ll contact you using the details you provided.', 'Phone', 'Follow up using this contact', 'Choose a contact method', 'Enter a valid phone number including the country code.', 'Enter a valid email address.'],
+    zh: ['联系方式', '联系资料', '咨询已提交，我们会通过你填写的方式联系你。', '电话', '请通过以下联系方式跟进', '请选择联系方式', '请输入有效的电话号码，建议加上国家区号。', '请输入有效的电子邮箱。']
+  };
+  const gt = i => (guestCopy[document.documentElement.lang] || guestCopy.ru)[i];
+  const contactLabel = method => ({email:'Email', wechat:'WeChat ID', whatsapp:'WhatsApp', phone:gt(3), telegram:'Telegram'})[method];
   const node = (tag, value) => {
     const element = document.createElement(tag);
     element.textContent = value;
@@ -75,7 +82,7 @@ window.initProductEnquiries = (client, openLogin) => {
     return rows;
   };
 
-  const threadFields = 'id,created_at,email,sku,product_name';
+  const threadFields = 'id,created_at,email,sku,product_name,contact_method,contact_value';
   const messageFields = 'id,enquiry_id,created_at,sender,body';
 
   const compose = (ticket, thread, product, back) => {
@@ -113,10 +120,89 @@ window.initProductEnquiries = (client, openLogin) => {
     body.append(form);
   };
 
+  function openGuestForm(product) {
+    const ticket = show(product.name + ' · ' + product.sku);
+    const form = node('form', '');
+    const method = node('select', '');
+    method.required = true;
+    const prompt = node('option', gt(5));
+    prompt.value = '';
+    prompt.disabled = prompt.selected = true;
+    method.append(prompt);
+    for (const key of ['email', 'wechat', 'whatsapp', 'phone', 'telegram']) {
+      const option = node('option', contactLabel(key));
+      option.value = key;
+      method.append(option);
+    }
+    const contact = node('input', '');
+    contact.required = true;
+    contact.maxLength = 180;
+    method.onchange = () => {
+      contact.type = method.value === 'email' ? 'email' : ['phone', 'whatsapp'].includes(method.value) ? 'tel' : 'text';
+      contact.placeholder = method.value === 'telegram' ? '@username / https://t.me/username' : '';
+      contact.setCustomValidity('');
+    };
+    contact.oninput = () => contact.setCustomValidity('');
+    const message = node('textarea', '');
+    message.required = true;
+    message.maxLength = 2000;
+    message.rows = 4;
+    const send = button(tr(4));
+    send.type = 'submit';
+    for (const [label, field] of [[gt(0), method], [gt(1), contact], [tr(12), message]]) {
+      const wrapper = node('label', label);
+      wrapper.append(field);
+      form.append(wrapper);
+    }
+    form.append(send);
+    body.append(form);
+    let pending;
+    form.onsubmit = async event => {
+      event.preventDefault();
+      const value = contact.value.trim();
+      const question = message.value.trim();
+      if (!value || !question || !method.value || send.disabled) {
+        if (!send.disabled) fail(ticket);
+        return;
+      }
+      const digits = value.replace(/[^0-9]/g, '').length;
+      if (['phone', 'whatsapp'].includes(method.value) && (!/^\+?[0-9 ()-]+$/.test(value) || digits < 7 || digits > 15)) {
+        contact.setCustomValidity(gt(6));
+        contact.reportValidity();
+        return;
+      }
+      if (method.value === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
+        contact.setCustomValidity(gt(7));
+        contact.reportValidity();
+        return;
+      }
+      if (pending?.contact !== value || pending?.method !== method.value || pending?.message_body !== question) {
+        pending = {request_id:crypto.randomUUID(), product_sku:product.sku, product_label:product.name,
+          message_body:question, method:method.value, contact:value};
+      }
+      send.disabled = method.disabled = contact.readOnly = message.readOnly = true;
+      status.textContent = '…';
+      try {
+        await checked(client.rpc('cz_send_guest_enquiry', pending));
+        if (current(ticket)) {
+          body.replaceChildren();
+          status.textContent = gt(2);
+        }
+      } catch {
+        fail(ticket);
+      } finally {
+        send.disabled = method.disabled = contact.readOnly = message.readOnly = false;
+      }
+    };
+  }
+
   async function openThread(thread, back) {
     const ticket = show(thread.product_name + ' · ' + thread.sku);
     const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
     body.append(button(tr(11), back), node('p', '#' + thread.id));
+    if (thread.contact_method) {
+      body.append(node('p', gt(4) + ' · ' + contactLabel(thread.contact_method) + ' · ' + thread.contact_value));
+    }
     try {
       const messages = await readAll('cz_enquiry_messages', messageFields, ['enquiry_id', thread.id], 'created_at');
       if (!current(ticket)) return;
@@ -125,7 +211,7 @@ window.initProductEnquiries = (client, openLogin) => {
         item.append(node('strong', tr(message.sender === 'staff' ? 10 : 9) + ' · ' + date.format(new Date(message.created_at))), node('p', message.body));
         body.append(item);
       }
-      compose(ticket, thread, null, back);
+      if (!thread.contact_method) compose(ticket, thread, null, back);
     } catch {
       fail(ticket);
     }
@@ -158,18 +244,18 @@ window.initProductEnquiries = (client, openLogin) => {
       summary.latest = row;
       summaries.set(row.enquiry_id, summary);
     }
-    const overview = [['查詢編號', '提交時間 (UTC)', '客戶電郵', 'SKU', '產品', '最初問題', '最後一則訊息', '最新時間 (UTC)', '訊息數', '跟進狀態']];
+    const overview = [['查詢編號', '提交時間 (UTC)', '客戶電郵', '聯絡方式', '聯絡資料', 'SKU', '產品', '最初問題', '最後一則訊息', '最新時間 (UTC)', '訊息數', '跟進狀態']];
     for (const row of threads) {
       const item = summaries.get(row.id);
-      overview.push([row.id, row.created_at, row.email, row.sku, row.product_name, item?.question || '',
+      overview.push([row.id, row.created_at, row.email, row.contact_method ? contactLabel(row.contact_method) : 'Email', row.contact_value || row.email, row.sku, row.product_name, item?.question || '',
         item?.latest.body || '', item?.latest.created_at || '', item?.count || 0,
-        item?.latest.sender === 'staff' ? '已回覆' : '待回覆']);
+        row.contact_method ? '站外跟進' : item?.latest.sender === 'staff' ? '已回覆' : '待回覆']);
     }
     const detail = [['查詢編號', '時間 (UTC)', '發送者', '訊息'], ...history.map(row =>
       [row.enquiry_id, row.created_at, row.sender === 'staff' ? '客服' : '客戶', row.body])];
     const xlsx = window.XLSX;
     const workbook = xlsx.utils.book_new();
-    for (const [name, rows, widths] of [['查詢總表', overview, [38,29,32,19,27,48,48,29,10,14]],
+    for (const [name, rows, widths] of [['查詢總表', overview, [38,29,32,14,32,19,27,48,48,29,10,14]],
       ['完整對話', detail, [38,29,12,70]]]) {
       const sheet = xlsx.utils.aoa_to_sheet(rows);
       sheet['!cols'] = widths.map(wch => ({wch}));
@@ -190,6 +276,10 @@ window.initProductEnquiries = (client, openLogin) => {
       if (!current(ticket)) return;
       if (error) throw error;
       const user = data.session?.user;
+      if (!user && product) {
+        openGuestForm(product);
+        return;
+      }
       if (!user) {
         dialog.close();
         if (typeof closeDetail === 'function') closeDetail();
@@ -229,7 +319,7 @@ window.initProductEnquiries = (client, openLogin) => {
       if (!matching.length && !product) body.append(node('p', tr(6)));
       const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
       for (const row of matching) {
-        const label = [row.product_name, row.sku, date.format(new Date(row.created_at)), admin ? row.email : ''].filter(Boolean).join(' · ');
+        const label = [row.product_name, row.sku, date.format(new Date(row.created_at)), admin ? row.contact_value || row.email : ''].filter(Boolean).join(' · ');
         const entry = button(label, () => openThread(row, back));
         entry.classList.add('cz-enquiry-thread');
         body.append(entry);
