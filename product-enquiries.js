@@ -221,6 +221,14 @@ window.initProductEnquiries = (client, openLogin) => {
     ru: ['Очередь чатов','Завершить чат','Чат завершён.','Начать новый чат','Нет активных чатов']
   };
   const rt = i => (roleCopy[document.documentElement.lang] || roleCopy.en)[i];
+  const customerName = row => row?.contact_value
+    ? [contactLabel(row.contact_method), row.contact_value].filter(Boolean).join(' · ')
+    : row?.email || '';
+  const startChatCopy = {
+    en: ['Choose how we can reach you before starting the chat.', 'Start chat'],
+    zh: ['开始聊天前，请选择并填写一种联系方式。', '开始聊天'],
+    ru: ['Перед началом чата укажите, как с вами связаться.', 'Начать чат']
+  };
   const staffName = row => row.staff_display_name ? 'staff-' + row.staff_display_name : '';
   const ct = i => (chatCopy[document.documentElement.lang] || chatCopy.en)[i];
   const languageOf = (message, fallback) => {
@@ -250,7 +258,15 @@ window.initProductEnquiries = (client, openLogin) => {
   async function openChat(product = activeProduct()) {
     const ticket = show(product ? ct(0) + ' · ' + product.name + ' · ' + product.sku : ct(0), true);
     if (!client) return fail(ticket);
-    const key = 'cz-chat:' + (product?.sku || 'general');
+    let user;
+    try {
+      user = (await checked(client.auth.getSession())).session?.user;
+    } catch {
+      return fail(ticket);
+    }
+    if (!current(ticket)) return;
+    const guest = !user;
+    const key = 'cz-chat:' + (product?.sku || 'general') + (user ? ':member:' + user.id : '');
     let session;
     try { session = JSON.parse(sessionStorage.getItem(key)); } catch { /* Storage unavailable. */ }
     const siteLanguage = document.documentElement.lang === 'zh' ? 'zh-Hans' :
@@ -303,10 +319,14 @@ window.initProductEnquiries = (client, openLogin) => {
     method.onchange = () => {
       contact.type = method.value === 'email' ? 'email' : ['phone','whatsapp'].includes(method.value) ? 'tel' : 'text';
       contact.placeholder = method.value === 'telegram' ? '@username / https://t.me/username' : '';
+      contact.setCustomValidity('');
     };
+    contact.oninput = () => contact.setCustomValidity('');
     contactLabelNode.append(contact);
-    const save = button(ct(7));
+    const startCopy = startChatCopy[document.documentElement.lang] || startChatCopy.en;
+    const save = button(guest ? startCopy[1] : ct(7));
     save.type = 'submit';
+    if (guest) contactForm.append(node('p', startCopy[0]));
     contactForm.append(methodLabel, contactLabelNode, save);
     const newChat = button(rt(3), () => {
       try { sessionStorage.removeItem(key); } catch { /* Storage unavailable. */ }
@@ -315,7 +335,17 @@ window.initProductEnquiries = (client, openLogin) => {
     newChat.hidden = true;
     body.append(presence, messages, form, contactForm, newChat);
     let hasContact = false;
+    let identity;
+    let contactToSave;
     let version;
+    const showIdentity = row => {
+      identity = row;
+      if (guest && customerName(row)) {
+        title.textContent = ct(0) + ' · ' + customerName(row);
+      }
+    };
+    form.hidden = guest;
+    contactForm.hidden = !guest || session.started;
     let syncing = false;
     const sync = async () => {
       if (syncing) return;
@@ -340,17 +370,23 @@ window.initProductEnquiries = (client, openLogin) => {
         const state = result.data;
         if (!current(ticket)) return;
         hasContact ||= state.has_contact;
-        form.hidden = !!state.closed;
+        if (guest && hasContact && !identity) {
+          const saved = await checked(client.rpc('cz_chat_read_contact', access));
+          if (!current(ticket)) return;
+          showIdentity(saved);
+        }
+        form.hidden = !!state.closed || (guest && !identity);
         newChat.hidden = !state.closed;
         if (state.closed) status.textContent = rt(2);
-        contactForm.hidden = !!state.closed || hasContact || online;
+        contactForm.hidden = !!state.closed || (guest ? !!identity : hasContact || online);
         const latest = state.messages.at(-1)?.id;
-        if (latest === version) return;
-        version = latest;
+        const transcriptVersion = [latest, customerName(identity)].join('|');
+        if (transcriptVersion === version) return;
+        version = transcriptVersion;
         messages.replaceChildren(...state.messages.map(row => {
           const item = node('article', '');
           item.dataset.sender = row.sender;
-          item.append(node('strong', row.sender === 'system' ? ct(6) : row.sender === 'staff' ? staffName(row) || tr(10) : tr(9)), node('p', row.body));
+          item.append(node('strong', row.sender === 'system' ? ct(6) : row.sender === 'staff' ? staffName(row) || tr(10) : customerName(identity) || tr(9)), node('p', row.body));
           return item;
         }));
         messages.scrollTop = messages.scrollHeight;
@@ -362,13 +398,20 @@ window.initProductEnquiries = (client, openLogin) => {
     form.onsubmit = async event => {
       event.preventDefault();
       const message = input.value.trim();
-      if (!message || send.disabled) return;
+      if (!message || send.disabled || (guest && !identity)) return;
       if (pending?.message !== message) pending = {mid:crypto.randomUUID(), message};
       send.disabled = input.readOnly = true;
       try {
         const language = languageOf(message, session.language);
-        await checked(client.rpc('cz_chat_guest_send', {...access, ...pending, language,
-          sku:product?.sku || 'LIVE-CHAT', label:product?.name || 'Live Chat'}));
+        const payload = {...access, ...pending, language,
+          sku:product?.sku || 'LIVE-CHAT', label:product?.name || 'Live Chat'};
+        if (contactToSave) {
+          await checked(client.rpc('cz_chat_guest_send_with_contact', {...payload, ...contactToSave}));
+          contactToSave = null;
+          hasContact = true;
+        } else {
+          await checked(client.rpc('cz_chat_guest_send', payload));
+        }
         session.started = true;
         session.language = language;
         try { sessionStorage.setItem(key, JSON.stringify(session)); } catch { /* Storage unavailable. */ }
@@ -381,7 +424,27 @@ window.initProductEnquiries = (client, openLogin) => {
     };
     contactForm.onsubmit = async event => {
       event.preventDefault();
-      if (save.disabled || !contact.value.trim()) return;
+      const value = contact.value.trim();
+      if (save.disabled || !method.value || !value || /[\x00-\x1f\x7f]/.test(value)) return;
+      if (['phone', 'whatsapp'].includes(method.value)
+          && (!/^\+?[0-9 ()-]+$/.test(value) || !/^\d{7,15}$/.test(value.replace(/\D/g, '')))) {
+        contact.setCustomValidity(gt(6));
+        contact.reportValidity();
+        return;
+      }
+      if (method.value === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
+        contact.setCustomValidity(gt(7));
+        contact.reportValidity();
+        return;
+      }
+      if (guest) {
+        contactToSave = {method:method.value, contact:value};
+        showIdentity({contact_method:method.value, contact_value:value});
+        contactForm.hidden = true;
+        form.hidden = false;
+        input.focus();
+        return;
+      }
       save.disabled = true;
       try {
         await checked(client.rpc('cz_chat_guest_contact', {...access, method:method.value, contact:contact.value.trim()}));
@@ -429,19 +492,21 @@ window.initProductEnquiries = (client, openLogin) => {
         if (result.error) throw result.error;
         agentLog = result.data;
       }
-      const [rows, log] = agentOnly ? [[thread], agentLog] : await Promise.all([
+      const [rows, log] = agentOnly ? [[await checked(client.rpc('cz_chat_read_contact', {tid:thread.id}))], agentLog] : await Promise.all([
         readAll('cz_enquiries', threadFields, ['id', thread.id]),
         readAll('cz_enquiry_messages', messageFields, ['enquiry_id', thread.id], 'created_at')
       ]);
       if (!current(ticket) || !rows.length) return;
       const row = rows[0];
       details.textContent = [row.chat_language, row.contact_method && contactLabel(row.contact_method), row.contact_value].filter(Boolean).join(' · ');
-      const latest = log.at(-1)?.id;
+      const displayName = customerName(row);
+      if (displayName) title.textContent = thread.product_name + ' · ' + displayName;
+      const latest = [log.at(-1)?.id, displayName].join('|');
       if (latest === version) return;
       version = latest;
       messages.replaceChildren(...log.map(entry => {
         const item = node('article', '');
-        item.append(node('strong', entry.sender === 'system' ? ct(6) : entry.sender === 'staff' ? staffName(entry) || tr(10) : tr(9)), node('p', entry.body));
+        item.append(node('strong', entry.sender === 'system' ? ct(6) : entry.sender === 'staff' ? staffName(entry) || tr(10) : displayName || tr(9)), node('p', entry.body));
         return item;
       }));
       messages.scrollTop = messages.scrollHeight;
@@ -553,15 +618,15 @@ window.initProductEnquiries = (client, openLogin) => {
     for (const row of threads) {
       const item = summaries.get(row.id);
       overview.push([row.id, row.created_at, row.email, row.contact_method ? contactLabel(row.contact_method) : 'Email', row.contact_value || row.email, row.sku, row.product_name, item?.question || '',
-        item?.latest.body || '', item?.latest.created_at || '', item?.count || 0,
+        item?.latest?.body || '', item?.latest?.created_at || '', item?.count || 0,
         row.source !== 'live_chat' && row.contact_method ? '站外跟進' : item?.latest?.sender === 'staff' ? '已回覆' : '待回覆',
         row.source === 'live_chat' ? 'Live Chat' : '產品查詢', row.chat_language || '']);
     }
-    const detail = [['查詢編號', '時間 (UTC)', '發送者', '訊息'], ...history.map(row =>
-      [row.enquiry_id, row.created_at, row.sender === 'system' ? '自動回覆' : row.sender === 'staff' ? staffName(row) || '客服' : '客戶', row.body])];
     const byId = new Map(threads.map(row => [row.id, row]));
+    const detail = [['查詢編號', '時間 (UTC)', '發送者', '訊息'], ...history.map(row =>
+      [row.enquiry_id, row.created_at, row.sender === 'system' ? '自動回覆' : row.sender === 'staff' ? staffName(row) || '客服' : customerName(byId.get(row.enquiry_id)) || '客戶', row.body])];
     const latestCustomerMessage = new Map();
-    const replies = [['查詢編號', '回覆時間 (UTC)', '員工', '來源', 'SKU', '產品', '客人上一則訊息', '員工回覆原文']];
+    const replies = [['查詢編號', '回覆時間 (UTC)', '員工', '來源', 'SKU', '產品', '客人上一則訊息', '員工回覆原文', '客戶聯絡資料']];
     for (const row of history) {
       if (row.sender === 'customer') latestCustomerMessage.set(row.enquiry_id, row.body);
       if (row.sender !== 'staff') continue;
@@ -569,12 +634,12 @@ window.initProductEnquiries = (client, openLogin) => {
       replies.push([row.enquiry_id, row.created_at, staffName(row) || '客服（未記名）',
         enquiry.source === 'live_chat' ? 'Live Chat' : '產品查詢',
         enquiry.sku === 'LIVE-CHAT' ? '' : enquiry.sku, enquiry.product_name,
-        latestCustomerMessage.get(row.enquiry_id) || '', row.body]);
+        latestCustomerMessage.get(row.enquiry_id) || '', row.body, customerName(enquiry)]);
     }
     const xlsx = window.XLSX;
     const workbook = xlsx.utils.book_new();
     for (const [name, rows, widths] of [['查詢總表', overview, [38,29,32,14,32,19,27,48,48,29,10,14,14,14]],
-      ['完整對話', detail, [38,29,18,70]], ['員工回覆紀錄', replies, [38,29,22,16,19,26,52,62]]]) {
+      ['完整對話', detail, [38,29,36,70]], ['員工回覆紀錄', replies, [38,29,22,16,19,26,52,62,36]]]) {
       const sheet = xlsx.utils.aoa_to_sheet(rows);
       sheet['!cols'] = widths.map(wch => ({wch}));
       sheet['!autofilter'] = {ref: sheet['!ref']};

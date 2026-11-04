@@ -305,3 +305,7 @@
   border-radius: .65rem;
   background: #fffdfa;
 }
+
+.cz-chat-compose[hidden], .cz-chat-contact[hidden] { display: none; }
+#cz-enquiry-dialog #cz-enquiry-title,
+.cz-live-transcript article strong { overflow-wrap: anywhere; min-width: 0; }
