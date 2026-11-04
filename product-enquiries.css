@@ -1,0 +1,27 @@
+.cz-enquiry-button {
+  padding: .6rem .85rem;
+  margin: .25rem;
+  border: 1px solid #9b8a74;
+  background: #fff;
+  color: #25211d;
+  font: inherit;
+  cursor: pointer;
+}
+.cz-enquiry-button:disabled { opacity: .5; cursor: wait; }
+#cz-enquiry-dialog {
+  width: min(40rem, calc(100% - 2rem));
+  max-height: 85vh;
+  overflow: auto;
+  background: #fffdfa;
+  color: #25211d;
+  border: 1px solid #9b8a74;
+  padding: 1.2rem;
+  box-sizing: border-box;
+}
+#cz-enquiry-dialog::backdrop { background: rgb(0 0 0 / 50%); }
+#cz-enquiry-dialog header { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+#cz-enquiry-dialog h2 { margin: 0; }
+#cz-enquiry-dialog p { white-space: pre-wrap; overflow-wrap: anywhere; }
+#cz-enquiry-dialog article { border-bottom: 1px solid #ddd4ca; margin: 1rem 0; }
+#cz-enquiry-dialog textarea { display: block; width: 100%; box-sizing: border-box; margin-top: .4rem; font: inherit; }
+#cz-enquiry-dialog .cz-enquiry-thread { display: block; text-align: start; overflow-wrap: anywhere; max-width: 100%; }
