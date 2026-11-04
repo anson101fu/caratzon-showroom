@@ -243,3 +243,65 @@
 .cz-manager-row { display:grid; grid-template-columns:minmax(0, 1fr) auto; align-items:center; gap:.45rem; }
 .cz-manager-delete { border-radius:.55rem; border-color:#e5d2cb; color:#8b3428; margin:0; padding:.5rem .65rem; }
 .cz-manager-delete:hover, .cz-manager-delete:focus-visible { background:#f8e9e5; border-color:#ad6c60; }
+
+#cz-enquiry-dialog.cz-enquiry-inbox:not(.cz-enquiry-manager) {
+  width: min(36rem, calc(100% - 1.5rem));
+  padding: 0;
+  border: 1px solid #e2d5c9;
+  border-radius: 1rem;
+  background: #fbf7f2;
+  box-shadow: 0 1.25rem 4rem #251a2540;
+}
+#cz-enquiry-dialog.cz-enquiry-inbox:not(.cz-enquiry-manager) > header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: .85rem 1.15rem;
+  background: #392c24;
+  color: #fffdfa;
+}
+#cz-enquiry-dialog.cz-enquiry-inbox:not(.cz-enquiry-manager) h2 {
+  font-size: clamp(1.1rem, 4vw, 1.45rem);
+  color: inherit;
+}
+.cz-enquiry-inbox > header button { border-radius: .55rem; }
+.cz-enquiry-inbox:not(.cz-enquiry-manager) > div { padding: .9rem 1.15rem 1.15rem; }
+.cz-enquiry-inbox:not(.cz-enquiry-manager) > p { margin: 0 1.15rem 1rem; }
+.cz-enquiry-inbox > p:empty { display: none; }
+.cz-enquiry-inbox .cz-inbox-loading,
+.cz-enquiry-inbox .cz-inbox-empty {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: .65rem;
+  min-height: 8rem;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid #e6dcd2;
+  border-radius: .75rem;
+  background: #fffdfa;
+  color: #695d54;
+  text-align: center;
+}
+.cz-inbox-loading::before,
+.cz-inbox-empty::before {
+  content: '';
+  display: block;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 2px solid #dbccbe;
+  border-radius: 50%;
+}
+.cz-inbox-loading::before { border-top-color: #795b48; animation: cz-inbox-spin .85s linear infinite; }
+.cz-inbox-empty::before { border-radius: .45rem .45rem .45rem .12rem; }
+@keyframes cz-inbox-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .cz-inbox-loading::before { animation: none; }
+}
+#cz-enquiry-dialog.cz-enquiry-inbox:not(.cz-enquiry-manager) .cz-enquiry-thread {
+  width: 100%;
+  margin: 0 0 .45rem;
+  border-color: #e6dcd2;
+  border-radius: .65rem;
+  background: #fffdfa;
+}

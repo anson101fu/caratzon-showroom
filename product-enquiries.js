@@ -59,7 +59,7 @@ window.initProductEnquiries = (client, openLogin) => {
   const show = (label, floating = false) => {
     if (dialog.open && dialog.classList.contains('cz-chat-floating') !== floating) dialog.close();
     dialog.classList.toggle('cz-chat-floating', floating);
-    dialog.classList.remove('cz-enquiry-manager');
+    dialog.classList.remove('cz-enquiry-manager', 'cz-enquiry-inbox');
     const ticket = ++view;
     title.textContent = label;
     close.textContent = floating ? '×' : tr(5);
@@ -634,6 +634,14 @@ window.initProductEnquiries = (client, openLogin) => {
       return;
     }
     const ticket = show(product ? product.name + ' · ' + product.sku : tr(1));
+    if (!product) {
+      dialog.classList.add('cz-enquiry-inbox');
+      const label = {en:'Loading enquiries…', zh:'正在加载咨询…', ru:'Загружаем запросы…'};
+      const loading = node('p', label[document.documentElement.lang] || label.en);
+      loading.className = 'cz-inbox-loading';
+      loading.setAttribute('role', 'status');
+      body.append(loading);
+    }
     try {
       const {data, error} = await client.auth.getSession();
       if (!current(ticket)) return;
@@ -653,13 +661,17 @@ window.initProductEnquiries = (client, openLogin) => {
       const admin = !product && await checked(client.rpc('cz_is_enquiry_admin'));
       const agent = product ? false : await agentRole();
       if (!product && !admin && agent) {
-        if (current(ticket)) await openAgentQueue(ticket);
+        if (current(ticket)) {
+          body.replaceChildren();
+          await openAgentQueue(ticket);
+        }
         return;
       }
       const filter = admin ? null : ['customer_id', user.id];
       let threads = (await readAll('cz_enquiries', threadFields, filter, 'created_at')).reverse();
       const removed = new Set();
       if (!current(ticket)) return;
+      body.replaceChildren();
       const back = () => openList(product);
       if (admin) {
         dialog.classList.add('cz-enquiry-manager');
@@ -695,7 +707,11 @@ window.initProductEnquiries = (client, openLogin) => {
           && (!product || row.sku === product.sku)
           && (!admin || managerFilter === 'all' || (managerFilter === 'live_chat') === (row.source === 'live_chat')));
         list.replaceChildren();
-        if (!matching.length && !product) list.append(node('p', tr(6)));
+        if (!matching.length && !product) {
+          const empty = node('p', tr(6));
+          empty.className = 'cz-inbox-empty';
+          list.append(empty);
+        }
         for (const row of matching) {
           const label = [row.source === 'live_chat' ? ct(0) : '', row.product_name, row.sku,
             date.format(new Date(row.created_at)), admin ? row.contact_value || row.email : ''].filter(Boolean).join(' · ');
@@ -794,6 +810,7 @@ window.initProductEnquiries = (client, openLogin) => {
       }
       if (product && !matching.length) body.querySelector('button').click();
     } catch {
+      if (current(ticket) && !product && body.firstElementChild?.className === 'cz-inbox-loading') body.replaceChildren();
       fail(ticket);
     }
   }
