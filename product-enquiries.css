@@ -36,3 +36,20 @@
   padding: .45rem;
   font: inherit;
 }
+
+#cz-live-chat {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 40;
+  border-radius: 999px;
+  padding: .8rem 1.2rem;
+  background: #302820;
+  color: #fffdfa;
+  box-shadow: 0 .3rem 1rem #241b2430;
+}
+.cz-live-transcript {
+  max-height: min(42vh, 24rem);
+  overflow-y: auto;
+  overflow-wrap: anywhere;
+}

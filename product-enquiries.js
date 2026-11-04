@@ -82,7 +82,7 @@ window.initProductEnquiries = (client, openLogin) => {
     return rows;
   };
 
-  const threadFields = 'id,created_at,email,sku,product_name,contact_method,contact_value';
+  const threadFields = 'id,created_at,email,sku,product_name,contact_method,contact_value,source,chat_language';
   const messageFields = 'id,enquiry_id,created_at,sender,body';
 
   const compose = (ticket, thread, product, back) => {
@@ -196,10 +196,239 @@ window.initProductEnquiries = (client, openLogin) => {
     };
   }
 
+  const chatCopy = {
+    ru: ['Чат','Сотрудник онлайн','Сейчас нет сотрудников онлайн','Я онлайн','Я офлайн','Принять чат','Автоответ','Сохранить контакт','Контакт сохранён','Новые чаты'],
+    en: ['Live Chat','Staff online','Staff are offline','Go online','Go offline','Take chat','Auto-reply','Save contact','Contact saved','New chats'],
+    zh: ['在线客服','客服在线','客服暂时离线','开始接待','停止接待','接手对话','自动回复','保存联系方式','联系方式已保存','新对话']
+  };
+  const ct = i => (chatCopy[document.documentElement.lang] || chatCopy.en)[i];
+  const languageOf = (message, fallback) => {
+    if (/\p{Script=Han}/u.test(message)) {
+      if (/[這個麼價錢貨運購買請問嗎幾現聯繫繼續廣東啲嘅喺係]/u.test(message)) return 'zh-Hant';
+      if (/[这个么价钱货运购买请问吗几现联系继续广东]/u.test(message)) return 'zh-Hans';
+      return fallback === 'zh-Hant' ? 'zh-Hant' : 'zh-Hans';
+    }
+    if (/\p{Script=Cyrillic}/u.test(message)) return 'ru';
+    if (/[a-z]{2,}/i.test(message) && !/^(?:sku\s*[:#-]?\s*)?[a-z-]*\d[a-z0-9-]*$/i.test(message.trim())) return 'en';
+    return fallback;
+  };
+  const pollWhile = (ticket, callback, seconds = 3) => {
+    const tick = async () => {
+      if (!current(ticket)) return;
+      try { await callback(); } catch { /* Retry during the next poll. */ }
+      if (current(ticket)) setTimeout(tick, seconds * 1000);
+    };
+    setTimeout(tick, seconds * 1000);
+  };
+  const activeProduct = () => {
+    if (detail.hidden) return null;
+    const product = products.find(item => item.sku === detail.dataset.sku);
+    return product ? {sku:product.sku, name:productTitle(product)} : null;
+  };
+
+  async function openChat(product = activeProduct()) {
+    const ticket = show(product ? ct(0) + ' · ' + product.name + ' · ' + product.sku : ct(0));
+    if (!client) return fail(ticket);
+    const key = 'cz-chat:' + (product?.sku || 'general');
+    let session;
+    try { session = JSON.parse(sessionStorage.getItem(key)); } catch { /* Storage unavailable. */ }
+    const siteLanguage = document.documentElement.lang === 'zh' ? 'zh-Hans' :
+      document.documentElement.lang === 'ru' ? 'ru' : 'en';
+    session ||= {tid:crypto.randomUUID(), token:crypto.randomUUID(), language:siteLanguage, started:false};
+    const access = {tid:session.tid, token:session.token};
+    const presence = node('p', '…');
+    const messages = node('div', '');
+    messages.className = 'cz-live-transcript';
+    messages.setAttribute('role', 'log');
+    const form = node('form', '');
+    const label = node('label', tr(12));
+    const input = node('textarea', '');
+    input.required = true;
+    input.maxLength = 2000;
+    input.rows = 3;
+    label.append(input);
+    const send = button(tr(4));
+    send.type = 'submit';
+    form.append(label, send);
+
+    const contactForm = node('form', '');
+    contactForm.hidden = true;
+    const methodLabel = node('label', gt(0));
+    const method = node('select', '');
+    method.required = true;
+    const placeholder = node('option', gt(5));
+    placeholder.value = '';
+    placeholder.selected = placeholder.disabled = true;
+    method.append(placeholder);
+    for (const name of ['email','wechat','whatsapp','phone','telegram']) {
+      const option = node('option', contactLabel(name));
+      option.value = name;
+      method.append(option);
+    }
+    methodLabel.append(method);
+    const contactLabelNode = node('label', gt(1));
+    const contact = node('input', '');
+    contact.required = true;
+    contact.maxLength = 180;
+    method.onchange = () => {
+      contact.type = method.value === 'email' ? 'email' : ['phone','whatsapp'].includes(method.value) ? 'tel' : 'text';
+      contact.placeholder = method.value === 'telegram' ? '@username / https://t.me/username' : '';
+    };
+    contactLabelNode.append(contact);
+    const save = button(ct(7));
+    save.type = 'submit';
+    contactForm.append(methodLabel, contactLabelNode, save);
+    body.append(presence, messages, form, contactForm);
+    let hasContact = false;
+    let version;
+    let syncing = false;
+    const sync = async () => {
+      if (syncing) return;
+      syncing = true;
+      try {
+        const online = await checked(client.rpc('cz_chat_online'));
+        if (!current(ticket)) return;
+        presence.textContent = ct(online ? 1 : 2);
+        if (!session.started) return;
+        const state = await checked(client.rpc('cz_chat_guest_read', access));
+        if (!current(ticket)) return;
+        hasContact ||= state.has_contact;
+        contactForm.hidden = hasContact || online;
+        const latest = state.messages.at(-1)?.id;
+        if (latest === version) return;
+        version = latest;
+        messages.replaceChildren(...state.messages.map(row => {
+          const item = node('article', '');
+          item.append(node('strong', row.sender === 'system' ? ct(6) : tr(row.sender === 'staff' ? 10 : 9)), node('p', row.body));
+          return item;
+        }));
+        messages.scrollTop = messages.scrollHeight;
+      } finally {
+        syncing = false;
+      }
+    };
+    let pending;
+    form.onsubmit = async event => {
+      event.preventDefault();
+      const message = input.value.trim();
+      if (!message || send.disabled) return;
+      if (pending?.message !== message) pending = {mid:crypto.randomUUID(), message};
+      send.disabled = input.readOnly = true;
+      try {
+        const language = languageOf(message, session.language);
+        await checked(client.rpc('cz_chat_guest_send', {...access, ...pending, language,
+          sku:product?.sku || 'LIVE-CHAT', label:product?.name || 'Live Chat'}));
+        session.started = true;
+        session.language = language;
+        try { sessionStorage.setItem(key, JSON.stringify(session)); } catch { /* Storage unavailable. */ }
+        input.value = '';
+        pending = null;
+        if (current(ticket)) status.textContent = '';
+        await sync();
+      } catch { fail(ticket); }
+      finally { send.disabled = input.readOnly = false; }
+    };
+    contactForm.onsubmit = async event => {
+      event.preventDefault();
+      if (save.disabled || !contact.value.trim()) return;
+      save.disabled = true;
+      try {
+        await checked(client.rpc('cz_chat_guest_contact', {...access, method:method.value, contact:contact.value.trim()}));
+        hasContact = true;
+        if (current(ticket)) {
+          contactForm.hidden = true;
+          status.textContent = ct(8);
+        }
+      } catch { fail(ticket); }
+      finally { save.disabled = false; }
+    };
+    pollWhile(ticket, sync);
+    try { await sync(); } catch { fail(ticket); }
+  }
+
+  let staffOnline = false;
+  let heartbeat;
+  const setStaffOnline = async online => {
+    await checked(client.rpc('cz_chat_set_presence', {online}));
+    staffOnline = online;
+    clearInterval(heartbeat);
+    if (online) heartbeat = setInterval(() => {
+      if (!document.hidden) client.rpc('cz_chat_set_presence', {online:true}).catch(() => {});
+    }, 25000);
+  };
+
+  function mountStaffChat(ticket, thread) {
+    const details = node('p', '');
+    const messages = node('div', '');
+    messages.className = 'cz-live-transcript';
+    messages.setAttribute('role', 'log');
+    const controls = node('div', '');
+    body.append(details, messages, controls);
+    let version;
+    const sync = async () => {
+      const [rows, log] = await Promise.all([
+        readAll('cz_enquiries', threadFields, ['id', thread.id]),
+        readAll('cz_enquiry_messages', messageFields, ['enquiry_id', thread.id], 'created_at')
+      ]);
+      if (!current(ticket) || !rows.length) return;
+      const row = rows[0];
+      details.textContent = [row.chat_language, row.contact_method && contactLabel(row.contact_method), row.contact_value].filter(Boolean).join(' · ');
+      const latest = log.at(-1)?.id;
+      if (latest === version) return;
+      version = latest;
+      messages.replaceChildren(...log.map(entry => {
+        const item = node('article', '');
+        item.append(node('strong', entry.sender === 'system' ? ct(6) : tr(entry.sender === 'staff' ? 10 : 9)), node('p', entry.body));
+        return item;
+      }));
+      messages.scrollTop = messages.scrollHeight;
+    };
+    const take = button(ct(5), async () => {
+      take.disabled = true;
+      try {
+        await checked(client.rpc('cz_chat_staff', {tid:thread.id}));
+        if (!current(ticket)) return;
+        controls.replaceChildren();
+        const form = node('form', '');
+        const label = node('label', tr(12));
+        const reply = node('textarea', '');
+        reply.required = true;
+        reply.maxLength = 2000;
+        reply.rows = 3;
+        label.append(reply);
+        const submit = button(tr(4));
+        submit.type = 'submit';
+        form.append(label, submit);
+        controls.append(form);
+        let pending;
+        form.onsubmit = async event => {
+          event.preventDefault();
+          const message = reply.value.trim();
+          if (!message || submit.disabled) return;
+          if (pending?.message !== message) pending = {mid:crypto.randomUUID(), message};
+          submit.disabled = reply.readOnly = true;
+          try {
+            await checked(client.rpc('cz_chat_staff', {tid:thread.id, ...pending}));
+            reply.value = '';
+            pending = null;
+            if (current(ticket)) status.textContent = '';
+            await sync();
+          } catch { fail(ticket); }
+          finally { submit.disabled = reply.readOnly = false; }
+        };
+      } catch { fail(ticket); }
+      finally { take.disabled = false; }
+    });
+    controls.append(take);
+    pollWhile(ticket, sync);
+    sync().catch(() => fail(ticket));
+  }
+
   async function openThread(thread, back) {
     const ticket = show(thread.product_name + ' · ' + thread.sku);
     const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
     body.append(button(tr(11), back), node('p', '#' + thread.id));
+    if (thread.source === 'live_chat') return mountStaffChat(ticket, thread);
     if (thread.contact_method) {
       body.append(node('p', gt(4) + ' · ' + contactLabel(thread.contact_method) + ' · ' + thread.contact_value));
     }
@@ -241,21 +470,22 @@ window.initProductEnquiries = (client, openLogin) => {
       const summary = summaries.get(row.enquiry_id) || {count:0};
       summary.count++;
       if (row.sender === 'customer' && !summary.question) summary.question = row.body;
-      summary.latest = row;
+      if (row.sender !== 'system') summary.latest = row;
       summaries.set(row.enquiry_id, summary);
     }
-    const overview = [['查詢編號', '提交時間 (UTC)', '客戶電郵', '聯絡方式', '聯絡資料', 'SKU', '產品', '最初問題', '最後一則訊息', '最新時間 (UTC)', '訊息數', '跟進狀態']];
+    const overview = [['查詢編號', '提交時間 (UTC)', '客戶電郵', '聯絡方式', '聯絡資料', 'SKU', '產品', '最初問題', '最後一則訊息', '最新時間 (UTC)', '訊息數', '跟進狀態', '來源', '聊天語言']];
     for (const row of threads) {
       const item = summaries.get(row.id);
       overview.push([row.id, row.created_at, row.email, row.contact_method ? contactLabel(row.contact_method) : 'Email', row.contact_value || row.email, row.sku, row.product_name, item?.question || '',
         item?.latest.body || '', item?.latest.created_at || '', item?.count || 0,
-        row.contact_method ? '站外跟進' : item?.latest.sender === 'staff' ? '已回覆' : '待回覆']);
+        row.source !== 'live_chat' && row.contact_method ? '站外跟進' : item?.latest?.sender === 'staff' ? '已回覆' : '待回覆',
+        row.source === 'live_chat' ? 'Live Chat' : '產品查詢', row.chat_language || '']);
     }
     const detail = [['查詢編號', '時間 (UTC)', '發送者', '訊息'], ...history.map(row =>
-      [row.enquiry_id, row.created_at, row.sender === 'staff' ? '客服' : '客戶', row.body])];
+      [row.enquiry_id, row.created_at, row.sender === 'system' ? '自動回覆' : row.sender === 'staff' ? '客服' : '客戶', row.body])];
     const xlsx = window.XLSX;
     const workbook = xlsx.utils.book_new();
-    for (const [name, rows, widths] of [['查詢總表', overview, [38,29,32,14,32,19,27,48,48,29,10,14]],
+    for (const [name, rows, widths] of [['查詢總表', overview, [38,29,32,14,32,19,27,48,48,29,10,14,14,14]],
       ['完整對話', detail, [38,29,12,70]]]) {
       const sheet = xlsx.utils.aoa_to_sheet(rows);
       sheet['!cols'] = widths.map(wch => ({wch}));
@@ -315,14 +545,54 @@ window.initProductEnquiries = (client, openLogin) => {
           compose(draft, null, product, back);
         }));
       }
-      const matching = product ? threads.filter(row => row.sku === product.sku) : threads;
-      if (!matching.length && !product) body.append(node('p', tr(6)));
+      const list = node('div', '');
+      body.append(list);
       const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
-      for (const row of matching) {
-        const label = [row.product_name, row.sku, date.format(new Date(row.created_at)), admin ? row.contact_value || row.email : ''].filter(Boolean).join(' · ');
-        const entry = button(label, () => openThread(row, back));
-        entry.classList.add('cz-enquiry-thread');
-        body.append(entry);
+      const renderList = rows => {
+        const matching = product ? rows.filter(row => row.sku === product.sku) : rows;
+        list.replaceChildren();
+        if (!matching.length && !product) list.append(node('p', tr(6)));
+        for (const row of matching) {
+          const label = [row.source === 'live_chat' ? ct(0) : '', row.product_name, row.sku,
+            date.format(new Date(row.created_at)), admin ? row.contact_value || row.email : ''].filter(Boolean).join(' · ');
+          const entry = button(label, () => openThread(row, back));
+          entry.classList.add('cz-enquiry-thread');
+          list.append(entry);
+        }
+        return matching;
+      };
+      const matching = renderList(threads);
+      if (admin) {
+        const presenceButton = button(ct(staffOnline ? 4 : 3), async () => {
+          presenceButton.disabled = true;
+          try {
+            await setStaffOnline(!staffOnline);
+            presenceButton.textContent = ct(staffOnline ? 4 : 3);
+          } catch { fail(ticket); }
+          finally { presenceButton.disabled = false; }
+        });
+        const arrivals = node('p', '');
+        arrivals.setAttribute('role', 'status');
+        body.insertBefore(presenceButton, list);
+        body.insertBefore(arrivals, list);
+        const seen = new Set(threads.filter(row => row.source === 'live_chat').map(row => row.id));
+        let newCount = 0;
+        let snapshot = JSON.stringify(threads);
+        pollWhile(ticket, async () => {
+          const rows = (await readAll('cz_enquiries', threadFields, null, 'created_at')).reverse();
+          if (!current(ticket)) return;
+          for (const row of rows) {
+            if (row.source !== 'live_chat' || seen.has(row.id)) continue;
+            seen.add(row.id);
+            newCount++;
+          }
+          if (newCount) arrivals.textContent = ct(9) + ' · ' + newCount;
+          const next = JSON.stringify(rows);
+          if (next !== snapshot) {
+            snapshot = next;
+            renderList(rows);
+          }
+        }, 5);
       }
       if (product && !matching.length) body.querySelector('button').click();
     } catch {
@@ -334,11 +604,23 @@ window.initProductEnquiries = (client, openLogin) => {
   const detailBody = document.getElementById('v9DetailBody');
   const inbox = button(tr(1), () => openList());
   document.querySelector('footer').append(inbox);
+  const launcher = button(ct(0), () => openChat());
+  launcher.id = 'cz-live-chat';
+  document.body.append(launcher);
+  client?.auth.onAuthStateChange(event => {
+    if (event === 'SIGNED_OUT') {
+      staffOnline = false;
+      clearInterval(heartbeat);
+    }
+  });
   const paintDetail = () => {
+    launcher.textContent = ct(0);
     inbox.textContent = tr(1);
     const anchor = document.getElementById('v9DetailAdd');
     const existing = document.getElementById('cz-enquiry-product');
     if (existing) existing.textContent = tr(0);
+    const productChat = document.getElementById('cz-product-chat');
+    if (productChat) productChat.textContent = ct(0);
     if (!anchor || existing) return;
     const ask = button(tr(0), () => {
       const sku = detail.dataset.sku;
@@ -347,6 +629,9 @@ window.initProductEnquiries = (client, openLogin) => {
     });
     ask.id = 'cz-enquiry-product';
     anchor.insertAdjacentElement('afterend', ask);
+    const chat = button(ct(0), () => openChat(activeProduct()));
+    chat.id = 'cz-product-chat';
+    ask.insertAdjacentElement('afterend', chat);
   };
   new MutationObserver(paintDetail).observe(detailBody, {childList:true});
   new MutationObserver(paintDetail).observe(document.documentElement, {attributes:true, attributeFilter:['lang']});
