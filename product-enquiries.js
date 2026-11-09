@@ -729,6 +729,10 @@ window.initProductEnquiries = (client, openLogin) => {
     });
     const list = node('div', '');
     body.append(presenceButton, button(ht(0), openAgentHistory), list);
+    const monitorIndicator = node('p', '🔔 Staff 通知：檢查中…');
+    monitorIndicator.className = 'cz-staff-monitor-state';
+    body.insertBefore(monitorIndicator, list);
+    window.addEventListener('cz:staff-monitor', event => { if (current(ticket)) monitorIndicator.textContent = event.detail; }, {signal: (()=>{const ac=new AbortController();dialog.addEventListener('close',()=>ac.abort(),{once:true});return ac.signal})()});
     let snapshot;
     const refresh = async () => {
       const rows = await checked(client.rpc('cz_chat_agent_queue'));
@@ -903,6 +907,10 @@ window.initProductEnquiries = (client, openLogin) => {
         presenceButton.classList.add('cz-manager-presence');
         body.insertBefore(presenceButton, list);
         body.insertBefore(arrivals, list);
+        const monitorIndicator = node('p', '🔔 Staff 通知：檢查中…');
+        monitorIndicator.className = 'cz-staff-monitor-state';
+        body.insertBefore(monitorIndicator, list);
+        window.addEventListener('cz:staff-monitor', event => { if (current(ticket)) monitorIndicator.textContent = event.detail; }, {signal: (()=>{const ac=new AbortController();dialog.addEventListener('close',()=>ac.abort(),{once:true});return ac.signal})()});
         const filterLabel = node('label', mt(0));
         filterLabel.className = 'cz-manager-filter';
         const category = node('select', '');
@@ -956,9 +964,11 @@ window.initProductEnquiries = (client, openLogin) => {
     if (bell) { bell.hidden = true; bell.append(badge); }
     let userId = null, role = null, initialized = false, known = new Set();
     let previousQueue = null, unread = 0, busy = false, timer = null;
+    const report = detail => window.dispatchEvent(new CustomEvent('cz:staff-monitor', {detail}));
     const reset = () => {
       userId = role = null; initialized = false; known.clear(); previousQueue = null;
       unread = 0; if (bell) bell.hidden = true; badge.style.display = 'none';
+      report('🔔 Staff 通知：尚未登入或沒有權限');
     };
     const notify = message => {
       unread++;
@@ -988,6 +998,7 @@ window.initProductEnquiries = (client, openLogin) => {
           // A missing agent function is expected on older installations.
           role = admin.data === true ? 'admin' : agent.data === true ? 'agent' : 'none';
           if (bell) bell.hidden = role === 'none';
+          report(role === 'none' ? '🔔 Staff 通知：沒有客服權限' : '🔔 Staff 通知：已連接，正在監察新訊息');
         }
         if (role === 'none') return;
         if (role === 'admin') {
@@ -1012,8 +1023,10 @@ window.initProductEnquiries = (client, openLogin) => {
           previousQueue = next;
         }
         initialized = true;
+        report('🔔 Staff 通知：運作中 · 每 5 秒檢查 · 未讀 ' + unread + ' 則');
       } catch (error) {
         console.warn('Staff notifications: unable to read permitted chat updates', error);
+        report('⚠️ Staff 通知：讀取失敗，請檢查 Supabase 權限及網絡');
       } finally { busy = false; }
     };
     const begin = () => {
