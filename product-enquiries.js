@@ -40,10 +40,8 @@ window.initProductEnquiries = (client, openLogin) => {
   document.body.append(dialog);
 
   let view = 0;
-  let stopGuestPolling;
   dialog.addEventListener('close', () => {
     if (!dialog.open) {
-      stopGuestPolling?.();
       view++;
       body.replaceChildren();
     }
@@ -59,7 +57,6 @@ window.initProductEnquiries = (client, openLogin) => {
     }
   });
   const show = (label, floating = false) => {
-    stopGuestPolling?.();
     if (dialog.open && dialog.classList.contains('cz-chat-floating') !== floating) dialog.close();
     dialog.classList.toggle('cz-chat-floating', floating);
     dialog.classList.remove('cz-enquiry-manager', 'cz-enquiry-inbox');
@@ -459,29 +456,8 @@ window.initProductEnquiries = (client, openLogin) => {
       } catch { fail(ticket); }
       finally { save.disabled = false; }
     };
-    let pollTimer;
-    let polling = false;
-    const cancelTimer = () => clearTimeout(pollTimer);
-    const poll = async (initial = false) => {
-      if (!current(ticket) || document.hidden || polling) return;
-      polling = true;
-      try { await sync(); } catch { if (initial) fail(ticket); }
-      finally {
-        polling = false;
-        if (current(ticket) && !document.hidden) pollTimer = setTimeout(poll, 3000);
-      }
-    };
-    const onVisibilityChange = () => {
-      cancelTimer();
-      if (!document.hidden) poll();
-    };
-    document.addEventListener('visibilitychange', onVisibilityChange);
-    stopGuestPolling = () => {
-      cancelTimer();
-      document.removeEventListener('visibilitychange', onVisibilityChange);
-      stopGuestPolling = undefined;
-    };
-    await poll(true);
+    pollWhile(ticket, sync);
+    try { await sync(); } catch { fail(ticket); }
   }
 
   let staffOnline = false;
