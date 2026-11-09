@@ -602,6 +602,8 @@ window.initProductEnquiries = (client, openLogin) => {
   }
 
   async function openThread(thread, back, agentOnly = false, canClose = agentOnly) {
+    activeStaffThreadId = String(thread.id);
+    if (unreadByThread.delete(activeStaffThreadId)) broadcastUnread();
     const ticket = show(thread.product_name + ' · ' + thread.sku);
     const date = new Intl.DateTimeFormat(document.documentElement.lang, {dateStyle:'short', timeStyle:'short'});
     body.append(button(tr(11), back), node('p', '#' + thread.id));
@@ -701,6 +703,7 @@ window.initProductEnquiries = (client, openLogin) => {
       new Date(row.created_at).toLocaleString()].filter(Boolean).join(' · ');
     const entry = button(label, () => openThread({...row, source:'live_chat', archived}, back, true));
     entry.classList.add('cz-enquiry-thread');
+    const pill = unreadPill(row.id); if (pill) entry.append(pill);
     return entry;
   }
 
@@ -743,6 +746,9 @@ window.initProductEnquiries = (client, openLogin) => {
       if (!rows.length) list.append(node('p', rt(4)));
       for (const row of rows) list.append(agentChatButton(row, () => openList()));
     };
+    const onQueueUnread = () => { if (current(ticket)) { snapshot = undefined; refresh().catch(()=>{}); } };
+    window.addEventListener('cz:unread-by-thread', onQueueUnread);
+    dialog.addEventListener('close', () => window.removeEventListener('cz:unread-by-thread', onQueueUnread), {once:true});
     await refresh();
     pollWhile(ticket, refresh, 5);
   }
@@ -761,8 +767,27 @@ window.initProductEnquiries = (client, openLogin) => {
   };
   const mt = i => (managerCopy[document.documentElement.lang] || managerCopy.en)[i];
   let managerFilter = 'all';
+  // Per-conversation unread counts for messages detected since staff opened the site.
+  // This is intentionally local UI state, not a replacement for a server read-receipt table.
+  const unreadByThread = new Map();
+  let activeStaffThreadId = null;
+  const broadcastUnread = () => window.dispatchEvent(new Event('cz:unread-by-thread'));
+  const unreadFor = id => unreadByThread.get(String(id)) || 0;
+  const unreadPill = id => {
+    const count = unreadFor(id);
+    if (!count) return null;
+    const pill = node('span', count + ' 則未讀');
+    pill.className = 'cz-unread-pill';
+    pill.setAttribute('aria-label', count + ' unread messages');
+    return pill;
+  };
+  const unreadStyle = document.createElement('style');
+  unreadStyle.textContent = `.cz-unread-pill{display:inline-block;white-space:nowrap;background:#b42332;color:white;border-radius:20px;padding:4px 9px;font-size:12px;font-weight:700;margin-left:8px;vertical-align:middle}.cz-manager-info strong .cz-unread-pill{font-family:inherit}.cz-enquiry-thread:has(.cz-unread-pill){border-color:#cb7079!important;background:#fff7f7!important}`;
+  document.head.append(unreadStyle);
+
 
   async function openList(product) {
+    activeStaffThreadId = null;
     if (!client) {
       fail(show(tr(0)));
       return;
@@ -864,9 +889,12 @@ window.initProductEnquiries = (client, openLogin) => {
                 row.contact_value || row.email].filter(Boolean).join(' · ')));
             const arrow = node('span', '›');
             arrow.setAttribute('aria-hidden', 'true');
+            const pill = unreadPill(row.id);
+            if (pill) info.querySelector('strong').append(pill);
             entry.append(badge, info, arrow);
           }
           if (!admin) {
+            const pill = unreadPill(row.id); if (pill) entry.append(pill);
             list.append(entry);
             continue;
           }
@@ -892,6 +920,10 @@ window.initProductEnquiries = (client, openLogin) => {
         }
         return matching;
       };
+      // Refresh only this inbox's badges when new customer messages arrive.
+      const onUnread = () => { if (current(ticket)) renderList(threads); };
+      window.addEventListener('cz:unread-by-thread', onUnread);
+      dialog.addEventListener('close', () => window.removeEventListener('cz:unread-by-thread', onUnread), {once:true});
       const matching = renderList(threads);
       if (admin) {
         const presenceButton = button(ct(staffOnline ? 4 : 3), async () => {
@@ -967,10 +999,17 @@ window.initProductEnquiries = (client, openLogin) => {
     const report = detail => window.dispatchEvent(new CustomEvent('cz:staff-monitor', {detail}));
     const reset = () => {
       userId = role = null; initialized = false; known.clear(); previousQueue = null;
+      unreadByThread.clear(); activeStaffThreadId = null; broadcastUnread();
       unread = 0; if (bell) bell.hidden = true; badge.style.display = 'none';
       report('🔔 Staff 通知：尚未登入或沒有權限');
     };
-    const notify = message => {
+    const notify = (message, threadId) => {
+      if (threadId != null) {
+        const id = String(threadId);
+        if (id === activeStaffThreadId) return;
+        unreadByThread.set(id, unreadFor(id) + 1);
+        broadcastUnread();
+      }
       unread++;
       badge.textContent = unread > 99 ? '99+' : String(unread);
       badge.style.display = '';
@@ -1006,7 +1045,7 @@ window.initProductEnquiries = (client, openLogin) => {
           const latest = new Set(rows.map(r => String(r.id)));
           if (initialized) {
             const fresh = rows.filter(r => !known.has(String(r.id))).reverse();
-            for (const row of fresh) notify('有客人發來訊息：' + (row.body || '').slice(0,90));
+            for (const row of fresh) notify('有客人發來訊息：' + (row.body || '').slice(0,90), row.enquiry_id);
           }
           known = latest;
         } else {
@@ -1016,8 +1055,8 @@ window.initProductEnquiries = (client, openLogin) => {
           const next = new Map((rows || []).map(r => [String(r.id), JSON.stringify(r)]));
           if (initialized && previousQueue) {
             for (const [id,snapshot] of next) {
-              if (!previousQueue.has(id)) notify('有新客人對話等待接待');
-              else if (previousQueue.get(id) !== snapshot) notify('客人對話有新動態');
+              if (!previousQueue.has(id)) notify('有新客人對話等待接待', id);
+              else if (previousQueue.get(id) !== snapshot) notify('客人對話有新動態', id);
             }
           }
           previousQueue = next;
@@ -1038,8 +1077,13 @@ window.initProductEnquiries = (client, openLogin) => {
       if (event === 'SIGNED_OUT') reset();
       if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') setTimeout(begin, 0);
     });
+    window.addEventListener('cz:unread-by-thread', () => {
+      unread = [...unreadByThread.values()].reduce((a,b)=>a+b,0);
+      badge.textContent = String(unread); badge.style.display = unread ? '' : 'none';
+    });
     if (bell) bell.addEventListener('click', () => {
-      unread = 0; badge.style.display = 'none';
+      unread = [...unreadByThread.values()].reduce((a,b)=>a+b,0);
+      badge.textContent = String(unread); badge.style.display = unread ? '' : 'none';
     });
     begin();
   })();
