@@ -40,8 +40,10 @@ window.initProductEnquiries = (client, openLogin) => {
   document.body.append(dialog);
 
   let view = 0;
+  let stopGuestPolling;
   dialog.addEventListener('close', () => {
     if (!dialog.open) {
+      stopGuestPolling?.();
       view++;
       body.replaceChildren();
     }
@@ -57,6 +59,7 @@ window.initProductEnquiries = (client, openLogin) => {
     }
   });
   const show = (label, floating = false) => {
+    stopGuestPolling?.();
     if (dialog.open && dialog.classList.contains('cz-chat-floating') !== floating) dialog.close();
     dialog.classList.toggle('cz-chat-floating', floating);
     dialog.classList.remove('cz-enquiry-manager', 'cz-enquiry-inbox');
@@ -456,8 +459,29 @@ window.initProductEnquiries = (client, openLogin) => {
       } catch { fail(ticket); }
       finally { save.disabled = false; }
     };
-    pollWhile(ticket, sync);
-    try { await sync(); } catch { fail(ticket); }
+    let pollTimer;
+    let polling = false;
+    const cancelTimer = () => clearTimeout(pollTimer);
+    const poll = async (initial = false) => {
+      if (!current(ticket) || document.hidden || polling) return;
+      polling = true;
+      try { await sync(); } catch { if (initial) fail(ticket); }
+      finally {
+        polling = false;
+        if (current(ticket) && !document.hidden) pollTimer = setTimeout(poll, 3000);
+      }
+    };
+    const onVisibilityChange = () => {
+      cancelTimer();
+      if (!document.hidden) poll();
+    };
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    stopGuestPolling = () => {
+      cancelTimer();
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+      stopGuestPolling = undefined;
+    };
+    await poll(true);
   }
 
   let staffOnline = false;
@@ -705,6 +729,10 @@ window.initProductEnquiries = (client, openLogin) => {
     });
     const list = node('div', '');
     body.append(presenceButton, button(ht(0), openAgentHistory), list);
+    const monitorIndicator = node('p', '🔔 Staff 通知：檢查中…');
+    monitorIndicator.className = 'cz-staff-monitor-state';
+    body.insertBefore(monitorIndicator, list);
+    window.addEventListener('cz:staff-monitor', event => { if (current(ticket)) monitorIndicator.textContent = event.detail; }, {signal: (()=>{const ac=new AbortController();dialog.addEventListener('close',()=>ac.abort(),{once:true});return ac.signal})()});
     let snapshot;
     const refresh = async () => {
       const rows = await checked(client.rpc('cz_chat_agent_queue'));
@@ -879,6 +907,10 @@ window.initProductEnquiries = (client, openLogin) => {
         presenceButton.classList.add('cz-manager-presence');
         body.insertBefore(presenceButton, list);
         body.insertBefore(arrivals, list);
+        const monitorIndicator = node('p', '🔔 Staff 通知：檢查中…');
+        monitorIndicator.className = 'cz-staff-monitor-state';
+        body.insertBefore(monitorIndicator, list);
+        window.addEventListener('cz:staff-monitor', event => { if (current(ticket)) monitorIndicator.textContent = event.detail; }, {signal: (()=>{const ac=new AbortController();dialog.addEventListener('close',()=>ac.abort(),{once:true});return ac.signal})()});
         const filterLabel = node('label', mt(0));
         filterLabel.className = 'cz-manager-filter';
         const category = node('select', '');
@@ -920,6 +952,97 @@ window.initProductEnquiries = (client, openLogin) => {
       fail(ticket);
     }
   }
+
+  // Staff-only notification monitor. Uses the existing Supabase RLS/RPC permissions;
+  // never embeds a service-role key or exposes messages to visitors.
+  (() => {
+    if (!client) return;
+    const bell = document.getElementById('czNoticeBtn');
+    const badge = document.createElement('span');
+    badge.id = 'czStaffUnread';
+    badge.style.cssText = 'display:none;margin-left:5px;padding:2px 6px;border-radius:99px;background:#a12626;color:white;font-size:11px';
+    if (bell) { bell.hidden = true; bell.append(badge); }
+    let userId = null, role = null, initialized = false, known = new Set();
+    let previousQueue = null, unread = 0, busy = false, timer = null;
+    const report = detail => window.dispatchEvent(new CustomEvent('cz:staff-monitor', {detail}));
+    const reset = () => {
+      userId = role = null; initialized = false; known.clear(); previousQueue = null;
+      unread = 0; if (bell) bell.hidden = true; badge.style.display = 'none';
+      report('🔔 Staff 通知：尚未登入或沒有權限');
+    };
+    const notify = message => {
+      unread++;
+      badge.textContent = unread > 99 ? '99+' : String(unread);
+      badge.style.display = '';
+      if (typeof window.caratzonStaffNotify === 'function') window.caratzonStaffNotify(message);
+    };
+    const messagesNow = async () => {
+      // Reading is restricted to the current staff's database privileges.
+      const {data,error} = await client.from('cz_enquiry_messages')
+        .select('id,enquiry_id,sender,body,created_at')
+        .eq('sender','customer').order('created_at',{ascending:false}).limit(150);
+      if (error) throw error;
+      return data || [];
+    };
+    const tick = async () => {
+      if (busy) return;
+      busy = true;
+      try {
+        const {data:{session},error} = await client.auth.getSession();
+        if (error || !session?.user) { reset(); return; }
+        if (userId !== session.user.id) { reset(); userId = session.user.id; }
+        if (role === null) {
+          const [admin,agent] = await Promise.all([
+            client.rpc('cz_is_enquiry_admin'), client.rpc('cz_is_chat_agent')
+          ]);
+          // A missing agent function is expected on older installations.
+          role = admin.data === true ? 'admin' : agent.data === true ? 'agent' : 'none';
+          if (bell) bell.hidden = role === 'none';
+          report(role === 'none' ? '🔔 Staff 通知：沒有客服權限' : '🔔 Staff 通知：已連接，正在監察新訊息');
+        }
+        if (role === 'none') return;
+        if (role === 'admin') {
+          const rows = await messagesNow();
+          const latest = new Set(rows.map(r => String(r.id)));
+          if (initialized) {
+            const fresh = rows.filter(r => !known.has(String(r.id))).reverse();
+            for (const row of fresh) notify('有客人發來訊息：' + (row.body || '').slice(0,90));
+          }
+          known = latest;
+        } else {
+          // Chat agents can access their queue but may not be allowed to read
+          // other agents' private transcripts. Notify about newly queued chats.
+          const rows = await checked(client.rpc('cz_chat_agent_queue'));
+          const next = new Map((rows || []).map(r => [String(r.id), JSON.stringify(r)]));
+          if (initialized && previousQueue) {
+            for (const [id,snapshot] of next) {
+              if (!previousQueue.has(id)) notify('有新客人對話等待接待');
+              else if (previousQueue.get(id) !== snapshot) notify('客人對話有新動態');
+            }
+          }
+          previousQueue = next;
+        }
+        initialized = true;
+        report('🔔 Staff 通知：運作中 · 每 5 秒檢查 · 未讀 ' + unread + ' 則');
+      } catch (error) {
+        console.warn('Staff notifications: unable to read permitted chat updates', error);
+        report('⚠️ Staff 通知：讀取失敗，請檢查 Supabase 權限及網絡');
+      } finally { busy = false; }
+    };
+    const begin = () => {
+      if (timer) clearInterval(timer);
+      tick();
+      timer = setInterval(tick, 5000);
+    };
+    client.auth.onAuthStateChange(event => {
+      if (event === 'SIGNED_OUT') reset();
+      if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') setTimeout(begin, 0);
+    });
+    if (bell) bell.addEventListener('click', () => {
+      unread = 0; badge.style.display = 'none';
+    });
+    begin();
+  })();
 
   const detail = document.getElementById('v9Detail');
   const detailBody = document.getElementById('v9DetailBody');
