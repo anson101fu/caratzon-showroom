@@ -945,6 +945,92 @@ window.initProductEnquiries = (client, openLogin) => {
     }
   }
 
+  // Staff-only notification monitor. Uses the existing Supabase RLS/RPC permissions;
+  // never embeds a service-role key or exposes messages to visitors.
+  (() => {
+    if (!client) return;
+    const bell = document.getElementById('czNoticeBtn');
+    const badge = document.createElement('span');
+    badge.id = 'czStaffUnread';
+    badge.style.cssText = 'display:none;margin-left:5px;padding:2px 6px;border-radius:99px;background:#a12626;color:white;font-size:11px';
+    if (bell) { bell.hidden = true; bell.append(badge); }
+    let userId = null, role = null, initialized = false, known = new Set();
+    let previousQueue = null, unread = 0, busy = false, timer = null;
+    const reset = () => {
+      userId = role = null; initialized = false; known.clear(); previousQueue = null;
+      unread = 0; if (bell) bell.hidden = true; badge.style.display = 'none';
+    };
+    const notify = message => {
+      unread++;
+      badge.textContent = unread > 99 ? '99+' : String(unread);
+      badge.style.display = '';
+      if (typeof window.caratzonStaffNotify === 'function') window.caratzonStaffNotify(message);
+    };
+    const messagesNow = async () => {
+      // Reading is restricted to the current staff's database privileges.
+      const {data,error} = await client.from('cz_enquiry_messages')
+        .select('id,enquiry_id,sender,body,created_at')
+        .eq('sender','customer').order('created_at',{ascending:false}).limit(150);
+      if (error) throw error;
+      return data || [];
+    };
+    const tick = async () => {
+      if (busy) return;
+      busy = true;
+      try {
+        const {data:{session},error} = await client.auth.getSession();
+        if (error || !session?.user) { reset(); return; }
+        if (userId !== session.user.id) { reset(); userId = session.user.id; }
+        if (role === null) {
+          const [admin,agent] = await Promise.all([
+            client.rpc('cz_is_enquiry_admin'), client.rpc('cz_is_chat_agent')
+          ]);
+          // A missing agent function is expected on older installations.
+          role = admin.data === true ? 'admin' : agent.data === true ? 'agent' : 'none';
+          if (bell) bell.hidden = role === 'none';
+        }
+        if (role === 'none') return;
+        if (role === 'admin') {
+          const rows = await messagesNow();
+          const latest = new Set(rows.map(r => String(r.id)));
+          if (initialized) {
+            const fresh = rows.filter(r => !known.has(String(r.id))).reverse();
+            for (const row of fresh) notify('有客人發來訊息：' + (row.body || '').slice(0,90));
+          }
+          known = latest;
+        } else {
+          // Chat agents can access their queue but may not be allowed to read
+          // other agents' private transcripts. Notify about newly queued chats.
+          const rows = await checked(client.rpc('cz_chat_agent_queue'));
+          const next = new Map((rows || []).map(r => [String(r.id), JSON.stringify(r)]));
+          if (initialized && previousQueue) {
+            for (const [id,snapshot] of next) {
+              if (!previousQueue.has(id)) notify('有新客人對話等待接待');
+              else if (previousQueue.get(id) !== snapshot) notify('客人對話有新動態');
+            }
+          }
+          previousQueue = next;
+        }
+        initialized = true;
+      } catch (error) {
+        console.warn('Staff notifications: unable to read permitted chat updates', error);
+      } finally { busy = false; }
+    };
+    const begin = () => {
+      if (timer) clearInterval(timer);
+      tick();
+      timer = setInterval(tick, 5000);
+    };
+    client.auth.onAuthStateChange(event => {
+      if (event === 'SIGNED_OUT') reset();
+      if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') setTimeout(begin, 0);
+    });
+    if (bell) bell.addEventListener('click', () => {
+      unread = 0; badge.style.display = 'none';
+    });
+    begin();
+  })();
+
   const detail = document.getElementById('v9Detail');
   const detailBody = document.getElementById('v9DetailBody');
   const inbox = button(tr(1), () => openList());
