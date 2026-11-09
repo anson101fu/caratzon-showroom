@@ -229,7 +229,7 @@
  </div></div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
 <script src="auth-config.js?v=1" defer></script>
-<script src="product-enquiries.js?v=19-staff-notify-visible" defer></script>
+<script src="product-enquiries.js?v=20261109-v3-notify" defer></script>
 <script src="member-v13.js?v=2" defer></script><script>
   document.querySelector('.nav a[href="#storeHow"]').addEventListener('click', event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
@@ -265,6 +265,36 @@
  // Do not invoke for public visitors, historical messages, or staff messages.
  window.caratzonStaffNotify=(message)=>send('CARATZON.COM · 新客人訊息',String(message||'有客人發來新訊息').slice(0,120));
  state();
+})();
+</script>
+
+<script id="cz-notify-diagnostic-v3">
+(() => {
+  'use strict';
+  const setup = () => {
+    const dlg = document.getElementById('cz-enquiry-dialog');
+    if (!dlg) return;
+    const update = () => {
+      if (!dlg.open || !dlg.classList.contains('cz-enquiry-manager')) return;
+      const content = dlg.querySelector('header + div');
+      if (!content || content.querySelector('#cz-v3-diagnostic')) return;
+      const p = document.createElement('p');
+      p.id = 'cz-v3-diagnostic';
+      p.style.cssText='padding:9px 12px;margin:8px 0;background:#f3f6f2;border:1px solid #d8e4d4;color:#32513b;font-size:13px';
+      p.textContent='🔔 通知 V3：介面已載入，正在確認 Staff 訊息監察…';
+      content.insertBefore(p,content.firstChild);
+      window.dispatchEvent(new Event('cz:notification-diagnostic-visible'));
+    };
+    const observer = new MutationObserver(update);
+    observer.observe(dlg,{attributes:true,attributeFilter:['class','open'],childList:true,subtree:true});
+    update();
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',()=>setTimeout(setup,150));
+  else setTimeout(setup,150);
+  window.addEventListener('cz:staff-monitor', e => {
+    const p=document.getElementById('cz-v3-diagnostic');
+    if(p) p.textContent=e.detail;
+  });
 })();
 </script>
 </body></html>
