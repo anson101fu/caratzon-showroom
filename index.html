@@ -4,234 +4,35 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <meta name="description" content="caratzon.com — jewelry and accessories showroom, Russian and English."/>
-  <title>CARATZON.COM | Fashion Jewelry Online Store</title>
+  <title>caratzon.com | Online Showroom</title>
   <link rel="stylesheet" href="styles.css?v=10b"/>
-<link rel="stylesheet" href="fashion-d.css?v=1"/>
-  <link rel="stylesheet" href="editorial-v2.css?v=1"/>
-  <link rel="stylesheet" href="fashion-a-v3.css?v=1"/>
-  <link rel="stylesheet" href="fashion-a-v4.css?v=1"/>
-  <link rel="stylesheet" href="fashion-categories-v6.css?v=1"/>
-  <link rel="stylesheet" href="fashion-categories-v9.css?v=1"/>
-<link rel="stylesheet" href="fashion-categories-v10.css?v=1"/>
-  <link rel="stylesheet" href="store-v5.css?v=1"/>
-  <link rel="stylesheet" href="how-to-order-v7.css?v=1"/>
-  <link rel="stylesheet" href="checkout-luxury-v8.css?v=1"/>
-  <link rel="stylesheet" href="hero-carousel-v11.css?v=2"/>
-<link rel="stylesheet" href="store-language-v12.css?v=1"/>
-  <link rel="stylesheet" href="member-v13.css?v=1"/>
-  <link rel="stylesheet" href="product-enquiries.css?v=8">
-  <style>
-    /* Keep the catalogue image and its letterboxing on one white surface. */
-    #grid.product-grid .product > .photo {
-      position: relative;
-      width: 100%;
-      background: #fff;
-    }
-    #grid.product-grid .product > .photo > .zoom-trigger {
-      position: absolute;
-      inset: 0;
-      background: #fff;
-    }
-    #grid.product-grid .product > .photo > .zoom-trigger > img {
-      display: block;
-      background: #fff;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: auto;
-      height: auto;
-      max-width: 100%;
-      max-height: 100%;
-      translate: calc(-50% + var(--card-image-x, 0%)) calc(-50% + var(--card-image-y, 0%));
-      scale: var(--card-image-scale, 1);
-    }
-    .header .nav a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 44px;
-    }
-    #storeHow { scroll-margin-top: 100px; }
-    @media (max-width: 650px) {
-      .header { height: auto !important; }
-      .header-inner {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        grid-template-areas: "brand actions" "nav nav";
-        grid-template-rows: minmax(68px, auto) auto;
-        align-items: center;
-        height: auto;
-      }
-      .header-inner > .brand { grid-area: brand; }
-      .header-inner > .actions { grid-area: actions; }
-      .header-inner > .nav {
-        grid-area: nav;
-        display: flex;
-        justify-content: center;
-        gap: clamp(12px, 5vw, 32px);
-        border-top: 1px solid #e9e1d9;
-      }
-      .header .nav a { padding-inline: .5rem; }
-      #storeHow { scroll-margin-top: 130px; }
-    }
-
-    [data-about-lang] { display: none; }
-    html:lang(ru) [data-about-lang="ru"],
-    html:lang(en) [data-about-lang="en"],
-    html:lang(zh) [data-about-lang="zh"] { display: revert; }
-    #about-showroom {
-      scroll-margin-top: 100px;
-      background: #f4eee8;
-      color: #342921;
-      padding: clamp(3rem, 7vw, 7rem) clamp(1rem, 5vw, 5rem);
-    }
-    .showroom-about-inner { max-width: 72rem; margin-inline: auto; }
-    .showroom-about-intro { max-width: 50rem; margin-bottom: 2rem; }
-    #showroom-about-title { font-size: clamp(2rem, 6vw, 4.5rem); line-height: 1.1; margin: .45em 0 .35em; }
-    .showroom-about-intro p:last-child, .showroom-about-card p { line-height: 1.7; margin: 0; }
-    .showroom-about-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
-    .showroom-about-card { padding: clamp(1rem, 2.5vw, 2rem); background: #fffaf6; border: 1px solid #e6d9ce; }
-    .showroom-about-card h3 { font-size: 1.2rem; line-height: 1.3; margin: 0 0 .65rem; }
-    .showroom-about-links { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.25rem; margin-top: 1.6rem; }
-    .showroom-about-links > a { display: inline-flex; align-items: center; min-height: 44px; text-underline-offset: .2em; }
-    .showroom-about-links > a:first-child { background: #342921; color: #fffaf6; padding: .5rem 1rem; text-decoration: none; }
-    @media (max-width: 800px) {
-      .showroom-about-grid { grid-template-columns: 1fr; }
-    }
-    @media (max-width: 650px) {
-      #about-showroom { scroll-margin-top: 130px; }
-      .header-inner > .nav { gap: clamp(4px, 2vw, 12px); }
-    }
-  </style>
 </head>
 <body>
 <header class="header">
   <div class="header-inner">
-    <a href="#" class="brand" aria-label="caratzon.com home">CARATZON.COM<small>ONLINE BOUTIQUE</small></a>
-    <nav class="nav"><a href="#collection" data-t="collection">Коллекция</a><a href="#about-showroom"><span data-about-lang="zh">关于我们</span><span data-about-lang="en">About Us</span><span data-about-lang="ru">О нас</span></a><a href="#storeHow" data-t="how">Как заказать</a></nav>
-    <div class="actions"><button id="langBtn" class="language" aria-label="Switch language: Russian English Simplified Chinese">RU / EN</button><button type="button" id="memberBtn" class="member-header" aria-label="Account">Войти</button><button id="cartBtn" class="bag" aria-label="Cart"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 8h16l-1.3 12H5.3L4 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span id="bagCount">0</span></button></div>
+    <a href="#" class="brand" aria-label="caratzon.com home">CARATZON.COM<small>ONLINE SHOWROOM</small></a>
+    <nav class="nav"><a href="#collection" data-t="collection">Коллекция</a><a href="#how" data-t="how">Как заказать</a></nav>
+    <div class="actions"><button id="langBtn" class="language" aria-label="Switch language: Russian English Simplified Chinese">RU / EN</button><button id="cartBtn" class="bag" aria-label="Cart"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 8h16l-1.3 12H5.3L4 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span id="bagCount">0</span></button></div>
   </div>
 </header>
 <main>
   <section class="hero">
-    <div class="hero-content"><p class="eyebrow" data-t="eyebrow">ПРЕДСТАВЛЯЕМ CARATZON.COM</p><h1 data-t="hero">Украшения,<br><i>созданные вдохновлять.</i></h1><p data-t="subtitle">Откройте коллекцию CARATZON. Выберите украшения и оформите заказ онлайн.</p><a class="cta" href="#collection" data-t="explore">Смотреть коллекцию <span>↗</span></a></div>
-    <div class="hero-gallery" id="heroGallery" aria-label="Featured jewelry products"><div class="hero-slide is-active" aria-hidden="false"><img src="hero_white/KGDZEG00001OT.webp" alt="Jewelry product SKU KGDZEG00001OT" fetchpriority=high></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00001G.webp" alt="Jewelry product SKU XTXZEG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHG00003PL.webp" alt="Jewelry product SKU XTEHG00003PL" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZES00002GN.webp" alt="Jewelry product SKU XTXZES00002GN" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/KGDZEG00002G.webp" alt="Jewelry product SKU KGDZEG00002G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHC00001WE.webp" alt="Jewelry product SKU XTEHC00001WE" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXLG00004RD.webp" alt="Jewelry product SKU XTXLG00004RD" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00004G.webp" alt="Jewelry product SKU XTXZEG00004G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZG00001G.webp" alt="Jewelry product SKU XTJZG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZW00005PN.webp" alt="Jewelry product SKU XTJZW00005PN" loading=lazy></div><div class="hero-slide-dots" aria-hidden="true"><span class="active"></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span></div><div class="campaign-carousel" id="campaignCarousel" aria-label="CARATZON fashion jewelry campaign" aria-roledescription="carousel">
-  <div class="campaign-slide is-current" aria-hidden="false"><img src="caratzon-campaign-model.jpg" alt="CARATZON fashion model wearing floral jewelry" fetchpriority="high"></div>
-  <div class="campaign-slide" aria-hidden="true"><img src="assets_xt_excel/XTXLC00001WE_model.webp" alt="Model wearing CARATZON necklace" loading="lazy"></div>
-  <div class="campaign-slide" aria-hidden="true"><img src="assets_xt_excel/XTEDW00002PK_model.webp" alt="Model wearing CARATZON earrings" loading="lazy"></div>
-  <div class="campaign-slide" aria-hidden="true"><img src="assets_xt_excel/XTSLG00001WE_model.webp" alt="Model wearing CARATZON bracelet" loading="lazy"></div>
-  <div class="campaign-controls">
-    <button type="button" id="campaignPrev" class="campaign-arrow" aria-label="Previous campaign photo">←</button>
-    <div class="campaign-indicators" aria-label="Choose campaign photo">
-      <button type="button" class="is-current" aria-label="Photo 1" aria-current="true"></button>
-      <button type="button" aria-label="Photo 2"></button>
-      <button type="button" aria-label="Photo 3"></button>
-      <button type="button" aria-label="Photo 4"></button>
-    </div>
-    <button type="button" id="campaignNext" class="campaign-arrow" aria-label="Next campaign photo">→</button>
-  </div>
-</div>
-</div>
-    
-<div class="hero-caption">caratzon.com / SHOWROOM 2026</div>
+    <div class="hero-content"><p class="eyebrow" data-t="eyebrow">ПРЕДСТАВЛЯЕМ CARATZON.COM</p><h1 data-t="hero">Украшения,<br><i>созданные вдохновлять.</i></h1><p data-t="subtitle">Откройте нашу коллекцию. Выбирайте изделия и отправляйте заявку без онлайн-оплаты.</p><a class="cta" href="#collection" data-t="explore">Смотреть коллекцию <span>↗</span></a></div>
+    <div class="hero-gallery" id="heroGallery" aria-label="Featured jewelry products"><div class="hero-slide is-active" aria-hidden="false"><img src="hero_white/KGDZEG00001OT.webp" alt="Jewelry product SKU KGDZEG00001OT" fetchpriority=high></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00001G.webp" alt="Jewelry product SKU XTXZEG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHG00003PL.webp" alt="Jewelry product SKU XTEHG00003PL" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZES00002GN.webp" alt="Jewelry product SKU XTXZES00002GN" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/KGDZEG00002G.webp" alt="Jewelry product SKU KGDZEG00002G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHC00001WE.webp" alt="Jewelry product SKU XTEHC00001WE" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXLG00004RD.webp" alt="Jewelry product SKU XTXLG00004RD" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00004G.webp" alt="Jewelry product SKU XTXZEG00004G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZG00001G.webp" alt="Jewelry product SKU XTJZG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZW00005PN.webp" alt="Jewelry product SKU XTJZW00005PN" loading=lazy></div><div class="hero-slide-dots" aria-hidden="true"><span class="active"></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span></div></div>
+    <div class="hero-caption">caratzon.com / SHOWROOM 2026</div>
   </section>
-
-  <!-- Fashion A V4: clickable editorial category cards -->
-  <section class="fashion-categories" id="fashionCategories" aria-labelledby="fashionCategoriesTitle">
-    <div class="fashion-categories-head">
-      <div><p class="fashion-categories-kicker" data-cat-kicker>КОЛЛЕКЦИЯ</p><h2 id="fashionCategoriesTitle" data-cat-title>Популярные категории</h2></div>
-      <a href="#collection" class="fashion-categories-all" data-cat-all>Смотреть все изделия &rarr;</a>
-    </div>
-    <div class="fashion-category-grid">
-      <a href="#collection" class="fashion-category" data-category-type="earrings"><img src="assets_xt_excel/XTEDW00002PK_model.webp" alt="Fashion editorial earrings" loading="lazy"/><span class="fashion-category-label"><strong data-cat-name="earrings">Серьги</strong><small data-cat-view>СМОТРЕТЬ →</small></span></a>
-      <a href="#collection" class="fashion-category" data-category-type="necklaces"><img src="assets_xt_excel/XTXLC00001WE_model.webp" alt="Fashion editorial necklace" loading="lazy"/><span class="fashion-category-label"><strong data-cat-name="necklaces">Колье</strong><small data-cat-view>СМОТРЕТЬ →</small></span></a>
-      <a href="#collection" class="fashion-category" data-category-type="rings"><img src="assets_xt_excel/XTJZG00001G_model.webp" alt="Fashion editorial ring" loading="lazy"/><span class="fashion-category-label"><strong data-cat-name="rings">Кольца</strong><small data-cat-view>СМОТРЕТЬ →</small></span></a>
-      <a href="#collection" class="fashion-category" data-category-type="bracelets"><img src="assets_xt_excel/XTSLG00001WE_model.webp" alt="Fashion editorial bracelet" loading="lazy"/><span class="fashion-category-label"><strong data-cat-name="bracelets">Браслеты</strong><small data-cat-view>СМОТРЕТЬ →</small></span></a>
-    </div>
-  </section>
-  <section id="how" class="intro"><div><p class="eyebrow" data-t="easy">ПРОСТО И УДОБНО</p><h2 data-t="discover">Ваш заказ.<br>Наше внимание.</h2></div><p data-t="intro">Выберите украшения, укажите количество и оформите заказ онлайн. Оплата будет доступна после подключения платёжного сервиса. Оптовая цена — от 30 штук одного SKU.</p></section>
-<section id="storeHow" tabindex="-1" class="store-how" aria-labelledby="storeHowTitle">
- <div class="store-how-top"><div><p class="store-how-kicker" id="storeHowKicker">ВАШ ПУТЬ К ПОКУПКЕ</p><h2 id="storeHowTitle">Покупать просто.</h2></div><p id="storeHowLead">От выбора любимых украшений до оформления заказа — всего несколько шагов.</p></div>
- <div class="store-how-steps" id="storeHowSteps">
-  <article><span>01</span><h3>Выберите украшения</h3><p>Найдите любимые изделия в коллекции.</p></article>
-  <article><span>02</span><h3>Добавьте в корзину</h3><p>Укажите количество и проверьте стоимость.</p></article>
-  <article><span>03</span><h3>Оформите заказ</h3><p>Укажите контактные данные и адрес доставки.</p></article>
-  <article><span>04</span><h3>Подтверждение</h3><p>Мы уточним наличие, доставку и способ оплаты.</p></article>
- </div>
- <div class="store-how-bottom"><p id="storeHowNote">Оптовая цена действует от 30 штук одного SKU. Онлайн-оплата пока не подключена: заказ отправляется без списания средств. Доставка и итоговая сумма подтверждаются до оплаты.</p><a href="#collection" class="store-how-link" id="storeHowLink">Выбрать украшения <span aria-hidden="true">↗</span></a></div>
-</section>
+  <section id="how" class="intro"><div><p class="eyebrow" data-t="easy">ПРОСТО И УДОБНО</p><h2 data-t="discover">Ваш выбор.<br>Наше внимание.</h2></div><p data-t="intro">Добавьте понравившиеся изделия в корзину, укажите количество и отправьте заявку. Оптовая цена применяется автоматически при заказе от 30 штук одного SKU.</p></section>
   <section id="v23How" class="v23-how" aria-labelledby="v23HowTitle">
   <div class="v23-how-head"><p class="eyebrow" id="v23HowKicker">ПРОСТО И УДОБНО</p><h2 id="v23HowTitle">Как заказать</h2><p id="v23HowIntro"></p></div>
   <ol class="v23-order-list" id="v23OrderSteps"></ol>
   <p class="v23-order-note" id="v23OrderNote"></p>
 </section>
   <section id="collection" class="catalog"><div class="section-heading"><div><p class="eyebrow" data-t="catalogKicker">ИЗБРАННАЯ КОЛЛЕКЦИЯ</p><h2 data-t="shop">Каталог изделий</h2></div><span id="resultCount" class="muted"></span></div><div class="toolbar"><label class="searchbox"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="search" data-placeholder="search" placeholder="Поиск по названию или SKU"/></label><select id="category" aria-label="Category"></select><select id="sort" aria-label="Sort"><option value="default" data-t="featured">По умолчанию</option><option value="priceAsc" data-t="priceLow">Цена: по возрастанию</option><option value="priceDesc" data-t="priceHigh">Цена: по убыванию</option></select></div><section class="v9-tools" aria-label="Advanced filters"><div class="v9-tools-row"><label><span data-v9="material">Material</span><select id="v9Material"><option value="">All</option></select></label><label><span data-v9="color">Color</span><select id="v9Color"><option value="">All</option></select></label><label><span data-v9="priceMax">Maximum price (RUB)</span><input id="v9Max" type="number" min="0" step="1" placeholder="₽"></label><label class="v9-check"><input id="v9Photos" type="checkbox"><span data-v9="photoOnly">With photos</span></label><label class="v9-check"><input id="v9Favorites" type="checkbox"><span data-v9="favoritesOnly">Favorites only ♡</span></label><button type="button" id="v9Reset" data-v9="reset">Clear filters</button></div></section><div id="grid" class="product-grid"></div><div class="center"><button id="more" class="more" data-t="more">Показать ещё</button></div></section>
-  <section id="about-showroom" aria-labelledby="showroom-about-title">
-    <div class="showroom-about-inner">
-      <div class="showroom-about-intro">
-        <p class="eyebrow"><span data-about-lang="zh">关于我们</span><span data-about-lang="en">About Us</span><span data-about-lang="ru">О нас</span></p>
-        <h2 id="showroom-about-title">Caratzon Showroom</h2>
-        <p data-about-lang="zh">Caratzon Showroom 是 Caratzon.com 的线上首饰展厅。无论你是在挑选日常佩戴的首饰、为特别的日子准备礼物，还是为店铺挑选款式，都可以从这里开始浏览。</p><p data-about-lang="en">Caratzon Showroom is the online jewelry showroom of Caratzon.com. It’s a place to explore our collections, whether you’re looking for a piece to wear every day, choosing a gift, or selecting jewelry for your store.</p><p data-about-lang="ru">Caratzon Showroom — онлайн-шоурум украшений Caratzon.com. Здесь можно подобрать украшение на каждый день, найти подарок к особому случаю или выбрать модели для ассортимента вашего магазина.</p>
-      </div>
-      <div class="showroom-about-grid">
-        <article class="showroom-about-card">
-          <h3><span data-about-lang="zh">探索首饰系列</span><span data-about-lang="en">Explore the collections</span><span data-about-lang="ru">Познакомьтесь с коллекциями</span></h3>
-          <p data-about-lang="zh">你可以按类别浏览耳环、项链、戒指和手链，在商品页面查看图片、产品编号（SKU）、价格及已列出的规格。如果想了解尺寸、材质、佩戴细节或供货情况，可以直接在商品页面提交咨询。附上产品编号和所需数量，方便我们跟进。</p><p data-about-lang="en">Browse earrings, necklaces, rings, and bracelets. Product pages bring together photos, the product code (SKU), pricing, and available specifications. If you’d like to know more about a piece’s size, materials, fit, or availability, send us an enquiry from its product page. Include the SKU and the quantity you need so we can follow up.</p><p data-about-lang="ru">В шоуруме представлены серьги, колье, кольца и браслеты. На странице изделия можно посмотреть фотографии, артикул (SKU), цену и доступные характеристики. Если нужно уточнить размеры, материалы, особенности посадки или наличие, отправьте запрос со страницы изделия. Укажите артикул и нужное количество, чтобы мы могли точнее ответить на ваш вопрос.</p>
-        </article>
-        <article class="showroom-about-card">
-          <h3><span data-about-lang="zh">零售、批发与订购</span><span data-about-lang="en">Retail, wholesale, and ordering</span><span data-about-lang="ru">Розничные и оптовые заказы</span></h3>
-          <p data-about-lang="zh">选定款式后，你可以将商品加入购物袋并提交订单，也可以先联系我们。批发价格按同一 SKU 的订购数量计算。收到订单后，我们会与你确认库存、配送安排、最终金额和付款方式。浏览时有疑问，也可以通过在线客服联系我们。</p><p data-about-lang="en">Once you’ve chosen your pieces, add them to your bag and submit an order. You can also contact us first if you have questions. Wholesale pricing is based on the quantity ordered per SKU. After receiving your order, we’ll confirm availability, shipping arrangements, the final total, and payment options. You can also reach us through Live Chat while you browse.</p><p data-about-lang="ru">Добавьте выбранные изделия в корзину и отправьте заказ. Если хотите сначала уточнить детали, напишите нам. Оптовая цена зависит от количества изделий с одним артикулом. Получив заказ, мы подтвердим наличие, условия доставки, итоговую сумму и способы оплаты. Задать вопрос также можно в онлайн-чате.</p>
-        </article>
-        <article class="showroom-about-card">
-          <h3><span data-about-lang="zh">了解 Caratzon.com</span><span data-about-lang="en">More about Caratzon.com</span><span data-about-lang="ru">Подробнее о Caratzon.com</span></h3>
-          <p data-about-lang="zh">如果你正在为品牌物色新系列，或希望了解设计授权和生产合作，可以前往 Caratzon.com 主站查看珠宝采购、设计授权及生产服务。</p><p data-about-lang="en">If you’re sourcing a collection for your brand, interested in licensing a design, or looking to bring a design into production, the main Caratzon.com website explains the services available.</p><p data-about-lang="ru">Если вы подбираете коллекцию для своего бренда, хотите получить лицензию на дизайн или запустить изделие в производство, подробнее об этих услугах можно узнать на основном сайте Caratzon.com.</p>
-        </article>
-      </div>
-      <div class="showroom-about-links">
-        <a href="#collection"><span data-about-lang="zh">浏览系列</span><span data-about-lang="en">Explore the Collection</span><span data-about-lang="ru">Смотреть коллекцию</span></a>
-        <a href="#storeHow"><span data-about-lang="zh">如何订购</span><span data-about-lang="en">How to Order</span><span data-about-lang="ru">Как заказать</span></a>
-        <a href="https://caratzon.com/"><span data-about-lang="zh">前往 Caratzon.com 主站</span><span data-about-lang="en">Visit Caratzon.com</span><span data-about-lang="ru">Перейти на Caratzon.com</span></a>
-      </div>
-    </div>
-  </section>
 </main>
-<footer><div class="footerbrand">CARATZON.COM</div><p data-t="footer">Интернет-магазин украшений · RU / EN / 中文</p><small data-t="disclaimer">Цены в RUB ориентировочные. Заказ оформляется без списания средств. Оплата ожидает подключения.</small><p id="rateStatus" class="rate"></p></footer>
+<footer><div class="footerbrand">CARATZON.COM</div><p data-t="footer">Ваш онлайн-шоурум украшений · RU / EN</p><small data-t="disclaimer">Цены в RUB ориентировочные, по текущему справочному курсу CNY/RUB. Заявка не является оплатой.</small><p id="rateStatus" class="rate"></p></footer>
 <div class="overlay" id="overlay"></div>
-<aside id="drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Shopping cart"><div class="drawer-head"><div><p class="eyebrow" data-t="yourSelection">ВАШ ВЫБОР</p><h2 data-t="yourCart">Корзина</h2></div><button class="close" id="closeCart" aria-label="Close">✕</button></div><div id="cartItems" class="cart-items"></div><div class="drawer-bottom"><div id="cartTotal" class="cart-total"></div><div class="v9-actions"><button type="button" id="v9PDF">↓ PDF</button><button type="button" id="v9ClearBag">Clear bag</button></div><div class="divider"></div><form id="checkout" name="caratzon-orders" method="POST"><input type="hidden" name="order_details" id="orderDetails"/><input type="hidden" name="order_total_rub" id="orderTotalRub"/><input type="hidden" name="exchange_rate" id="exchangeRate"/><label data-t="nameLabel">Ваше имя *</label><input name="customer_name" id="customerName" required maxlength="100" autocomplete="name"/><label data-t="contactLabel">Телефон / Telegram / Email *</label><input name="contact" id="contact" required maxlength="180"/><label data-t="notesLabel">Комментарий (необязательно)</label><textarea name="notes" id="notes" rows="2" maxlength="800"></textarea><div class="store-shipping">
-  <h3 data-store="shipping">Доставка и контактные данные</h3>
-  <label for="storeCountry" data-store="country">Страна доставки *</label><select id="storeCountry" name="shipping_country" required><option value="Russia">Россия / Russia</option><option value="Other">Другая страна / Other</option></select>
-  <label for="storeCity" data-store="city">Город *</label><input id="storeCity" name="shipping_city" required maxlength="100" autocomplete="address-level2">
-  <label for="storeRegion" data-store="region">Регион / область</label><input id="storeRegion" name="shipping_region" maxlength="120" autocomplete="address-level1">
-  <label for="storeAddress" data-store="address">Адрес доставки *</label><textarea id="storeAddress" name="shipping_address" rows="2" required maxlength="300" autocomplete="street-address"></textarea>
-  <label for="storePostal" data-store="postal">Почтовый индекс *</label><input id="storePostal" name="shipping_postal" required maxlength="20" autocomplete="postal-code">
-  <div class="store-note" data-store="shippingNote">Стоимость и сроки доставки подтвердит менеджер перед оплатой.</div>
-  <h3 data-store="paymentTitle">Способ оплаты</h3>
-  <div class="store-payment"><span class="store-status-dot"></span><span data-store="paymentPending">Онлайн-оплата временно недоступна — заказ без списания средств</span></div>
-  <div class="store-total-note" data-store="totalNote">Итог в корзине не включает доставку. Окончательная сумма будет подтверждена до оплаты.</div>
-  <label class="store-accept"><input type="checkbox" id="storeAgreement" required> <span data-store="consent">Я понимаю, что оформление заказа не является оплатой; менеджер подтвердит наличие, доставку и способ оплаты.</span></label>
-</div><button type="submit" class="checkout-btn" id="submitBtn" data-t="submitOrder">Отправить заявку ↗</button><p id="submitMsg" class="submit-msg"></p><p class="tiny" data-t="noPayment">Без онлайн-оплаты. Менеджер свяжется с вами.</p></form></div></aside>
+<aside id="drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Shopping cart"><div class="drawer-head"><div><p class="eyebrow" data-t="yourSelection">ВАШ ВЫБОР</p><h2 data-t="yourCart">Корзина</h2></div><button class="close" id="closeCart" aria-label="Close">✕</button></div><div id="cartItems" class="cart-items"></div><div class="drawer-bottom"><div id="cartTotal" class="cart-total"></div><div class="v9-actions"><button type="button" id="v9PDF">↓ PDF</button><button type="button" id="v9ClearBag">Clear bag</button></div><div class="divider"></div><form id="checkout" name="caratzon-orders" method="POST"><input type="hidden" name="order_details" id="orderDetails"/><input type="hidden" name="order_total_rub" id="orderTotalRub"/><input type="hidden" name="exchange_rate" id="exchangeRate"/><label data-t="nameLabel">Ваше имя *</label><input name="customer_name" id="customerName" required maxlength="100" autocomplete="name"/><label data-t="contactLabel">Телефон / Telegram / Email *</label><input name="contact" id="contact" required maxlength="180"/><label data-t="notesLabel">Комментарий (необязательно)</label><textarea name="notes" id="notes" rows="2" maxlength="800"></textarea><button type="submit" class="checkout-btn" id="submitBtn" data-t="submitOrder">Отправить заявку ↗</button><p id="submitMsg" class="submit-msg"></p><p class="tiny" data-t="noPayment">Без онлайн-оплаты. Менеджер свяжется с вами.</p></form></div></aside>
 <div id="hoverZoom" class="hover-zoom" hidden><div class="hover-zoom-head">caratzon.com · zoom</div><div id="hoverZoomInner" class="hover-zoom-inner"></div></div>
 <div id="zoomViewer" class="zoom-viewer" role="dialog" aria-modal="true" aria-label="Product image preview" hidden><button id="zoomClose" class="zoom-close" aria-label="Close photo">×</button><img id="zoomImage" src="" alt=""><p id="zoomName"></p></div>
-<div id="v9Detail" class="v9-modal" role="dialog" aria-modal="true" aria-label="Product details" hidden><div class="v9-card"><button id="v9Close" class="v9-close" aria-label="Close">×</button><div id="v9DetailBody"></div></div></div><div id="toast" class="toast" role="status"></div><script src="v23.js" defer></script><script src="config.js" defer></script><script src="app.js?v=card-images-2" defer></script><script src="v9.js?v=11zh" defer></script><script src="store-v5.js?v=1" defer></script><script src="fashion-a-v4.js" defer></script><script src="how-to-order-v7.js?v=1" defer></script><script src="checkout-luxury-v8.js?v=1" defer></script>
-<script src="hero-carousel-v11.js?v=2" defer></script><script src="store-language-v12.js?v=1" defer></script><div id="memberOverlay" class="member-overlay" hidden role="dialog" aria-modal="true" aria-label="Member account">
- <div class="member-panel"><button id="memberClose" class="member-close" type="button" aria-label="Close">×</button>
- <div class="member-kicker">CARATZON / MEMBER ACCOUNT</div><h2 id="memberTitle">Войти</h2><p id="memberLead"></p>
- <form id="memberForm"><label for="memberEmail">Email</label><input id="memberEmail" type="email" autocomplete="email" required maxlength="254"/>
- <label id="memberPasswordLabel" for="memberPassword">Password</label><input id="memberPassword" type="password" autocomplete="current-password" minlength="8" required/>
- <button class="member-primary" type="submit" id="memberSubmit">Sign in</button></form>
- <p id="memberMessage" class="member-message" role="status"></p>
- <div class="member-inline"><button type="button" id="memberSwitch">Create account</button><button type="button" id="memberReset">Forgot password?</button><button type="button" id="memberLogout" hidden>Sign out</button></div>
- </div></div>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
-<script src="auth-config.js?v=1" defer></script>
-<script src="product-enquiries.js?v=16" defer></script>
-<script src="member-v13.js?v=2" defer></script><script>
-  document.querySelector('.nav a[href="#storeHow"]').addEventListener('click', event => {
-    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-    const guide = document.getElementById('storeHow');
-    event.preventDefault();
-    if (location.hash !== '#storeHow') history.pushState(null, '', '#storeHow');
-    guide.focus({preventScroll: true});
-    guide.scrollIntoView({block: 'start', behavior: 'auto'});
-  });
-</script>
-</body></html>
+<div id="v9Detail" class="v9-modal" role="dialog" aria-modal="true" aria-label="Product details" hidden><div class="v9-card"><button id="v9Close" class="v9-close" aria-label="Close">×</button><div id="v9DetailBody"></div></div></div><div id="toast" class="toast" role="status"></div><script src="geo-language.js" defer></script>
+<script src="v23.js" defer></script><script src="config.js" defer></script><script src="app.js?v=11zh" defer></script><script src="v9.js?v=11zh" defer></script></body></html>
