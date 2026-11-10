@@ -141,6 +141,20 @@
       #cz-enquiry-dialog.cz-chat-floating .cz-live-transcript { min-height: 3rem; }
     }
   </style>
+<style id="cz-b2b-inline-style">
+.cz-b2b-hero-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:24px}
+.cz-b2b-hero-actions .cta{margin:0!important;display:inline-flex;justify-content:center;align-items:center;text-decoration:none;min-height:48px;padding:12px 22px;box-sizing:border-box}
+.cz-b2b-oem-link{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:12px 20px;border:1px solid #392c24;color:#392c24;background:#fffaf6;text-decoration:none;font-size:14px;box-sizing:border-box}
+.cz-b2b-oem-link:hover,.cz-b2b-oem-link:focus-visible{background:#eee2d8}
+#cz-b2b-oem-section{scroll-margin-top:120px;background:#f6f0eb;color:#392c24;padding:clamp(38px,6vw,84px) clamp(20px,6vw,80px)}
+.cz-b2b-inner{max-width:1080px;margin-inline:auto}.cz-b2b-kicker{font-size:12px;letter-spacing:.18em;color:#926e59}
+#cz-b2b-oem-title{font:400 clamp(29px,4vw,52px)/1.2 Georgia,serif;margin:16px 0 19px}
+#cz-b2b-lead{max-width:760px;line-height:1.8}.cz-b2b-service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:26px 0}
+.cz-b2b-service-grid>div{padding:20px;border:1px solid #decfc4;background:#fffaf6}
+.cz-b2b-contact{background:#392c24;color:#fff;border:1px solid #392c24;padding:14px 22px;cursor:pointer;font:inherit}
+.cz-b2b-note{font-size:12px;color:#79685d;margin:20px 0 0}
+@media(max-width:650px){.cz-b2b-hero-actions .cta,.cz-b2b-oem-link{width:100%}.cz-b2b-service-grid{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
 <header class="header">
@@ -152,7 +166,10 @@
 </header>
 <main>
   <section class="hero">
-    <div class="hero-content"><p class="eyebrow" data-t="eyebrow">ПРЕДСТАВЛЯЕМ CARATZON.COM</p><h1 data-t="hero">Украшения,<br><i>созданные вдохновлять.</i></h1><p data-t="subtitle">Откройте коллекцию CARATZON. Выберите украшения и оформите заказ онлайн.</p><a class="cta" href="#collection" data-t="explore">Смотреть коллекцию <span>↗</span></a></div>
+    <div class="hero-content"><p class="eyebrow" data-t="eyebrow">ПРЕДСТАВЛЯЕМ CARATZON.COM</p><h1 data-t="hero">Украшения,<br><i>созданные вдохновлять.</i></h1><p data-t="subtitle">Откройте коллекцию CARATZON. Выберите украшения и оформите заказ онлайн.</p><div class="cz-b2b-hero-actions" aria-label="Wholesale and custom manufacturing">
+        <a class="cta cz-b2b-wholesale" href="#collection">批发产品 ↗</a>
+        <a class="cz-b2b-oem-link" href="#cz-b2b-oem-section">OEM／ODM 定制 ↗</a>
+      </div></div>
     <div class="hero-gallery" id="heroGallery" aria-label="Featured jewelry products"><div class="hero-slide is-active" aria-hidden="false"><img src="hero_white/KGDZEG00001OT.webp" alt="Jewelry product SKU KGDZEG00001OT" fetchpriority=high></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00001G.webp" alt="Jewelry product SKU XTXZEG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHG00003PL.webp" alt="Jewelry product SKU XTEHG00003PL" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZES00002GN.webp" alt="Jewelry product SKU XTXZES00002GN" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/KGDZEG00002G.webp" alt="Jewelry product SKU KGDZEG00002G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHC00001WE.webp" alt="Jewelry product SKU XTEHC00001WE" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXLG00004RD.webp" alt="Jewelry product SKU XTXLG00004RD" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00004G.webp" alt="Jewelry product SKU XTXZEG00004G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZG00001G.webp" alt="Jewelry product SKU XTJZG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZW00005PN.webp" alt="Jewelry product SKU XTJZW00005PN" loading=lazy></div><div class="hero-slide-dots" aria-hidden="true"><span class="active"></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span></div><div class="campaign-carousel" id="campaignCarousel" aria-label="CARATZON fashion jewelry campaign" aria-roledescription="carousel">
   <div class="campaign-slide is-current" aria-hidden="false"><img src="caratzon-campaign-model.jpg" alt="CARATZON fashion model wearing floral jewelry" fetchpriority="high"></div>
   <div class="campaign-slide" aria-hidden="true"><img src="assets_xt_excel/XTXLC00001WE_model.webp" alt="Model wearing CARATZON necklace" loading="lazy"></div>
@@ -172,6 +189,21 @@
 </div>
     
 <div class="hero-caption">caratzon.com / SHOWROOM 2026</div>
+  </section>
+
+  <!-- CARATZON B2B: Direct HTML section, no external B2B JS dependency -->
+  <section id="cz-b2b-oem-section" aria-labelledby="cz-b2b-oem-title">
+    <div class="cz-b2b-inner">
+      <p class="cz-b2b-kicker" id="cz-b2b-kicker">珠宝订制生产服务</p>
+      <h2 id="cz-b2b-oem-title">为你的品牌开发专属珠宝。</h2>
+      <p id="cz-b2b-lead">从设计图、样板制作到批量生产。欢迎咨询材质、电镀、包装、数量和生产周期。</p>
+      <div class="cz-b2b-service-grid">
+        <div id="cz-b2b-oem-item">OEM · 按客户设计生产</div>
+        <div id="cz-b2b-odm-item">ODM · 设计开发与产品制作</div>
+      </div>
+      <button class="cz-b2b-contact" id="cz-b2b-chat" type="button">联系团队洽谈定制</button>
+      <p class="cz-b2b-note" id="cz-b2b-note">打板费、起订量、价格及交期按实际需求报价。</p>
+    </div>
   </section>
 
   <!-- Fashion A V4: clickable editorial category cards -->
@@ -330,5 +362,20 @@
   });
 })();
 </script>
-<script src="b2b-entry-v1.js?v=1" defer></script>
+<script id="cz-b2b-inline-i18n">
+(() => {
+ 'use strict';
+ const dictionary={
+  zh:['批发产品 ↗','OEM／ODM 定制 ↗','珠宝订制生产服务','为你的品牌开发专属珠宝。','从设计图、样板制作到批量生产。欢迎咨询材质、电镀、包装、数量和生产周期。','OEM · 按客户设计生产','ODM · 设计开发与产品制作','联系团队洽谈定制','打板费、起订量、价格及交期按实际需求报价。'],
+  en:['Shop Wholesale ↗','OEM / ODM Service ↗','CUSTOM JEWELRY MANUFACTURING','Create jewelry for your brand.','From drawings and prototypes to bulk production. Ask our team about materials, plating, packaging, quantities and production lead time.','OEM · Manufacture from your design','ODM · Design and product development','Discuss a Custom Project','Sample fees, minimum order quantities, prices and lead times are quoted based on your requirements.'],
+  ru:['Оптовый каталог ↗','OEM / ODM на заказ ↗','ПРОИЗВОДСТВО УКРАШЕНИЙ НА ЗАКАЗ','Украшения для вашего бренда.','От эскизов и образцов до серийного производства. Обсудите с командой материалы, покрытие, упаковку, тираж и сроки.','OEM · Производство по вашему дизайну','ODM · Разработка дизайна и изделий','Обсудить проект','Стоимость образцов, минимальные партии, цены и сроки уточняются после рассмотрения заявки.']
+ };
+ const ids=['.cz-b2b-wholesale','.cz-b2b-oem-link','#cz-b2b-kicker','#cz-b2b-oem-title','#cz-b2b-lead','#cz-b2b-oem-item','#cz-b2b-odm-item','#cz-b2b-chat','#cz-b2b-note'];
+ function sync(){let code=(document.documentElement.lang||'en').slice(0,2).toLowerCase();let t=dictionary[code]||dictionary.en;ids.forEach((sel,i)=>{let node=document.querySelector(sel);if(node)node.textContent=t[i]});}
+ function init(){sync();new MutationObserver(sync).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+  const btn=document.getElementById('cz-b2b-chat');if(btn)btn.addEventListener('click',()=>{const chat=document.getElementById('cz-live-chat');if(chat)chat.click();else document.getElementById('about-showroom')?.scrollIntoView({behavior:'smooth'});});
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+})();
+</script>
 </body></html>
