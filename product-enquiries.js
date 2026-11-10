@@ -99,6 +99,44 @@ window.initProductEnquiries = (client, openLogin) => {
     return rows;
   };
 
+  // Restore the existing showroom's FormSubmit email route after a successful Supabase enquiry.
+  // Delivery is independent of the database write: an email outage must never lose a saved enquiry.
+  const PRODUCT_ENQUIRY_MAIL_ENDPOINT = 'https://formsubmit.co/ajax/anson.fu101@gmail.com';
+  const sendProductEnquiryEmail = async ({id, sku, name, message, method, contact, customerEmail}) => {
+    const deliveredKey = 'cz-product-email:' + id;
+    try { if (sessionStorage.getItem(deliveredKey) === 'accepted') return; } catch {}
+    const payload = {
+      _subject: 'CARATZON.COM · Ask about this product · ' + sku,
+      _template: 'table', _captcha: 'false', _honey: '',
+      inquiry_id: id, inquiry_type: 'Ask about this product',
+      product_sku: sku, product_name: name,
+      contact_method: method || (customerEmail ? 'Email' : 'Not provided'),
+      contact: contact || customerEmail || 'Not provided',
+      message: message,
+      submitted_at: new Date().toISOString(),
+      site: location.origin + location.pathname
+    };
+    if (customerEmail) payload.email = customerEmail;
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 10000);
+    try {
+      const response = await fetch(PRODUCT_ENQUIRY_MAIL_ENDPOINT, {
+        method: 'POST', headers: {'Accept':'application/json','Content-Type':'application/json'},
+        body: JSON.stringify(payload), signal: controller.signal
+      });
+      const result = await response.json();
+      if (!response.ok || (result.success !== true && result.success !== 'true')) {
+        throw new Error(result.message || 'FormSubmit did not accept notification');
+      }
+      try { sessionStorage.setItem(deliveredKey, 'accepted'); } catch {}
+    } finally { clearTimeout(timer); }
+  };
+  const notifyProductEnquiry = details => {
+    sendProductEnquiryEmail(details).catch(error => {
+      console.warn('Product enquiry was saved but email notification was not confirmed:', error);
+    });
+  };
+
   const threadFields = 'id,created_at,email,sku,product_name,contact_method,contact_value,source,chat_language';
   const messageFields = 'id,enquiry_id,created_at,sender,body,staff_display_name';
 
@@ -127,6 +165,11 @@ window.initProductEnquiries = (client, openLogin) => {
       status.textContent = '…';
       try {
         await checked(client.rpc('cz_send_enquiry', pending));
+        if (product) {
+          const session = await client.auth.getSession().catch(() => ({data:{}}));
+          notifyProductEnquiry({id:pending.message_id, sku:product.sku, name:product.name,
+            message:pending.message_body, customerEmail:session.data?.session?.user?.email});
+        }
         if (current(ticket)) openThread(thread || {id: threadId, sku: product.sku, product_name: product.name}, back);
       } catch {
         fail(ticket);
@@ -201,6 +244,9 @@ window.initProductEnquiries = (client, openLogin) => {
       status.textContent = '…';
       try {
         await checked(client.rpc('cz_send_guest_enquiry', pending));
+        notifyProductEnquiry({id:pending.request_id, sku:product.sku, name:product.name,
+          message:pending.message_body, method:pending.method, contact:pending.contact,
+          customerEmail:pending.method === 'email' ? pending.contact : undefined});
         if (current(ticket)) {
           body.replaceChildren();
           status.textContent = gt(2);
