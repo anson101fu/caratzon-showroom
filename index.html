@@ -108,6 +108,39 @@
 #czNoticePanel{position:fixed;right:18px;top:85px;width:min(350px,calc(100vw - 36px));background:#fff;color:#342921;box-shadow:0 12px 38px #0002;border:1px solid #ddd0c5;z-index:10000;padding:19px;font:14px/1.55 Arial,sans-serif}
 #czNoticePanel[hidden]{display:none!important}#czNoticePanel h3{margin:0 0 8px;font-size:18px}#czNoticePanel p{margin:8px 0;color:#5e554f}#czNoticePanel button{margin:5px 5px 0 0;border:1px solid #bfb0a3;background:#faf6f1;padding:9px 12px;cursor:pointer;color:#342921}#czNoticeStatus{font-size:12px!important}
 </style>
+  <!-- V7: taller live-chat window; preserve existing chat logic and notifications -->
+  <style id="cz-chat-height-v7">
+    #cz-enquiry-dialog.cz-chat-floating[open] {
+      height: min(35rem, calc(100dvh - var(--cz-chat-bottom) - 1rem));
+      max-height: calc(100dvh - var(--cz-chat-bottom) - 1rem);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    #cz-enquiry-dialog.cz-chat-floating:not([open]) { display: none; }
+    #cz-enquiry-dialog.cz-chat-floating > header { flex: 0 0 auto; }
+    #cz-enquiry-dialog.cz-chat-floating > div:not(.unused) {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+    }
+    #cz-enquiry-dialog.cz-chat-floating .cz-live-transcript {
+      flex: 1 1 auto;
+      min-height: 7rem;
+      max-height: none;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+    #cz-enquiry-dialog.cz-chat-floating .cz-chat-compose,
+    #cz-enquiry-dialog.cz-chat-floating .cz-chat-contact {
+      flex: 0 0 auto;
+    }
+    @media (max-height: 550px) {
+      #cz-enquiry-dialog.cz-chat-floating .cz-live-transcript { min-height: 3rem; }
+    }
+  </style>
 </head>
 <body>
 <header class="header">
