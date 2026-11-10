@@ -142,42 +142,95 @@ window.initProductEnquiries = (client, openLogin) => {
 
   const compose = (ticket, thread, product, back) => {
     const form = node('form', '');
+    // Signed-in shoppers must still provide a reachable contact for each NEW product request.
+    let method, contact;
+    if (product) {
+      method = node('select', '');
+      method.required = true;
+      const prompt = node('option', gt(5));
+      prompt.value = '';
+      prompt.disabled = prompt.selected = true;
+      method.append(prompt);
+      for (const key of ['email','wechat','whatsapp','phone','telegram']) {
+        const option = node('option', contactLabel(key));
+        option.value = key;
+        method.append(option);
+      }
+      contact = node('input', '');
+      contact.required = true;
+      contact.maxLength = 180;
+      method.onchange = () => {
+        contact.type = method.value === 'email' ? 'email' : ['phone','whatsapp'].includes(method.value) ? 'tel' : 'text';
+        contact.placeholder = method.value === 'telegram' ? '@username / https://t.me/username' : '';
+        contact.setCustomValidity('');
+      };
+      contact.oninput = () => contact.setCustomValidity('');
+      for (const [labelText, field] of [[gt(0),method],[gt(1),contact]]) {
+        const wrapper = node('label', labelText);
+        wrapper.append(field);
+        form.append(wrapper);
+      }
+    }
     const label = node('label', tr(12));
     const input = node('textarea', '');
     input.required = true;
-    input.maxLength = 2000;
+    input.maxLength = product ? 1650 : 2000;
     input.rows = 4;
     label.append(input);
+    form.append(label);
     const send = button(tr(4));
     send.type = 'submit';
-    form.append(label, send);
+    form.append(send);
     const threadId = thread?.id || crypto.randomUUID();
     let pending;
     form.onsubmit = async event => {
       event.preventDefault();
       const value = input.value.trim();
-      if (!value || send.disabled) return;
-      if (pending?.message_body !== value) {
-        pending = {thread_id: threadId, message_id: crypto.randomUUID(), message_body: value};
+      const contactValue = product ? contact.value.trim() : '';
+      if (!value || send.disabled || (product && (!method.value || !contactValue))) return;
+      if (product && ['phone','whatsapp'].includes(method.value)) {
+        const digits = contactValue.replace(/\D/g,'').length;
+        if (!/^\+?[0-9 ()-]+$/.test(contactValue) || digits < 7 || digits > 15) {
+          contact.setCustomValidity(gt(6)); contact.reportValidity(); return;
+        }
+      }
+      if (product && method.value === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactValue)) {
+        contact.setCustomValidity(gt(7)); contact.reportValidity(); return;
+      }
+      // Keep the existing Supabase RPC signature intact: contact goes into the saved message.
+      const storedMessage = product ? value + '\n\n[Contact: ' + contactLabel(method.value) + ' · ' + contactValue + ']' : value;
+      if (storedMessage.length > 2000) { status.textContent = 'Please shorten your message.'; return; }
+      if (pending?.message_body !== storedMessage) {
+        pending = {thread_id: threadId, message_id: crypto.randomUUID(), message_body: storedMessage};
         if (product) Object.assign(pending, {product_sku: product.sku, product_label: product.name});
       }
       send.disabled = input.readOnly = true;
+      if (product) { method.disabled = true; contact.readOnly = true; }
       status.textContent = '…';
       try {
         await checked(client.rpc('cz_send_enquiry', pending));
         if (product) {
           const session = await client.auth.getSession().catch(() => ({data:{}}));
           notifyProductEnquiry({id:pending.message_id, sku:product.sku, name:product.name,
-            message:pending.message_body, customerEmail:session.data?.session?.user?.email});
+            message:value, method:method.value, contact:contactValue,
+            customerEmail:session.data?.session?.user?.email});
         }
         if (current(ticket)) openThread(thread || {id: threadId, sku: product.sku, product_name: product.name}, back);
       } catch {
         fail(ticket);
       } finally {
         send.disabled = input.readOnly = false;
+        if (product) { method.disabled = false; contact.readOnly = false; }
       }
     };
     body.append(form);
+    if (product) {
+      client.auth.getSession().then(({data}) => {
+        if (!current(ticket) || contact.value || method.value) return;
+        const email = data.session?.user?.email;
+        if (email) { method.value = 'email'; method.onchange(); contact.value = email; }
+      }).catch(() => {});
+    }
   };
 
   function openGuestForm(product) {
