@@ -213,7 +213,7 @@
 <div class="hero-caption">caratzon.com / SHOWROOM 2026</div>
   </section>
 
-  <!-- CARATZON B2B: Direct HTML section, no external B2B JS dependency -->
+  <!-- CARATZON B2B: Direct HTML section; OEM enquiry form V3 -->
   <section id="cz-b2b-oem-section" aria-labelledby="cz-b2b-oem-title">
     <div class="cz-b2b-inner">
       <p class="cz-b2b-kicker" id="cz-b2b-kicker">珠宝订制生产服务</p>
@@ -223,7 +223,7 @@
         <div id="cz-b2b-oem-item">OEM · 按客户设计生产</div>
         <div id="cz-b2b-odm-item">ODM · 设计开发与产品制作</div>
       </div>
-      <button class="cz-b2b-contact" id="cz-b2b-chat" type="button" aria-expanded="false" aria-controls="cz-oem-enquiry-wrap">联系团队洽谈定制</button>
+      <button class="cz-b2b-contact" id="cz-oem-open-form" type="button" aria-expanded="false" aria-controls="cz-oem-enquiry-wrap">联系团队洽谈定制</button>
       <div id="cz-oem-enquiry-wrap" hidden>
         <div class="cz-oem-form-head"><h3 id="cz-oem-form-title">OEM / ODM 訂製詢價</h3><p id="cz-oem-form-intro">填寫聯絡資料及訂製要求，可附上最多 3 張設計圖，我們會以 Email 跟進。</p></div>
         <form id="cz-oem-enquiry-form" action="https://formsubmit.co/anson.fu101@gmail.com" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
@@ -422,10 +422,26 @@
   en:['Shop Wholesale ↗','OEM / ODM Service ↗','CUSTOM JEWELRY MANUFACTURING','Create jewelry for your brand.','From drawings and prototypes to bulk production. Ask our team about materials, plating, packaging, quantities and production lead time.','OEM · Manufacture from your design','ODM · Design and product development','Discuss a Custom Project','Sample fees, minimum order quantities, prices and lead times are quoted based on your requirements.'],
   ru:['Оптовый каталог ↗','OEM / ODM на заказ ↗','ПРОИЗВОДСТВО УКРАШЕНИЙ НА ЗАКАЗ','Украшения для вашего бренда.','От эскизов и образцов до серийного производства. Обсудите с командой материалы, покрытие, упаковку, тираж и сроки.','OEM · Производство по вашему дизайну','ODM · Разработка дизайна и изделий','Обсудить проект','Стоимость образцов, минимальные партии, цены и сроки уточняются после рассмотрения заявки.']
  };
- const ids=['.cz-b2b-wholesale','.cz-b2b-oem-link','#cz-b2b-kicker','#cz-b2b-oem-title','#cz-b2b-lead','#cz-b2b-oem-item','#cz-b2b-odm-item','#cz-b2b-chat','#cz-b2b-note'];
+ const ids=['.cz-b2b-wholesale','.cz-b2b-oem-link','#cz-b2b-kicker','#cz-b2b-oem-title','#cz-b2b-lead','#cz-b2b-oem-item','#cz-b2b-odm-item','#cz-oem-open-form','#cz-b2b-note'];
  function sync(){let code=(document.documentElement.lang||'en').slice(0,2).toLowerCase();let t=dictionary[code]||dictionary.en;ids.forEach((sel,i)=>{let node=document.querySelector(sel);if(node)node.textContent=t[i]});}
  function init(){sync();new MutationObserver(sync).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
-  const btn=document.getElementById('cz-b2b-chat');if(btn)btn.addEventListener('click',()=>{const panel=document.getElementById('cz-oem-enquiry-wrap');panel.hidden=!panel.hidden;btn.setAttribute('aria-expanded',String(!panel.hidden));if(!panel.hidden){panel.scrollIntoView({behavior:'smooth',block:'nearest'});}});
+  const btn=document.getElementById('cz-oem-open-form');
+   if(btn){
+     btn.addEventListener('click',event=>{
+       // Prevent older showroom code from opening Live Chat for this OEM action.
+       event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();
+       const panel=document.getElementById('cz-oem-enquiry-wrap');
+       if(!panel)return;
+       const opening=panel.hidden;
+       panel.hidden=!opening;
+       btn.setAttribute('aria-expanded',String(opening));
+       if(opening){
+         panel.scrollIntoView({behavior:'smooth',block:'start'});
+         const first=panel.querySelector('input[name="company"]');
+         if(first)setTimeout(()=>first.focus({preventScroll:true}),300);
+       }
+     },true);
+   }
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
