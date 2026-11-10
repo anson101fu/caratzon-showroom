@@ -101,7 +101,29 @@
       #about-showroom { scroll-margin-top: 130px; }
       .header-inner > .nav { gap: clamp(4px, 2vw, 12px); }
     }
-  </style>
+  
+/* CARATZON OEM enquiry form V2: isolated from checkout, members, and Live Chat */
+#cz-oem-enquiry-wrap[hidden]{display:none!important}
+#cz-oem-enquiry-wrap{margin-top:25px;padding:clamp(16px,3vw,30px);background:#fffaf6;border:1px solid #d8c9bb}
+.cz-oem-form-head h3{font:400 clamp(24px,3vw,34px)/1.3 Georgia,serif;margin:0 0 10px}
+.cz-oem-form-head p{font-size:14px;color:#6b594d;line-height:1.65;margin:0 0 21px}
+.cz-oem-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 19px}
+#cz-oem-enquiry-form label{display:flex;flex-direction:column;gap:7px;font-size:13px}
+#cz-oem-enquiry-form input:not([type=checkbox]),#cz-oem-enquiry-form select,#cz-oem-enquiry-form textarea{width:100%;box-sizing:border-box;background:#fff;border:1px solid #d8c8bb;border-radius:0;padding:12px 13px;color:#30261f;font:inherit;font-size:14px;min-height:44px}
+#cz-oem-enquiry-form input[type=file]{max-width:100%;font-size:12px!important;cursor:pointer}
+#cz-oem-enquiry-form input:focus-visible,#cz-oem-enquiry-form textarea:focus-visible,#cz-oem-enquiry-form select:focus-visible{outline:2px solid #997058;outline-offset:2px}
+#cz-oem-enquiry-form .cz-oem-block{margin-top:17px}
+#cz-oem-enquiry-form .cz-oem-block textarea{min-height:120px;resize:vertical}
+#cz-oem-enquiry-form .cz-oem-attachments{border:1px solid #e5d9cf;margin:19px 0 0;padding:14px 15px 17px;min-width:0}
+#cz-oem-enquiry-form .cz-oem-attachments legend{font-size:13px;padding:0 6px}
+#cz-oem-enquiry-form .cz-oem-consent{display:flex;flex-direction:row;align-items:flex-start;gap:10px;margin-top:16px;line-height:1.6}
+#cz-oem-enquiry-form .cz-oem-consent input{margin-top:4px;flex-shrink:0}
+.cz-oem-file-status{font-size:12px;color:#a03c34;min-height:17px;margin:8px 0}
+.cz-oem-submit{margin-top:16px!important}
+.cz-oem-fineprint{font-size:12px;color:#78675b;line-height:1.65;margin:14px 0 0}
+.cz-oem-honey{position:absolute!important;left:-10000px!important;opacity:0!important;height:0!important;width:0!important;pointer-events:none!important}
+@media(max-width:650px){.cz-oem-form-grid{grid-template-columns:1fr}#cz-oem-enquiry-wrap{padding:17px}}
+</style>
 
 <style id="cz-notification-style">
 .cz-staff-monitor-state{padding:8px 10px;background:#f3f6f2;border:1px solid #dfe9dc;color:#315638;font-size:12px;margin:8px 0}#czNoticeBtn{position:relative;border:1px solid #d9cfc5;background:#fff;color:#342921;padding:9px 11px;font-size:12px;cursor:pointer;white-space:nowrap}
@@ -201,7 +223,37 @@
         <div id="cz-b2b-oem-item">OEM · 按客户设计生产</div>
         <div id="cz-b2b-odm-item">ODM · 设计开发与产品制作</div>
       </div>
-      <button class="cz-b2b-contact" id="cz-b2b-chat" type="button">联系团队洽谈定制</button>
+      <button class="cz-b2b-contact" id="cz-b2b-chat" type="button" aria-expanded="false" aria-controls="cz-oem-enquiry-wrap">联系团队洽谈定制</button>
+      <div id="cz-oem-enquiry-wrap" hidden>
+        <div class="cz-oem-form-head"><h3 id="cz-oem-form-title">OEM / ODM 訂製詢價</h3><p id="cz-oem-form-intro">填寫聯絡資料及訂製要求，可附上最多 3 張設計圖，我們會以 Email 跟進。</p></div>
+        <form id="cz-oem-enquiry-form" action="https://formsubmit.co/anson.fu101@gmail.com" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
+          <input type="hidden" name="_subject" value="CARATZON.COM · OEM/ODM Custom Jewelry Enquiry">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="source" value="CARATZON.COM OEM / ODM form">
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="cz-oem-honey" aria-hidden="true">
+          <div class="cz-oem-form-grid">
+            <label><span data-cz-oem="company">公司／品牌名稱</span><input type="text" name="company" autocomplete="organization" maxlength="120"></label>
+            <label><span data-cz-oem="person">聯絡人 *</span><input type="text" name="name" required autocomplete="name" maxlength="100"></label>
+            <label><span data-cz-oem="email">Email *</span><input type="email" name="email" required autocomplete="email" maxlength="180"></label>
+            <label><span data-cz-oem="contact">WhatsApp／WeChat／電話</span><input type="text" name="contact" maxlength="180"></label>
+            <label><span data-cz-oem="service">訂製類型 *</span><select name="service" required><option value="OEM">OEM</option><option value="ODM">ODM</option><option value="Not sure">OEM / ODM</option></select></label>
+            <label><span data-cz-oem="quantity">預計數量</span><input type="number" min="1" max="1000000" name="quantity" placeholder="100"></label>
+          </div>
+          <label class="cz-oem-block"><span data-cz-oem="message">設計要求及材質、電鍍、交期 *</span><textarea name="message" required rows="5" maxlength="3000" placeholder="例如：耳環、銅材質、電鍍銀、300 件"></textarea></label>
+          <fieldset class="cz-oem-attachments"><legend data-cz-oem="attachments">上傳設計圖（JPG / PNG，最多 3 張；合共 10MB）</legend>
+            <div class="cz-oem-form-grid">
+              <label><span data-cz-oem="file1">設計圖 1</span><input name="attachment" type="file" accept="image/jpeg,image/png,.jpg,.jpeg,.png"></label>
+              <label><span data-cz-oem="file2">設計圖 2</span><input name="attachment2" type="file" accept="image/jpeg,image/png,.jpg,.jpeg,.png"></label>
+              <label><span data-cz-oem="file3">設計圖 3</span><input name="attachment3" type="file" accept="image/jpeg,image/png,.jpg,.jpeg,.png"></label>
+            </div>
+          </fieldset>
+          <p id="cz-oem-file-status" class="cz-oem-file-status" role="status"></p>
+          <label class="cz-oem-consent"><input type="checkbox" required><span data-cz-oem="consent">我同意將聯絡資料及設計檔案提供予 CARATZON.COM 作本次報價及跟進。</span></label>
+          <button class="cz-b2b-contact cz-oem-submit" type="submit" id="cz-oem-send"><span data-cz-oem="send">發送 Email 詢價及設計圖 ↗</span></button>
+          <p class="cz-oem-fineprint" data-cz-oem="note">提交後可能進入 FormSubmit 驗證／成功頁面。請勿上傳機密設計，除非你同意第三方 Email 表單服務處理檔案。</p>
+        </form>
+      </div>
       <p class="cz-b2b-note" id="cz-b2b-note">打板费、起订量、价格及交期按实际需求报价。</p>
     </div>
   </section>
@@ -373,9 +425,42 @@
  const ids=['.cz-b2b-wholesale','.cz-b2b-oem-link','#cz-b2b-kicker','#cz-b2b-oem-title','#cz-b2b-lead','#cz-b2b-oem-item','#cz-b2b-odm-item','#cz-b2b-chat','#cz-b2b-note'];
  function sync(){let code=(document.documentElement.lang||'en').slice(0,2).toLowerCase();let t=dictionary[code]||dictionary.en;ids.forEach((sel,i)=>{let node=document.querySelector(sel);if(node)node.textContent=t[i]});}
  function init(){sync();new MutationObserver(sync).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
-  const btn=document.getElementById('cz-b2b-chat');if(btn)btn.addEventListener('click',()=>{const chat=document.getElementById('cz-live-chat');if(chat)chat.click();else document.getElementById('about-showroom')?.scrollIntoView({behavior:'smooth'});});
+  const btn=document.getElementById('cz-b2b-chat');if(btn)btn.addEventListener('click',()=>{const panel=document.getElementById('cz-oem-enquiry-wrap');panel.hidden=!panel.hidden;btn.setAttribute('aria-expanded',String(!panel.hidden));if(!panel.hidden){panel.scrollIntoView({behavior:'smooth',block:'nearest'});}});
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+})();
+</script>
+
+<script id="cz-oem-email-form-v2">
+(() => {
+  'use strict';
+  const dict={
+    zh:{title:'OEM／ODM 訂製詢價',intro:'留下聯絡資料及訂製要求，可附上最多 3 張設計圖，我們會透過 Email 跟進。',company:'公司／品牌名稱',person:'聯絡人 *',email:'Email *',contact:'WhatsApp／WeChat／電話',service:'訂製類型 *',quantity:'預計數量',message:'設計要求、材質、電鍍及交期 *',attachments:'上傳設計圖（JPG / PNG，最多 3 張；總共 10MB）',file1:'設計圖 1',file2:'設計圖 2',file3:'設計圖 3',consent:'我同意將聯絡資料及設計檔案提供予 CARATZON.COM 作本次報價及跟進。',send:'發送 Email 詢價及設計圖 ↗',note:'提交後會進入第三方 FormSubmit 表單頁面；設計檔案會經該服務轉交至 Email。請勿上傳需要保密協議保護的機密設計。',invalid:'只接受 JPG / PNG 圖片，總大小不可超過 10MB。'},
+    en:{title:'OEM / ODM Custom Jewelry Enquiry',intro:'Share your project requirements and contact details. Attach up to three design images; our team will reply by email.',company:'Company / brand',person:'Contact person *',email:'Email *',contact:'WhatsApp / WeChat / Phone',service:'Service *',quantity:'Estimated quantity',message:'Design, material, plating & timeline requirements *',attachments:'Design images (JPG / PNG, up to 3 images; 10MB total)',file1:'Design image 1',file2:'Design image 2',file3:'Design image 3',consent:'I agree that CARATZON.COM may use my contact details and design files to respond to this enquiry.',send:'Email Project Enquiry & Images ↗',note:'Submission opens the third-party FormSubmit form confirmation page. Files are forwarded via that service. Do not upload confidential designs requiring an NDA.',invalid:'Please use JPG / PNG images only, 10MB total maximum.'},
+    ru:{title:'Запрос OEM / ODM',intro:'Опишите ваш проект, оставьте контакты и прикрепите до трёх изображений. Мы ответим по электронной почте.',company:'Компания / бренд',person:'Контактное лицо *',email:'Эл. почта *',contact:'WhatsApp / WeChat / телефон',service:'Тип услуги *',quantity:'Планируемый тираж',message:'Описание дизайна, материалов, покрытия и сроков *',attachments:'Изображения (JPG / PNG, до 3 файлов, всего до 10 МБ)',file1:'Изображение 1',file2:'Изображение 2',file3:'Изображение 3',consent:'Я согласен(-на) предоставить CARATZON.COM контакты и файлы для ответа на запрос.',send:'Отправить запрос и изображения ↗',note:'После отправки откроется страница стороннего сервиса FormSubmit. Не загружайте конфиденциальные чертежи, требующие NDA.',invalid:'Допускаются только JPG / PNG, общий размер не более 10 МБ.'}
+  };
+  function setup(){
+    const form=document.getElementById('cz-oem-enquiry-form');if(!form)return;
+    const inputs=[...form.querySelectorAll('input[type=file]')];
+    const status=document.getElementById('cz-oem-file-status');
+    const getLang=()=>dict[(document.documentElement.lang||'en').slice(0,2)]||dict.en;
+    function translate(){const t=getLang();form.querySelectorAll('[data-cz-oem]').forEach(el=>{el.textContent=t[el.dataset.czOem]||'';});document.getElementById('cz-oem-form-title').textContent=t.title;document.getElementById('cz-oem-form-intro').textContent=t.intro;}
+    function validate(){
+      const files=inputs.flatMap(x=>[...x.files]);
+      const valid=files.every(f=>['image/jpeg','image/png'].includes(f.type) && /\.(jpe?g|png)$/i.test(f.name));
+      const tooBig=files.reduce((n,f)=>n+f.size,0)>10*1024*1024;
+      if(!valid||tooBig){status.textContent=getLang().invalid;return false;}
+      status.textContent='';return true;
+    }
+    inputs.forEach(input=>input.addEventListener('change',()=>{if(!validate())input.value='';}));
+    form.addEventListener('submit',event=>{
+      if(!validate()){event.preventDefault();status.scrollIntoView({behavior:'smooth',block:'center'});return;}
+      // A normal browser multipart POST is needed for FormSubmit file attachments.
+      // Do not intercept with fetch / JSON: this is separate from place-order + Resend.
+    });
+    translate();new MutationObserver(translate).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup,{once:true});else setup();
 })();
 </script>
 </body></html>
