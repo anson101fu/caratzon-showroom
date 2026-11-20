@@ -1014,6 +1014,12 @@
     const lang = () => (document.documentElement.lang || 'en').slice(0,2).toLowerCase();
     let lastSignature = '';
     const normalize = value => String(value || '').toLowerCase().replace(/[\s_-]+/g,'');
+    // Category option labels can contain two language variants, e.g. 戒指 · 戒指.
+    // In the sidebar display only the first clear category name.
+    function categoryLabel(text) {
+      const parts = String(text || '').split(/\s*[·•|／/]\s*/).map(v=>v.trim()).filter(Boolean);
+      return parts[0] || String(text || '').trim();
+    }
     function render() {
       const language = lang();
       const t = translations[language] || translations.en;
@@ -1029,7 +1035,7 @@
           button.type='button';
           button.className='cz-sidebar-item';
           button.dataset.categoryValue=value;
-          button.textContent=(index===0 || key==='all' || value==='') ? t.all : (t[key] || option.textContent.trim() || value);
+          button.textContent=(index===0 || key==='all' || value==='') ? t.all : (t[key] || categoryLabel(option.textContent) || value);
           button.addEventListener('click',()=>{
             original.value=value;
             original.dispatchEvent(new Event('change',{bubbles:true}));
