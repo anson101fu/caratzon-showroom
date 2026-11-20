@@ -350,6 +350,27 @@
 
 </style>
 
+
+<!-- CARATZON catalogue: left-side category navigation; original category select and filtering logic are preserved -->
+<style id="cz-catalog-sidebar-style">
+#collection .cz-catalog-layout{display:grid;grid-template-columns:205px minmax(0,1fr);align-items:start;gap:28px;min-width:0}
+#collection .cz-catalog-sidebar{position:sticky;top:100px;align-self:start;min-width:0}
+#collection .cz-catalog-sidebar h3{font:600 15px/1.5 Arial,sans-serif;letter-spacing:.02em;color:#362c26;margin:4px 0 14px}
+#collection #czSidebarCategories{display:flex;flex-direction:column;gap:5px}
+#collection .cz-sidebar-item{display:block;width:100%;border:0;background:transparent;border-radius:5px;text-align:left;padding:12px 13px;font:400 14px/1.4 Arial,sans-serif;color:#67584c;cursor:pointer;transition:background-color .18s,color .18s}
+#collection .cz-sidebar-item:hover{background:#eee5de;color:#30251e}
+#collection .cz-sidebar-item[aria-pressed="true"]{background:#30251e;color:#fff;font-weight:600}
+#collection .cz-sidebar-item:focus-visible{outline:2px solid #9b765e;outline-offset:2px}
+#collection .cz-catalog-main{min-width:0}
+#collection .toolbar #category{position:absolute!important;width:1px!important;height:1px!important;opacity:0!important;overflow:hidden!important;pointer-events:none!important;clip-path:inset(50%)!important}
+#collection .cz-catalog-main .toolbar{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+#collection .cz-catalog-main .toolbar .searchbox{flex:1 1 290px;min-width:180px}
+#collection .cz-catalog-main .toolbar #sort{flex:0 1 180px}
+#collection .cz-catalog-main #grid.product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+@media(max-width:1050px){#collection .cz-catalog-layout{grid-template-columns:175px minmax(0,1fr);gap:18px}#collection .cz-catalog-main #grid.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){#collection .cz-catalog-layout{display:block}#collection .cz-catalog-sidebar{position:static;margin-bottom:18px}#collection #czSidebarCategories{flex-direction:row;overflow-x:auto;gap:7px;padding:0 0 8px;scrollbar-width:thin}#collection .cz-sidebar-item{width:auto;flex:0 0 auto;white-space:nowrap;border:1px solid #e5d8cd;padding:9px 13px}#collection .cz-catalog-sidebar h3{margin-bottom:8px}#collection .cz-catalog-main #grid.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+@media(max-width:440px){#collection .cz-catalog-main #grid.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}#collection .cz-catalog-main .toolbar .searchbox{flex-basis:100%}}
+</style>
 </head>
 
 <body>
@@ -564,7 +585,7 @@
 
 </section>
 
-  <section id="collection" class="catalog"><div class="section-heading"><div><p class="eyebrow" data-t="catalogKicker">ИЗБРАННАЯ КОЛЛЕКЦИЯ</p><h2 data-t="shop">Каталог изделий</h2></div><span id="resultCount" class="muted"></span></div><div class="toolbar"><label class="searchbox"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="search" data-placeholder="search" placeholder="Поиск по названию или SKU"/></label><select id="category" aria-label="Category"></select><select id="sort" aria-label="Sort"><option value="default" data-t="featured">По умолчанию</option><option value="priceAsc" data-t="priceLow">Цена: по возрастанию</option><option value="priceDesc" data-t="priceHigh">Цена: по убыванию</option></select></div><section class="v9-tools" aria-label="Advanced filters"><div class="v9-tools-row"><label><span data-v9="material">Material</span><select id="v9Material"><option value="">All</option></select></label><label><span data-v9="color">Color</span><select id="v9Color"><option value="">All</option></select></label><label><span data-v9="priceMax">Maximum price (RUB)</span><input id="v9Max" type="number" min="0" step="1" placeholder="₽"></label><label class="v9-check"><input id="v9Photos" type="checkbox"><span data-v9="photoOnly">With photos</span></label><label class="v9-check"><input id="v9Favorites" type="checkbox"><span data-v9="favoritesOnly">Favorites only ♡</span></label><button type="button" id="v9Reset" data-v9="reset">Clear filters</button></div></section><div id="grid" class="product-grid"></div><div class="center"><button id="more" class="more" data-t="more">Показать ещё</button></div></section>
+  <section id="collection" class="catalog"><div class="section-heading"><div><p class="eyebrow" data-t="catalogKicker">ИЗБРАННАЯ КОЛЛЕКЦИЯ</p><h2 data-t="shop">Каталог изделий</h2></div><span id="resultCount" class="muted"></span></div><div class="cz-catalog-layout"><aside class="cz-catalog-sidebar" aria-label="Product categories"><h3 id="czSidebarTitle">产品分类</h3><nav id="czSidebarCategories" aria-label="Product category filters"></nav></aside><div class="cz-catalog-main"><div class="toolbar"><label class="searchbox"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="search" data-placeholder="search" placeholder="Поиск по названию или SKU"/></label><select id="category" aria-label="Category"></select><select id="sort" aria-label="Sort"><option value="default" data-t="featured">По умолчанию</option><option value="priceAsc" data-t="priceLow">Цена: по возрастанию</option><option value="priceDesc" data-t="priceHigh">Цена: по убыванию</option></select></div><section class="v9-tools" aria-label="Advanced filters"><div class="v9-tools-row"><label><span data-v9="material">Material</span><select id="v9Material"><option value="">All</option></select></label><label><span data-v9="color">Color</span><select id="v9Color"><option value="">All</option></select></label><label><span data-v9="priceMax">Maximum price (RUB)</span><input id="v9Max" type="number" min="0" step="1" placeholder="₽"></label><label class="v9-check"><input id="v9Photos" type="checkbox"><span data-v9="photoOnly">With photos</span></label><label class="v9-check"><input id="v9Favorites" type="checkbox"><span data-v9="favoritesOnly">Favorites only ♡</span></label><button type="button" id="v9Reset" data-v9="reset">Clear filters</button></div></section><div id="grid" class="product-grid"></div><div class="center"><button id="more" class="more" data-t="more">Показать ещё</button></div></div></div></section>
 
   <section id="about-showroom" aria-labelledby="showroom-about-title">
 
@@ -968,6 +989,71 @@
   new MutationObserver(sync).observe(title, {subtree:true,childList:true,characterData:true});
   new MutationObserver(sync).observe(subtitle, {subtree:true,childList:true,characterData:true});
   sync();
+})();
+</script>
+
+<script id="cz-catalog-sidebar-script">
+(() => {
+  'use strict';
+  function start() {
+    const original = document.getElementById('category');
+    const nav = document.getElementById('czSidebarCategories');
+    const title = document.getElementById('czSidebarTitle');
+    if (!original || !nav || !title) return;
+    const translations = {
+      zh: {heading:'产品分类', all:'全部产品',earrings:'耳环',necklaces:'项链',rings:'戒指',bracelets:'手链',brooches:'胸针',pendants:'吊坠',sets:'套装',watches:'手表'},
+      en: {heading:'Categories',all:'All Products',earrings:'Earrings',necklaces:'Necklaces',rings:'Rings',bracelets:'Bracelets',brooches:'Brooches',pendants:'Pendants',sets:'Sets',watches:'Watches'},
+      ru: {heading:'Категории',all:'Все изделия',earrings:'Серьги',necklaces:'Колье',rings:'Кольца',bracelets:'Браслеты',brooches:'Броши',pendants:'Подвески',sets:'Комплекты',watches:'Часы'}
+    };
+    const lang = () => (document.documentElement.lang || 'en').slice(0,2).toLowerCase();
+    let lastSignature = '';
+    const normalize = value => String(value || '').toLowerCase().replace(/[\s_-]+/g,'');
+    function render() {
+      const language = lang();
+      const t = translations[language] || translations.en;
+      const opts = Array.from(original.options);
+      const signature = language+'|'+opts.map(o=>o.value+'='+o.textContent).join('|');
+      if (signature !== lastSignature) {
+        title.textContent = t.heading;
+        const fragment=document.createDocumentFragment();
+        opts.forEach((option,index)=>{
+          const value = option.value;
+          const key = normalize(value);
+          const button=document.createElement('button');
+          button.type='button';
+          button.className='cz-sidebar-item';
+          button.dataset.categoryValue=value;
+          button.textContent=(index===0 || key==='all' || value==='') ? t.all : (t[key] || option.textContent.trim() || value);
+          button.addEventListener('click',()=>{
+            original.value=value;
+            original.dispatchEvent(new Event('change',{bubbles:true}));
+            original.dispatchEvent(new Event('input',{bubbles:true}));
+            syncActive();
+          });
+          fragment.appendChild(button);
+        });
+        nav.replaceChildren(fragment);
+        lastSignature=signature;
+      }
+      syncActive();
+    }
+    function syncActive(){
+      nav.querySelectorAll('.cz-sidebar-item').forEach(button=>{
+        const active=button.dataset.categoryValue===original.value;
+        button.setAttribute('aria-pressed',String(active));
+      });
+    }
+    let queued=false;
+    function requestRender(){if(queued)return;queued=true;queueMicrotask(()=>{queued=false;render()})}
+    new MutationObserver(requestRender).observe(original,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['value']});
+    new MutationObserver(requestRender).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+    original.addEventListener('change',syncActive);
+    original.addEventListener('input',syncActive);
+    render();
+    window.addEventListener('load',requestRender,{once:true});
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',start,{once:true});
+  else start();
 })();
 </script>
 </body></html>
