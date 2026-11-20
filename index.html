@@ -376,6 +376,16 @@
 .hero .cz-mix-wholesale-note{margin:17px 0 0;color:#98715b;font:400 13px/1.65 Arial,"Noto Sans SC",sans-serif;letter-spacing:.035em}
 @media(max-width:650px){.hero .cz-mix-wholesale-note{font-size:12px;margin-top:14px}}
 </style>
+
+<!-- Temporary pause of public Live Chat UI; retain enquiry JS and stored data. -->
+<style id="cz-livechat-temporarily-hidden">
+  #cz-chat-launcher, #czChatBtn, #czLiveChatBtn, #liveChatBtn,
+  #cz-enquiry-fab, #cz-enquiry-launcher, .cz-chat-fab, .cz-chat-launcher,
+  .cz-livechat-trigger, .cz-live-chat-trigger, [data-open-live-chat],
+  [data-live-chat-trigger], [data-chat-launcher],
+  #cz-enquiry-dialog.cz-chat-floating { display:none!important; }
+  [data-cz-livechat-paused] { display:none!important; }
+</style>
 </head>
 
 <body>
@@ -1093,6 +1103,32 @@
   };
   new MutationObserver(sync).observe(document.documentElement, {attributes:true,attributeFilter:['lang']});
   sync();
+})();
+</script>
+
+<!-- Keep Live Chat controls hidden even if product-enquiries.js adds them after load. -->
+<script id="cz-livechat-paused-controller">
+(() => {
+  'use strict';
+  const names = /^(?:live\s*chat|在線客服|在线客服|線上客服|线上客服|在線聊天|在线聊天|онлайн[-\s]?чат|чат с нами)(?:\s*[↗→◆●•])?$/i;
+  let checking = false;
+  function hideChatLaunchers() {
+    checking = false;
+    document.querySelectorAll('button,a,[role="button"]').forEach(el => {
+      if (el.closest('#cz-oem-enquiry-wrap,#cz-oem-enquiry-form')) return;
+      const label=(el.getAttribute('aria-label')||el.getAttribute('title')||el.textContent||'').trim().replace(/\s+/g,' ');
+      if (names.test(label)) el.setAttribute('data-cz-livechat-paused','');
+    });
+  }
+  function schedule() {
+    if (checking) return;
+    checking=true;
+    queueMicrotask(hideChatLaunchers);
+  }
+  if (document.readyState==='loading') document.addEventListener('DOMContentLoaded', () => {
+    hideChatLaunchers(); new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});
+  }, {once:true});
+  else { hideChatLaunchers(); new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true}); }
 })();
 </script>
 </body></html>
