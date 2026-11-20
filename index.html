@@ -558,6 +558,130 @@ body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!impo
 </style>
   <!-- B2B: hide decorative popular-categories cards; keep DOM for existing category scripts. -->
   <style id="cz-b2b-hide-featured-categories">#fashionCategories { display: none !important; }</style>
+
+<style id="cz-oem-premium-form-v3">
+/* CARATZON.COM B2B — OEM/ODM form redesign; original field names, handlers and delivery remain untouched. */
+#cz-oem-enquiry-wrap[hidden]{display:none!important}
+#cz-oem-enquiry-wrap{
+  position:relative;max-width:1000px;margin:34px auto 8px!important;
+  padding:clamp(26px,5vw,56px)!important;
+  background:#fffdfb!important;border:1px solid #e8dcd2!important;
+  border-radius:12px!important;box-shadow:0 22px 65px rgba(65,45,34,.08);
+  color:#342820;overflow:hidden
+}
+#cz-oem-enquiry-wrap:before{
+  content:"CARATZON.COM  /  BESPOKE JEWELRY";
+  display:block;letter-spacing:.23em;font:600 10px/1.5 Arial,sans-serif;
+  color:#a77f6b;margin-bottom:20px
+}
+#cz-oem-enquiry-wrap .cz-oem-form-head{
+  position:relative;padding-bottom:25px;margin-bottom:30px;
+  border-bottom:1px solid #e9dfd6
+}
+#cz-oem-enquiry-wrap .cz-oem-form-head h3{
+  font:400 clamp(28px,3.5vw,42px)/1.24 Georgia,"Noto Serif SC","Songti SC",serif!important;
+  letter-spacing:.015em;color:#362923!important;margin:0 0 14px!important
+}
+#cz-oem-enquiry-wrap .cz-oem-form-head p{
+  max-width:710px;margin:0!important;color:#857064!important;
+  font-size:14px!important;line-height:1.85!important
+}
+#cz-oem-enquiry-form{display:block}
+#cz-oem-enquiry-form .cz-oem-form-grid{
+  display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:22px 23px!important
+}
+#cz-oem-enquiry-form label{
+  display:flex!important;flex-direction:column!important;gap:9px!important;
+  min-width:0;margin:0!important;color:#604c40!important;
+  font-size:13px!important;font-weight:500!important;line-height:1.5!important
+}
+#cz-oem-enquiry-form label > span:first-child{
+  color:#645145;font-size:13px;letter-spacing:.015em
+}
+#cz-oem-enquiry-form input:not([type=checkbox]):not([type=file]),
+#cz-oem-enquiry-form select,
+#cz-oem-enquiry-form textarea{
+  appearance:auto;box-sizing:border-box!important;width:100%!important;
+  min-height:52px!important;padding:14px 16px!important;
+  border:1px solid #dcd0c5!important;border-radius:6px!important;
+  color:#372a22!important;background:#fbf8f5!important;
+  font-size:14px!important;line-height:1.5!important;
+  transition:border-color .18s,box-shadow .18s,background .18s
+}
+#cz-oem-enquiry-form input::placeholder,
+#cz-oem-enquiry-form textarea::placeholder{color:#9f8c80;opacity:1}
+#cz-oem-enquiry-form :is(input,select,textarea):focus{
+  outline:none!important;border-color:#a77e65!important;
+  background:#fff!important;box-shadow:0 0 0 3px rgba(167,126,101,.13)!important
+}
+#cz-oem-enquiry-form .cz-oem-block{
+  margin-top:28px!important;display:flex!important;flex-direction:column!important
+}
+#cz-oem-enquiry-form .cz-oem-block textarea{
+  min-height:160px!important;resize:vertical!important
+}
+#cz-oem-enquiry-form .cz-oem-attachments{
+  min-width:0;margin:30px 0 0!important;padding:28px!important;
+  border:1px dashed #cdb8a7!important;border-radius:9px!important;
+  background:#f8f2ed!important
+}
+#cz-oem-enquiry-form .cz-oem-attachments legend{
+  padding:0 10px!important;font-size:13px!important;
+  color:#80634f!important;font-weight:600!important
+}
+#cz-oem-enquiry-form .cz-oem-attachments .cz-oem-form-grid{
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:14px!important
+}
+#cz-oem-enquiry-form input[type=file]{
+  display:block!important;box-sizing:border-box!important;
+  width:100%!important;max-width:100%!important;min-width:0;
+  min-height:92px!important;padding:17px 12px!important;
+  border:1px solid #e1d3c7!important;border-radius:7px!important;
+  background:#fffdfb!important;color:#8f7b70!important;
+  font-size:11px!important;line-height:1.7!important;cursor:pointer
+}
+#cz-oem-enquiry-form input[type=file]::file-selector-button{
+  display:block;margin:0 0 10px;padding:9px 12px;
+  border:1px solid #c7b2a3;border-radius:4px;background:#f0e5dc;
+  color:#49382d;font:600 12px Arial,sans-serif;cursor:pointer
+}
+#cz-oem-file-status{min-height:0!important;margin:8px 0!important}
+#cz-oem-enquiry-form .cz-oem-consent{
+  display:flex!important;flex-direction:row!important;align-items:flex-start!important;
+  gap:12px!important;margin-top:26px!important;font-size:12px!important;
+  color:#79665b!important;line-height:1.8!important
+}
+#cz-oem-enquiry-form .cz-oem-consent input[type=checkbox]{
+  accent-color:#4c372c;width:16px;height:16px;margin:3px 0 0!important;flex:none
+}
+#cz-oem-enquiry-form .cz-oem-submit{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:52px!important;min-width:225px;margin:25px 0 0!important;
+  padding:15px 28px!important;border:1px solid #3b2b23!important;
+  border-radius:5px!important;background:#3b2b23!important;
+  color:#fffdfb!important;font-size:14px!important;font-weight:600!important;
+  letter-spacing:.04em;transition:transform .18s,background .18s;cursor:pointer
+}
+#cz-oem-enquiry-form .cz-oem-submit:hover{
+  background:#6d4b39!important;transform:translateY(-1px)
+}
+#cz-oem-enquiry-form .cz-oem-fineprint{
+  max-width:770px;font-size:11px!important;color:#9b897c!important;
+  line-height:1.8!important;margin:18px 0 0!important
+}
+@media(max-width:700px){
+  #cz-oem-enquiry-wrap{padding:28px 19px!important;margin-top:20px!important}
+  #cz-oem-enquiry-form .cz-oem-form-grid,
+  #cz-oem-enquiry-form .cz-oem-attachments .cz-oem-form-grid{
+    grid-template-columns:1fr!important;gap:18px!important
+  }
+  #cz-oem-enquiry-form .cz-oem-attachments{padding:20px 15px!important}
+  #cz-oem-enquiry-form input[type=file]{min-height:66px!important}
+  #cz-oem-enquiry-form .cz-oem-submit{width:100%;min-width:0}
+}
+</style>
+
 </head>
 
 <body>
