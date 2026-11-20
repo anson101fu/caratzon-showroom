@@ -386,6 +386,136 @@
   #cz-enquiry-dialog.cz-chat-floating { display:none!important; }
   [data-cz-livechat-paused] { display:none!important; }
 </style>
+
+<style id="cz-product-enquiry-premium-v1">
+/* CARATZON product enquiry — visual restyle only; submission logic unchanged. */
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager),
+#cz-product-enquiry-dialog,
+dialog.cz-product-enquiry {
+  box-sizing:border-box;
+  width:min(92vw,580px);
+  max-width:580px;
+  max-height:min(88dvh,850px);
+  overflow-y:auto;
+  padding:clamp(24px,4vw,40px) !important;
+  border:1px solid #e6dacf !important;
+  border-radius:8px !important;
+  background:#faf6f2 !important;
+  color:#332822 !important;
+  box-shadow:0 24px 75px rgba(43,32,27,.22) !important;
+  font-family:inherit;
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager)::backdrop,
+#cz-product-enquiry-dialog::backdrop,
+dialog.cz-product-enquiry::backdrop {
+  background:rgba(29,22,19,.56);
+  backdrop-filter:blur(3px);
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager)::before,
+#cz-product-enquiry-dialog::before,
+dialog.cz-product-enquiry::before {
+  content:"CARATZON.COM  /  PRODUCT ENQUIRY";
+  display:block;
+  color:#a17861;
+  letter-spacing:.18em;
+  font-size:10px;
+  font-weight:600;
+  margin:0 48px 15px 0;
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) h1,
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) h2,
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) h3,
+#cz-product-enquiry-dialog h1,#cz-product-enquiry-dialog h2,#cz-product-enquiry-dialog h3,
+dialog.cz-product-enquiry h1,dialog.cz-product-enquiry h2,dialog.cz-product-enquiry h3 {
+  color:#342721 !important;
+  font-family:Georgia,"Noto Serif SC","Songti SC",serif !important;
+  font-size:clamp(22px,3vw,29px) !important;
+  line-height:1.3 !important;
+  font-weight:400 !important;
+  margin:0 52px 25px 0 !important;
+  overflow-wrap:anywhere;
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) label,
+#cz-product-enquiry-dialog label,
+dialog.cz-product-enquiry label {
+  display:block;
+  color:#735b4e !important;
+  font-size:13px !important;
+  font-weight:500;
+  margin:14px 0 8px !important;
+  letter-spacing:.02em;
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) :is(input:not([type=hidden]),select,textarea),
+#cz-product-enquiry-dialog :is(input:not([type=hidden]),select,textarea),
+dialog.cz-product-enquiry :is(input:not([type=hidden]),select,textarea) {
+  display:block;
+  box-sizing:border-box;
+  width:100%;
+  min-height:46px;
+  padding:12px 14px !important;
+  border:1px solid #d9ccc1 !important;
+  border-radius:5px !important;
+  background:#fffdfb !important;
+  color:#342721 !important;
+  font:inherit !important;
+  font-size:14px !important;
+  outline:none;
+  transition:border-color .15s ease,box-shadow .15s ease;
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) textarea,
+#cz-product-enquiry-dialog textarea,
+dialog.cz-product-enquiry textarea {
+  min-height:120px !important;
+  resize:vertical;
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) :is(input,select,textarea):focus,
+#cz-product-enquiry-dialog :is(input,select,textarea):focus,
+dialog.cz-product-enquiry :is(input,select,textarea):focus {
+  border-color:#aa836e !important;
+  box-shadow:0 0 0 3px rgba(170,131,110,.13) !important;
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) button[type=submit],
+#cz-product-enquiry-dialog button[type=submit],
+dialog.cz-product-enquiry button[type=submit] {
+  min-width:145px;
+  min-height:46px;
+  margin-top:22px !important;
+  padding:12px 28px !important;
+  border:1px solid #352822 !important;
+  border-radius:4px !important;
+  background:#352822 !important;
+  color:#fffaf6 !important;
+  font-weight:600;
+  cursor:pointer;
+  transition:background .15s ease,transform .15s ease;
+}
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) button[type=submit]:hover,
+#cz-product-enquiry-dialog button[type=submit]:hover,
+dialog.cz-product-enquiry button[type=submit]:hover {
+  background:#735342 !important;
+  transform:translateY(-1px);
+}
+/* Keep close controls discreet and distinct from submit. */
+#cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager) :is(button[aria-label*=Close],button[aria-label*=close],button[aria-label*=关闭],button[aria-label*=關閉],.cz-enquiry-close),
+#cz-product-enquiry-dialog :is(button[aria-label*=Close],button[aria-label*=close],.cz-enquiry-close),
+dialog.cz-product-enquiry :is(button[aria-label*=Close],button[aria-label*=close],.cz-enquiry-close) {
+  border:1px solid #d7c9bd !important;
+  border-radius:4px !important;
+  background:transparent !important;
+  color:#5f4c42 !important;
+  padding:8px 12px !important;
+}
+@media(max-width:600px) {
+  #cz-enquiry-dialog:not(.cz-chat-floating):not(.cz-enquiry-manager),
+  #cz-product-enquiry-dialog,
+  dialog.cz-product-enquiry {
+    width:calc(100vw - 24px) !important;
+    padding:26px 19px !important;
+    max-height:calc(100dvh - 28px);
+  }
+}
+</style>
+
 </head>
 
 <body>
