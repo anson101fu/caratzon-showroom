@@ -528,6 +528,27 @@ body:not(.cz-member-signed-in) #sort option[value="priceAsc"],
 body:not(.cz-member-signed-in) #sort option[value="priceDesc"]{display:none!important}
 body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!important}
 </style>
+
+<style id="cz-guest-enquiry-style">
+.cz-guest-enquiry-open{width:100%;max-width:320px;margin:12px 0 2px;padding:13px 18px;background:#fffaf6;border:1px solid #9e7e6c;color:#352820;font:inherit;font-size:14px;cursor:pointer;transition:background .2s}
+.cz-guest-enquiry-open:hover{background:#efe5dd}
+#cz-guest-product-dialog{box-sizing:border-box;width:min(92vw,570px);max-height:90dvh;overflow-y:auto;border:1px solid #e4d7cc;border-radius:8px;padding:0;background:#faf6f2;color:#342821;box-shadow:0 24px 70px #0004}
+#cz-guest-product-dialog::backdrop{background:rgba(29,23,20,.62);backdrop-filter:blur(3px)}
+#cz-guest-product-dialog .czgp-inner{padding:clamp(24px,4vw,38px)}
+#cz-guest-product-dialog .czgp-head{display:flex;justify-content:space-between;align-items:start;gap:12px}
+#cz-guest-product-dialog .czgp-kicker{font-size:10px;letter-spacing:.18em;color:#9e745f;margin:0 0 12px}
+#cz-guest-product-dialog h2{font:400 clamp(25px,4vw,33px)/1.2 Georgia,'Noto Serif SC',serif;margin:0 0 10px;color:#31251f}
+#cz-guest-product-dialog .czgp-close{background:transparent;border:1px solid #e4d8cf;border-radius:50%;width:38px;height:38px;flex-shrink:0;color:#49392f;font-size:22px;cursor:pointer}
+#cz-guest-product-dialog .czgp-summary{font-size:13px;color:#7b6254;line-height:1.6;padding:13px 0 18px;border-bottom:1px solid #e7dad0;margin-bottom:18px}
+#cz-guest-product-dialog label{display:block;color:#645044;font-size:13px;margin:13px 0 7px}
+#cz-guest-product-dialog :is(input,select,textarea){box-sizing:border-box;width:100%;min-height:44px;padding:12px 13px;font:inherit;font-size:14px;border:1px solid #d8c9bd;border-radius:4px;background:white;color:#322720}
+#cz-guest-product-dialog textarea{min-height:115px;resize:vertical}
+#cz-guest-product-dialog :is(input,select,textarea):focus{outline:2px solid #b99379;outline-offset:1px}
+#cz-guest-product-dialog .czgp-submit{margin-top:22px;min-height:46px;padding:12px 30px;border:0;background:#342821;color:white;border-radius:4px;font:inherit;font-size:14px;cursor:pointer}
+#cz-guest-product-dialog .czgp-submit:disabled{opacity:.55;cursor:wait}
+#cz-guest-product-dialog .czgp-note{font-size:11px;color:#8b7567;line-height:1.6;margin-top:15px}
+#cz-guest-product-dialog .czgp-status{font-size:13px;line-height:1.6;margin-top:13px;min-height:20px}
+</style>
 </head>
 
 <body>
@@ -845,7 +866,7 @@ body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!impo
 
 <div id="zoomViewer" class="zoom-viewer" role="dialog" aria-modal="true" aria-label="Product image preview" hidden><button id="zoomClose" class="zoom-close" aria-label="Close photo">×</button><img id="zoomImage" src="" alt=""><p id="zoomName"></p></div>
 
-<div id="v9Detail" class="v9-modal" role="dialog" aria-modal="true" aria-label="Product details" hidden><div class="v9-card"><button id="v9Close" class="v9-close" aria-label="Close">×</button><div id="v9DetailBody"></div></div></div><div id="toast" class="toast" role="status"></div><script src="v23.js" defer></script><script src="config.js" defer></script><script src="app.js?v=member-prices-20261121" defer></script><script src="v9.js?v=member-prices-20261121" defer></script><script src="store-v5.js?v=member-prices-20261121" defer></script><script src="fashion-a-v4.js" defer></script><script src="how-to-order-v7.js?v=1" defer></script><script src="checkout-luxury-v8.js?v=1" defer></script>
+<div id="v9Detail" class="v9-modal" role="dialog" aria-modal="true" aria-label="Product details" hidden><div class="v9-card"><button id="v9Close" class="v9-close" aria-label="Close">×</button><div id="v9DetailBody"></div></div></div><div id="toast" class="toast" role="status"></div><script src="v23.js" defer></script><script src="config.js" defer></script><script src="app.js?v=member-prices-20261121" defer></script><script src="v9.js?v=guest-enquiry-20261121" defer></script><script src="store-v5.js?v=member-prices-20261121" defer></script><script src="fashion-a-v4.js" defer></script><script src="how-to-order-v7.js?v=1" defer></script><script src="checkout-luxury-v8.js?v=1" defer></script>
 
 <script src="hero-carousel-v11.js?v=2" defer></script><script src="store-language-v12.js?v=1" defer></script><div id="memberOverlay" class="member-overlay" hidden role="dialog" aria-modal="true" aria-label="Member account">
 
@@ -1287,5 +1308,74 @@ body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!impo
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',update);else update();
 })();
 </script>
+
+<dialog id="cz-guest-product-dialog" aria-labelledby="czgp-title">
+  <div class="czgp-inner">
+    <div class="czgp-head"><div><p class="czgp-kicker">CARATZON.COM / PRODUCT ENQUIRY</p><h2 id="czgp-title">咨询此商品</h2></div><button class="czgp-close" type="button" aria-label="Close" id="czgp-close">×</button></div>
+    <div id="czgp-product" class="czgp-summary"></div>
+    <form id="czgp-form">
+      <label for="czgp-channel" id="czgp-channel-label">联系方式 *</label>
+      <select id="czgp-channel" name="contact_method" required><option value="">请选择联系方式</option><option value="Email">Email</option><option value="WhatsApp">WhatsApp</option><option value="WeChat">WeChat</option><option value="Telegram">Telegram</option><option value="Phone">电话</option></select>
+      <label for="czgp-contact" id="czgp-contact-label">联系资料 *</label>
+      <input id="czgp-contact" name="contact_details" maxlength="180" required autocomplete="off" placeholder="Email / WhatsApp / WeChat ID" />
+      <label for="czgp-message" id="czgp-message-label">请输入消息 *</label>
+      <textarea id="czgp-message" name="message" required maxlength="3000" placeholder="想了解尺寸、材质、交期或报价？欢迎留言。"></textarea>
+      <button class="czgp-submit" id="czgp-submit" type="submit">发送咨询 ↗</button>
+      <p class="czgp-status" id="czgp-status" role="status" aria-live="polite"></p>
+      <p class="czgp-note" id="czgp-note">提交后，我们会透过你提供的联系方式回复。此表单不会直接完成订单或付款。</p>
+    </form>
+  </div>
+</dialog>
+<script id="cz-guest-product-enquiry-script">
+(()=>{
+'use strict';
+const dlg=document.getElementById('cz-guest-product-dialog');
+const form=document.getElementById('czgp-form');
+const product=document.getElementById('czgp-product');
+const status=document.getElementById('czgp-status');
+const submit=document.getElementById('czgp-submit');
+let selected=null;
+const translations={
+zh:['咨询此商品','联系方式 *','联系资料 *','请输入消息 *','发送咨询 ↗','请选择联系方式','想了解尺寸、材质、交期或报价？欢迎留言。','正在发送…','咨询已发送，我们会尽快联系你。','发送失败，请检查网络后再试。','提交后，我们会透过你提供的联系方式回复。此表单不会直接完成订单或付款。'],
+en:['Product enquiry','Contact method *','Your contact details *','Your message *','Send enquiry ↗','Select contact method','Ask us about specifications, materials, lead time or a quote.','Sending…','Your enquiry has been sent. We will get back to you.','Could not send. Please try again.','We will reply using the contact method you provide. This is not an order or payment.'],
+ru:['Запрос по товару','Способ связи *','Ваши контакты *','Сообщение *','Отправить запрос ↗','Выберите способ связи','Уточните размер, материал, сроки или стоимость.','Отправка…','Запрос отправлен. Мы свяжемся с вами.','Не удалось отправить. Попробуйте ещё раз.','Мы ответим указанным вами способом. Отправка запроса не является заказом или оплатой.']};
+function texts(){const l=(document.documentElement.lang||'zh').slice(0,2).toLowerCase();return translations[l]||translations.en;}
+function paint(){const t=texts();['czgp-title','czgp-channel-label','czgp-contact-label','czgp-message-label','czgp-submit'].forEach((id,i)=>document.getElementById(id).textContent=t[i]);form.querySelector('option[value=""]').textContent=t[5];document.getElementById('czgp-message').placeholder=t[6];document.getElementById('czgp-note').textContent=t[10];}
+window.CARATZON_openGuestProductEnquiry=sku=>{
+ const p=(typeof products!=='undefined'&&Array.isArray(products))?products.find(x=>x.sku===sku):null;
+ if(!p)return;
+ selected={sku:p.sku,name:(typeof productTitle==='function'?productTitle(p):p.zh||p.en||p.sku)};
+ product.textContent=selected.name+'  ·  SKU '+selected.sku;
+ form.reset();status.textContent='';paint();
+ if(typeof dlg.showModal==='function')dlg.showModal();else dlg.setAttribute('open','');
+ document.getElementById('czgp-channel').focus();
+};
+document.getElementById('czgp-close').addEventListener('click',()=>dlg.close());
+dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
+form.addEventListener('submit',async e=>{
+ e.preventDefault();if(!selected||!form.reportValidity())return;
+ const t=texts();submit.disabled=true;status.textContent=t[7];status.style.color='#735b4f';
+ const data=new FormData();
+ data.append('_subject','CARATZON.COM - Product enquiry - '+selected.sku);
+ data.append('_template','table');
+ data.append('source','CARATZON.COM product enquiry');
+ data.append('sku',selected.sku);data.append('product_name',selected.name);
+ data.append('contact_method',document.getElementById('czgp-channel').value);
+ data.append('contact_details',document.getElementById('czgp-contact').value.trim());
+ data.append('message',document.getElementById('czgp-message').value.trim());
+ data.append('submitted_at',new Date().toISOString());
+ try{
+  const res=await fetch('https://formsubmit.co/ajax/anson.fu101@gmail.com',{method:'POST',headers:{Accept:'application/json'},body:data});
+  const result=await res.json();
+  if(!res.ok||!(result.success===true||result.success==='true'))throw Error(result.message||'Enquiry not confirmed');
+  status.style.color='#356c48';status.textContent=t[8];form.reset();
+ }catch(err){console.error('Product enquiry submission failed',err);status.style.color='#a43f36';status.textContent=t[9];}
+ finally{submit.disabled=false;submit.textContent=t[4];}
+});
+window.addEventListener('caratzon:auth',paint);
+document.getElementById('langBtn')?.addEventListener('click',()=>setTimeout(paint,0));paint();
+})();
+</script>
+
 </body></html>
 
