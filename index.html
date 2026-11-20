@@ -516,6 +516,18 @@ dialog.cz-product-enquiry :is(button[aria-label*=Close],button[aria-label*=close
 }
 </style>
 
+
+<style id="cz-member-price-mode">
+.cz-price-locked{font-size:13px;line-height:1.5;color:#93705e;margin:12px 0!important;font-weight:500}
+.cz-price-login{display:inline-flex;justify-content:center;align-items:center;padding:10px 16px;min-height:41px;border:1px solid #3c2e28;border-radius:3px;background:#3c2e28;color:#fffaf6;cursor:pointer;font:inherit;font-size:12px}
+.cz-price-login:hover{background:#684a3b}
+#v9Detail:not([hidden]) .v9-detail-info:has(.cz-price-locked) .v9-quick,
+#v9Detail:not([hidden]) .v9-detail-info:has(.cz-price-locked) .v9-qty{display:none!important}
+body:not(.cz-member-signed-in) #v9Max,
+body:not(.cz-member-signed-in) #sort option[value="priceAsc"],
+body:not(.cz-member-signed-in) #sort option[value="priceDesc"]{display:none!important}
+body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!important}
+</style>
 </head>
 
 <body>
@@ -833,7 +845,7 @@ dialog.cz-product-enquiry :is(button[aria-label*=Close],button[aria-label*=close
 
 <div id="zoomViewer" class="zoom-viewer" role="dialog" aria-modal="true" aria-label="Product image preview" hidden><button id="zoomClose" class="zoom-close" aria-label="Close photo">×</button><img id="zoomImage" src="" alt=""><p id="zoomName"></p></div>
 
-<div id="v9Detail" class="v9-modal" role="dialog" aria-modal="true" aria-label="Product details" hidden><div class="v9-card"><button id="v9Close" class="v9-close" aria-label="Close">×</button><div id="v9DetailBody"></div></div></div><div id="toast" class="toast" role="status"></div><script src="v23.js" defer></script><script src="config.js" defer></script><script src="app.js?v=card-images-2" defer></script><script src="v9.js?v=11zh" defer></script><script src="store-v5.js?v=1" defer></script><script src="fashion-a-v4.js" defer></script><script src="how-to-order-v7.js?v=1" defer></script><script src="checkout-luxury-v8.js?v=1" defer></script>
+<div id="v9Detail" class="v9-modal" role="dialog" aria-modal="true" aria-label="Product details" hidden><div class="v9-card"><button id="v9Close" class="v9-close" aria-label="Close">×</button><div id="v9DetailBody"></div></div></div><div id="toast" class="toast" role="status"></div><script src="v23.js" defer></script><script src="config.js" defer></script><script src="app.js?v=member-prices-20261121" defer></script><script src="v9.js?v=member-prices-20261121" defer></script><script src="store-v5.js?v=member-prices-20261121" defer></script><script src="fashion-a-v4.js" defer></script><script src="how-to-order-v7.js?v=1" defer></script><script src="checkout-luxury-v8.js?v=1" defer></script>
 
 <script src="hero-carousel-v11.js?v=2" defer></script><script src="store-language-v12.js?v=1" defer></script><div id="memberOverlay" class="member-overlay" hidden role="dialog" aria-modal="true" aria-label="Member account">
 
@@ -859,7 +871,7 @@ dialog.cz-product-enquiry :is(button[aria-label*=Close],button[aria-label*=close
 
 <script src="product-enquiries.js?v=20261110-contact-v6" defer></script>
 
-<script src="member-v13.js?v=2" defer></script><script>
+<script src="member-v13.js?v=member-prices-20261121" defer></script><script>
 
   document.querySelector('.nav a[href="#storeHow"]').addEventListener('click', event => {
 
@@ -1259,6 +1271,20 @@ dialog.cz-product-enquiry :is(button[aria-label*=Close],button[aria-label*=close
     hideChatLaunchers(); new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});
   }, {once:true});
   else { hideChatLaunchers(); new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true}); }
+})();
+</script>
+<script id="cz-member-price-filters">
+(function(){
+  function update(){
+    const signed=window.CARATZON_PRICE_ACCESS===true;
+    document.body.classList.toggle('cz-member-signed-in',signed);
+    const sort=document.getElementById('sort');
+    if(sort&&!signed&&(sort.value==='priceAsc'||sort.value==='priceDesc')){sort.value='default';sort.dispatchEvent(new Event('change'));}
+    const max=document.getElementById('v9Max');
+    if(max&&!signed&&max.value){max.value='';max.dispatchEvent(new Event('input'));}
+  }
+  window.addEventListener('caratzon:auth',update);
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',update);else update();
 })();
 </script>
 </body></html>

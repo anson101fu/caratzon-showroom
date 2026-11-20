@@ -20,9 +20,9 @@ const w=words[langNow()];
 if(!form.reportValidity())return;
 const chosen=products.filter(p=>cart[p.sku]>0);
 if(!chosen.length){status.textContent=w.fail;return;}
-const originalAmount=chosen.reduce((n,p)=>n+cart[p.sku]*(cart[p.sku]>=30&&p.wholesale>0?p.wholesale:p.retail),0);
+const originalAmount=chosen.reduce((n,p)=>n+cart[p.sku]*(cartCount()>=30&&p.wholesale>0?p.wholesale:p.retail),0);
 if(!Number.isFinite(originalAmount)||originalAmount<=0){status.textContent=w.fail;return;}
-const details=chosen.map(p=>`${p.sku} | ${p.zh} | qty=${cart[p.sku]} | unit_CNY=${cart[p.sku]>=30?p.wholesale:p.retail}`).join('\n');
+const details=chosen.map(p=>`${p.sku} | ${p.zh} | qty=${cart[p.sku]} | unit_CNY=${cartCount()>=30?p.wholesale:p.retail}`).join('\n');
 const delivery={country:form.elements.shipping_country.value,city:form.elements.shipping_city.value,region:form.elements.shipping_region.value,address:form.elements.shipping_address.value,postal:form.elements.shipping_postal.value};
 button.disabled=true;button.textContent=w.sending;status.textContent='';
 try{
@@ -42,7 +42,7 @@ try{
   res=await fetch(window.CARATZON_ORDER_API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
    name:form.elements.customer_name.value, contact:form.elements.contact.value, notes:form.elements.notes.value,
    shipping:delivery,payment_status:'UNPAID',order_status:'PENDING_CONFIRMATION',
-   items:chosen.map(p=>({sku:p.sku,quantity:cart[p.sku],unit_cny:cart[p.sku]>=30?p.wholesale:p.retail})),
+   items:chosen.map(p=>({sku:p.sku,quantity:cart[p.sku],unit_cny:cartCount()>=30?p.wholesale:p.retail})),
    rate,total_rub:rate>0?Math.round(originalAmount*rate):null,total_cny:originalAmount,shipping_fee:null
   })});
  }else{
