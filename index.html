@@ -30,7 +30,7 @@
 </header>
 <main>
   <section class="hero">
-    <div class="hero-content"><p class="eyebrow" data-t="eyebrow">ПРЕДСТАВЛЯЕМ CARATZON.COM</p><h1 data-t="hero">Украшения,<br><i>созданные вдохновлять.</i></h1><p data-t="subtitle">Откройте коллекцию CARATZON. Выберите украшения и оформите заказ онлайн.</p><a class="cta" href="#collection" data-t="explore">Смотреть коллекцию <span>↗</span></a></div>
+    <div class="hero-content"><p class="eyebrow" data-t="eyebrow">ПРЕДСТАВЛЯЕМ CARATZON.COM</p><h1 data-t="hero">Ваш бренд начинается<br><i>с вашей истории.</i></h1><p data-t="subtitle">Оптовые поставки ювелирных украшений и OEM / ODM производство. Конкурентоспособный ассортимент, стабильное качество и гибкие условия сотрудничества для брендов, магазинов и оптовых партнёров.</p><a class="cta" href="#collection" data-t="explore">Смотреть коллекцию <span>↗</span></a></div>
     <div class="hero-gallery" id="heroGallery" aria-label="Featured jewelry products"><div class="hero-slide is-active" aria-hidden="false"><img src="hero_white/KGDZEG00001OT.webp" alt="Jewelry product SKU KGDZEG00001OT" fetchpriority=high></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00001G.webp" alt="Jewelry product SKU XTXZEG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHG00003PL.webp" alt="Jewelry product SKU XTEHG00003PL" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZES00002GN.webp" alt="Jewelry product SKU XTXZES00002GN" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/KGDZEG00002G.webp" alt="Jewelry product SKU KGDZEG00002G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTEHC00001WE.webp" alt="Jewelry product SKU XTEHC00001WE" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXLG00004RD.webp" alt="Jewelry product SKU XTXLG00004RD" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTXZEG00004G.webp" alt="Jewelry product SKU XTXZEG00004G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZG00001G.webp" alt="Jewelry product SKU XTJZG00001G" loading=lazy></div><div class="hero-slide" aria-hidden="true"><img src="hero_white/XTJZW00005PN.webp" alt="Jewelry product SKU XTJZW00005PN" loading=lazy></div><div class="hero-slide-dots" aria-hidden="true"><span class="active"></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span></div><div class="campaign-carousel" id="campaignCarousel" aria-label="CARATZON fashion jewelry campaign" aria-roledescription="carousel">
   <div class="campaign-slide is-current" aria-hidden="false"><img src="caratzon-campaign-model.jpg" alt="CARATZON fashion model wearing floral jewelry" fetchpriority="high"></div>
   <div class="campaign-slide" aria-hidden="true"><img src="assets_xt_excel/XTXLC00001WE_model.webp" alt="Model wearing CARATZON necklace" loading="lazy"></div>
@@ -112,4 +112,52 @@
  </div></div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
 <script src="auth-config.js?v=1" defer></script>
-<script src="member-v13.js?v=1" defer></script></body></html>
+<script src="member-v13.js?v=1" defer></script>
+<!-- CARATZON B2B homepage copy: preserve Chinese / English / Russian language switching. -->
+<script>
+(function () {
+  const headline = document.querySelector('.hero [data-t="hero"]');
+  const subtitle = document.querySelector('.hero [data-t="subtitle"]');
+  if (!headline || !subtitle) return;
+  const copy = {
+    zh: {
+      title: '您的品牌故事，<br><i>从这里开始。</i>',
+      subtitle: '专注珠宝批发与 OEM / ODM 定制，为品牌、零售商及批发客户提供具竞争力的款式、稳定品质与灵活合作方案。'
+    },
+    en: {
+      title: 'Your Brand Story<br><i>Starts Here.</i>',
+      subtitle: 'Specializing in jewelry wholesale and OEM / ODM customization, we offer competitive collections, consistent quality, and flexible partnerships for brands, retailers, and wholesale buyers.'
+    },
+    ru: {
+      title: 'История вашего бренда<br><i>начинается здесь.</i>',
+      subtitle: 'Оптовые поставки украшений и OEM / ODM производство: актуальный ассортимент, стабильное качество и гибкие условия сотрудничества для брендов, магазинов и оптовых покупателей.'
+    }
+  };
+  let active = '';
+  let syncing = false;
+  function detectLanguage() {
+    const raw = headline.textContent + ' ' + subtitle.textContent;
+    if (/[\u4e00-\u9fff]/.test(raw)) return 'zh';
+    if (/[\u0400-\u04ff]/.test(raw)) return 'ru';
+    if (/[a-zA-Z]/.test(raw) && !/^[\s]*$/.test(raw)) return 'en';
+    return active || 'ru';
+  }
+  function apply() {
+    if (syncing) return;
+    const lang = detectLanguage();
+    const next = copy[lang];
+    if (!next) return;
+    if (active === lang && headline.innerHTML === next.title && subtitle.textContent === next.subtitle) return;
+    syncing = true;
+    active = lang;
+    if (headline.innerHTML !== next.title) headline.innerHTML = next.title;
+    if (subtitle.textContent !== next.subtitle) subtitle.textContent = next.subtitle;
+    syncing = false;
+  }
+  const observer = new MutationObserver(apply);
+  observer.observe(headline, { childList: true, characterData: true, subtree: true });
+  observer.observe(subtitle, { childList: true, characterData: true, subtree: true });
+  apply();
+})();
+</script>
+</body></html>
