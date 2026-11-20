@@ -682,6 +682,58 @@ body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!impo
 }
 </style>
 
+
+<style id="cz-brand-typography-v1">
+/* Option C: Classic boutique wordmark — mixed case, elegant serif, balanced weight. */
+.header .brand,
+.header a.brand,
+footer .footerbrand,
+#showroom-about-title,
+.cz-brand-wordmark {
+  font-family: Georgia, "Times New Roman", "Noto Serif SC", serif !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  letter-spacing: .025em !important;
+}
+.header .brand,
+.header a.brand {
+  color: #352b27 !important;
+  letter-spacing: .055em !important;
+  font-size: clamp(20px, 2.2vw, 27px) !important;
+  white-space: nowrap;
+}
+.header .brand small,
+.header a.brand small {
+  display: block;
+  font-family: "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  letter-spacing: .27em !important;
+  text-transform: uppercase !important;
+}
+footer .footerbrand {
+  color: #fffaf6 !important;
+  font-size: clamp(27px, 3vw, 37px) !important;
+  letter-spacing: .065em !important;
+}
+#showroom-about-title {
+  color: #352b27 !important;
+  font-size: clamp(36px, 5vw, 66px) !important;
+  line-height: 1.18 !important;
+  letter-spacing: -.015em !important;
+  overflow-wrap: anywhere;
+}
+.cz-brand-wordmark {
+  font-weight: 600 !important;
+  letter-spacing: .01em !important;
+  color: inherit !important;
+}
+@media (max-width:600px) {
+  .header a.brand { font-size: 21px !important; letter-spacing: .025em !important; }
+  #showroom-about-title { font-size: clamp(31px, 8vw, 43px) !important; }
+}
+</style>
 </head>
 
 <body>
@@ -690,7 +742,7 @@ body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!impo
 
   <div class="header-inner">
 
-    <a href="#" class="brand" aria-label="caratzon.com home">CARATZON.COM<small>ONLINE BOUTIQUE</small></a>
+    <a href="#" class="brand" aria-label="caratzon.com home">Caratzon.com<small>ONLINE BOUTIQUE</small></a>
 
     <nav class="nav"><a href="#collection" data-t="collection">Коллекция</a><a href="#about-showroom"><span data-about-lang="zh">关于我们</span><span data-about-lang="en">About Us</span><span data-about-lang="ru">О нас</span></a><a href="#storeHow" data-t="how">Как заказать</a></nav>
 
@@ -917,7 +969,7 @@ body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!impo
 
         <h2 id="showroom-about-title">Caratzon Showroom</h2>
 
-        <p data-about-lang="zh">Caratzon Showroom 是 Caratzon.com 的线上首饰展厅。无论你是在挑选日常佩戴的首饰、为特别的日子准备礼物，还是为店铺挑选款式，都可以从这里开始浏览。</p><p data-about-lang="en">Caratzon Showroom is the online jewelry showroom of Caratzon.com. It’s a place to explore our collections, whether you’re looking for a piece to wear every day, choosing a gift, or selecting jewelry for your store.</p><p data-about-lang="ru">Caratzon Showroom — онлайн-шоурум украшений Caratzon.com. Здесь можно подобрать украшение на каждый день, найти подарок к особому случаю или выбрать модели для ассортимента вашего магазина.</p>
+        <p data-about-lang="zh"><span class="cz-brand-wordmark">Caratzon Showroom</span> 是 <span class="cz-brand-wordmark">Caratzon.com</span> 的线上首饰展厅。无论你是在挑选日常佩戴的首饰、为特别的日子准备礼物，还是为店铺挑选款式，都可以从这里开始浏览。</p><p data-about-lang="en"><span class="cz-brand-wordmark">Caratzon Showroom</span> is the online jewelry showroom of <span class="cz-brand-wordmark">Caratzon.com</span>. It’s a place to explore our collections, whether you’re looking for a piece to wear every day, choosing a gift, or selecting jewelry for your store.</p><p data-about-lang="ru"><span class="cz-brand-wordmark">Caratzon Showroom</span> — онлайн-шоурум украшений <span class="cz-brand-wordmark">Caratzon.com</span>. Здесь можно подобрать украшение на каждый день, найти подарок к особому случаю или выбрать модели для ассортимента вашего магазина.</p>
 
       </div>
 
@@ -965,7 +1017,7 @@ body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!impo
 
 </main>
 
-<footer><div class="footerbrand">CARATZON.COM</div><p data-t="footer">Интернет-магазин украшений · RU / EN / 中文</p><small data-t="disclaimer">Цены в RUB ориентировочные. Заказ оформляется без списания средств. Оплата ожидает подключения.</small><p id="rateStatus" class="rate"></p></footer>
+<footer><div class="footerbrand">Caratzon.com</div><p data-t="footer">Интернет-магазин украшений · RU / EN / 中文</p><small data-t="disclaimer">Цены в RUB ориентировочные. Заказ оформляется без списания средств. Оплата ожидает подключения.</small><p id="rateStatus" class="rate"></p></footer>
 
 <div class="overlay" id="overlay"></div>
 
