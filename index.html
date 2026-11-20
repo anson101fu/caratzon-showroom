@@ -549,6 +549,13 @@ body:not(.cz-member-signed-in) .v9-tools-row label:has(#v9Max){display:none!impo
 #cz-guest-product-dialog .czgp-note{font-size:11px;color:#8b7567;line-height:1.6;margin-top:15px}
 #cz-guest-product-dialog .czgp-status{font-size:13px;line-height:1.6;margin-top:13px;min-height:20px}
 </style>
+<style id="czgp-photo-email-style">
+#czgp-product.czgp-summary{display:flex;align-items:center;gap:14px;padding:13px 15px;margin:12px 0 21px;background:#fffaf6;border:1px solid #e2d8cf;border-radius:6px;min-height:70px;box-sizing:border-box}
+.czgp-preview-image{width:76px;height:76px;object-fit:contain;background:#fff;flex:0 0 auto;border:1px solid #efe7df;border-radius:4px}
+.czgp-preview-info{min-width:0;display:flex;flex-direction:column;gap:8px}
+.czgp-preview-info strong{font-size:16px;line-height:1.35;color:#392a23;font-weight:600;overflow-wrap:anywhere}
+.czgp-preview-info span{color:#9a7562;letter-spacing:.08em;font-size:11px;overflow-wrap:anywhere}
+</style>
 </head>
 
 <body>
@@ -1344,8 +1351,35 @@ function paint(){const t=texts();['czgp-title','czgp-channel-label','czgp-contac
 window.CARATZON_openGuestProductEnquiry=sku=>{
  const p=(typeof products!=='undefined'&&Array.isArray(products))?products.find(x=>x.sku===sku):null;
  if(!p)return;
- selected={sku:p.sku,name:(typeof productTitle==='function'?productTitle(p):p.zh||p.en||p.sku)};
- product.textContent=selected.name+'  ·  SKU '+selected.sku;
+ const rawImage=p.image||p.original_image||p.card_image||'';
+ let imageURL='';
+ try {
+   const url=new URL(rawImage,location.href);
+   if(/^https?:$/.test(url.protocol)&&rawImage)imageURL=url.href;
+ } catch(_err) {}
+ selected={
+   sku:String(p.sku),
+   name:(typeof productTitle==='function'?productTitle(p):p.zh||p.en||p.sku),
+   category:p.category||'',
+   material:p.material||'',
+   color:p.color||'',
+   craft:p.craft||'',
+   imageURL,
+   pageURL:location.origin+location.pathname+'#collection'
+ };
+ product.replaceChildren();
+ if(imageURL){
+   const picture=document.createElement('img');
+   picture.src=imageURL;picture.alt=selected.name;picture.loading='lazy';
+   picture.className='czgp-preview-image';
+   product.append(picture);
+ }
+ const details=document.createElement('div');
+ details.className='czgp-preview-info';
+ const name=document.createElement('strong');name.textContent=selected.name;
+ const skuLine=document.createElement('span');skuLine.textContent='SKU '+selected.sku;
+ details.append(name,skuLine);
+ product.append(details);
  form.reset();status.textContent='';paint();
  if(typeof dlg.showModal==='function')dlg.showModal();else dlg.setAttribute('open','');
  document.getElementById('czgp-channel').focus();
@@ -1360,11 +1394,32 @@ form.addEventListener('submit',async e=>{
  data.append('_template','table');
  data.append('source','CARATZON.COM product enquiry');
  data.append('sku',selected.sku);data.append('product_name',selected.name);
+ data.append('product_image_url',selected.imageURL||'Not available');
+ data.append('product_page',selected.pageURL);
+ data.append('product_category',selected.category||'Not specified');
+ data.append('material',selected.material||'Not specified');
+ data.append('color',selected.color||'Not specified');
+ data.append('plating_finish',selected.craft||'Not specified');
  data.append('contact_method',document.getElementById('czgp-channel').value);
  data.append('contact_details',document.getElementById('czgp-contact').value.trim());
  data.append('message',document.getElementById('czgp-message').value.trim());
  data.append('submitted_at',new Date().toISOString());
  try{
+  // Include a thumbnail attachment when available; the full image URL is ALWAYS included.
+  // This uses an ordinary multipart request and may depend on the email provider's AJAX support.
+  if(selected.imageURL&&new URL(selected.imageURL).origin===location.origin){
+    try{
+      const imgRes=await fetch(selected.imageURL,{cache:'force-cache'});
+      if(imgRes.ok){
+        const imageBlob=await imgRes.blob();
+        const mime=imageBlob.type.toLowerCase();
+        if(imageBlob.size>0&&imageBlob.size<=8*1024*1024&&/^image\/(jpeg|png|webp)$/.test(mime)){
+          const ext=mime==='image/jpeg'?'jpg':mime==='image/png'?'png':'webp';
+          data.append('attachment',imageBlob,selected.sku+'.'+ext);
+        }
+      }
+    }catch(imageErr){console.warn('Photo attachment unavailable; image URL will be included',imageErr)}
+  }
   const res=await fetch('https://formsubmit.co/ajax/anson.fu101@gmail.com',{method:'POST',headers:{Accept:'application/json'},body:data});
   const result=await res.json();
   if(!res.ok||!(result.success===true||result.success==='true'))throw Error(result.message||'Enquiry not confirmed');
