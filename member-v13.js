@@ -59,6 +59,7 @@ const obs=new MutationObserver(()=>{if(submitButton&&!client&& !submitButton.dis
 $('cartItems')&&new MutationObserver(()=>{if(client)unlockWhenReady()}).observe($('cartItems'),{childList:true,subtree:false});
 // Allow signed-in checkout only when auth configured and signed in; backend still authenticates request.
 if(client){client.auth.onAuthStateChange((event,session)=>{current=session?.user||null;if(event==='PASSWORD_RECOVERY'){mode='recovery';open('recovery')}paint();unlockWhenReady()});client.auth.getUser().then(({data,error})=>{current=error?null:data.user;paint();unlockWhenReady()}).catch(()=>{current=null;paint()});}
+window.initProductEnquiries?.(client, () => open());
 $('langBtn')?.addEventListener('click',()=>setTimeout(paint,0));
 paint();
 })();
